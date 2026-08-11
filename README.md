@@ -107,6 +107,66 @@ tentativo compila senza errori ma non genera nessuna pagina, silenziosamente). L
 convenzione vale per `category = "categories"`, dove infatti il campo si chiama già
 `categories:`.
 
+## Archivio storico (sito pre-WordPress, 1999–2014)
+
+Oltre al contenuto WordPress, il sito ha avuto una vita precedente come sito statico
+fatto a mano (Dreamweaver, layout a tabelle, codifica ISO-8859-1): una copia completa
+(`../old/www.gruppopugliagrotte.it/`, 949 pagine `.htm`, 736MB) è stata fornita
+dall'utente. Alcune di quelle pagine erano ancora linkate — con URL assoluti oggi rotti —
+da contenuto reale già migrato (es. `storiagpg.htm`, `museo.htm`, i PDF sotto
+`esplorazioni/alburni/`). La migrazione di questo materiale è avvenuta in due fasi, con lo
+script separato `scripts/old_to_hugo.py` (stdlib Python + `pandoc`, stesso vincolo "niente
+pip" di `wp_to_hugo.py`), che scrive **solo** sotto `content/archivio-storico/` e non tocca
+mai `content/` WordPress (`PAGES`/`write_index()` restano una pipeline a parte da
+`EVENTI_FILES`/`CORSI_FILES`/`extend_archive()`):
+
+- **Fase 1** (`python3 scripts/old_to_hugo.py`, funzione `main()`): le 16 pagine/asset
+  citati da link reali già migrati — convertite in Markdown vero, con i link nel contenuto
+  WordPress riscritti dagli URL assoluti rotti ai nuovi permalink relativi. 17 file in
+  `content/archivio-storico/` (16 pagine + `_index.md` della sezione).
+- **Fase 2** (`python3 scripts/old_to_hugo.py --extend`, funzione `extend_archive()`):
+  cronaca eventi 2003–2014 (69 pagine, `content/archivio-storico/eventi/`) e le edizioni
+  18–36 del corso di speleologia (19 pagine, `content/archivio-storico/corsi/`) — materiale
+  storico reale mai duplicato altrove, organizzato come sottosezioni dedicate su richiesta
+  esplicita dell'utente, senza toccare nessun contenuto già migrato (verificato ad ogni
+  rigenerazione confrontando l'md5 di `content/chi-siamo/consiglio-direttivo.md`, che
+  l'utente modifica a mano in parallelo).
+
+Asset copiati solo se effettivamente referenziati (792 file, ~79MB) in
+`static/archivio-storico/legacy/`, non l'intera cartella `old/`.
+
+**Cosa resta escluso, e perché** (decisioni prese, non dimenticanze):
+
+| Escluso | Motivo |
+|---|---|
+| `*_eng.htm` (151 file) | contenuto in inglese, fuori dalla convenzione "tutto in italiano" |
+| `rass_ita.htm` + `rassegna/` | indice di ~180 ritagli stampa scannerizzati, fuori scope — eventuale archivio a sé in futuro |
+| `sponsor/` | cruft pubblicitario, stessa decisione già presa per il CPT WordPress `banner` |
+| `*OLD*`/`*NS.htm` | revisioni superate, tenuta solo la versione più recente per ogni pagina |
+| `.swf`/`.class`/`.wmv` | formati non riproducibili sul web moderno |
+| `Statuto.htm`/`cd.htm` di `old/` | versioni **superate** di Statuto e Consiglio Direttivo — mai da unire o linkare come equivalenti alle pagine correnti di `chi-siamo/`, per la regola cardine "non confondere contenuto istituzionale" |
+| `bollettini/`, `didattica/`, `Trek/`, `santomas/` (oltre l'index), `GNS/`, `attivi/` (oltre `programma0607.htm`), `esplorazioni/` (oltre i PDF già presi), `convreg/` (oltre `programma.htm`), `interviste/`, `ulivi/` | non ancora scoping-ati: candidati per un'eventuale Fase 3, non ancora richiesta |
+
+**Vincoli tecnici applicati nel generatore** (utili se lo si riestende):
+
+- `mode="auto"` in `extract_content()`: estrae sia dal blocco `class="testo"` sia dal
+  `<td>` più piccolo con testo ≥90% del massimo, tiene il risultato più lungo — necessario
+  perché la classificazione statica per sola presenza di `class="testo"` produceva pagine
+  quasi vuote su diverse pagine (es. `corso25.htm`–`corso36.htm`, dove il template ha un
+  unico `<td>` esterno che avvolge sia il menu di navigazione sia il contenuto reale).
+- `strip_print_close_widget()`, `strip_html_comments()`, `strip_popup_anchors()`: puliscono
+  automaticamente gli artefatti del vecchio sito (icone stampa/chiudi a fine pagina,
+  riferimenti a immagini mai caricate dentro commenti HTML, ancore popup JavaScript).
+- `SOURCE_PATCHES` / `POST_FIXUPS` / `TITLE_OVERRIDES`: unico meccanismo ammesso per
+  correggere errori genuini nel sorgente originale (HTML malformato, refusi come "Il
+  XIIIV Corso" → "Il XVIII Corso", numerazione decimale incoerente "23°" → "XXIII") — mai
+  per inventare contenuto mancante; ogni patch fa `sys.exit` se il testo atteso non è più
+  presente, così una modifica futura del sorgente non passa silenziosamente.
+- `date: 2026-08-01` (costante `DATE_RIMIGRAZIONE`) su ogni pagina storica priva di data
+  certa nel sorgente: convenzione concordata con l'utente per evitare il bug dei template
+  Hugo che formattano la data zero-value (`0001-01-01`) come `01.01.0001` quando manca il
+  campo `date:`.
+
 ## Cosa non è stato riportato (di proposito)
 
 Il sito WordPress espone diversi elementi privi di senso su un sito statico Hugo,
@@ -122,21 +182,27 @@ Se in futuro servono i commenti, un'opzione statica comune è Giscus o Utterance
 ```
 content/
 ├── _index.md                          → home (layouts/index.html, elenco da novita/)
-├── novita/{_index,28 post}            → i post reali del blog WP, con categorie e anno (anni:)
+├── novita/{_index,29 post}            → i post reali del blog WP, con categorie e anno (anni:)
 ├── eventi/{_index,4 pagine evento}    → pagina evento "evergreen" del menu (diversa da novita/)
 ├── chi-siamo/{_index,contatti,consiglio-direttivo,statuto}
 ├── esplorazioni/{_index,nazionali/,internazionali/,cavita-artificiali}
-├── corsi/{_index,10 edizioni}
+├── corsi/{_index,10 edizioni}         → edizioni recenti (37ª in poi), dato WordPress reale
 ├── pubblicazioni/{_index,convegni,bollettini-puglia-grotte/}
 ├── museo/{_index,chi-era-franco-anelli}
-└── ambiente/_index.md                 → nuova sezione, contenuto assente anche a monte (vedi sotto)
+├── ambiente/_index.md                 → contenuto assente anche a monte (vedi sotto)
+└── archivio-storico/                  → sito pre-WordPress (1999–2014), vedi sezione dedicata sopra
+    ├── _index.md + 16 pagine Fase 1
+    ├── eventi/{_index,69 pagine}      → cronaca 2003–2014
+    └── corsi/{_index,19 pagine}       → edizioni 18ª–36ª
 ```
 
-72 file Markdown in totale (42 pagine + 28 post + gli `_index.md` di `novita/` e della home).
+180 file Markdown in totale (42 pagine + 29 post WordPress + 104 pagine/indici
+dell'archivio storico + gli `_index.md` di sezione).
 
-Due pagine restano `<!-- TODO migrazione -->` non per un limite della migrazione ma
-perché **il DB conferma che sono vuote anche sul sito originale**: `ambiente/_index.md` e
-`esplorazioni/cavita-artificiali.md`. Non vanno riempite con testo plausibile.
+Due pagine WordPress restano `<!-- TODO migrazione -->` non per un limite della
+migrazione ma perché **il DB conferma che sono vuote anche sul sito originale**:
+`ambiente/_index.md` e `esplorazioni/cavita-artificiali.md`. Non vanno riempite con
+testo plausibile.
 
 ## Link interni
 
@@ -171,11 +237,25 @@ docker run -d --name gpg-mysql-tmp -e MYSQL_ROOT_PASSWORD=temppass \
 docker exec -i gpg-mysql-tmp mysql -uroot -ptemppass gpg < ../backup_*-db
 ```
 
+Per l'archivio storico (Fase 1 + Fase 2, sito pre-WordPress) c'è uno script separato,
+`scripts/old_to_hugo.py`, che non richiede il container MariaDB (nessun DB: sono file
+statici) — legge direttamente da `../old/www.gruppopugliagrotte.it/`:
+
+```sh
+python3 scripts/old_to_hugo.py            # Fase 1: le 16 pagine linkate da contenuto reale
+python3 scripts/old_to_hugo.py --extend   # Fase 2: cronaca eventi 2003–2014 + corsi 18ª–36ª
+```
+
+Idempotente come `wp_to_hugo.py`: si può rilanciare in sicurezza, non tocca mai
+`content/` WordPress. Dettagli su euristiche di estrazione e limiti nella sezione
+"Archivio storico" più sopra.
+
 ## Layout e template
 
 ```
 layouts/
-├── _default/{baseof,single,list}.html
+├── _default/{baseof,single,list}.html   → list.html paginato (paginate = 8 in hugo.toml),
+│                                            stesso pattern di index.html/home
 ├── index.html                 → home: elenco notizie da novita/ (paginato) + sidebar
 └── partials/
     ├── head.html
@@ -186,7 +266,14 @@ layouts/
 ```
 
 Il menu è definito in `hugo.toml` sotto `[[menu.main]]`, ricostruito dal menu reale di
-WordPress (vedi `CLAUDE.md`).
+WordPress (vedi `CLAUDE.md`). L'ultima voce, "Ambiente" nella prima versione, punta ora a
+`/archivio-storico/` (la pagina `/ambiente/` resta pubblicata e raggiungibile via URL
+diretto, solo non più in navigazione, su richiesta esplicita dell'utente).
+
+`layouts/_default/list.html` pagina ogni sezione con `.Paginate` esattamente come la
+home — prima solo la home paginava, e sezioni lunghe (es. `archivio-storico/eventi`, 69
+pagine) venivano renderizzate tutte su una sola pagina senza controlli di navigazione a
+fondo pagina.
 
 ## Foglio di stile
 
@@ -196,20 +283,59 @@ Un unico file, `static/css/style.css`, con i token di design come custom propert
 ## Provare in locale
 
 ```sh
-hugo server -D          # http://localhost:1313/
+hugo server -D -F       # http://localhost:1313/, con bozze e contenuto futuro
 hugo --gc --minify      # build di produzione
 ```
 
-Validato: 126 pagine generate (72 dal contenuto reale + sezioni/tassonomie/paginazione
-automatiche — incluse le 11 pagine di archivio annuale e le 6 di categoria), 0 errori,
-71 alias verso i vecchi URL WordPress (`/home/...`) funzionanti.
+oppure, tramite il `Makefile` (vedi sezione dedicata sotto):
+
+```sh
+make serve    # equivalente a "hugo server -D -F"
+make build    # equivalente a "hugo --gc --minify"
+```
+
+Validato: 241 pagine generate (180 dal contenuto reale + sezioni/tassonomie/paginazione
+automatiche), 0 errori, 105 alias funzionanti verso i vecchi URL — sia WordPress
+(`/home/...`) sia, dove aveva senso, il sito pre-WordPress.
+
+## Makefile: build, bozze/contenuto futuro, pulizia, pubblicazione FTP
+
+`Makefile` copre l'intero ciclo locale e la pubblicazione, pensato per l'hosting Aruba
+(FTP). Target principali (`make help` li elenca tutti):
+
+| Target | Effetto |
+|---|---|
+| `make build` | build di produzione (`hugo --gc --minify`) |
+| `make build-drafts` / `build-future` / `build-all` | come sopra, con `-D`/`-F`/entrambi — utile per vedere anche pagine `draft: true` o datate nel futuro (es. `di-nuovo-il-nuovo-sito.md`, 2026-08-15) |
+| `make serve` / `serve-prod` | server locale, con o senza bozze/contenuto futuro |
+| `make clean` | rimuove `public/`, `resources/`, `.hugo_build.lock` |
+| `make publish-dry-run` | build + `lftp mirror --reverse --delete --dry-run`: mostra cosa cambierebbe sul server senza caricare nulla |
+| `make publish` | build + upload reale via `lftp` (mirror completo: carica i file nuovi/modificati e **cancella** sul server quelli non più presenti in `public/`) |
+
+Le credenziali FTP non vanno mai scritte nel `Makefile`: vanno in un file locale
+`.env.ftp` (mai committato), a partire dal template `.env.ftp.example`:
+
+```sh
+cp .env.ftp.example .env.ftp   # poi compilare FTP_HOST/FTP_USER/FTP_PASS
+make publish-dry-run           # verifica prima di toccare il sito live
+make publish
+```
+
+Richiede `lftp` installato (`sudo apt-get install -y lftp` su Debian/Ubuntu);
+`check-ftp-vars` fallisce con un messaggio esplicito se manca `.env.ftp` o `lftp`.
+Supporta sia `ftp://` sia `ftps://` (variabile `FTP_PROTOCOL`), modalità passiva attiva
+di default (comune dietro NAT/firewall sull'hosting condiviso).
 
 ## Prossimi passi consigliati
 
-1. Migrare gli allegati scaricabili non ancora referenziati da nessun contenuto reale
-   (nello `uploads/` originale restano ~130MB di file non copiati perché non citati in
-   nessuna pagina/post pubblicato).
-2. Configurare redirect 301 lato server (oltre agli `aliases:` già generati) quando il
-   sito va in produzione, per il pieno beneficio SEO.
-3. Se servono email meno esposte agli scraper rispetto al semplice `mailto:`, valutare
+1. Migrare gli allegati scaricabili WordPress non ancora referenziati da nessun contenuto
+   reale (nello `uploads/` originale restano ~130MB di file non copiati perché non citati
+   in nessuna pagina/post pubblicato).
+2. Eventuale Fase 3 dell'archivio storico: le cartelle di `old/` ancora non scoping-ate
+   (`bollettini/`, `didattica/`, `Trek/`, `santomas/`, `GNS/`, `interviste/`, ecc. — vedi
+   tabella nella sezione "Archivio storico" sopra), da valutare solo su richiesta esplicita.
+3. Configurare redirect 301 lato server (oltre agli `aliases:` già generati) quando il
+   sito va in produzione, per il pieno beneficio SEO — non sostituito da `make publish`,
+   che carica solo i file statici.
+4. Se servono email meno esposte agli scraper rispetto al semplice `mailto:`, valutare
    una piccola funzione JS che ricostruisce l'indirizzo a runtime.
