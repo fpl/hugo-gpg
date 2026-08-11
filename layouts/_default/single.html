@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="wrap layout-with-sidebar">
+
+  <article class="content-col article">
+    <p class="breadcrumbs">
+      <a href="{{ "/" | relURL }}">Home</a>
+      {{ range .Ancestors.Reverse }}{{ if not .IsHome }} / <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
+      / {{ .Title }}
+    </p>
+
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ if not .Date.IsZero }}<p class="post-card__date">{{ .Date.Format "02.01.2006" }}</p>{{ end }}
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+
+  {{ partial "sidebar-scheda.html" . }}
+
+</div>
+{{ end }}

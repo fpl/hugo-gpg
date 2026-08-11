@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="wrap layout-with-sidebar">
+
+  <div class="content-col">
+    <p class="breadcrumbs"><a href="{{ "/" | relURL }}">Home</a> / {{ .Title }}</p>
+    <h1 class="page-title">{{ .Title }}</h1>
+
+    {{ if .Content }}
+    <div class="prose">{{ .Content }}</div>
+    {{ end }}
+
+    {{ if .Pages }}
+    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+    <ul class="post-list">
+      {{ range $paginator.Pages }}
+      <li class="post-list__item">
+        {{ partial "post-list-item.html" . }}
+      </li>
+      {{ end }}
+    </ul>
+
+    {{ template "_internal/pagination.html" . }}
+    {{ end }}
+  </div>
+
+  {{ partial "sidebar-scheda.html" . }}
+
+</div>
+{{ end }}

@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.claim }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.claim }}{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+
+<!-- Stessi font del tema WordPress in uso (Twenty Thirteen): Bitter per i titoli,
+     Source Sans Pro per il corpo del testo (anche nei pesi 300/300-italic usati
+     da tagline e titoli dei widget). -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+{{ if .OutputFormats.Get "rss" }}
+{{ with .OutputFormats.Get "rss" }}
+<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+{{ end }}
+{{ end }}

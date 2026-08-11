@@ -1,0 +1,49 @@
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+
+    <div class="site-footer__col">
+      <p class="site-footer__title">Gruppo Puglia Grotte</p>
+      <p>Dal {{ .Site.Params.fondazione }}, ricerca ed esplorazione speleologica in Puglia, nell'Italia meridionale e all'estero.</p>
+      <p>{{ .Site.Params.sede }}</p>
+      <p>Incontri in sede: {{ .Site.Params.incontri }}</p>
+    </div>
+
+    <div class="site-footer__col">
+      <p class="site-footer__title">Il gruppo</p>
+      <ul>
+        <li><a href="{{ "/chi-siamo/" | relURL }}">Chi siamo</a></li>
+        <li><a href="{{ "/chi-siamo/consiglio-direttivo/" | relURL }}">Il Consiglio Direttivo</a></li>
+        <li><a href="{{ "/chi-siamo/statuto/" | relURL }}">Lo statuto</a></li>
+        <li><a href="{{ "/chi-siamo/contatti/" | relURL }}">Contatti</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <p class="site-footer__title">Attività</p>
+      <ul>
+        <li><a href="{{ "/eventi/" | relURL }}">Eventi</a></li>
+        <li><a href="{{ "/esplorazioni/" | relURL }}">Esplorazioni &amp; Ricerca</a></li>
+        <li><a href="{{ "/corsi/" | relURL }}">Corsi</a></li>
+        <li><a href="{{ "/pubblicazioni/" | relURL }}">Pubblicazioni</a></li>
+        <li><a href="{{ "/museo/" | relURL }}">Il Museo Speleologico</a></li>
+        <li><a href="{{ "/ambiente/" | relURL }}">Ambiente</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <p class="site-footer__title">Contatti</p>
+      <p><a href="{{ "/chi-siamo/contatti/" | relURL }}">Riferimenti</a></p>
+      <ul class="site-footer__social">
+        {{ with .Site.Params.facebook }}<li><a href="{{ . }}"><i class="genericon genericon-facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>{{ end }}
+        {{ with .Site.Params.twitter }}<li><a href="{{ . }}"><i class="genericon genericon-twitter" aria-hidden="true"></i><span class="sr-only">X (Twitter)</span></a></li>{{ end }}
+        {{ with .Site.Params.youtube }}<li><a href="{{ . }}"><i class="genericon genericon-youtube" aria-hidden="true"></i><span class="sr-only">YouTube</span></a></li>{{ end }}
+        {{ with .Site.Params.instagram }}<li><a href="{{ . }}"><i class="genericon genericon-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>{{ end }}
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="site-footer__bottom wrap">
+    <p>© {{ now.Format "2006" }} Gruppo Puglia Grotte — Associazione di Promozione Sociale, Castellana Grotte (BA)</p>
+  </div>
+</footer>

@@ -1,0 +1,49 @@
+<!-- Contenuto reale della sidebar-1 di WordPress (theme_mods "sidebars_widgets",
+     verificato nel dump del DB): Cerca, Articoli recenti, Archivi, Meta,
+     Categorie, e un widget di testo "Copyright". Non più i box indovinati
+     "Scheda"/"Link rapidi"/"Social" della sessione precedente.
+
+     Omessi rispetto all'originale:
+     - "Cerca": un motore di ricerca full-text non ha un equivalente sensato
+       su un sito statico senza aggiungere un servizio terzo (es. Pagefind);
+       niente casella di ricerca finta.
+     - "Meta" (login/feed RSS/wp-admin): funzioni WordPress prive di senso qui.
+       "Archivi" (per anno, non per mese come nell'originale: i 28 post reali
+       non ne giustificano una granularità mensile) e "Categorie" sono link
+       veri, verso le pagine di tassonomia generate da Hugo (vedi "anno" in
+       hugo.toml e "categories" nel front matter di content/novita/), non
+       testo semplice. -->
+<aside class="scheda" aria-label="Sidebar">
+  <p class="scheda__label">Articoli recenti</p>
+  <ul class="scheda__links">
+    {{ range first 5 (where .Site.RegularPages "Section" "novita").ByDate.Reverse }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+
+  <p class="scheda__label">Archivi</p>
+  <ul class="scheda__links">
+    {{ $years := slice }}
+    {{ range $name, $pages := .Site.Taxonomies.anni }}
+    {{ $years = $years | append (dict "name" $name "count" (len $pages)) }}
+    {{ end }}
+    {{ range sort $years "name" "desc" }}
+    <li><a href="{{ (site.GetPage (printf "/anni/%s" .name)).RelPermalink }}">{{ .name }} ({{ .count }})</a></li>
+    {{ end }}
+  </ul>
+
+  <p class="scheda__label">Categorie</p>
+  <ul class="scheda__links">
+    {{ range $name, $pages := .Site.Taxonomies.categories }}
+    <li><a href="{{ (site.GetPage (printf "/categories/%s" $name)).RelPermalink }}">{{ $name | title }} ({{ len $pages }})</a></li>
+    {{ end }}
+  </ul>
+
+  <p class="scheda__label">Copyright</p>
+  <p>
+    (C) Gruppo Puglia Grotte APS ETS<br>
+    Via Margherita di Savoia, 18<br>
+    70013 Castellana Grotte BA<br>
+    P.IVA: 03552730727
+  </p>
+</aside>

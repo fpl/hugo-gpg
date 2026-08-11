@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <div class="site">
+    {{ partial "header.html" . }}
+
+    <main id="contenuto">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+  </div>
+
+  <script src="{{ "js/nav.js" | relURL }}" defer></script>
+</body>
+</html>

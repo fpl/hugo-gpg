@@ -1,0 +1,36 @@
+<header class="site-header">
+  <div class="site-header__hero" style="--header-image: url('{{ "images/header/sfondo1.jpg" | relURL }}');">
+    <div class="site-header__row">
+      <a class="site-header__brand" href="{{ "/" | relURL }}">
+        <span class="site-header__name">Gruppo Puglia Grotte</span>
+        <span class="site-header__claim">{{ .Site.Params.claim }}</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-main">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Apri il menu</span>
+    </button>
+
+    <nav class="nav-main" id="nav-main" aria-label="Navigazione principale">
+      <ul>
+        {{ range .Site.Menus.main }}
+          {{ if not .Parent }}
+          <li class="{{ if .HasChildren }}has-children{{ end }}">
+            <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+            {{ if .HasChildren }}
+            <ul class="sub-menu">
+              {{ range .Children }}
+              <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

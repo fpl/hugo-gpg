@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="wrap layout-with-sidebar">
+
+  <div class="content-col">
+    <h1 class="page-title">Speleonews</h1>
+    <p class="lede">Ultime notizie, uscite e attività del Gruppo Puglia Grotte.</p>
+
+    {{ $news := where .Site.RegularPages "Section" "novita" }}
+    {{ $news = $news.ByDate.Reverse }}
+    {{ $paginator := .Paginate $news }}
+
+    <ul class="post-list">
+      {{ range $paginator.Pages }}
+      <li class="post-list__item">
+        {{ partial "post-list-item.html" . }}
+      </li>
+      {{ end }}
+    </ul>
+
+    {{ template "_internal/pagination.html" . }}
+  </div>
+
+  {{ partial "sidebar-scheda.html" . }}
+
+</div>
+{{ end }}

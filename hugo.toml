@@ -1,0 +1,122 @@
+baseURL = "https://www.gruppopugliagrotte.it/"
+languageCode = "it-IT"
+title = "Gruppo Puglia Grotte APS"
+# Nessun tema esterno: tutto il layout vive in /layouts (vedi sotto).
+paginate = 8
+enableRobotsTXT = true
+summarylength = 40
+
+# Dichiarare [taxonomies] sostituisce i default di Hugo (category/tag), quindi
+# vanno riportati esplicitamente insieme alla nuova "anno": usata per rendere
+# "Archivi" nella sidebar un elenco di link reali (uno per anno) invece di
+# semplice testo, sfruttando lo stesso meccanismo di Hugo già usato per le
+# Categorie invece di scrivere pagine di archivio a mano.
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  anno = "anni"
+
+[params]
+  claim   = "Ricerca · Esplorazione · Didattica · Comunicazione speleologica"
+  sede    = "Via Margherita di Savoia, 18 — 70013 Castellana Grotte (BA)"
+  # Confermato da più post reali (2019, 2022, 2025): lezioni in sede ogni
+  # martedì e giovedì dopo le 20:30, non solo il giovedì come indovinato prima.
+  incontri = "Martedì e giovedì, dalle 20:30"
+  fondazione = "1971"
+  email_presidente = "presidente@gruppopugliagrotte.it"
+  email_segreteria = "segreteria@gruppopugliagrotte.it"
+  email_amministrazione = "amministrazione@gruppopugliagrotte.it"
+  email_biblioteca = "biblioteca@gruppopugliagrotte.it"
+  email_uscite = "responsabileuscite@gruppopugliagrotte.it"
+  email_ambiente = "responsabileambiente@gruppopugliagrotte.it"
+  facebook  = "https://www.facebook.com/gruppopugliagrotte"
+  twitter   = "https://twitter.com/PugliaGrotte"
+  youtube   = "http://www.youtube.com/user/GuppoPugliaGrotte"
+  # Da content/chi-siamo/contatti.md (dato reale, non nel DB come theme_mod/widget).
+  instagram = "https://www.instagram.com/gruppo_puglia_grotte"
+
+# Nota: le voci di WordPress non pertinenti a un sito statico
+# (login/wp-admin, archivio autore, feed dei commenti, ecc.)
+# non hanno equivalente qui e sono state omesse di proposito.
+#
+# Struttura ricostruita dal menu reale nel DB WordPress (termine "Menu", 15 voci
+# pubblicate in wp_posts/wp_postmeta, non più indovinata da snippet di ricerca).
+# La voce "Home" del menu reale (link custom) non è ripetuta qui: il logo/titolo
+# del sito porta già alla home. La voce "La nostra storia" nel DB punta alla
+# stessa pagina di "Chi siamo" (nessun contenuto separato) ed è stata omessa.
+
+[menu]
+
+  [[menu.main]]
+    name   = "Chi siamo"
+    url    = "/chi-siamo/"
+    weight = 10
+
+  [[menu.main]]
+    name   = "Contatti"
+    url    = "/chi-siamo/contatti/"
+    parent = "Chi siamo"
+    weight = 1
+
+  [[menu.main]]
+    name   = "Il Consiglio Direttivo"
+    url    = "/chi-siamo/consiglio-direttivo/"
+    parent = "Chi siamo"
+    weight = 2
+
+  [[menu.main]]
+    name   = "Lo statuto"
+    url    = "/chi-siamo/statuto/"
+    parent = "Chi siamo"
+    weight = 3
+
+  [[menu.main]]
+    name   = "Eventi"
+    url    = "/eventi/"
+    weight = 20
+
+  [[menu.main]]
+    name   = "Esplorazioni & Ricerca"
+    url    = "/esplorazioni/"
+    weight = 30
+
+  [[menu.main]]
+    name   = "Esplorazioni Nazionali"
+    url    = "/esplorazioni/nazionali/"
+    parent = "Esplorazioni & Ricerca"
+    weight = 1
+
+  [[menu.main]]
+    name   = "Esplorazioni Internazionali"
+    url    = "/esplorazioni/internazionali/"
+    parent = "Esplorazioni & Ricerca"
+    weight = 2
+
+  [[menu.main]]
+    name   = "Cavità artificiali"
+    url    = "/esplorazioni/cavita-artificiali/"
+    parent = "Esplorazioni & Ricerca"
+    weight = 3
+
+  [[menu.main]]
+    name   = "Corsi"
+    url    = "/corsi/"
+    weight = 40
+
+  [[menu.main]]
+    name   = "Pubblicazioni"
+    url    = "/pubblicazioni/"
+    weight = 50
+
+  [[menu.main]]
+    name   = "Il Museo Speleologico"
+    url    = "/museo/"
+    weight = 60
+
+  [[menu.main]]
+    name   = "Archivio storico"
+    url    = "/archivio-storico/"
+    weight = 70
+
+[markup.goldmark.renderer]
+  unsafe = true

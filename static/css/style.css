@@ -1,0 +1,457 @@
+/* ============================================================
+   Gruppo Puglia Grotte — foglio di stile
+   Ricostruito a partire dalla palette e dalla tipografia REALI
+   del tema WordPress in uso (Twenty Thirteen, style.css v4.2),
+   non da una direzione grafica inventata.
+
+   Fonte: style.css di Twenty Thirteen fornito dall'utente.
+   Non riprodotto: Genericons (icone dei meta, richiede il font
+   a parte, non incluso in style.css), eventuale immagine di
+   intestazione scelta da Customizer, eventuale CSS aggiuntivo
+   applicato da Aspetto → Personalizza → CSS aggiuntivo o da un
+   child theme (non presenti nel file fornito). Se esistono,
+   condividili per rifinire ulteriormente questi token.
+   ============================================================ */
+
+/* ---------- Design tokens (valori presi da style.css originale) ---------- */
+:root {
+  /* Palette autunnale di Twenty Thirteen */
+  --color-bg:          #FFFFFF;   /* .site background-color */
+  --color-border:      #F2F2F2;   /* .site border-left/right */
+  --color-cream:       #F7F5E7;   /* .navbar, .widget, .no-comments */
+  --color-cream-deep:  #E8E5CE;   /* .site-footer background-color */
+  --color-maroon-900:  #220E10;   /* nav hover/current bg, footer widget strip */
+
+  --color-ink:         #141412;   /* body */
+  --color-muted:       #686758;   /* .site-footer color, .form-allowed-tags */
+
+  --color-link:         #CA3C08;  /* a */
+  --color-link-visited: #AC0404;  /* a:visited */
+  --color-link-hover:   #EA9629;  /* a:hover, a:active */
+  --color-accent:       #BC360A;  /* .entry-meta a, current-menu-item */
+  --color-submenu-hover: #DB572F; /* ul.nav-menu ul a:hover */
+  --color-footer-link:  #E6402A;  /* .site-footer .widget a */
+
+  /* Tipografia (dal file originale) */
+  --font-display: Bitter, Georgia, serif;                         /* h1–h6, site-title */
+  --font-body:    "Source Sans 3", "Source Sans Pro", Helvetica, sans-serif; /* html, button, input… */
+
+  /* Scala tipografica: stessi px del tema originale, in rem su base 16px */
+  --size-h1: 3rem;        /* 48px */
+  --size-h2: 1.875rem;    /* 30px */
+  --size-h3: 1.375rem;    /* 22px */
+  --size-h4: 1.25rem;     /* 20px */
+  --size-h5: 1.125rem;    /* 18px */
+  --size-h6: 1rem;        /* 16px */
+  --size-site-title: 3.75rem;  /* 60px, .site-title */
+  --size-tagline: 1.5rem;      /* 24px, .site-description */
+  --size-small: 0.875rem;      /* 14px, .entry-meta / .widget */
+
+  /* Misure di impaginazione (dal file originale) */
+  --site-max:     100rem;  /* 1600px, .site */
+  --header-max:   67.5rem; /* 1080px, .home-link / .main-navigation */
+  --content-max:  65rem;   /* 1040px, larghezza con sidebar */
+  --measure:      37.75rem;/* 604px, colonna di lettura .entry-content senza sidebar */
+  --sidebar-w:    18.75rem;/* 300px, .widget-area */
+  --header-h:     14.375rem; /* 230px — altezza reale di cropped-sfondo1.jpg,
+                                 identica al min-height di .site-header .home-link
+                                 nel file originale: non è un caso, è la stessa immagine. */
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 3.75rem;
+}
+
+/* ---------- Reset di base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+img, svg { max-width: 100%; display: block; }
+
+a { color: var(--color-link); text-decoration: none; }
+a:visited { color: var(--color-link-visited); }
+a:hover, a:active { color: var(--color-link-hover); text-decoration: underline; }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.mono { font-family: var(--font-body); } /* il tema originale non usa un monospazio */
+
+.skip-link {
+  position: absolute; left: -999px; top: 0;
+  background: var(--color-accent); color: #fff;
+  padding: var(--space-1) var(--space-2); z-index: 100;
+}
+.skip-link:focus { left: var(--space-2); top: var(--space-2); }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+.wrap {
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: var(--space-3);
+}
+
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.3; margin: 0 0 var(--space-2); clear: both; }
+h1 { font-size: var(--size-h1); }
+h2 { font-size: var(--size-h2); }
+h3 { font-size: var(--size-h3); }
+.page-title { font-size: var(--size-h1); margin-top: var(--space-1); }
+.lede { color: var(--color-muted); font-size: var(--size-tagline); font-weight: 300; font-style: italic; margin-bottom: var(--space-4); }
+
+/* ---------- Site: la "tela" bianca con bordi sottili, come .site ---------- */
+.site {
+  max-width: var(--site-max);
+  margin-inline: auto;
+  background: var(--color-bg);
+  border-left: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+}
+
+/* ---------- Header ---------- */
+/* .site-header è solo un contenitore: l'immagine (cropped-sfondo1.jpg,
+   1600×230, passata via la custom property --header-image) e l'altezza fissa
+   stanno sul blocco "hero" qui sotto, separato dalla barra di navigazione.
+   Prima erano sullo stesso elemento flex di .navbar: due elementi in un
+   flex-container "row" senza width esplicita finiscono affiancati invece che
+   impilati, ed è per questo che il menu appariva spostato a destra invece che
+   come barra orizzontale sotto l'header. */
+.site-header { position: relative; }
+.site-header__hero {
+  position: relative;
+  background-color: var(--color-maroon-900); /* colore di attesa prima che l'immagine carichi */
+  background-image: var(--header-image);
+  background-size: cover;
+  background-position: center;
+  min-height: var(--header-h);
+  display: flex;
+  align-items: center; /* nel tema originale il blocco titolo è vicino al centro
+                           verticale dell'immagine (padding-top: 58px su un box
+                           di 230px), non incollato al bordo inferiore */
+}
+/* Leggera sfumatura per garantire contrasto al testo su qualunque zona della
+   foto (il tema originale, per confronto, delega questo compito alla scelta
+   dell'immagine stessa da parte di chi personalizza l'header). */
+.site-header__hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.45) 100%);
+}
+.site-header__row {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: var(--header-max);
+  margin-inline: auto;
+  padding: var(--space-3); /* simmetrico: prima il top era più largo per
+                               compensare l'allineamento in basso, non più
+                               necessario ora che il blocco è centrato */
+}
+/* header_textcolor reale da theme_mods_twentythirteen nel DB WordPress:
+   #f4f3bc (crema chiaro), non bianco come nell'ipotesi iniziale. */
+.site-header__brand { text-decoration: none; color: #f4f3bc; display: block; }
+.site-header__brand:hover { text-decoration: none; }
+.site-header__name {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--size-site-title);
+  line-height: 1;
+  color: #f4f3bc;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+.site-header__brand:hover .site-header__name { text-decoration: underline; }
+.site-header__claim {
+  display: block;
+  font: 300 italic var(--size-tagline) var(--font-body);
+  color: #f4f3bc;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  margin-top: var(--space-1);
+}
+
+/* Barra di navigazione color crema, come .navbar/.nav-menu */
+.navbar { background: var(--color-cream); }
+.nav-main {
+  max-width: var(--header-max);
+  margin-inline: auto;
+  padding-inline: var(--space-3);
+}
+/* Attenzione: questo selettore, senza il combinatore diretto ">", si applica
+   anche a .sub-menu (è un <ul> discendente di .nav-main): display/flex-wrap
+   vanno tenuti solo sulla regola ".nav-main > ul" qui sotto, altrimenti
+   .sub-menu diventerebbe "display: flex" invece di "none" per specificità
+   (.nav-main ul batte .sub-menu da solo), mostrando tutti i sottomenu sempre
+   aperti invece che al passaggio del mouse. */
+.nav-main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-main > ul {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.nav-main a {
+  color: var(--color-ink);
+  text-decoration: none;
+  font-size: var(--size-small);
+  padding: var(--space-2) var(--space-2);
+  display: inline-block;
+}
+.nav-main a:hover,
+.nav-main a:focus,
+.nav-main a[aria-current="page"] {
+  background: var(--color-maroon-900);
+  color: #fff;
+  text-decoration: none;
+}
+.nav-main a[aria-current="page"] {
+  font-style: italic;
+}
+.nav-main li.has-children { position: relative; }
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%; left: 0;
+  min-width: 14rem;
+  background: var(--color-maroon-900);
+  border: 2px solid var(--color-cream);
+  border-top: 0;
+  padding: 0;
+  z-index: 20;
+}
+.sub-menu li { width: 100%; }
+.sub-menu a {
+  display: block;
+  color: #fff;
+  padding: var(--space-1) var(--space-2);
+}
+.sub-menu a:hover, .sub-menu a:focus {
+  background: var(--color-submenu-hover);
+  color: #fff;
+}
+.nav-main li.has-children:hover .sub-menu,
+.nav-main li.has-children:focus-within .sub-menu {
+  display: block;
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: 0;
+  padding: var(--space-1);
+  cursor: pointer;
+}
+.nav-toggle span { width: 22px; height: 2px; background: var(--color-ink); display: block; }
+
+/* ---------- Layout a due colonne (equivalente a .entry-content + .widget-area) ---------- */
+.layout-with-sidebar {
+  display: grid;
+  grid-template-columns: minmax(0, var(--measure)) var(--sidebar-w);
+  gap: var(--space-4);
+  padding-block: var(--space-4) var(--space-5);
+  align-items: start;
+  justify-content: space-between;
+}
+
+/* Genericons del tema (file reali da wp-content/themes/twentythirteen/genericons/):
+   l'icona data in .post-card__date e le icone social nel footer, prese dai
+   glyph reali del font invece di loghi colorati o immagini con bordo. */
+@font-face {
+  font-family: "Genericons";
+  src: url("/fonts/genericons/font/genericons-regular-webfont.woff") format("woff"),
+       url("/fonts/genericons/font/genericons-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.genericon {
+  font-family: "Genericons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.genericon-facebook:before  { content: "\f203"; }
+.genericon-twitter:before   { content: "\f202"; }
+.genericon-youtube:before   { content: "\f213"; }
+.genericon-instagram:before { content: "\f215"; }
+
+/* ---------- Elenco notizie (equivalente agli .hentry in home) ---------- */
+.post-list { list-style: none; margin: 0; padding: 0; }
+.post-list__item { padding-block: var(--space-4); }
+.post-list__item:not(:first-child) { border-top: 1px dotted var(--color-border); }
+.post-card__date {
+  color: var(--color-accent);
+  font-size: var(--size-small);
+  margin: 0 0 0.3rem;
+}
+.post-card__date:before {
+  font-family: "Genericons";
+  content: "\f303";
+  margin-right: 4px;
+  position: relative;
+  top: 1px;
+}
+.post-card__title { font-size: var(--size-h2); font-weight: normal; margin: 0 0 0.3rem; }
+.post-card__title a { color: var(--color-ink); }
+.post-card__title a:hover { color: var(--color-link-hover); text-decoration: none; }
+.post-card__excerpt { color: var(--color-ink); }
+.post-card__more {
+  display: inline-block;
+  margin-top: var(--space-1);
+  font-size: var(--size-small);
+  color: var(--color-accent);
+}
+.post-card__more:hover { color: var(--color-link-hover); }
+
+/* Divisore puntinato: equivalente all'immagine dotted-line.png usata per <hr> */
+.contour-divider { display: none; } /* sostituito dal bordo puntinato su .post-list__item */
+hr {
+  border: 0;
+  border-top: 1px dotted var(--color-border);
+  height: 0;
+  margin: 0 0 var(--space-3);
+}
+
+/* ---------- Sidebar: equivalente a .widget-area / .widget ---------- */
+.scheda {
+  background: rgba(247, 245, 231, 0.7); /* stesso valore di .widget */
+  padding: var(--space-3);
+}
+.scheda__label {
+  font: 300 italic var(--size-h4) var(--font-body); /* equivalente a .widget-title */
+  color: var(--color-ink);
+  margin: var(--space-3) 0 var(--space-1);
+}
+.scheda__label:first-child { margin-top: 0; }
+.scheda__list { margin: 0; font-size: var(--size-small); }
+.scheda__list > div {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding-block: 0.3rem;
+}
+.scheda__list dt { color: var(--color-muted); font-weight: normal; }
+.scheda__list dd { margin: 0; text-align: right; }
+.scheda__links, .scheda__social {
+  list-style: none; margin: 0; padding: 0;
+  font-size: var(--size-small);
+}
+.scheda__links li, .scheda__social li { padding-block: 0.25rem; }
+.scheda a, .scheda__links a, .scheda__social a { color: var(--color-accent); }
+.scheda a:hover { color: var(--color-link-hover); }
+
+/* ---------- Articolo ---------- */
+.breadcrumbs { color: var(--color-muted); font-size: var(--size-small); margin-bottom: var(--space-2); }
+.breadcrumbs a { color: var(--color-muted); }
+.prose p { margin: 0 0 var(--space-2); }
+.prose :is(h2, h3) { margin-top: var(--space-4); }
+.prose ul, .prose ol { padding-left: 1.6em; }
+.prose img { margin-block: var(--space-2); }
+.prose blockquote {
+  font-size: var(--size-tagline);
+  font-style: italic;
+  font-weight: 300;
+  margin: var(--space-3) 2.5rem;
+  color: var(--color-ink);
+}
+.prose table { border-bottom: 1px solid var(--color-border); border-collapse: collapse; width: 100%; font-size: var(--size-small); }
+.prose th { text-transform: uppercase; text-align: left; font-weight: bold; padding: 6px 10px 6px 0; }
+.prose td { border-top: 1px solid var(--color-border); padding: 6px 10px 6px 0; }
+
+/* Sostituisce lo shortcode [gallery] di WordPress: griglia semplice, usata in
+   7 pagine del sito reale (troppo poco per giustificare un template dedicato). */
+.wp-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-2); margin-block: var(--space-3); }
+.wp-gallery img { width: 100%; height: 100%; object-fit: cover; margin: 0; }
+
+.pagination { display: flex; gap: var(--space-2); list-style: none; padding: 0; margin-top: var(--space-4); }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  margin-top: var(--space-5);
+  background: var(--color-maroon-900); /* fascia widget scura, come .site-footer .sidebar-container */
+}
+.site-footer__grid {
+  max-width: var(--content-max);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-3);
+  padding-block: var(--space-4);
+  text-align: left;
+}
+.site-footer__title {
+  font: 300 italic var(--size-h4) var(--font-body); /* .widget-title */
+  color: #fff;
+  margin-bottom: var(--space-2);
+}
+.site-footer a { color: var(--color-footer-link); }
+.site-footer a:hover { color: #fff; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; font-size: var(--size-small); }
+.site-footer li { padding-block: 0.2rem; color: #fff; }
+.site-footer__social { display: flex; gap: var(--space-2); margin-top: var(--space-1); }
+.site-footer__social li { padding-block: 0; }
+/* Icone monocrome dal font Genericons reale, non loghi colorati: niente
+   bordo/riquadro immagine, solo il colore testo del footer come le altre voci. */
+.site-footer__social a {
+  display: inline-block;
+  font-size: 1.375rem;
+  line-height: 1;
+  border: 0;
+}
+.site-footer__social a:hover { text-decoration: none; }
+
+/* Colophon: fascia chiara e centrata, come .site-info su .site-footer crema */
+.site-footer__bottom {
+  background: var(--color-cream-deep);
+  color: var(--color-muted);
+  text-align: center;
+  font-size: var(--size-small);
+}
+.site-footer__bottom.wrap { max-width: var(--content-max); padding-block: var(--space-3); }
+.site-footer__bottom a { color: var(--color-muted); }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 860px) {
+  .layout-with-sidebar { grid-template-columns: 1fr; }
+  .site-footer__grid { grid-template-columns: repeat(2, 1fr); }
+
+  .nav-toggle { display: flex; }
+  .nav-main { display: none; width: 100%; }
+  .nav-main.is-open { display: block; }
+  .nav-main ul { flex-direction: column; }
+  .sub-menu { position: static; border: 0; display: block; padding-left: var(--space-2); }
+  .nav-main li.has-children:hover .sub-menu { display: block; }
+}
+
+@media (max-width: 767px) {
+  .site-header__hero { min-height: 0; }
+}
+
+@media (max-width: 480px) {
+  .site-footer__grid { grid-template-columns: 1fr; }
+  .site-header__name { font-size: 2.25rem; } /* 36px, come .site-title a 767px nel tema originale */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}
