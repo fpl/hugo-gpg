@@ -1,0 +1,8 @@
+# Output di build Hugo (rigenerato da `hugo`/`make build`, non va versionato)
+public/
+
+# Lock file di build, creato e rimosso automaticamente da Hugo
+.hugo_build.lock
+
+# Credenziali FTP di pubblicazione (vedi Makefile)
+.env.ftp
