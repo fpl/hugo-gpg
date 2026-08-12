@@ -4,7 +4,7 @@ aliases:
   - "/home/museo/chi-era-franco-anelli/"
 ---
 
-<img src="/archivio-storico/legacy/images/anelli.jpg" class="alignleft" width="168" height="236" />
+![](/archivio-storico/legacy/images/anelli.jpg)
 Franco Anelli nato a Lodi il 18 ottobre 1899, diplomatosi a Milano, consegue nel 1927 la laurea in Scienze Naturali all'Università di Bologna e lavora per alcuni anni come geologo nelle miniere di Predil (Raibl) nel Tarvisiano.
 Nel 1930, su incarico del prof. Michele Gortani, diventa conservatore del Museo Speleologico e assistente dell'Istituto Italiano di Speleologia presso le Grotte di Postumia nell'attuale Slovenia.
 Egli si dedica a esplorazioni e ricerche speleologiche nel Carso di Postumia; cura il Catasto delle Grotte d'Italia; coordina i sempre più numerosi gruppi speleologici italiani; s'impegna, infine, nella direzione delle Memorie dell'Istituto Italiano di Speleologia e nella redazione della rivista Le Grotte d'Italia.

@@ -8,11 +8,9 @@ aliases:
 *Storia ed evoluzione della Speleologia in Puglia*
 6-7 giugno 1981
 Castellana Grotte</span>
+![Gli Atti del Convegno del 1981](/archivio-storico/legacy/images/convreg85.jpg)
 
-<figure>
-<img src="/archivio-storico/legacy/images/convreg85.jpg" data-align="right" data-border="1" data-hspace="10" data-vspace="10" width="123" height="173" alt="Gli Atti del Convegno del 1981" />
-<figcaption>Copertina degli atti del convegno</figcaption>
-</figure>
+*Copertina degli atti del convegno*
 
  
  

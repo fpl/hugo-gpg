@@ -12,8 +12,6 @@ Come da tradizione le lezioni si terranno presso la nostra sede, in via Margheri
 
 Da programma dodici lezioni teoriche per scoprire i vari fenomeni carsici, le tecniche di progressione su corda e il rispetto delle delicate aree ipogee. Sei invece le uscite, due in parete per apprendere sul campo le tecniche di progressione su corda, e quattro tra grotte campane, pugliesi, calabresi e marchigiane.
 
-I dettagli e i link ai vari moduli per l'iscrizione saranno presto disponibili a questo <a href="/corsi/50-corso-di-speleologia/" data-type="URL" data-id="/corsi/50-corso-di-speleologia/">link</a>
+I dettagli e i link ai vari moduli per l'iscrizione saranno presto disponibili a questo [link](/corsi/50-corso-di-speleologia/)
 
-<figure class="wp-block-image size-large">
-<a href="/images/uploads/2024/09/Locandina-NO-CNSAS.png"><img src="/images/uploads/2024/09/Locandina-NO-CNSAS-724x1024.png" class="wp-image-808" /></a>
-</figure>
+![](/images/uploads/2024/09/Locandina-NO-CNSAS.png)

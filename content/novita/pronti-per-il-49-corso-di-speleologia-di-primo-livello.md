@@ -14,10 +14,8 @@ Poi 8 escursioni nei fine settimana, tutti i sabati e le domeniche, per mettere 
 
 <figure class="wp-block-pullquote">
 <blockquote>
-<p>Tutti i dettagli, le modalità di iscrizione e la modulistica sono disponibili a questo <a href="/corsi/49-corso-di-speleologia/" data-type="page" data-id="750">link</a></p>
+<p>Tutti i dettagli, le modalità di iscrizione e la modulistica sono disponibili a questo <a href="/corsi/49-corso-di-speleologia/">link</a></p>
 </blockquote>
 </figure>
 
-<figure class="wp-block-image size-large">
-<a href="/images/uploads/2023/09/Locandina.jpeg"><img src="/images/uploads/2023/09/Locandina.jpeg" class="wp-image-772" /></a>
-</figure>
+![](/images/uploads/2023/09/Locandina.jpeg)

@@ -13,7 +13,7 @@ Durante il campo estivo del 2015, vengono segnalate da alcuni pastori, a soci de
 
 Di queste segnalazioni, una si presenta interessante. Tra l'altro, uno di questi ingressi era già stato oggetto di segnalazione nel 2014 da parte dei GS CAI Napoli.
 
-[<img src="http://www.gsne.it/wp-content/uploads/2015/11/Grotta-Alburni-Segnalazione1-300x249.png" class="alignleft size-medium wp-image-702" width="300" height="249" alt="Grotta Alburni Segnalazione1" />](http://www.gsne.it/wp-content/uploads/2015/11/Grotta-Alburni-Segnalazione1.png)
+[![Grotta Alburni Segnalazione1](http://www.gsne.it/wp-content/uploads/2015/11/Grotta-Alburni-Segnalazione1-300x249.png)](http://www.gsne.it/wp-content/uploads/2015/11/Grotta-Alburni-Segnalazione1.png)
 
 In diverse uscite, speleologi di diversi gruppi campani e pugliesi provvedono a rendere agevole lo stretto meandro iniziale, in modo da raggiungere agevolmente la verticale che era già stata "sentita" sin dalle prime uscite.
 

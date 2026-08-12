@@ -8,11 +8,9 @@ aliases:
 5-6 dicembre 1992
 Castellana Grotte
 </span>
+![Gli Atti del Convegno](/archivio-storico/legacy/images/convreg1992.jpg)
 
-<figure>
-<img src="/archivio-storico/legacy/images/convreg1992.jpg" data-align="right" data-border="1" data-hspace="10" data-vspace="10" width="120" height="178" alt="Gli Atti del Convegno" />
-<figcaption>Copertina degli Atti</figcaption>
-</figure>
+*Copertina degli Atti*
 
 <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"> </span>
 

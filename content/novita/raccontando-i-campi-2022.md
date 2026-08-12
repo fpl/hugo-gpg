@@ -12,7 +12,6 @@ Tutte le attività si sono svolte nell'area dei Monti Alburni, nota area esplora
 
 [Qui](/images/uploads/2022/12/Campi-esplorativi-sul-Panormo-2022.pdf) potete trovare le slide della presentazione.
 
-<figure class="wp-block-image size-large is-resized">
-<a href="/images/uploads/2022/12/Schermata-da-2022-12-16-17-55-27.png"><img src="/images/uploads/2022/12/Schermata-da-2022-12-16-17-55-27.png" class="wp-image-744" width="633" height="443" /></a>
-<figcaption>La copertina della presentazione</figcaption>
-</figure>
+![](/images/uploads/2022/12/Schermata-da-2022-12-16-17-55-27.png)
+
+*La copertina della presentazione*

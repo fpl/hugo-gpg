@@ -12,8 +12,6 @@ Da **giovedì 22** **Settembre** in sede, via Margherita di Savoia n. 18, avran
 13 lezioni in totale per scoprire i vari fenomeni carsici, le tecniche di progressione su corda e il rispetto delle delicate aree ipogee.  
 Poi 6 escursioni nei fine settimana, tutti i sabati e le domeniche, per mettere in pratica tutto quello che si è imparato e scoperto affrontando trekking, pareti di roccia e grotte tra Puglia, Basilicata e Campania.
 
-> Tutti i dettagli, le modalità di iscrizione e la modulistica sono disponibili a questo <a href="/corsi/il-48-corso-di-speleologia-di-primo-livello/" data-type="page" data-id="697">link</a>
+> Tutti i dettagli, le modalità di iscrizione e la modulistica sono disponibili a questo [link](/corsi/il-48-corso-di-speleologia-di-primo-livello/)
 
-<figure class="wp-block-image size-large">
-<a href="/images/uploads/2022/08/Locandina.png"><img src="/images/uploads/2022/08/Locandina-724x1024.png" class="wp-image-713" /></a>
-</figure>
+![](/images/uploads/2022/08/Locandina.png)

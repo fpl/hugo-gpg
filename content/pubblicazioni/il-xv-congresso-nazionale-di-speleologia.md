@@ -8,11 +8,9 @@ aliases:
 10-13 settembre 1987
 Castellana-Grotte
 </span>
+![Gli Atti del Convegno](/archivio-storico/legacy/images/convnaz87.jpg)
 
-<figure>
-<img src="/archivio-storico/legacy/images/convnaz87.jpg" data-align="right" data-border="1" data-hspace="10" data-vspace="10" width="120" height="173" alt="Gli Atti del Convegno" />
-<figcaption>Copertina degli atti</figcaption>
-</figure>
+*Copertina degli atti*
 
  
 <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">** **</span>

@@ -4,7 +4,7 @@ aliases:
   - "/home/pubblicazioni/primo-convegno-regionale-di-speleologia-in-cavita-artificiali/"
 ---
 
-<img src="/archivio-storico/legacy/eventi/images/convegno2007/loghi.jpg" data-align="right" data-border="0" width="425" height="196" alt="Patrocini" />
+![Patrocini](/archivio-storico/legacy/eventi/images/convegno2007/loghi.jpg)
  
  
  
@@ -24,7 +24,7 @@ Castellana Grotte (Ba)
 
 <div align="center">
 
-<img src="/archivio-storico/legacy/eventi/images/convegno2007/logo.jpg" data-border="0" width="300" height="279" alt="logo" />
+![logo](/archivio-storico/legacy/eventi/images/convegno2007/logo.jpg)
 
 </div>
 
@@ -32,7 +32,7 @@ Nei giorni 24 e 25 marzo 2007 - a Castellana-Grotte BA, nelle sale del Palazzo d
 L'incontro era teso a diffondere la conoscenza del patrimonio ipogeo artificiale pugliese inteso nelle sue varie espressioni e significati.
 A partire dalla preistoria, sino alla metà dello scorso secolo, le cavità d'origine antropica - come cave e miniere, antichi acquedotti, pozzi, cisterne e gallerie di drenaggio, insediamenti rupestri, cavità cultuali, opere a scopo civile e militare - sono state espressione della capacità umana di realizzare opere ipogee funzionali alle proprie esigenze materiali e spirituali. Per ognuno dei settori di indagine della speleologia in cavità artificiali, dunque, in relazione alle macrozone geografiche pugliesi del Salento, delle Murge e del Gargano, sono stati proposti interventi a invito.
 L'iniziativa, pure, ha avuto l'obiettivo di mettere in relazione il mondo accademico e quello della ricerca autonoma; l'auspicio, infatti, era quello di poter assistere alla nascita di proficui e duraturi contatti tra gli specialisti, gli studiosi e i più appassionati conoscitori del mondo ipogeo di origine naturale, gli speleologi.
-A corredo degli eventi, si sono avvicendate la riunione della Commissione Cavità Artificiali della <a href="https://www.speleo.it/" target="_blank" rel="noopener" title="Società Speleologica Italiana">Società Speleologica Italiana</a> e l’inaugurazione della Sala Multimediale dedicata a **Vittorio Castellani** presso il Museo Speleologico Franco Anelli.
+A corredo degli eventi, si sono avvicendate la riunione della Commissione Cavità Artificiali della [Società Speleologica Italiana](https://www.speleo.it/ "Società Speleologica Italiana") e l’inaugurazione della Sala Multimediale dedicata a **Vittorio Castellani** presso il Museo Speleologico Franco Anelli.
 Il bilancio può chiudersi con segno positivo: oltre un centinaio di partecipanti provenienti da tutt’Italia - fatto di tutto rilievo conto tenuto del carattere locale dell’evento – hanno presenziato ai lavori. Da rimarcare, poi, che i partecipanti hanno potuto seguire gli interventi con gli Atti del Convegno tra le mani, grazie alla puntualità dei relatori e alla solerzia della redazione della rivista Grotte e dintorni.
 
 - [**Programma**](/archivio-storico/convegno-2007/ "Programma")
@@ -146,7 +146,7 @@ Museo Speleologico Franco Anelli \| Palazzo di Città
   riunione primaverile
   **venerdì 23 marzo 2007 - ore 16:00**
   Museo Speleologico Franco Anelli
-  <img src="/archivio-storico/legacy/eventi/images/convegno2007/castellani.jpg" class="alignright" data-align="right" data-border="1" data-hspace="10" data-vspace="5" width="159" height="156" alt="Vittorio Castellani" />
+  ![Vittorio Castellani](/archivio-storico/legacy/eventi/images/convegno2007/castellani.jpg)
   **Apposizione targa commemorativa dedicata a *Vittorio Castellani***
   **sabato 24 marzo 2007 - ore 15:00**
   Museo Speleologico Franco Anelli

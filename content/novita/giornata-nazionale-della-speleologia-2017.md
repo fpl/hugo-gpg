@@ -11,4 +11,4 @@ La mattinata comincerà nel **Museo Speleologico Franco Anelli** con una introdu
 A tutti i partecipanti è richiesto di dotarsi di **scarpe da trekking** o scarpe adatte ad un percorso non turistico e **abiti comodi** (consigliata una tuta da meccanico). Il Gruppo Puglia Grotte di impegna a fornire i **caschi**, gli **impianti d**<span class="text_exposed_show">**i illuminazione personale** e la copertura assicurativa giornaliera per l’attività della pratica speleologia.
 Le richieste di adesione devono pervenire all'indirizzo segreteria@NOSPAMgruppopugliagrotte.it (rimuovi NOSPAM per l’indirizzo corretto) o consegnate personalmente presso la sede sociale di via Margherita di Savoia n. 18 (nei pressi di Largo Porta Grande) a Castellana Grotte.
 </span>
-<a href="/images/uploads/2017/09/liberatoria_evento.pdf" target="_blank" rel="noopener" title="liberatoria">Liberatoria</a>
+[Liberatoria](/images/uploads/2017/09/liberatoria_evento.pdf "liberatoria")

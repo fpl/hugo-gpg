@@ -250,7 +250,13 @@ DIRECT_ASSETS = [
 # nel contenuto reale punta mai lì). setdefault: non tocca le due voci sopra
 # già mappate esplicitamente con lo stesso schema di percorso.
 for _asset in DIRECT_ASSETS:
-    LINK_REWRITE.setdefault(_asset, f"/archivio-storico/legacy/{_asset}")
+    # .replace(" ", "%20"): "CS fine campo Alburni 2012.pdf" è un nome file
+    # reale con spazi. Innocuo nel percorso su disco, ma questo valore finisce
+    # anche come URL letterale dentro sintassi Markdown [testo](url) (sia qui
+    # sia in scripts/wp_to_hugo.py via .link-rewrite.json): uno spazio nudo lì
+    # tronca a metà il link invece di far parte della URL (bug riscontrato e
+    # corretto qui).
+    LINK_REWRITE.setdefault(_asset, f"/archivio-storico/legacy/{_asset}".replace(" ", "%20"))
 del _asset
 
 # LINK_REWRITE completa (Fase 1+2+3) esportata in .link-rewrite.json alla

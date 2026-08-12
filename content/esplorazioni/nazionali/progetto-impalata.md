@@ -10,7 +10,7 @@ Il fine è quello di lavorare in sinergia con il nascente gruppo speleologico lo
 L’attività si inserisce nel più vasto panorama operativo speleologico fatto spesso di iniziative isolate perché organizzate come eventi a tema, in realtà, questo progetto, prendendo come riferimento una cavità inquadra tutta la procedura di documentazione scientifica per un miglior inquadramento nel territorio.
 Il progetto, della durata stimata in circa **12 mesi**, sarà così organizzato:
 
-- **Intervista** – acquisizione di notizie storiche, ricerche di note bibliografiche e foto storiche (a cura dell’<a href="http://www.ipsiammonopoli.it" target="_blank" rel="noopener" title="IPSIAM">IPSIAM</a> di Monopoli);
+- **Intervista** – acquisizione di notizie storiche, ricerche di note bibliografiche e foto storiche (a cura dell’[IPSIAM](http://www.ipsiammonopoli.it "IPSIAM") di Monopoli);
 - **Esplorazione** – Verifica degli ambienti e ricerca di eventuali passaggi di prosecuzione e/o elementi di interesse biospeleologico;
 - **Rilievo** – Acquisizione dei dati catastali secondo le indicazioni della scheda FSP;
 - **Pulizia** – Rimozione dei corpi estranei presenti;

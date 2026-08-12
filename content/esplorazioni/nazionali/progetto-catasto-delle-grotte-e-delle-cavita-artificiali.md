@@ -6,12 +6,12 @@ aliases:
 
 **Cos'è il Progetto Catasto?**
 Il progetto mira, entro il 2006, ad una completa ricatalogazione delle cavità della nostra Regione - geolocazione, informazioni geologiche e planimetriche, materiale fotografico - e al riversamento su un geographical information system (GIS) dei dati relativi alle cavità pugliesi note.
-[<img src="/images/uploads/2016/08/1.jpg" class="aligncenter wp-image-321 size-full" width="200" height="160" alt="1" />](/images/uploads/2016/08/1.jpg)
+[![1](/images/uploads/2016/08/1.jpg)](/images/uploads/2016/08/1.jpg)
 **Il corso di formazione**
 Dal 4 giugno 2004 al 23 luglio 2004 si è tenuto, presso il Museo Speleologico Franco Anelli di Castellana-Grotte, il corso di formazione organizzato dalla **Federazione Speleologica Pugliese** in collaborazione con l’**Università degli Studi** ed il**Politecnico di Bari**, finalizzato a fornire competenze essenziali per la compilazione delle schede del Progetto Catasto.
 Il Consiglio Direttivo della Federazione Speleologica Pugliese, in linea con gli orientamenti e il regolamento approvato dalla Regione Puglia, ha ritenuto fondamentale che ogni gruppo partecipante frequentasse almeno il 70% delle ore totali del corso (quindi almeno 98 ore su 140 ore totali), per poter essere in grado di compilare le schede catastali.
 Raccogliendo l'invito della Federazione regionale, numerosi soci del Gruppo Puglia Grotte hanno partecipato al corso.
-[<img src="/images/uploads/2016/08/2.jpg" class="aligncenter wp-image-322 size-full" width="200" height="150" alt="2" />](/images/uploads/2016/08/2.jpg)
+[![2](/images/uploads/2016/08/2.jpg)](/images/uploads/2016/08/2.jpg)
 **E adesso?**
 Con la riunione di domenica 5 Settembre 2004 è partita la fase operativa del nuovo Progetto Catasto, promosso dalla Federazione Speleologica, e finanziato dalla Regione Puglia.
 Il Gruppo Puglia Grotte è divenuto parte attiva nella revisione e ampliamento dei dati catastali di parte delle grotte pugliesi, in collaborazione con gli altri gruppi speleologici della Regione.
@@ -55,4 +55,4 @@ Oggetto del nostro lavoro sono le grotte:
  o Grava Giustino                       | Cassano Murge BA      |
 | Grotta Albero di Sole                 | Cassano Murge BA      |
 
-[<img src="/images/uploads/2016/08/3.jpg" class="aligncenter wp-image-323 size-full" width="300" height="203" alt="3" />](/images/uploads/2016/08/3.jpg)
+[![3](/images/uploads/2016/08/3.jpg)](/images/uploads/2016/08/3.jpg)

@@ -14,6 +14,4 @@ Da programma lezioni teoriche per scoprire i vari fenomeni carsici, le tecniche 
 
 I dettagli e i link ai vari moduli per l’iscrizione saranno presto disponibili a questo [link](/corsi/51-corso-di-speleologia/)
 
-<figure class="wp-block-image size-large is-resized">
-<a href="/images/uploads/2025/09/locandina.png"><img src="/images/uploads/2025/09/locandina-768x1024.png" class="wp-image-821" style="width:634px;height:auto" /></a>
-</figure>
+![](/images/uploads/2025/09/locandina.png)

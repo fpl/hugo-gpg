@@ -17,29 +17,29 @@ Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazi
 - dicembre 2002/marzo 2003 [Grava Auletta](/archivio-storico/esplorazione-e-ricerca/ "Esplorazioni negli Alburni") S. Angelo a Fasanella (SA;
 - agosto 2006 [campo estivo Alburni 2006](/archivio-storico/esplorazione-e-ricerca/ "Il campo estivo Alburni 2006") - Inghiottitoio III dei **Piani di Santa Maria**
 - agosto 2007 [campo estivo Alburni 2007](/archivio-storico/esplorazione-e-ricerca/ "Il campo estivo Alburni 2007")
-- 2008-2009 [esplorazioni in team](/archivio-storico/esplorazione-e-ricerca/ "esplorazioni in team") con <a href="http://www.fscampania.it/" target="_blank" rel="noopener" title="Federazione Speleologica Campana">Federazione Speleologica Campana</a> e [Federazione Speleologica Pugliese](http://www.fspuglia.it/ "Federazione Speleologica Pugliese")
+- 2008-2009 [esplorazioni in team](/archivio-storico/esplorazione-e-ricerca/ "esplorazioni in team") con [Federazione Speleologica Campana](http://www.fscampania.it/ "Federazione Speleologica Campana") e [Federazione Speleologica Pugliese](http://www.fspuglia.it/ "Federazione Speleologica Pugliese")
 - 2011 [esplorazione a I Gentili](/archivio-storico/esplorazione-e-ricerca/ "Esplorazione a I Gentili")
-- 2012 <a href="http://www.youtube.com/watch?v=lvS7jJTvpkg" target="_blank" rel="noopener" title="esplorazione nuova cavità">esplorazione nuova cavità</a> con Gruppo Speleologico Dauno
-- Esplorazione a <a href="http://www.youtube.com/watch?v=1nq8DzdEDrI&amp;context=C3f48950ADOEgsToPDskJwrGa18Sho4D3sAu1kmuG2" target="_blank" rel="noopener" title="esplorazione nuova cavità">Serra Carpineto</a>
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburnifebb2012.pdf" target="_blank" rel="noopener" title="Esplorazione 4-5 febbraio 2012">Esplorazione</a> 4-5 febbraio 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni10febb2012.pdf" target="_blank" rel="noopener" title="Esplorazioni 10-12 febbraio 2012">Esplorazione</a> 10-12 febbraio 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni19febb2012.pdf" target="_blank" rel="noopener" title="Esplorazioni 19 febbraio 2012">Esplorazione</a> 19 febbraio 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni26febb2012.pdf" target="_blank" rel="noopener" title="Esplorazioni 26 febbraio 2012">Esplorazione</a> 26 febbraio 2012
-- <a href="https://docs.google.com/viewer?url=http%3A%2F%2Fwww.gruppopugliagrotte.it%2Fesplorazioni%2Falburni%2Falburni10mar2012.pdf" target="_blank" rel="noopener" title="Esplorazioni 10-11 marzo 2012">Esplorazione</a> 10-11 marzo 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburnicolorazioni10mar2012.pdf" target="_blank" rel="noopener" title="Colorazioni con fluoresceina 10 marzo 2012">Colorazioni con fluoresceina</a> 10 marzo 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni18mar2012.pdf" target="_blank" rel="noopener" title="Esplorazioni 18 marzo 2012">Esplorazione</a> 18 marzo 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni31mar2012.pdf" target="_blank" rel="noopener" title="Esplorazioni 31 marzo - 1st aprile 2012">Esplorazione</a> 31 marzo - 1 aprile 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni7apri2012.pdf" target="_blank" rel="noopener" title="Esplorazioni 7 aprile 2012">Esplorazione</a> 7 aprile 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni8apri2012.pdf" target="_blank" rel="noopener" title="Esplorazioni 8 aprile 2012">Esplorazione</a> 8 aprile 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni12apr2012.pdf" target="_blank" rel="noopener" title="Esplorazione 12 aprile 2012">Esplorazione</a> 12 aprile 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/ProgettoDidatticoAlburni.pdf" target="_blank" rel="noopener" title="Progetto Didattico Alburni">Progetto Didattico Alburni</a> marzo - aprile 2012
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/PROGETTO_GENTILI_2012.pdf" target="_blank" rel="noopener" title="Progetto Gentili">Progetto Gentili</a> marzo - aprile 2012
+- 2012 [esplorazione nuova cavità](http://www.youtube.com/watch?v=lvS7jJTvpkg "esplorazione nuova cavità") con Gruppo Speleologico Dauno
+- Esplorazione a [Serra Carpineto](http://www.youtube.com/watch?v=1nq8DzdEDrI&context=C3f48950ADOEgsToPDskJwrGa18Sho4D3sAu1kmuG2 "esplorazione nuova cavità")
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburnifebb2012.pdf "Esplorazione 4-5 febbraio 2012") 4-5 febbraio 2012
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni10febb2012.pdf "Esplorazioni 10-12 febbraio 2012") 10-12 febbraio 2012
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni19febb2012.pdf "Esplorazioni 19 febbraio 2012") 19 febbraio 2012
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni26febb2012.pdf "Esplorazioni 26 febbraio 2012") 26 febbraio 2012
+- [Esplorazione](https://docs.google.com/viewer?url=http%3A%2F%2Fwww.gruppopugliagrotte.it%2Fesplorazioni%2Falburni%2Falburni10mar2012.pdf "Esplorazioni 10-11 marzo 2012") 10-11 marzo 2012
+- [Colorazioni con fluoresceina](/archivio-storico/legacy/esplorazioni/alburni/alburnicolorazioni10mar2012.pdf "Colorazioni con fluoresceina 10 marzo 2012") 10 marzo 2012
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni18mar2012.pdf "Esplorazioni 18 marzo 2012") 18 marzo 2012
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni31mar2012.pdf "Esplorazioni 31 marzo - 1st aprile 2012") 31 marzo - 1 aprile 2012
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni7apri2012.pdf "Esplorazioni 7 aprile 2012") 7 aprile 2012
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni8apri2012.pdf "Esplorazioni 8 aprile 2012") 8 aprile 2012
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni12apr2012.pdf "Esplorazione 12 aprile 2012") 12 aprile 2012
+- [Progetto Didattico Alburni](/archivio-storico/legacy/esplorazioni/alburni/ProgettoDidatticoAlburni.pdf "Progetto Didattico Alburni") marzo - aprile 2012
+- [Progetto Gentili](/archivio-storico/legacy/esplorazioni/alburni/PROGETTO_GENTILI_2012.pdf "Progetto Gentili") marzo - aprile 2012
 - Concluso [accordo](/archivio-storico/esplorazione-e-ricerca/ "Concluso accordo tra il Gruppo Puglia Grotte e il Comune di Sant'Angelo a Fasanella") tra il Gruppo Puglia Grotte e il Comune di Sant'Angelo a Fasanella
 - [Corso di I livello di Speleologia sui Monti Alburni](/archivio-storico/corso-alburni/ "Corso di I livello di Speleologia sui Monti Alburni")
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/ProgettoDidatticoAlburniFinale.pdf" target="_blank" rel="noopener" title="Progetto Didattico Alburni Finale">Progetto Didattico Alburni Finale</a>
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/RelazioneAlburn28.04.06.05.2012.pdf" target="_blank" rel="noopener" title="Esplorazione dal 28 aprile al 6 maggio 2012">Esplorazione dal 28 aprile al 6 maggio 2012</a>
-- <a href="/archivio-storico/legacy/esplorazioni/alburni/alburni16giu2012.pdf" target="_blank" rel="noopener" title="Esplorazione 16 giugno 2012">Esplorazione</a> 16 giugno 2012
-- [Campo estivo sui Monti Alburni](/archivio-storico/esplorazione-e-ricerca/ "Campo estivo sui Monti Alburni") - <a href="/archivio-storico/legacy/esplorazioni/alburni/CS fine campo Alburni 2012.pdf" target="_blank" rel="noopener" title="relazione finale">relazione finale</a>
+- [Progetto Didattico Alburni Finale](/archivio-storico/legacy/esplorazioni/alburni/ProgettoDidatticoAlburniFinale.pdf "Progetto Didattico Alburni Finale")
+- [Esplorazione dal 28 aprile al 6 maggio 2012](/archivio-storico/legacy/esplorazioni/alburni/RelazioneAlburn28.04.06.05.2012.pdf "Esplorazione dal 28 aprile al 6 maggio 2012")
+- [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni16giu2012.pdf "Esplorazione 16 giugno 2012") 16 giugno 2012
+- [Campo estivo sui Monti Alburni](/archivio-storico/esplorazione-e-ricerca/ "Campo estivo sui Monti Alburni") - [relazione finale](/archivio-storico/legacy/esplorazioni/alburni/CS%20fine%20campo%20Alburni%202012.pdf "relazione finale")
 Ricerca di nuove cavità:
 [Grotta in contrada Mamutte](/archivio-storico/esplorazione-e-ricerca/ "Grotta in contrada Mamutte")
 [Grotta San Luca](/archivio-storico/esplorazione-e-ricerca/ "Grotta San Luca")
@@ -55,13 +55,13 @@ Lo confessiamo: anche tra di noi vi sono quegli strani individui pronti ad andar
 -  [Il sottosuolo di Monopoli](/archivio-storico/speleologia-artificiale/ "Il sottosuolo di Monopoli") (Ba)
 -  *Architetture nel Buio* [I Convegno Regionale di Speleologia in Cavità Artificiali](/archivio-storico/speleologia-artificiale/ "I Convegno Regionale di Speleologia in Cavità Artificiali - Architetture nel Buio") 24-25 marzo 2007
 -  [Sulle tracce dell'antico Acquedotto Romano](/archivio-storico/speleologia-artificiale/ "Sulle tracce dell'antico Acquedotto Romano")
--  <a href="/archivio-storico/speleologia-artificiale/" target="_blank" rel="noopener" title="Esplorata antica cisterna nel centro storico di Castellana">Esplorata antica cisterna nel centro storico di Castellana</a>
--  <a href="/archivio-storico/speleologia-artificiale/" target="_blank" rel="noopener" title="I monaci basiliani: antichi speleologi">I monaci basiliani: antichi speleologi</a>
--  <a href="/archivio-storico/speleologia-artificiale/" target="_blank" rel="noopener" title="Gli impianti idrici sotterranei di Gravina in Puglia (BA)">Gli impianti idrici sotterranei di Gravina in Puglia (BA)</a>
--  <a href="/archivio-storico/speleologia-artificiale/" target="_blank" rel="noopener" title="Un&#39;esperienza di speleologia artificiale: l&#39;acquedotto romano di Gravina">Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina</a>
+-  [Esplorata antica cisterna nel centro storico di Castellana](/archivio-storico/speleologia-artificiale/ "Esplorata antica cisterna nel centro storico di Castellana")
+-  [I monaci basiliani: antichi speleologi](/archivio-storico/speleologia-artificiale/ "I monaci basiliani: antichi speleologi")
+-  [Gli impianti idrici sotterranei di Gravina in Puglia (BA)](/archivio-storico/speleologia-artificiale/ "Gli impianti idrici sotterranei di Gravina in Puglia (BA)")
+-  [Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina](/archivio-storico/speleologia-artificiale/ "Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina")
 -  [Rilievo di un'antica foggia a Putignano](/archivio-storico/speleologia-artificiale/ "Rilievo di un'antica foggia a Putignano")
--  <a href="/archivio-storico/speleologia-artificiale/" target="_blank" rel="noopener" title="Un&#39;antica galleria sotterranea scoperta a Castellana-Grotte (BA)">Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)</a>
--  <a href="/archivio-storico/speleologia-artificiale/" target="_blank" rel="noopener" title="Esplorazione di cavità a Castellana-Grotte">Esplorazione di cavità a Castellana-Grotte (BA)</a>
--  <a href="/archivio-storico/speleologia-artificiale/" target="_blank" rel="noopener" title="Sotto la città della birra. Speleologia urbana in Cechia">Sotto la città della birra. Speleologia urbana in Cechia</a> - [La Cripta dei Santi Andrea e Procopio](/archivio-storico/speleologia-artificiale/ "La Cripta dei Santi Andrea e Procopio")
+-  [Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)](/archivio-storico/speleologia-artificiale/ "Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)")
+-  [Esplorazione di cavità a Castellana-Grotte (BA)](/archivio-storico/speleologia-artificiale/ "Esplorazione di cavità a Castellana-Grotte")
+-  [Sotto la città della birra. Speleologia urbana in Cechia](/archivio-storico/speleologia-artificiale/ "Sotto la città della birra. Speleologia urbana in Cechia") - [La Cripta dei Santi Andrea e Procopio](/archivio-storico/speleologia-artificiale/ "La Cripta dei Santi Andrea e Procopio")
 Qualcosa da dichiarare?
-Ecco le <a href="/archivio-storico/legacy/esplorazioni/speleoartifi/Catasto.pdf" target="_blank" rel="noopener" title="Procedure per l’accatastamento di Cavità Artificiali">Procedure per l’accatastamento di Cavità Artificiali</a> predisposte dalla *Commissione per le Cavità Artificiali* della <a href="https://www.speleo.it/" target="_blank" rel="noopener" title="Sito della Società Speleologica Italiana">Società Speleologica Italiana</a>.
+Ecco le [Procedure per l’accatastamento di Cavità Artificiali](/archivio-storico/legacy/esplorazioni/speleoartifi/Catasto.pdf "Procedure per l’accatastamento di Cavità Artificiali") predisposte dalla *Commissione per le Cavità Artificiali* della [Società Speleologica Italiana](https://www.speleo.it/ "Sito della Società Speleologica Italiana").

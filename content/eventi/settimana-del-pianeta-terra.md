@@ -25,7 +25,7 @@ Ore 9.00
 
 <div class="cell-content">
 
-È possibile accedere alle visite solo per prenotazione da effettuarsi compilando il modulo in <a href="https://www.grottedicastellana.it/" target="_blank" rel="noopener">questa pagina</a>, entro le ore 20 del giorno precedente a quello della visita.
+È possibile accedere alle visite solo per prenotazione da effettuarsi compilando il modulo in [questa pagina](https://www.grottedicastellana.it/), entro le ore 20 del giorno precedente a quello della visita.
 Le visite si effettueranno al raggiungimento del numero minimo di 10 persone per turno. Sarà premura della Organizzazione comunicare per tempo eventuali rinvii o annullamenti.
 **COSTI**
 Il costo del biglietto è di 16 euro per gli adulti.

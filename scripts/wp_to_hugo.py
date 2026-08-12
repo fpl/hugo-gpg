@@ -349,6 +349,121 @@ def strip_known_nav_icons(text: str) -> str:
     return NAV_ICON_IMG_RE.sub("", text)
 
 
+# --- normalizzazione pre-pandoc di <a>/<img>/<figure> Gutenberg ---------------
+# Gutenberg (e il vecchio shortcode [caption]) aggiungono a <a>/<img> attributi
+# senza equivalente Markdown (class="wp-image-NNN", target="_blank",
+# rel="noopener"/"noreferrer noopener", style=..., data-type=, data-id=):
+# pandoc, di fronte a un tag con QUALSIASI attributo oltre a href/src/alt/
+# title, lo lascia HTML grezzo invece di convertirlo in [testo](url)/
+# ![alt](url) -- da cui i frammenti HTML rimasti nel Markdown generato,
+# segnalati dall'utente. Ripulendo l'HTML PRIMA di pandoc, la conversione a
+# Markdown pulito è automatica: non serve reimplementare a mano la
+# conversione, basta togliere gli attributi che pandoc non sa esprimere.
+ATTR_RE = re.compile(r'([\w-]+)\s*=\s*"([^"]*)"')
+
+
+def _attr_value(found: dict, key: str) -> str | None:
+    """Valore dell'attributo, con href/src percent-encoded per lo spazio: gli
+    unici file reali con spazio nel nome (es. "CS fine campo Alburni
+    2012.pdf") sono innocui in un attributo HTML ma rompono il parsing del
+    link Markdown che pandoc genera da qui in poi -- lo spazio nudo tronca la
+    URL a metà, invalidando link e titolo (bug riscontrato e corretto qui).
+    alt/title restano testo libero, con gli spazi naturali che devono avere."""
+    value = found.get(key)
+    if value and key in ("href", "src"):
+        value = value.replace(" ", "%20")
+    return value
+
+
+def _filter_attrs(attrs_str: str, keep: tuple[str, ...]) -> str:
+    found = dict(ATTR_RE.findall(attrs_str))
+    return " ".join(f'{k}="{v}"' for k in keep if (v := _attr_value(found, k)))
+
+
+ANCHOR_TAG_RE = re.compile(r'<a\s+([^>]*)>', re.I)
+IMG_TAG_RE = re.compile(r'<img\s+([^>]*?)/?>', re.I)
+
+
+def _clean_anchor_open_tag(attrs_str: str) -> str:
+    found = dict(ATTR_RE.findall(attrs_str))
+    if "href" not in found:
+        # Non è un link ma un'ancora nuda <a name="N">/<a id="N"></a>
+        # (bersaglio di un link "#N" altrove nella stessa pagina): pandoc la
+        # rende come <span id="N">, ma solo se name/id sopravvivono -- senza,
+        # resta un <a> vuoto e senza identità che pandoc scarta del tutto
+        # (bug riscontrato e corretto qui).
+        keep = ("name", "id")
+    else:
+        # href presente: name/id qui sarebbero solo un residuo WP senza
+        # significato d'ancora reale, e la loro sola presenza basterebbe a
+        # far restare l'intero tag HTML grezzo invece che un [testo](url)
+        # Markdown pulito -- quindi si tengono solo href/title.
+        keep = ("href", "title")
+    return "<a " + " ".join(f'{k}="{v}"' for k in keep if (v := _attr_value(found, k))) + ">"
+
+
+def simplify_tags(html: str) -> str:
+    html = ANCHOR_TAG_RE.sub(lambda m: _clean_anchor_open_tag(m.group(1)), html)
+    html = IMG_TAG_RE.sub(lambda m: f'<img {_filter_attrs(m.group(1), ("src", "alt", "title"))}>', html)
+    return html
+
+
+# <!-- wp:file --> genera sempre due <a> allo stesso href dentro
+# <div class="wp-block-file">: un link col nome del file e, subito dopo, un
+# pulsante "Download" ridondante (stesso target, testo fisso "Download").
+# Si tiene solo il primo come link Markdown pulito -- il div altrimenti
+# blocca pandoc dal convertire qualunque cosa al suo interno.
+WP_FILE_BLOCK_RE = re.compile(
+    r'<div class="wp-block-file"><a href="([^"]+)"[^>]*>([^<]*)</a>'
+    r'<a href="\1" class="wp-block-file__button"[^>]*>Download</a></div>',
+    re.I,
+)
+
+
+def simplify_file_blocks(html: str) -> str:
+    return WP_FILE_BLOCK_RE.sub(lambda m: f'<a href="{m.group(1)}">{m.group(2)}</a>', html)
+
+
+# <figure> attorno a una singola immagine (blocco Gutenberg wp:image, o il
+# vecchio shortcode [caption] già normalizzato in preprocess_shortcodes):
+# opzionalmente avvolta in un <a href> verso la versione a piena risoluzione
+# (diversa dal <img src>, che è la miniatura ridimensionata da WP) e
+# opzionalmente seguita da <figcaption> con una didascalia reale. Si usa
+# sempre l'href a piena risoluzione quando c'è (mai la miniatura), e si rende
+# la didascalia come riga in corsivo sotto -- l'unico modo per non perderla,
+# dato che Markdown non ha un tag figure/figcaption nativo. NON tocca invece
+# <figure class="wp-block-embed..."> (video: nessun equivalente Markdown) né
+# <figure class="wp-block-pullquote">, perché il loro contenuto interno non
+# corrisponde a questa forma (niente <img>) e quindi non c'è match.
+FIGURE_IMAGE_RE = re.compile(
+    r'<figure\b[^>]*>\s*'
+    r'(?:<a\s+href="([^"]+)"[^>]*>\s*)?'
+    r'<img\s+([^>]*?)/?>\s*'
+    r'(?:</a>\s*)?'
+    r'(?:<figcaption>(.*?)</figcaption>\s*)?'
+    r'</figure>',
+    re.I | re.S,
+)
+
+
+def simplify_image_figures(html: str) -> str:
+    """Sostituisce il <figure> con HTML pulito equivalente (mai testo
+    Markdown letterale: siamo ancora PRIMA di pandoc, che tratta l'HTML in
+    ingresso come testo/nodi HTML e ne escaperebbe i caratteri speciali se
+    contenesse già sintassi Markdown, producendo '\\![alt\\](src)' invece di
+    un'immagine vera -- bug riscontrato e corretto qui)."""
+    def repl(m):
+        link_href, img_attrs, caption = m.group(1), m.group(2), m.group(3)
+        attrs = dict(ATTR_RE.findall(img_attrs))
+        src = link_href or attrs.get("src", "")
+        alt = attrs.get("alt", "")
+        out = f'<img src="{src}" alt="{alt}">'
+        if caption and caption.strip():
+            out += f"<p><em>{caption.strip()}</em></p>"
+        return out
+    return FIGURE_IMAGE_RE.sub(repl, html)
+
+
 def preprocess_shortcodes(html: str, attachments: dict[str, str]) -> str:
     """Sostituisce [caption], [gallery], [embed] con placeholder testuali che
     pandoc non toccherà, da rigenerare in markdown dopo la conversione."""
@@ -430,10 +545,18 @@ def write_content(rel_path: str, title: str, body_html: str, attachments,
     fm.append("---")
 
     if body_html and body_html.strip():
-        pre = preprocess_shortcodes(body_html, attachments)
+        pre = simplify_file_blocks(body_html)
+        pre = preprocess_shortcodes(pre, attachments)
+        pre = simplify_image_figures(pre)
+        # PRIMA di simplify_tags: quest'ultima pulisce l'<img> di on.gif fino
+        # a farlo diventare convertibile in ![]() da pandoc, e a quel punto
+        # NAV_ICON_IMG_RE (che cerca <img src="...">  HTML grezzo) non lo
+        # troverebbe più -- l'icona passerebbe come falsa immagine invece di
+        # sparire (bug riscontrato e corretto qui).
+        pre = strip_known_nav_icons(pre)
+        pre = simplify_tags(pre)
         md = html_to_md(pre)
         md = rewrite_internal_links(md, old_path_map, flat_page_map, attachments_by_name)
-        md = strip_known_nav_icons(md)
         md = rewrite_old_domain_links(md)
         md = rewrite_external_links(md)
     else:
