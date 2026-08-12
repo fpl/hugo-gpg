@@ -7,7 +7,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 2 ottobre - 2 novembre 2008 Castellana-Grotte (BA)  
 Direttore [Vito Buongiorno](mailto:direttorescuola@gruppopugliagrotte.it?subject=Richiesta%20informazioni "Vito Buongiorno")  
-Corso omologato dalla **Commissione Nazionale Scuole di Speleologia** della <a href="http://www.ssi.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>
+Corso omologato dalla **Commissione Nazionale Scuole di Speleologia** della <a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>
 
 ------------------------------------------------------------------------
 

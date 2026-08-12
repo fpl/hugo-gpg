@@ -1,6 +1,5 @@
 ---
 title: "Il 49° corso di Speleologia di Primo Livello"
-date: 2026-08-01
 aliases:
   - "/home/corsi/49-corso-di-speleologia/"
 ---

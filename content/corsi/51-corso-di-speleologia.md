@@ -1,6 +1,5 @@
 ---
 title: "Il 51° corso di Speleologia di Primo Livello"
-date: 2026-08-01
 aliases:
   - "/home/corsi/51-corso-di-speleologia/"
 ---

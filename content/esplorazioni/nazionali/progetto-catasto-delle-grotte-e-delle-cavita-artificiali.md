@@ -1,6 +1,5 @@
 ---
 title: "Progetto Catasto delle Grotte e delle Cavità artificiali"
-date: 2026-08-01
 aliases:
   - "/home/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali/"
 ---

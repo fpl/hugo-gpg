@@ -8,7 +8,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 1 ottobre - 8 novembre 2009 Castellana-Grotte (BA)  
 Direttore [Marilena Rodi](mailto:referentefsp@gruppopugliagrotte.it?subject=Richiesta%20informazioni "Marilena Rodi")  
-Corso omologato dalla <a href="http://www.ssi.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
+Corso omologato dalla <a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
 *Lezioni teoriche ed escursioni nelle più belle cavità del Meridione*
 
 ------------------------------------------------------------------------

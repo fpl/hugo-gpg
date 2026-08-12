@@ -15,6 +15,8 @@ Nessuna dipendenza pip: solo stdlib + subprocess (pandoc). Le pagine sorgente
 sono in ISO-8859-1 (verificato con `file`), decodificate come tali prima di
 passarle a pandoc.
 """
+import hashlib
+import json
 import re
 import shutil
 import subprocess
@@ -27,6 +29,53 @@ STATIC_LEGACY = REPO / "static" / "archivio-storico" / "legacy"
 OLD_ROOT = REPO.parent / "old" / "www.gruppopugliagrotte.it"
 
 warnings: list[str] = []
+
+# --- protezione delle modifiche manuali sui file generati ---------------------
+# Lo script è idempotente per design (rilancio = rigenerazione totale), ma
+# questo entra in conflitto con modifiche fatte a mano su un file già generato
+# (es. correggere un layout che pandoc rende male): un rilancio le
+# sovrascriverebbe in silenzio. .content-manifest.json ricorda l'hash
+# dell'ULTIMO contenuto scritto DA QUESTO SCRIPT per ogni file; se l'hash
+# attuale su disco non corrisponde, il file è stato toccato a mano nel
+# frattempo e NON viene sovrascritto (si salva una copia in manual-backups/ e
+# si segnala). Passa --force per sovrascrivere comunque.
+MANIFEST_PATH = REPO / ".content-manifest.json"
+MANUAL_BACKUPS = REPO / "manual-backups"
+FORCE_OVERWRITE = "--force" in sys.argv
+_manifest: dict[str, str] = (
+    json.loads(MANIFEST_PATH.read_text(encoding="utf-8")) if MANIFEST_PATH.exists() else {}
+)
+skipped_manual: list[str] = []
+
+
+def safe_write_text(dest: Path, content: str) -> bool:
+    """Ritorna True se ha scritto, False se ha saltato per modifica manuale."""
+    rel = dest.relative_to(REPO).as_posix()
+    if dest.exists() and not FORCE_OVERWRITE:
+        current = dest.read_text(encoding="utf-8")
+        known_hash = _manifest.get(rel)
+        current_hash = hashlib.sha256(current.encode("utf-8")).hexdigest()
+        if known_hash is not None and current_hash != known_hash:
+            backup = MANUAL_BACKUPS / dest.relative_to(REPO / "content")
+            backup.parent.mkdir(parents=True, exist_ok=True)
+            backup.write_text(current, encoding="utf-8")
+            skipped_manual.append(rel)
+            print(f"SALTATO (modificato a mano dopo l'ultima generazione): {rel}"
+                  f" -- copia della versione attuale in {backup.relative_to(REPO)}")
+            return False
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(content, encoding="utf-8")
+    _manifest[rel] = hashlib.sha256(content.encode("utf-8")).hexdigest()
+    print(f"scritto {rel}")
+    return True
+
+
+def save_manifest():
+    MANIFEST_PATH.write_text(json.dumps(_manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    if skipped_manual:
+        print("\n== File con modifiche manuali non sovrascritti (--force per forzare) ==")
+        for rel in skipped_manual:
+            print(f"- {rel}")
 
 # --- href/src (root-relative rispetto a old/www.gruppopugliagrotte.it/) --------
 # -> permalink Hugo assoluto (per le 16 pagine/asset già migrati in questa fase)
@@ -100,8 +149,8 @@ def apply_post_fixups():
         text = path.read_text(encoding="utf-8")
         if find not in text:
             sys.exit(f"POST_FIXUPS[{rel}]: testo da sostituire non trovato (contenuto cambiato?)")
-        path.write_text(text.replace(find, repl), encoding="utf-8")
-        print(f"post-fixup applicato a {path.relative_to(REPO)}")
+        if safe_write_text(path, text.replace(find, repl)):
+            print(f"post-fixup applicato a {path.relative_to(REPO)}")
 
 # Pagine da convertire in content/archivio-storico/<slug>.md.
 # mode "testo": unisce i blocchi <td class="testo"> di primo livello (non annidati).
@@ -411,6 +460,30 @@ def normalize_href(source_rel: str, href: str) -> str:
     return "/".join(parts)
 
 
+# Link esterni (fuori dal vecchio dominio del sito) il cui percorso profondo
+# non esiste più, verificato via HTTP il 2026-08-12: il dominio stesso è
+# ancora attivo, quindi si riscrive verso la sua radice invece di lasciare un
+# link rotto o di indovinare un percorso sostitutivo specifico.
+EXTERNAL_LINK_REWRITE = {
+    # SSI ha unificato ssi.speleo.it sotto www.speleo.it.
+    "http://www.ssi.speleo.it/": "https://www.speleo.it/",
+    "http://www.ssi.speleo.it": "https://www.speleo.it/",
+    "http://www.ssi.speleo.it/index.html": "https://www.speleo.it/",
+    "http://www.ssi.speleo.it/it/eventi/gns2005.htm": "https://www.speleo.it/",
+    "http://www.ssi.speleo.it/it/download/speleoteca.pdf": "https://www.speleo.it/",
+    "http://www.ssi.speleo.it/it/cids.htm": "https://www.speleo.it/",
+    "http://www.grottedicastellana.it/grotte-dintorni/index.htm": "https://www.grottedicastellana.it/",
+    "http://www.grottedicastellana.it/it/eventi/70anniversario.htm": "https://www.grottedicastellana.it/",
+    "http://www.grottediCastellana.it": "https://www.grottedicastellana.it/",
+    "http://www.fscampania.it/alburni/corso/index.html": "http://www.fscampania.it/",
+    "http://monopolilive.com/appuntamenti/appuntamento.aspx?idevent=513": "http://monopolilive.com/",
+    "http://italia2tv.it/watch_video.php?v=944SR2D9WAW1": "http://italia2tv.it/",
+    "http://www.promete.it/cainapoli/speleo.htm": "http://www.promete.it/",
+    "http://www.comune.castellanagrotte.ba.it/2008/portale/index.php?special=changearea&newArea=101": "http://www.comune.castellanagrotte.ba.it/",
+    "http://www.comune.castellanagrotte.ba.it/turismo/le-tradizioni-castellana-grotte.html": "http://www.comune.castellanagrotte.ba.it/",
+}
+
+
 def rewrite_links_and_images(html: str, source_rel: str, image_refs: set[str]) -> str:
     def href_repl(quote: str, href: str) -> str:
         if href.startswith("javascript:"):
@@ -425,6 +498,8 @@ def rewrite_links_and_images(html: str, source_rel: str, image_refs: set[str]) -
                 if old_rel in LINK_REWRITE:
                     return f'href={quote}{LINK_REWRITE[old_rel]}{quote}'
                 return "data-stripped-href=" + quote + href + quote
+            if href in EXTERNAL_LINK_REWRITE:
+                return f'href={quote}{EXTERNAL_LINK_REWRITE[href]}{quote}'
             return f'href={quote}{href}{quote}'
         norm = normalize_href(source_rel, href.split("?")[0].split("#")[0])
         if norm in LINK_REWRITE:
@@ -515,8 +590,8 @@ def yaml_str(s: str) -> str:
 
 
 def write_index():
-    CONTENT.mkdir(parents=True, exist_ok=True)
-    (CONTENT / "_index.md").write_text(
+    safe_write_text(
+        CONTENT / "_index.md",
         "\n".join([
             "---",
             'title: "Archivio storico"',
@@ -534,9 +609,7 @@ def write_index():
             "superate**: per i dati aggiornati vedi [Chi siamo](/chi-siamo/).",
             "",
         ]) + "\n",
-        encoding="utf-8",
     )
-    print(f"scritto {(CONTENT / '_index.md').relative_to(REPO)}")
 
 
 def process_page(page: dict, image_refs: set[str], date: str | None = None):
@@ -574,9 +647,7 @@ def process_page(page: dict, image_refs: set[str], date: str | None = None):
     fm.append("---")
     fm.append("")
     dest = CONTENT / f"{page['slug']}.md"
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text("\n".join(fm) + md + "\n", encoding="utf-8")
-    print(f"scritto {dest.relative_to(REPO)}")
+    safe_write_text(dest, "\n".join(fm) + md + "\n")
 
 
 def find_case_insensitive(path: Path) -> Path | None:
@@ -619,6 +690,7 @@ def main():
         process_page(page, image_refs)
     copy_assets(image_refs)
     apply_post_fixups()
+    save_manifest()
 
     if warnings:
         print("\n== Avvisi ==")
@@ -755,8 +827,8 @@ def build_pages(files: dict[str, str], src_dir: str, dest_prefix: str) -> list[d
 
 def write_subsection_index(dest_prefix: str, title: str, intro: str):
     dest = CONTENT / dest_prefix / "_index.md"
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text(
+    safe_write_text(
+        dest,
         "\n".join([
             "---",
             f"title: {yaml_str(title)}",
@@ -767,9 +839,7 @@ def write_subsection_index(dest_prefix: str, title: str, intro: str):
             intro,
             "",
         ]) + "\n",
-        encoding="utf-8",
     )
-    print(f"scritto {dest.relative_to(REPO)}")
 
 
 def extend_archive():
@@ -800,6 +870,7 @@ def extend_archive():
     for page in eventi_pages + corsi_pages:
         process_page(page, image_refs, date=DATE_RIMIGRAZIONE)
     copy_assets(image_refs, direct_assets=set())
+    save_manifest()
 
     if warnings:
         print("\n== Avvisi ==")
@@ -904,10 +975,10 @@ def build_bollettini():
             # perché <ol> avvia un nuovo blocco HTML riconosciuto a sé).
             "",
         ]
-        dest.write_text("\n".join(fm) + md + "\n", encoding="utf-8")
-        print(f"scritto {dest.relative_to(REPO)}")
+        safe_write_text(dest, "\n".join(fm) + md + "\n")
 
     copy_assets(image_refs, direct_assets={"bollettini/2008/GPGBollettino2008.pdf"})
+    save_manifest()
     if warnings:
         print("\n== Avvisi ==")
         for w in warnings:

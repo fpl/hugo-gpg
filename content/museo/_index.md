@@ -1,6 +1,5 @@
 ---
 title: "Il Museo Speleologico"
-date: 2026-08-01
 aliases:
   - "/home/museo/"
 ---

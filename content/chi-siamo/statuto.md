@@ -1,6 +1,5 @@
 ---
 title: "Lo statuto"
-date: 2026-08-01
 aliases:
   - "/home/chi-siamo/lo-statuto/"
 ---

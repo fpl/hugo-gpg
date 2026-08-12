@@ -7,7 +7,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 30 settembre - 14 novembre 2010 Castellana-Grotte (BA)  
 Direttore <span hre"mailto:presidente@gruppopugliagrotte.it?subject="Richiesta" informazioni"="">Gaetano Proietto</span>  
-Corso omologato dalla <a href="http://www.ssi.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
+Corso omologato dalla <a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
 *Lezioni teoriche ed escursioni nelle più belle cavità del Meridione*  
 con il patrocinio del Comune di Castellana-Grotte  
 <img src="/archivio-storico/legacy/corso/33/images/bnner.gif" data-border="0" data-align="left" width="288" height="66" alt="Settimana della cultura speleologica" />
@@ -50,7 +50,7 @@ Impossibile eseguire JavaScript
 <br />
 <br />
 <strong>Rassegna Stampa</strong><br />
-<a href="http://monopolilive.com/appuntamenti/appuntamento.aspx?idevent=513" target="_blank" title="Monopoli Live">Monopoli Live</a><br />
+<a href="http://monopolilive.com/" target="_blank" title="Monopoli Live">Monopoli Live</a><br />
 <br />
 </td>
 </tr>

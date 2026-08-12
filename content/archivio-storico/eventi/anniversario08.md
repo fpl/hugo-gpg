@@ -44,7 +44,7 @@ Francesca Franzoso - Gruppo Puglia Grotte<br />
 <br />
 <strong>Una storia delle Grotte di Castellana per immagini</strong> - Daniela Lovece e Pino Pace<br />
 <br />
-Per il programma completo della manifestazione <a href="http://www.grottedicastellana.it/it/eventi/70anniversario.htm" target="_blank" title="http://www.grottedicastellana.it">http://www.grottedicastellana.it</a></td>
+Per il programma completo della manifestazione <a href="https://www.grottedicastellana.it/" target="_blank" title="http://www.grottedicastellana.it">http://www.grottedicastellana.it</a></td>
 </tr>
 </tbody>
 </table>

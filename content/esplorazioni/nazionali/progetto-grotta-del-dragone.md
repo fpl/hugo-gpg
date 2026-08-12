@@ -1,6 +1,5 @@
 ---
 title: "Progetto Grotta del Dragone"
-date: 2026-08-01
 aliases:
   - "/home/esplorazioni/nazionali/progetto-grotta-del-dragone/"
 ---

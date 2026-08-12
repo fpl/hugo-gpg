@@ -9,7 +9,7 @@ Presentazione **sabato 15 settmbre 2012** dopo le ore 19:00 presso il Museo Spel
   
 4 ottobre - 11 novembre 2012 Castellana-Grotte (BA)  
 Direttore <span href"mailto:responsabileuscite@gruppopugliagrotte.it"="">Piero Netti</span>  
-Corso omologato dalla <a href="http://www.ssi.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
+Corso omologato dalla <a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
 *Lezioni teoriche ed escursioni nelle più belle cavità del Meridione*
 
 ------------------------------------------------------------------------

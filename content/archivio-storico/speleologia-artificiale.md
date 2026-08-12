@@ -25,7 +25,7 @@ Lo confessiamo: anche tra di noi vi sono quegli strani individui pronti ad andar
 - La Cripta dei Santi Andrea e Procopio  
   
 Qualcosa da dichiarare?  
-Ecco le <a href="/archivio-storico/legacy/esplorazioni/speleoartifi/Catasto.pdf" target="_blank" title="Procedure per laccatastamento di Cavità Artificiali">Procedure per l’accatastamento di Cavità Artificiali</a> predisposte dalla *Commissione per le Cavità Artificiali* della <a href="http://www.ssi.speleo.it/index.html" target="_blank" title="Sito della Società Speleologica Italiana">Società Speleologica Italiana</a>.  
+Ecco le <a href="/archivio-storico/legacy/esplorazioni/speleoartifi/Catasto.pdf" target="_blank" title="Procedure per laccatastamento di Cavità Artificiali">Procedure per l’accatastamento di Cavità Artificiali</a> predisposte dalla *Commissione per le Cavità Artificiali* della <a href="https://www.speleo.it/" target="_blank" title="Sito della Società Speleologica Italiana">Società Speleologica Italiana</a>.  
   
 <img src="/archivio-storico/legacy/images/flash.gif" data-border="0" data-hspace="5" data-vspace="20" data-align="left" width="20" height="20" alt="Guarda qui!!!" />
 Un'occhiata alle bibliografie?  

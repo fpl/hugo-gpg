@@ -1,22 +1,21 @@
 ---
 title: "Programma attività speleologica autunno-inverno 2006-2007"
-date: 2026-08-01
 aliases:
   - "/home/esplorazioni/nazionali/programma-attivita-speleologica-autunno-inverno-2006-2007/"
 ---
 
 **Novembre**
 
-- 12 novembre uscita di perfezionamento - [Notarvincenzo](/archivio-storico/programma-2006-2007/ "Notarvincenzo Ruvo di Puglia - BA") Ruvo di Puglia - BA
-- 18-19 uscita di perfezionamento su tecniche d'armo avanzate in parete - [Gravina di Laterza](/archivio-storico/programma-2006-2007/ "Gravina di Laterza - TA") - TA
-- 26 uscita di perfezionamento su tecniche d'armo avanzate in grotta - [Inghiottitoio del Pulo di Altamura](/archivio-storico/programma-2006-2007/ "Inghiottitoio del Pulo di Altamura BA") - BA
+- 12 novembre uscita di perfezionamento - [Notarvincenzo](http://www.gruppopugliagrotte.it/attivi/programma0607.htm# "Notarvincenzo Ruvo di Puglia - BA") Ruvo di Puglia - BA
+- 18-19 uscita di perfezionamento su tecniche d'armo avanzate in parete - [Gravina di Laterza](http://www.gruppopugliagrotte.it/attivi/programma0607.htm# "Gravina di Laterza - TA") - TA
+- 26 uscita di perfezionamento su tecniche d'armo avanzate in grotta - [Inghiottitoio del Pulo di Altamura](http://www.gruppopugliagrotte.it/attivi/programma0607.htm# "Inghiottitoio del Pulo di Altamura BA") - BA
 
 **Dicembre**
 
 - 02-03 uscita di perfezionamento tecnico in grotta - Campo Braca - Monti del Matese
 - 8-9-10 Monti Alburni: completamento esplorazioni campo - Grave d'Inverno: nuove segnalazioni in zona Grotta dei Vitelli - SA
-- 17 [Grotta della Volpe](/archivio-storico/programma-2006-2007/ "Grotta della Volpe") - Minevino Murge - BA
-- 26 [Grotta della Cava di Sant'Angelo](/archivio-storico/programma-2006-2007/ "Grotta della Cava di Sant'Angelo") - Ostuni - BR
+- 17 [Grotta della Volpe](http://www.gruppopugliagrotte.it/attivi/programma0607.htm# "Grotta della Volpe") - Minevino Murge - BA
+- 26 [Grotta della Cava di Sant'Angelo](http://www.gruppopugliagrotte.it/attivi/programma0607.htm# "Grotta della Cava di Sant'Angelo") - Ostuni - BR
 
 **Gennaio**
 

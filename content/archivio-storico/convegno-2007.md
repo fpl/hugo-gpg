@@ -52,10 +52,10 @@ A partire dalla preistoria, sino alla metà dello scorso secolo, le cavità d'or
   
 L'iniziativa, pure, ha avuto l'obiettivo di mettere in relazione il mondo accademico e quello della ricerca autonoma; l'auspicio, infatti, era quello di poter assistere alla nascita di proficui e duraturi contatti tra gli specialisti, gli studiosi e i più appassionati conoscitori del mondo ipogeo di origine naturale, gli speleologi.  
   
-A corredo degli eventi, si sono avvicendate la riunione della Commissione Cavità Artificiali della <a href="http://www.ssi.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a> e l’inaugurazione della Sala Multimediale dedicata a **Vittorio Castellani** presso il Museo Speleologico Franco Anelli.  
+A corredo degli eventi, si sono avvicendate la riunione della Commissione Cavità Artificiali della <a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a> e l’inaugurazione della Sala Multimediale dedicata a **Vittorio Castellani** presso il Museo Speleologico Franco Anelli.  
   
 Il bilancio può chiudersi con segno positivo: oltre un centinaio di partecipanti provenienti da tutt’Italia - fatto di tutto rilievo conto tenuto del carattere locale dell’evento – hanno presenziato ai lavori.
-Da rimarcare, poi, che i partecipanti hanno potuto seguire gli interventi con gli Atti del Convegno tra le mani, grazie alla puntualità dei relatori e alla solerzia della redazione della rivista <a href="http://www.grottedicastellana.it/grotte-dintorni/index.htm" target="_blank" title="Grotte e dintorni">Grotte e dintorni</a>.  
+Da rimarcare, poi, che i partecipanti hanno potuto seguire gli interventi con gli Atti del Convegno tra le mani, grazie alla puntualità dei relatori e alla solerzia della redazione della rivista <a href="https://www.grottedicastellana.it/" target="_blank" title="Grotte e dintorni">Grotte e dintorni</a>.  
   
 
 - [**Programma**](#programma "Programma")

@@ -1,13 +1,12 @@
 ---
 title: "Il XXXVIII corso di Speleologia di Primo Livello"
-date: 2026-08-01
 aliases:
   - "/home/corsi/il-xxxviii-corso-di-speleologia-di-primo-livello/"
 ---
 
 Dal **3 ottobre al 15 novembre 2015** Castellana Grotte (BA)
 Direttore: **Modesto Tartarelli**
-Corso omologato dalla <a href="http://www.ssi.speleo.it/" target="_blank" rel="noopener" title="Società Speleologica Italiana">Società Speleologica Italiana</a>
+Corso omologato dalla <a href="https://www.speleo.it/" target="_blank" rel="noopener" title="Società Speleologica Italiana">Società Speleologica Italiana</a>
 *Lezioni teoriche ed escursioni nelle più belle cavità del Meridione.*
 Appuntamento tutti i giovedì dalle ore 20:30 alle ore 22:30 presso la sede sociale di via Margherita di Savoia n. 18 (nei pressi di Largo Porta Grande) a Castellana Grotte, per informazioni ed iscrizioni.
 e-mail: **segreteria@***NOSPAM***gruppopugliagrotte.it** (rimuovi *NOSPAM* per l'indirizzo corretto).

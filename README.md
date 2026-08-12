@@ -242,13 +242,39 @@ Per l'archivio storico (Fase 1 + Fase 2, sito pre-WordPress) c'è uno script sep
 statici) — legge direttamente da `../old/www.gruppopugliagrotte.it/`:
 
 ```sh
-python3 scripts/old_to_hugo.py            # Fase 1: le 16 pagine linkate da contenuto reale
-python3 scripts/old_to_hugo.py --extend   # Fase 2: cronaca eventi 2003–2014 + corsi 18ª–36ª
+python3 scripts/old_to_hugo.py               # Fase 1: le 16 pagine linkate da contenuto reale
+python3 scripts/old_to_hugo.py --extend       # Fase 2: cronaca eventi 2003–2014 + corsi 18ª–36ª
+python3 scripts/old_to_hugo.py --bollettini   # Fase 3: indici dei bollettini 1984–2008
 ```
 
 Idempotente come `wp_to_hugo.py`: si può rilanciare in sicurezza, non tocca mai
 `content/` WordPress. Dettagli su euristiche di estrazione e limiti nella sezione
 "Archivio storico" più sopra.
+
+### Protezione delle modifiche manuali
+
+Entrambi gli script sono idempotenti per design (un rilancio rigenera tutto da zero),
+il che è in conflitto con eventuali correzioni fatte a mano su un file già generato
+(es. sistemare un layout che pandoc rende male). Per questo motivo, prima di sovrascrivere
+un file che esiste già, ogni scrittura passa da `safe_write_text()`, che confronta l'hash
+del contenuto attuale su disco con l'hash dell'ULTIMO contenuto scritto dallo script
+stesso (tenuto in `.content-manifest.json`, alla radice del repo, condiviso dai due
+script):
+
+- se il file su disco corrisponde ancora a quanto scritto l'ultima volta dallo script,
+  viene sovrascritto normalmente;
+- se invece è stato modificato a mano nel frattempo, lo script **non lo sovrascrive**:
+  salva una copia della versione attuale (quella modificata a mano) in
+  `manual-backups/<stesso percorso relativo a content/>`, stampa un avviso
+  `SALTATO (modificato a mano dopo l'ultima generazione): ...` e lo riepiloga a fine
+  esecuzione sotto `== File con modifiche manuali non sovrascritti ==`.
+
+Per rigenerare comunque un file protetto (accettando di perdere la modifica manuale,
+dopo averla eventualmente confrontata con la copia in `manual-backups/`), rilancia lo
+script con `--force`, che disattiva il controllo per l'intera esecuzione.
+
+`.content-manifest.json` e `manual-backups/` sono fuori da `content/`: Hugo non li
+processa mai come pagine.
 
 ## Layout e template
 

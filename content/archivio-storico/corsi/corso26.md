@@ -19,7 +19,7 @@ Direttore: Gaetano Proietto
 <br />
 <br />
 <strong>Importante</strong><br />
-I nostri corsi sono omologati dall'unico ente italiano dedicato esclusivamente alla speleologia: la <a href="http://www.ssi.speleo.it" target="_blank" title="Sito della Società Speleologica Italiana"><strong>Società Speleologica Italiana</strong></a>.<br />
+I nostri corsi sono omologati dall'unico ente italiano dedicato esclusivamente alla speleologia: la <a href="https://www.speleo.it/" target="_blank" title="Sito della Società Speleologica Italiana"><strong>Società Speleologica Italiana</strong></a>.<br />
 <br />
 <img src="/archivio-storico/legacy/images/flash.gif" data-border="0" data-hspace="10" data-vspace="5" data-align="left" width="20" height="20" />Ecco i materiali indispensabili:<br />
 <strong>programma</strong> | <strong>regolamento</strong> | <strong>modulo iscrizione</strong> | <strong>questionario</strong> | <strong>modulo SSI</strong><br />

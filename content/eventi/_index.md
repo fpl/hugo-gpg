@@ -1,6 +1,5 @@
 ---
 title: "Eventi"
-date: 2026-08-01
 aliases:
   - "/home/eventi/"
 ---

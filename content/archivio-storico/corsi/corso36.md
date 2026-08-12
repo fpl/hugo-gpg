@@ -7,7 +7,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 26 settembre - 29 ottobre 2013 Castellana-Grotte (BA)  
 Direttore <span href"mailto:responsabileuscite@gruppopugliagrotte.it"="">Giampaolo Pinto</span>  
-Corso omologato dalla <a href="http://www.ssi.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
+Corso omologato dalla <a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
 *Lezioni teoriche ed escursioni nelle più belle cavità del Meridione*
 
 ------------------------------------------------------------------------

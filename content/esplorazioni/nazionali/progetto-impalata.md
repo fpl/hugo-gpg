@@ -1,6 +1,5 @@
 ---
 title: "Progetto Impalata"
-date: 2026-08-01
 aliases:
   - "/home/esplorazioni/nazionali/progetto-impalata/"
 ---

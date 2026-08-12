@@ -9,6 +9,8 @@ Richiede: docker (o alias podman) con il container "gpg-mysql-tmp" attivo e il
 database "gpg" già importato dal dump UpdraftPlus; il binario "pandoc" in PATH.
 Nessuna dipendenza pip: solo stdlib + subprocess.
 """
+import hashlib
+import json
 import re
 import subprocess
 import sys
@@ -24,6 +26,51 @@ STATIC_DOWNLOADS = REPO / "static" / "downloads"
 WP_DOWNLOADS = REPO.parent / "home" / "downloads"
 
 MYSQL = ["docker", "exec", "-i", "gpg-mysql-tmp", "mysql", "-uroot", "-ptemppass", "-N", "-B", "gpg"]
+
+# --- protezione delle modifiche manuali sui file generati ---------------------
+# Stesso meccanismo e stesso file di manifest di scripts/old_to_hugo.py (i due
+# script scrivono nello stesso albero content/): se un file generato viene
+# modificato a mano dopo l'ultima esecuzione (es. per correggere un layout che
+# pandoc rende male), un rilancio dello script NON lo sovrascrive in silenzio.
+# Salva una copia della versione manuale in manual-backups/ e segnala lo skip;
+# passa --force per sovrascrivere comunque.
+MANIFEST_PATH = REPO / ".content-manifest.json"
+MANUAL_BACKUPS = REPO / "manual-backups"
+FORCE_OVERWRITE = "--force" in sys.argv
+_manifest: dict[str, str] = (
+    json.loads(MANIFEST_PATH.read_text(encoding="utf-8")) if MANIFEST_PATH.exists() else {}
+)
+skipped_manual: list[str] = []
+
+
+def safe_write_text(dest: Path, content: str) -> bool:
+    """Ritorna True se ha scritto, False se ha saltato per modifica manuale."""
+    rel = dest.relative_to(REPO).as_posix()
+    if dest.exists() and not FORCE_OVERWRITE:
+        current = dest.read_text(encoding="utf-8")
+        known_hash = _manifest.get(rel)
+        current_hash = hashlib.sha256(current.encode("utf-8")).hexdigest()
+        if known_hash is not None and current_hash != known_hash:
+            backup = MANUAL_BACKUPS / dest.relative_to(REPO / "content")
+            backup.parent.mkdir(parents=True, exist_ok=True)
+            backup.write_text(current, encoding="utf-8")
+            skipped_manual.append(rel)
+            print(f"SALTATO (modificato a mano dopo l'ultima generazione): {rel}"
+                  f" -- copia della versione attuale in {backup.relative_to(REPO)}")
+            return False
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(content, encoding="utf-8")
+    _manifest[rel] = hashlib.sha256(content.encode("utf-8")).hexdigest()
+    print(f"scritto {rel}")
+    return True
+
+
+def save_manifest():
+    MANIFEST_PATH.write_text(json.dumps(_manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    if skipped_manual:
+        print("\n== File con modifiche manuali non sovrascritti (--force per forzare) ==")
+        for rel in skipped_manual:
+            print(f"- {rel}")
 
 # --- ID pagina WP -> percorso content/ Hugo -----------------------------------
 # Mappa scritta a mano dalla gerarchia reale (vedi ricognizione in sessione):
@@ -193,6 +240,33 @@ def rewrite_internal_links(text: str, old_path_map: dict[str, str],
     return INTERNAL_RE.sub(repl, text)
 
 
+# Link esterni (fuori dal vecchio dominio del sito) il cui percorso profondo
+# non esiste più, verificato via HTTP il 2026-08-12: il dominio stesso è
+# ancora attivo, quindi si riscrive verso la sua radice invece di lasciare un
+# link rotto o di indovinare un percorso sostitutivo specifico. Ordinate per
+# lunghezza decrescente della chiave: una sostituzione testuale semplice deve
+# gestire prima gli URL più lunghi, altrimenti un URL più corto che ne è
+# prefisso (es. la home di ssi.speleo.it rispetto a ssi.speleo.it/index.html)
+# la intercetterebbe per primo e romperebbe il match del più lungo.
+EXTERNAL_LINK_REWRITE = {
+    "http://www.speleo.it/site/index.php/notizie/145-newsletter/ssi-news-6/1120-animale-grotta-2021": "https://www.speleo.it/",
+    "http://www.fscampania.it/alburni/index.htm": "http://www.fscampania.it/",
+    "http://www.fspuglia.it/catastogotte_elenco.html": "http://www.fspuglia.it/",
+    "http://www.ssi.speleo.it/index.html": "https://www.speleo.it/",
+    "http://www.ssi.speleo.it/": "https://www.speleo.it/",
+    "http://ssi.speleo.it/": "https://www.speleo.it/",
+    # booking.grottedicastellana.it non risolve più; il dominio principale è
+    # ancora attivo e la home espone comunque le informazioni di prenotazione.
+    "http://booking.grottedicastellana.it/": "https://www.grottedicastellana.it/",
+}
+
+
+def rewrite_external_links(text: str) -> str:
+    for old, new in sorted(EXTERNAL_LINK_REWRITE.items(), key=lambda kv: -len(kv[0])):
+        text = text.replace(old, new)
+    return text
+
+
 def preprocess_shortcodes(html: str, attachments: dict[str, str]) -> str:
     """Sostituisce [caption], [gallery], [embed] con placeholder testuali che
     pandoc non toccherà, da rigenerare in markdown dopo la conversione."""
@@ -252,7 +326,6 @@ def write_content(rel_path: str, title: str, body_html: str, attachments,
                    date: str | None = None, excerpt: str | None = None,
                    aliases: list[str] | None = None, categories: list[str] | None = None):
     dest = CONTENT / rel_path
-    dest.parent.mkdir(parents=True, exist_ok=True)
 
     fm = ["---", f"title: {yaml_str(title)}"]
     if date:
@@ -278,14 +351,14 @@ def write_content(rel_path: str, title: str, body_html: str, attachments,
         pre = preprocess_shortcodes(body_html, attachments)
         md = html_to_md(pre)
         md = rewrite_internal_links(md, old_path_map, flat_page_map, attachments_by_name)
+        md = rewrite_external_links(md)
     else:
         md = ("<!-- TODO migrazione: contenuto assente anche nella pagina originale del\n"
               "     sito, verificato nel dump del database (non è un errore di\n"
               "     conversione). Non inventare testo qui. -->")
         warnings.append(f"{rel_path}: post_content vuoto nel DB originale, scritto placeholder esplicito")
 
-    dest.write_text("\n".join(fm) + "\n\n" + md + "\n", encoding="utf-8")
-    print(f"scritto {dest.relative_to(REPO)}")
+    safe_write_text(dest, "\n".join(fm) + "\n\n" + md + "\n")
 
 
 def build_old_url(pid: int, pages_by_id: dict) -> str:
@@ -385,6 +458,8 @@ def main():
     print("\n== Copia allegati referenziati ==")
     copy_referenced(referenced_uploads, WP_UPLOADS, STATIC_UPLOADS, "allegato")
     copy_referenced(referenced_downloads, WP_DOWNLOADS, STATIC_DOWNLOADS, "download")
+
+    save_manifest()
 
     if warnings:
         print("\n== Avvisi ==", file=sys.stderr)

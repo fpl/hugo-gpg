@@ -1,6 +1,5 @@
 ---
 title: "Il XV Congresso Nazionale di Speleologia"
-date: 2026-08-01
 aliases:
   - "/home/pubblicazioni/il-xv-congresso-nazionale-di-speleologia/"
 ---
@@ -11,7 +10,7 @@ Castellana-Grotte
 </span>
 
 <figure>
-<img src="/archivio-storico/legacy/images/convnaz87.jpg" data-align="right" data-border="1" data-hspace="10" data-vspace="10" width="120" height="173" alt="Gli Atti del Convegno" />
+<img src="http://www.gruppopugliagrotte.it/images/convnaz87.jpg" data-align="right" data-border="1" data-hspace="10" data-vspace="10" width="120" height="173" alt="Gli Atti del Convegno" />
 <figcaption>Copertina degli atti</figcaption>
 </figure>
 

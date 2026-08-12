@@ -1,6 +1,5 @@
 ---
 title: "Il 48° corso di Speleologia di Primo Livello"
-date: 2026-08-01
 aliases:
   - "/home/corsi/il-48-corso-di-speleologia-di-primo-livello/"
 ---
@@ -11,7 +10,7 @@ aliases:
 
 Dal **20 settembre al 23 ottobre 2022** a Castellana Grotte (BA)  
 Direttore: **Gaetano Proietto**  
-Corso omologato dalla <a href="http://www.ssi.speleo.it/" rel="noreferrer noopener" target="_blank">Società Speleologica Italiana</a>
+Corso omologato dalla <a href="https://www.speleo.it/" rel="noreferrer noopener" target="_blank">Società Speleologica Italiana</a>
 
 - <a href="/images/uploads/2022/08/XLVIII-Corso-Programma-Regolamento-1.pdf" data-type="URL" target="_blank" rel="noreferrer noopener">Programma e Regolamento</a>
 - <a href="/images/uploads/2022/08/XLVIII-Liberatoria-GPG.pdf" rel="noreferrer noopener" target="_blank">Liberatoria per uso immagini</a>

@@ -1,18 +1,29 @@
 ---
 title: "Il Terzo Convegno di Speleologia Pugliese & Spelaíon"
-date: 2026-08-01
 aliases:
   - "/home/pubblicazioni/il-terzo-convegno-di-speleologia-pugliese-spelaion/"
 ---
 
-<img src="/archivio-storico/legacy/convreg/images/LogodefinitivoPiccolo.jpg" data-border="0" width="221" height="199" />
+<img src="http://www.gruppopugliagrotte.it/convreg/images/LogodefinitivoPiccolo.jpg" data-border="0" width="221" height="199" />
+
+** **
+
+** **
+
+** **
+
+** **
+
+** **
+
+** **
 
 **Il Programma**
-<span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"> [<img src="/archivio-storico/legacy/images/on.gif" id="on1" data-border="0" data-hspace="10" width="10" height="10" alt="Presentazioni orali" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Presentazioni orali**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/#1)</span>
-[<img src="/archivio-storico/legacy/images/on.gif" id="on3" data-border="0" data-hspace="10" width="10" height="10" alt="Presentazioni Poster" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Presentazioni Poster**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/#3)
-[<img src="/archivio-storico/legacy/images/on.gif" id="on3" data-border="0" data-hspace="10" width="10" height="10" alt="Spélaion 2002" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Spélaion 2002**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/#spelaion)
-[<img src="/archivio-storico/legacy/images/on.gif" id="on4" data-border="0" data-hspace="10" width="10" height="10" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Patrocini**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/#4)
-[<img src="/archivio-storico/legacy/images/on.gif" id="on5" data-border="0" data-hspace="10" width="10" height="10" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Sostenitori**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/#5)
+<span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"> [<img src="http://www.gruppopugliagrotte.it/images/on.gif" id="on1" data-border="0" data-hspace="10" width="10" height="10" alt="Presentazioni orali" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Presentazioni orali**</span>](http://www.gruppopugliagrotte.it/convreg/programma.htm#1)</span>
+[<img src="http://www.gruppopugliagrotte.it/images/on.gif" id="on3" data-border="0" data-hspace="10" width="10" height="10" alt="Presentazioni Poster" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Presentazioni Poster**</span>](http://www.gruppopugliagrotte.it/convreg/programma.htm#3)
+[<img src="http://www.gruppopugliagrotte.it/images/on.gif" id="on3" data-border="0" data-hspace="10" width="10" height="10" alt="Spélaion 2002" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Spélaion 2002**</span>](http://www.gruppopugliagrotte.it/convreg/programma.htm#spelaion)
+[<img src="http://www.gruppopugliagrotte.it/images/on.gif" id="on4" data-border="0" data-hspace="10" width="10" height="10" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Patrocini**</span>](http://www.gruppopugliagrotte.it/convreg/programma.htm#4)
+[<img src="http://www.gruppopugliagrotte.it/images/on.gif" id="on5" data-border="0" data-hspace="10" width="10" height="10" /> <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Sostenitori**</span>](http://www.gruppopugliagrotte.it/convreg/programma.htm#5)
 
 <div style="text-align: left;" align="center">
 
@@ -205,14 +216,14 @@ Interverrà l'Assessore Michele Saccomanno.
 |                                                                                                                                                           |                                                                                                                                                              |     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---:|
 |                        <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Patrocini**</span>                         |                                                                                                                                                              |     |
-|        <img src="/archivio-storico/legacy/convreg/images/regionepuglia.jpg" data-border="0" width="60" height="78" alt="Regione Puglia" />        
-                       <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: xx-small;">Regione Puglia</span>                       | <img src="/archivio-storico/legacy/convreg/images/ComuneCastellana.jpg" data-border="0" width="90" height="111" alt="Comune di Castellana-Grotte" /> 
+|        <img src="http://www.gruppopugliagrotte.it/convreg/images/regionepuglia.jpg" data-border="0" width="60" height="78" alt="Regione Puglia" />        
+                       <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: xx-small;">Regione Puglia</span>                       | <img src="http://www.gruppopugliagrotte.it/convreg/images/ComuneCastellana.jpg" data-border="0" width="90" height="111" alt="Comune di Castellana-Grotte" /> 
                                                                                                                                                                               <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: xx-small;">Comune di Castellana-Grotte</span>                  |     |
-| <img src="/archivio-storico/legacy/convreg/images/LogoFsp.jpg" data-border="0" width="98" height="111" alt="Federazione Speleologica Pugliese" /> 
-             <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: xx-small;">Federazione Speleologica Pugliese</span>              |      <img src="/archivio-storico/legacy/convreg/images/GrotteSrl.jpg" data-border="0" width="163" height="77" alt="Grotte di Castellana Srl" />      |     |
-|                                                                                                                                                           |       <img src="/archivio-storico/legacy/convreg/images/SSI.jpg" data-border="0" width="100" height="88" alt="Società Speleologica Italiana" />      
+| <img src="http://www.gruppopugliagrotte.it/convreg/images/LogoFsp.jpg" data-border="0" width="98" height="111" alt="Federazione Speleologica Pugliese" /> 
+             <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: xx-small;">Federazione Speleologica Pugliese</span>              |      <img src="http://www.gruppopugliagrotte.it/convreg/images/GrotteSrl.jpg" data-border="0" width="163" height="77" alt="Grotte di Castellana Srl" />      |     |
+|                                                                                                                                                           |       <img src="http://www.gruppopugliagrotte.it/convreg/images/SSI.jpg" data-border="0" width="100" height="88" alt="Società Speleologica Italiana" />      
                                                                                                                                                                              <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: xx-small;">Società Speleologica Italiana</span>                 |     |
-|        <img src="/archivio-storico/legacy/convreg/images/scienze.jpg" data-border="0" width="230" height="93" alt="Facoltà di Scienze" />         |        <img src="/archivio-storico/legacy/convreg/images/ordinegeologi.jpg" data-border="0" width="240" height="102" alt="Ordine Geologi" />         |     |
+|        <img src="http://www.gruppopugliagrotte.it/convreg/images/scienze.jpg" data-border="0" width="230" height="93" alt="Facoltà di Scienze" />         |        <img src="http://www.gruppopugliagrotte.it/convreg/images/ordinegeologi.jpg" data-border="0" width="240" height="102" alt="Ordine Geologi" />         |     |
 
 <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"><span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"> </span></span>
 <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"><span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"><span id="5"></span></span></span>
@@ -221,8 +232,8 @@ Interverrà l'Assessore Michele Saccomanno.
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:|:---:|
 |                                             <span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Sostenitori**</span>                                              |                                                                                                                                                 |     |
 |                                                                                                                                                                                                       |                                                                                                                                                 |     |
-|                          <img src="/archivio-storico/legacy/convreg/images/GrotteSrl.jpg" data-border="0" width="163" height="77" alt="Grotte di Castellana Srl" />                           |                                                                                                                                                 |     |
-| <img src="/archivio-storico/legacy/convreg/images/CassaRuralePetit.jpg" data-border="0" width="240" height="84" alt="Cassa Rurale ed Artigiana di Castellana-Grotte - Credito Cooperativo" /> | <img src="/archivio-storico/legacy/convreg/images/LabInstruments.jpg" data-border="0" width="240" height="126" alt="Lab Instruments" /> |     |
+|                          <img src="http://www.gruppopugliagrotte.it/convreg/images/GrotteSrl.jpg" data-border="0" width="163" height="77" alt="Grotte di Castellana Srl" />                           |                                                                                                                                                 |     |
+| <img src="http://www.gruppopugliagrotte.it/convreg/images/CassaRuralePetit.jpg" data-border="0" width="240" height="84" alt="Cassa Rurale ed Artigiana di Castellana-Grotte - Credito Cooperativo" /> | <img src="http://www.gruppopugliagrotte.it/convreg/images/LabInstruments.jpg" data-border="0" width="240" height="126" alt="Lab Instruments" /> |     |
 
  
  

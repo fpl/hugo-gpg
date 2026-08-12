@@ -1,12 +1,11 @@
 ---
 title: "Tavola Rotonda \"Acque del Terzo Millennio\""
-date: 2026-08-01
 aliases:
   - "/home/eventi/tavola-rotonda-acque-del-terzo-millennio/"
 ---
 
 <figure>
-<img src="/archivio-storico/legacy/images/bro.jpg" class="decoded" width="185" height="400" alt="/archivio-storico/legacy/images/bro.jpg" />
+<img src="http://www.gruppopugliagrotte.it/images/bro.jpg" class="decoded" width="185" height="400" alt="http://www.gruppopugliagrotte.it/images/bro.jpg" />
 <figcaption>Brochure informativa</figcaption>
 </figure>
 
@@ -20,7 +19,7 @@ Tali problematiche sono ancor più sentite nei territori caratterizzati da rocce
 A ciò si aggiunge l'attualissimo problema della scarsità di risorse idriche, derivante da scarsa piovosità e insufficiente ricarica delle falde, che determina seri problemi per l'approvvigionamento idrico di vaste aree dell'Italia meridionale.
 E ancora, i noti fenomeni di intrusione marina, che caratterizzano vaste aree costiere del territorio italiano, ed in particolare della Puglia.
 L'auspicio è quello di far incontrare esperti del settore, esponenti politici, speleologi e professionisti, che diano vita ad una costruttiva discussione sui temi sopra delineati.
-La Tavola Rotonda *Gestione e salvaguardia delle falde acquifere in ambiente carsico*, è inserita nell'ambito delle attività del 1° FiImFestival del documentario <a href="/archivio-storico/festival-avventura/" target="_self" rel="noopener" title="Vai al FilmFestival L&#39;avventura dell&#39;uomo"><strong>L'Avventura dell'uomo</strong></a>, organizzato a Castellana Grotte dal 29 marzo al 1° aprile 2001 e inserito nel programma delle manifestazioni promosse dal Parco Letterario "Formiche di Puglia" intitolato a Tommaso Fiore.
+La Tavola Rotonda *Gestione e salvaguardia delle falde acquifere in ambiente carsico*, è inserita nell'ambito delle attività del 1° FiImFestival del documentario <a href="http://www.gruppopugliagrotte.it/festival.htm" target="_self" rel="noopener" title="Vai al FilmFestival L&#39;avventura dell&#39;uomo"><strong>L'Avventura dell'uomo</strong></a>, organizzato a Castellana Grotte dal 29 marzo al 1° aprile 2001 e inserito nel programma delle manifestazioni promosse dal Parco Letterario "Formiche di Puglia" intitolato a Tommaso Fiore.
 Gli Atti della Tavola Rotonda confluiranno in una pubblicazione, al fine di diffondere ulteriormente i risultati conseguiti nel corso dell'incontro e di mantenere sempre viva l'attenzione su temi di così elevata rilevanza ambientale.
  
  

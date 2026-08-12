@@ -1,6 +1,5 @@
 ---
 title: "Una mostra fotografica storica sulle grotte nel cuore di castellana"
-date: 2026-08-01
 aliases:
   - "/home/eventi/una-mostra-fotografica-storica-sulle-grotte-nel-cuore-di-castellana/"
 ---
