@@ -4,14 +4,19 @@ aliases:
   - "/home/corsi/51-corso-di-speleologia/"
 ---
 
-Dal **28 settembre** al **9 novembre, **a Castellana Grotte (BA), prende il via il corso di introduzione alla speleologia del 2025 organizzato dal Gruppo Puglia Grotte.
+Dal **28 settembre** al **9 novembre**, a Castellana Grotte (BA), prende il via
+il Corso di Introduzione alla Speleologia del 2025, organizzato dal Gruppo Puglia
+Grotte.
 
-Come da tradizione le lezioni teoriche si svolgeranno tutti i martedì e giovedì, mentre i fine settimana saranno dedicati alle uscite didattiche in parete di roccia e poi in grotta.
+Come da tradizione, le lezioni teoriche si svolgeranno tutti i martedì e giovedì,
+mentre i fine settimana saranno dedicati alle uscite didattiche in parete di
+roccia e poi in grotta.
 
 Sede del corso: sede del **Gruppo Puglia Grotte**, presso Via Magherita di Savoia 18  
   
-**Direttore: **Roberto Visparelli De Girolamo  
-Corso omologato dalla Società Speleologica Italiana.
+**Direttore:** Roberto Visparelli De Girolamo  
+
+**Corso omologato dalla Società Speleologica Italiana.**
 
 *Importante: l’assicurazione ed iscrizione SSI sarà effettuata dal direttore del corso, non occorre versare alcun importo in anticipo alla SSI. È sufficiente compilare la modulistica.*
 
@@ -26,7 +31,7 @@ Corso omologato dalla Società Speleologica Italiana.
 
 ## Download
 
-<a href="/images/uploads/2025/09/LI-Corso-Programma-Regolamento.pdf" data-type="link" data-id="/images/uploads/2025/09/LI-Corso-Programma-Regolamento.pdf">LI Corso Programma Regolamento</a>
+[Corso, Programma e Regolamento](/images/uploads/2025/09/LI-Corso-Programma-Regolamento.pdf)
 
 [Modulo d’iscrizione GPG](/images/uploads/2025/09/individuali.pdf)
 

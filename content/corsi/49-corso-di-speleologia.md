@@ -4,9 +4,7 @@ aliases:
   - "/home/corsi/49-corso-di-speleologia/"
 ---
 
-<figure class="wp-block-image size-large is-style-default">
-<a href="/images/uploads/2023/08/WhatsApp-Image-2023-08-27-at-08.42.08.jpeg"><img src="/images/uploads/2023/08/WhatsApp-Image-2023-08-27-at-08.42.08.jpeg" class="wp-image-751" /></a>
-</figure>
+![Locandina 49mo](/images/uploads/2023/08/WhatsApp-Image-2023-08-27-at-08.42.08.jpeg)
 
 Dal **17 Settembre** al **22 Ottobre 2023** a Castellana Grotte (BA)
 
@@ -29,30 +27,5 @@ Corso omologato dalla Società Speleologica Italiana.
 
 - Tutti giovedì dalle ore 21,00 alle ore 22,30 presso la sede in via Margherita di Savoia, 18 (nei pressi di Largo Portagrande a Castellana Grotte); 
 - e-mail: *segreteria@gruppopugliagrotte.it* o *responsabileuscite@gruppopugliagrotte.it* 
-- FB: <https://www.facebook.com/gruppopugliagrotte>
+- Facebook: <https://www.facebook.com/gruppopugliagrotte>
 
-**Allegati**
-
-<div class="wp-block-file">
-
-[XLIX-Corso-Programma-Regolamento](/images/uploads/2023/08/XLIX-Corso-Programma-Regolamento-1.pdf)<a href="/images/uploads/2023/08/XLIX-Corso-Programma-Regolamento-1.pdf" class="wp-block-file__button" download="">Download</a>
-
-</div>
-
-<div class="wp-block-file">
-
-[SSI_Modulo_Iscrizione](/images/uploads/2022/08/SSI_Modulo_Iscrizione.pdf)<a href="/images/uploads/2022/08/SSI_Modulo_Iscrizione.pdf" class="wp-block-file__button" download="">Download</a>
-
-</div>
-
-<div class="wp-block-file">
-
-[XLIX-Liberatoria-GPG](/images/uploads/2023/09/XLIX-Liberatoria-GPG.pdf)<a href="/images/uploads/2023/09/XLIX-Liberatoria-GPG.pdf" class="wp-block-file__button" download="">Download</a>
-
-</div>
-
-<div class="wp-block-file">
-
-[XLIX-Modulo-Iscrizione-Corso](/images/uploads/2023/09/XLIX-Modulo-Iscrizione-Corso.pdf)<a href="/images/uploads/2023/09/XLIX-Modulo-Iscrizione-Corso.pdf" class="wp-block-file__button" download="">Download</a>
-
-</div>

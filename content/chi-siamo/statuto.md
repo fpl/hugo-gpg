@@ -6,7 +6,7 @@ aliases:
 
 *Lo statuto approvato dall’Assemblea Straordinaria dei Soci del 19 giugno 2025*
 
-versione [PDF](/images/uploads/2026/04/STATUTO_PDFA.pdf)
+La versione [PDF](/images/uploads/2026/04/STATUTO_PDFA.pdf)
 
 ## **STATUTO – GRUPPO PUGLIA GROTTE APS**
 

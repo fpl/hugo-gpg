@@ -13,4 +13,6 @@ Dal 19 Aprile 2026 il direttivo è costituito da:
 * Roberto Cupertino *- segretario*
 * Francesco Paolo Lovergine *-- consigliere*
 
-Il direttivo tiene consigli con periodicità mensile, generalmente presso la sede il primo lunedì del mese.
+Il direttivo tiene consigli con periodicità mensile, generalmente presso la sede il primi giorni del mese,
+tuttavia il nuovo statuto ammette anche riunioni online. I soci interessati possono partecipare in forma
+di uditori liberamente.

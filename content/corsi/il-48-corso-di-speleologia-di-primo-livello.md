@@ -4,13 +4,13 @@ aliases:
   - "/home/corsi/il-48-corso-di-speleologia-di-primo-livello/"
 ---
 
-<figure class="wp-block-image size-large">
-<a href="/images/uploads/2022/08/Locandina.png"><img src="/images/uploads/2022/08/Locandina-724x1024.png" class="wp-image-713" /></a>
-</figure>
+![Copertina](/images/uploads/2022/08/Locandina-724x1024.png)
 
-Dal **20 settembre al 23 ottobre 2022** a Castellana Grotte (BA)  
+Dal **20 settembre** al **23 ottobre 2022** a Castellana Grotte (BA)  
+
 Direttore: **Gaetano Proietto**  
-Corso omologato dalla <a href="https://www.speleo.it/" rel="noreferrer noopener" target="_blank">Società Speleologica Italiana</a>
+
+Corso omologato dalla [https://www.speleo.it/](Società Speleologica Italiana)
 
 - <a href="/images/uploads/2022/08/XLVIII-Corso-Programma-Regolamento-1.pdf" data-type="URL" target="_blank" rel="noreferrer noopener">Programma e Regolamento</a>
 - <a href="/images/uploads/2022/08/XLVIII-Liberatoria-GPG.pdf" rel="noreferrer noopener" target="_blank">Liberatoria per uso immagini</a>
@@ -21,4 +21,4 @@ Corso omologato dalla <a href="https://www.speleo.it/" rel="noreferrer noopener"
 
 - Tutti giovedì dalle ore 21,00 alle ore 22,30 presso la sede in via Margherita di Savoia, 18 (nei pressi di Largo Portagrande a Castellana Grotte); 
 - e-mail: *segreteria@gruppopugliagrotte.it* o *responsabileuscite@gruppopugliagrotte.it* 
-- FB: <https://www.facebook.com/gruppopugliagrotte>
+- Facebook: <https://www.facebook.com/gruppopugliagrotte>

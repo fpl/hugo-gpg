@@ -11,9 +11,11 @@ aliases:
     Via Margherita di Savoia, 18 
     70013 Castellana Grotte BA
 
-Incontri in sede tutti i giovedì dalle 20:30 in poi per preparare le uscite, discutere, confrontarsi e vivere il gruppo e la speleologia al di là del mondo virtuale di Internet.
+Incontri in sede tutti i giovedì dalle 20:30 in poi per preparare le uscite,
+discutere, confrontarsi e vivere il gruppo e la speleologia al di là del mondo
+virtuale di Internet.
 
-**Posta elettronica:** (per l'indirizzo reale eliminare la stringa NOSPAM inserita nel dominio):
+**Posta elettronica:**
 
  - Presidente: presidente@gruppopugliagrotte*NOSPAM*.it
  - Segretario: segreteria@gruppopugliagrotte*NOSPAM*.it
@@ -23,11 +25,13 @@ Incontri in sede tutti i giovedì dalle 20:30 in poi per preparare le uscite, di
  - Responsabile scientifico: responsabilescientifico@gruppopugliagrotte*NOSPAM*.it
  - Magazziniere: magazzino@gruppopugliagrotte*NOSPAM*.it
 
+ per l'indirizzo reale eliminare la stringa NOSPAM inserita nel dominio.
+
 **Posta elettronica certificata:**
 
 gruppopugliagrotteaps@pec.it
 
-**Social:**
+**Canali social:**
 
 Instagram: <https://www.instagram.com/gruppo_puglia_grotte>  
 Facebook: <https://www.facebook.com/gruppopugliagrotte>  
