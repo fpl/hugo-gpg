@@ -3,13 +3,13 @@ title: "Il Gruppo Puglia Grotte a Campania Speleologica"
 date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/eventi/images/convegnocampania/logo.jpg" data-border="0" data-align="right" width="120" height="98" alt="Federazione Speleologica Campana" /><img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="0" data-vspace="0" data-border="0" data-align="left" alt="Torna alla Home" />  
+<img src="/archivio-storico/legacy/eventi/images/convegnocampania/logo.jpg" data-border="0" data-align="right" width="120" height="98" alt="Federazione Speleologica Campana" />  
   
   
   
   
   
-<img src="/archivio-storico/legacy/images/eventi.gif" data-border="0" data-align="left" width="59" height="26" />  
+  
   
   
   

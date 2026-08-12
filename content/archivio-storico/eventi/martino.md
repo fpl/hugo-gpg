@@ -3,12 +3,6 @@ title: "San Martino al Gruppo Puglia Grotte 2004"
 date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="0" data-vspace="0" data-border="0" data-align="left" alt="Torna alla Home" />  
-  
-  
-  
-  
-  
 **San Martino al Gruppo Puglia Grotte 2004**  
   
 Ogni occasione è buona per stare insieme.  

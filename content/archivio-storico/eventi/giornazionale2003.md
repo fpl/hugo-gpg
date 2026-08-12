@@ -3,12 +3,12 @@ title: "Giornata Nazionale della Speleologia - II edizione"
 date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="0" data-vspace="0" data-border="0" data-align="left" alt="Torna alla Home" /><img src="/archivio-storico/legacy/images/gns/patrocinisuperiori.jpg" data-border="0" data-align="right" width="215" height="49" alt="Patrocini" />  
+<img src="/archivio-storico/legacy/images/gns/patrocinisuperiori.jpg" data-border="0" data-align="right" width="215" height="49" alt="Patrocini" />  
   
   
   
   
-<img src="/archivio-storico/legacy/images/eventi.gif" data-border="0" width="59" height="26" alt="eventi" />  
+  
   
   
 **Giornata Nazionale della Speleologia**  
@@ -45,7 +45,7 @@ Visiteremo il magnifico [**palazzo**](#1 "Il Palazzo") di Via Cognetti ed il [**
 Per l'occasione, abbiamo anche preparato delle [**schede informative**](#4 "Le schede informative").  
 Insomma, non perdete questo [**appuntamento**](#3 "L'appuntamento")!  
   
-<img src="/archivio-storico/legacy/images/on.gif" data-border="0" width="10" height="10" /> <span id="1"></span>
+<span id="1"></span>
 **Il Palazzo**  
   
 <img src="/archivio-storico/legacy/eventi/images/gns2003/cambel2.jpg" data-border="1" data-hspace="10" data-vspace="5" data-align="right" width="200" height="150" alt="Pannello Ligneo di Duilio Cambellotti" />I mobili di Duilio Cambellotti perfettamente restaurati, le stanze riportate alla forma originale, i documenti dell'epoca in bella vista.  
@@ -68,7 +68,7 @@ Progettò le decorazioni pittoriche, gli arredi, i pavimenti, le porte, le vetra
 </div>
 
   
-<img src="/archivio-storico/legacy/images/on.gif" data-border="0" width="10" height="10" /> <span id="2"></span>
+<span id="2"></span>
 **Il Museo dell'Acqua**<img src="/archivio-storico/legacy/eventi/images/gns2003/tubi.jpg" data-border="1" data-hspace="10" data-vspace="5" data-align="right" width="200" height="131" alt="tubi" />  
   
 In una ricorrenza come quella della <a href="http://www.giornatespeleologia.it" target="_blank" title="Sito della Prima Giornata Nazionale della Speleologia"><strong>Giornata Nazionale della Speleologia</strong></a> - dedicata, in questa seconda edizione, proprio alle acque dolci - assieme alla visita del superbo palazzo, non potevamo non includere quella al *Museo dell'Acqua*: antichi strumenti, documenti, foto d'epoca.  
@@ -83,7 +83,7 @@ Per i più piccoli è a disposizione un'interessante sezione didattica sul *viag
 
   
 <span id="3"></span>
-<img src="/archivio-storico/legacy/images/on.gif" data-border="0" width="10" height="10" /> **L'appuntamento**  
+**L'appuntamento**  
   
 sabato **18 ottobre 2003** - ore **8:00**  
 presso la sede del Gruppo Puglia Grotte  
@@ -99,7 +99,7 @@ Castellana-Grotte (BA).
 
   
 <span id="4"></span>
-<img src="/archivio-storico/legacy/images/on.gif" data-border="0" width="10" height="10" /> **Le schede informative**  
+**Le schede informative**  
   
 
 |                      |             |                |                                                                                                                                                            |

@@ -41,9 +41,9 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 <td class="testo" style="text-align: center;" width="33%"></td>
 </tr>
 <tr class="odd">
-<td colspan="3" class="testo" style="text-align: center;" width="100%"><img src="/archivio-storico/legacy/images/space.gif" data-border="0" width="45" height="1" />Non vi basta una <em>visita virtuale</em>?<br />
-<img src="/archivio-storico/legacy/images/space.gif" data-border="0" width="45" height="1" />Ne vorreste una copia?<br />
-<img src="/archivio-storico/legacy/images/space.gif" data-border="0" width="45" height="1" />Scrivete alla nostra <a href="mailto:gragragra@libero.it"><strong>bibliotecaria</strong></a></td>
+<td colspan="3" class="testo" style="text-align: center;" width="100%">Non vi basta una <em>visita virtuale</em>?<br />
+Ne vorreste una copia?<br />
+Scrivete alla nostra <a href="mailto:gragragra@libero.it"><strong>bibliotecaria</strong></a></td>
 </tr>
 </tbody>
 </table>

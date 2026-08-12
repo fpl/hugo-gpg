@@ -2,15 +2,6 @@
 title: "III Convegno di Speleologia Pugliese — Il Programma"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="0" data-vspace="0" data-border="0" data-align="left" />  
-  
-  
-  
-  
-<img src="/archivio-storico/legacy/images/eventi.gif" data-border="0" width="59" height="26" />  
-  
-  
-
 <div align="center">
 
 <img src="/archivio-storico/legacy/convreg/images/LogodefinitivoPiccolo.jpg" data-border="0" width="221" height="199" />
@@ -24,21 +15,21 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 **Il Programma**
 
   
-<a href="#1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on1&#39;,&#39;document.on1&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><img src="/archivio-storico/legacy/images/on.gif" id="on1" data-border="0" data-hspace="10" width="10" height="10" alt="Presentazioni orali" /> <strong>Presentazioni orali</strong></a>  
+<a href="#1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on1&#39;,&#39;document.on1&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><strong>Presentazioni orali</strong></a>  
   
-<a href="#3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on3&#39;,&#39;document.on3&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><img src="/archivio-storico/legacy/images/on.gif" id="on3" data-border="0" data-hspace="10" width="10" height="10" alt="Presentazioni Poster" /> <strong>Presentazioni Poster</strong></a>  
+<a href="#3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on3&#39;,&#39;document.on3&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><strong>Presentazioni Poster</strong></a>  
   
-<a href="#spelaion" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on3&#39;,&#39;document.on3&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><img src="/archivio-storico/legacy/images/on.gif" id="on3" data-border="0" data-hspace="10" width="10" height="10" alt="Spélaion 2002" /> <strong>Spélaion 2002</strong></a>  
+<a href="#spelaion" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on3&#39;,&#39;document.on3&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><strong>Spélaion 2002</strong></a>  
   
-<a href="#4" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on4&#39;,&#39;document.on4&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><img src="/archivio-storico/legacy/images/on.gif" id="on4" data-border="0" data-hspace="10" width="10" height="10" /> <strong>Patrocini</strong></a>  
+<a href="#4" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on4&#39;,&#39;document.on4&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><strong>Patrocini</strong></a>  
   
-<a href="#5" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on5&#39;,&#39;document.on5&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><img src="/archivio-storico/legacy/images/on.gif" id="on5" data-border="0" data-hspace="10" width="10" height="10" /> <strong>Sostenitori</strong></a>  
+<a href="#5" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on5&#39;,&#39;document.on5&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><strong>Sostenitori</strong></a>  
   
-<a href="#6" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on6&#39;,&#39;document.on6&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><img src="/archivio-storico/legacy/images/on.gif" id="on6" data-border="0" data-hspace="10" width="10" height="10" alt="Contatti" /> <strong>Contatti</strong></a>  
+<a href="#6" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on6&#39;,&#39;document.on6&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><strong>Contatti</strong></a>  
   
-<img src="/archivio-storico/legacy/images/on.gif" id="on7" data-border="0" data-hspace="10" width="10" height="10" alt="Contatti" /> **Gli Atti**  
+**Gli Atti**  
   
-<img src="/archivio-storico/legacy/images/on.gif" id="on8" data-border="0" data-hspace="10" width="10" height="10" alt="Contatti" /> **Le immagini**  
+**Le immagini**  
   
 <span id="1"></span>
 
@@ -50,7 +41,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 
   
   
-<img src="/archivio-storico/legacy/images/arrow.gif" data-border="0" data-align="left" width="23" height="27" /> **Venerdì 6 dicembre 2002**  
+**Venerdì 6 dicembre 2002**  
   
 Ore 15.15  
 Sala Consiliare  
@@ -192,7 +183,7 @@ Mastromarino D.</td>
 
   
   
-<img src="/archivio-storico/legacy/images/arrow.gif" data-border="0" data-align="left" width="23" height="27" /> **Sabato 7 dicembre 2002**  
+**Sabato 7 dicembre 2002**  
   
 
 <table width="100%" data-border="1" data-cellspacing="0" data-cellpadding="2" data-bordercolor="#007BB7">

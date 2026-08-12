@@ -3,16 +3,6 @@ title: "Il Gruppo Puglia Grotte al Side Out Sport Festival 2011"
 date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="0" data-vspace="0" data-border="0" data-align="left" alt="Torna alla Home" />  
-  
-  
-  
-  
-  
-<img src="/archivio-storico/legacy/images/eventi.gif" data-border="0" data-align="left" width="59" height="26" />  
-  
-  
-  
 <img src="/archivio-storico/legacy/eventi/images/sideout.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="right" width="210" height="300" alt="Side Out Sport Festival" />
 **Il Gruppo Puglia Grotte al Side Out Sport Festival 2011**  
   
@@ -31,7 +21,7 @@ Si è parlato della storia del sodalizio speleologico castellanese e dell'attivi
   
 E Castellana-Grotte, recentemente, è tornata a riconoscere l'impegno della nostra associazione.  
   
-Proprio dalla locale Amministrazione, infatti, è giunta una positiva attestazione di stima: l'affidamento al Gruppo Puglia Grotte dell'esplorazione e dello studio delle nuove cavità castellanesi, le Grotte dell'Abate Eustasio.  
+Proprio dalla locale Amministrazione, infatti, è giunta una positiva attestazione di stima: l'affidamento al Gruppo Puglia Grotte dell'esplorazione e dello studio delle nuove cavità castellanesi, le [Grotte dell'Abate Eustasio](/archivio-storico/eventi/nuovegrotte/).  
   
   
 **Le immagini della serata**  

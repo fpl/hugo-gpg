@@ -2,7 +2,23 @@
 title: "I Convegno Regionale di Speleologia in Cavità Artificiali — Architetture nel Buio"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/eventi/images/convegno2007/loghi.jpg" data-border="0" data-align="right" width="425" height="196" alt="Patrocini" />
+<img src="/archivio-storico/legacy/eventi/images/convegno2007/loghi.jpg" data-border="0" data-align="right" width="425" height="196" alt="Patrocini" />  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 <div align="center">
 
@@ -46,6 +62,8 @@ Da rimarcare, poi, che i partecipanti hanno potuto seguire gli interventi con gl
 - **Relatori**
 - [**Eventi collaterali**](#eventi "Eventi collaterali")
 - **Immagini**
+
+[](#up "torna su")  
 
 ------------------------------------------------------------------------
 
@@ -223,6 +241,8 @@ Lievi difficoltà, munirsi di attrezzatura speleologica per progressione orizzon
 
   
   
+[](#up "torna su")  
+
 ------------------------------------------------------------------------
 
   
@@ -284,3 +304,4 @@ Museo Speleologico Franco Anelli
 **sabato 24 marzo 2007 - ore 15:00**  
 Museo Speleologico Franco Anelli  
   
+[](#up "torna su")

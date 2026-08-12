@@ -1,0 +1,5 @@
+{{ $anno := .Get "anno" }}
+<a class="bollettini-grid__item" href="/pubblicazioni/bollettini-puglia-grotte/bollettino-{{ $anno }}/">
+  <img src="/archivio-storico/legacy/images/{{ $anno }}_little.jpg" width="{{ .Get "larghezza" }}" height="{{ .Get "altezza" }}" alt="Copertina del bollettino {{ $anno }}" loading="lazy">
+  <span>{{ $anno }}</span>
+</a>

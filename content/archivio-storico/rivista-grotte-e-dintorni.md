@@ -2,11 +2,11 @@
 title: "Il Museo Speleologico Franco Anelli — la rivista Grotte e Dintorni"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/museo/button.gif" data-hspace="10" data-vspace="0" data-border="0" data-align="left" width="14" height="17" alt="La storia" /> **La storia**  
+**La storia**  
   
-<img src="/archivio-storico/legacy/images/museo/button.gif" data-hspace="10" data-vspace="0" data-border="0" data-align="left" width="14" height="17" alt="Attività" /> **Attività**  
+**Attività**  
   
-<img src="/archivio-storico/legacy/images/museo/button.gif" data-hspace="10" data-vspace="0" data-border="0" data-align="left" width="14" height="17" alt="La rivista" /> [**La rivista**](/archivio-storico/rivista-grotte-e-dintorni/ "La rivista")  
+[**La rivista**](/archivio-storico/rivista-grotte-e-dintorni/ "La rivista")  
   
 **Museo di Speleologia *Franco Anelli*  
 Piazzale Anelli  

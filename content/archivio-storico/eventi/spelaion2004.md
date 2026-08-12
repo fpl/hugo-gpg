@@ -3,13 +3,13 @@ title: "Spélaion 2004"
 date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<a href="http://www.spelaion.it" target="_blank" title="Sito ufficiale della manifestazione"><img src="/archivio-storico/legacy/eventi/images/spelaion2004/logo.jpg" data-hspace="10" data-vspace="10" data-border="0" data-align="right" width="200" height="82" alt="Sito ufficiale della manifestazione" /></a><img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="0" data-vspace="0" data-border="0" data-align="left" alt="Torna alla Home" />  
+<a href="http://www.spelaion.it" target="_blank" title="Sito ufficiale della manifestazione"><img src="/archivio-storico/legacy/eventi/images/spelaion2004/logo.jpg" data-hspace="10" data-vspace="10" data-border="0" data-align="right" width="200" height="82" alt="Sito ufficiale della manifestazione" /></a>  
   
   
   
   
   
-<img src="/archivio-storico/legacy/images/eventi.gif" data-border="0" data-align="left" width="59" height="26" />  
+  
   
   
   
@@ -19,7 +19,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 Anche il Gruppo Puglia Grotte ha preso parte a Spélaion, IX Incontro Regionale della Speleologia Pugliese tenutosi a Lecce presso l'Ex Conservatorio di S. Anna nei giorni 10, 11 e 12 dicembre 2004 ed organizzato dal [**Gruppo Speleologico 'Ndronico**](http://www.gsndronico.it).  
 Il nostro socio Mario Parise ha presentato *Attività esplorativa nella murgia di Minervino (BA)*; il lavoro, che ha visto come coautore Antonio Trocino, ha suscitato vivo interesse nei partecipanti dando seguito ad un dibattito sullo stesso tema.  
   
-Domenica 12 dicembre, presieduta dal presidente regionale Giuseppe Savino, vi è stata la riunione della **Federazione Speleologica Pugliese** imperniata, soprattutto sul tema del **Progetto Catasto**.  
+Domenica 12 dicembre, presieduta dal presidente regionale Giuseppe Savino, vi è stata la riunione della **Federazione Speleologica Pugliese** imperniata, soprattutto sul tema del [**Progetto Catasto**](/archivio-storico/eventi/catasto/).  
   
 Per l'occasione, infine, è stata allestita la mostra edita dalla Federazione Speleologica Pugliese **Luci dal sottosuolo - Storia della speleologia pugliese**, evento già oggetto di presentazione a cura del Gruppo Puglia Grotte nel 2003.  
   

@@ -3,15 +3,6 @@ title: "Corso d'Armo 2013"
 date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="0" data-vspace="0" data-border="0" data-align="left" alt="Torna alla Home" />  
-  
-  
-  
-  
-  
-<img src="/archivio-storico/legacy/images/eventi.gif" data-border="0" data-align="left" width="59" height="26" />  
-  
-  
 **Corso d'Armo 2013**  
   
   

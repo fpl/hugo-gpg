@@ -62,7 +62,7 @@ Allestita in occasione della I **Giornata Nazionale della Speleologia** 11-12-13
 
 ------------------------------------------------------------------------
 
-<img src="/archivio-storico/legacy/images/museo/gpg.gif" data-border="0" data-align="right" width="288" height="101" alt="Torna al sito del Gruppo Puglia Grotte" />  
+  
   
 *La visita al museo Speleologico sarà una facile, dilettevole  
 escursione fra le pagine di un libro affascinante, il libro delle grotte:  

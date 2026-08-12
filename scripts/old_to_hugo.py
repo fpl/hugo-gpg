@@ -50,6 +50,7 @@ LINK_REWRITE = {
     "attivi/programma0607.htm": "/archivio-storico/programma-2006-2007/",
     "convreg/programma.htm": "/archivio-storico/iii-convegno-speleologia-pugliese/",
     "corso/corsoalburni.htm": "/archivio-storico/corso-alburni/",
+    "esplorazioni/speleoartifi/depositocarrino.htm": "/archivio-storico/deposito-carrino/",
     "santomas/chi.htm": "/archivio-storico/progetto-santo-tomas/",
     "santomas/perche.htm": "/archivio-storico/progetto-santo-tomas/",
     "santomas/dove.htm": "/archivio-storico/progetto-santo-tomas/",
@@ -140,6 +141,8 @@ PAGES = [
          sources=["convreg/programma.htm"], mode="body"),
     dict(slug="corso-alburni", title="Corso di I livello di Speleologia sui Monti Alburni",
          sources=["corso/corsoalburni.htm"], mode="testo"),
+    dict(slug="deposito-carrino", title="Esplorazioni al Deposito Carrino",
+         sources=["esplorazioni/speleoartifi/depositocarrino.htm"], mode="testo"),
     dict(slug="progetto-santo-tomas", title="Progetto Santo Tomás — spedizioni speleologiche a Cuba",
          sources=["santomas/chi.htm", "santomas/perche.htm", "santomas/dove.htm"], mode="testo"),
 ]
@@ -231,6 +234,45 @@ def strip_html_comments(html: str) -> str:
     avvisi "asset non trovato" per file che non sono mai stati contenuto
     reale nemmeno sul sito originale."""
     return re.sub(r"<!--.*?-->", "", html, flags=re.S)
+
+
+# Icone .gif decorative/di navigazione ereditate dal vecchio sito (loghi
+# "torna alla home", pallini di stato per tab JS con rollover MM_swapImage,
+# frecce separatrici, spaziatori trasparenti...), verificate una per una
+# guardando il sorgente: non hanno alcun senso -- né visivo né come link --
+# su un sito statico moderno. "logo*"/"up*"/"top*" sono prefissi (loghetto.gif,
+# logo.gif, upbianco.gif...), il resto sono nomi esatti trovati nel corpus.
+NAV_ICON_EXACT = frozenset({
+    "loghetto.gif", "gpg.gif", "eventi.gif", "on.gif", "off.gif",
+    "arrow.gif", "button.gif", "space.gif",
+})
+NAV_ICON_PREFIXES = ("logo", "up", "top")
+# Eccezione: logo di patrocinio reale (Società Speleologica Italiana), non
+# chrome di navigazione -- inizia per "logo" solo per coincidenza nel nome
+# del file, va tenuto come gli altri loghi di patrocinio/sponsor.
+NAV_ICON_EXCEPTIONS = frozenset({"logossipetit.gif"})
+
+NAV_ICON_IMG = re.compile(r'<img\b[^>]*\bsrc="([^"]+)"[^>]*/?>', re.I)
+
+
+def _is_nav_icon(basename: str) -> bool:
+    b = basename.lower()
+    if b in NAV_ICON_EXCEPTIONS:
+        return False
+    if b in NAV_ICON_EXACT:
+        return True
+    return b.endswith(".gif") and b.startswith(NAV_ICON_PREFIXES)
+
+
+def strip_nav_icons(html: str) -> str:
+    """Toglie solo il tag <img>, non un eventuale <a> che lo racchiude: alcune
+    di queste icone (es. on.gif) stanno dentro link reali verso ancore della
+    STESSA pagina (indice cliccabile di iii-convegno-speleologia-pugliese.md,
+    href="#1" ecc.), che devono restare funzionanti col loro testo."""
+    def repl(m):
+        basename = m.group(1).rsplit("/", 1)[-1]
+        return "" if _is_nav_icon(basename) else m.group(0)
+    return NAV_ICON_IMG.sub(repl, html)
 
 
 ABSOLUTE_DIV = re.compile(
@@ -417,6 +459,29 @@ def strip_dead_anchors(html: str) -> str:
     )
 
 
+MM_POPUP_OPEN_TAG = re.compile(
+    r'''<a\b(?=[^>]*\bhref=(["'])#\1)[^>]*\bonMouseUp=(["'])MM_openBrWindow\(\s*['"]([^'"]+)['"][^>]*>''',
+    re.I,
+)
+
+
+def resolve_mm_popups(html: str, source_rel: str) -> str:
+    """<a href="#" onMouseUp="MM_openBrWindow('target.htm',...)"> è come il
+    sito apriva in popup una pagina old/ senza un href reale. Se quella pagina
+    è nel frattempo stata migrata (presente in LINK_REWRITE, es. una nuova
+    voce di PAGES/EVENTI_FILES/CORSI_FILES), si riscrive l'anchor con un href
+    vero PRIMA che rewrite_links_and_images/strip_popup_anchors la tolgano
+    come popup non migrato -- altrimenti resta intatta per loro (nessun
+    effetto se il target non è ancora stato migrato)."""
+    def repl(m):
+        target = m.group(3)
+        norm = normalize_href(source_rel, target.split("?")[0].split("#")[0])
+        if norm not in LINK_REWRITE:
+            return m.group(0)
+        return f'<a href="{target}">'
+    return MM_POPUP_OPEN_TAG.sub(repl, html)
+
+
 BARE_HASH_ANCHOR = re.compile(
     r'''<a\b(?=[^>]*\bhref=(["'])#\1)[^>]*>(.*?)</a>''',
     re.I | re.S,
@@ -486,8 +551,10 @@ def process_page(page: dict, image_refs: set[str], date: str | None = None):
             raw = raw.replace(find, repl)
         content = extract_content(raw, page["mode"])
         content = strip_html_comments(content)
+        content = strip_nav_icons(content)
         content = strip_print_close_widget(content)
         content = unwrap_absolute_divs(content)
+        content = resolve_mm_popups(content, src)
         content = rewrite_links_and_images(content, src, image_refs)
         content = strip_dead_anchors(content)
         content = strip_popup_anchors(content)
@@ -740,8 +807,117 @@ def extend_archive():
             print(f"- {w}")
 
 
+# =============================================================================
+# Fase 3: indici dei "Bollettini Puglia Grotte", annata per annata. Tutte le
+# 11 annate (comprese 1984/1985, inizialmente migrate a mano da pagine
+# WordPress reali con una formattazione leggermente diversa -- font/colore
+# inline superstite dall'editor WP, intestazione "Indice" incoerente con le
+# altre) vengono qui rigenerate dalla STESSA fonte (pagina radice <anno>.htm
+# in old/, verificata identica nei contenuti alla versione WP) per uniformità
+# di formato. 1984/1985 sono le uniche due che avevano un permalink WordPress
+# reale: mantengono il loro alias di redirect, le altre 9 non ne hanno mai
+# avuto uno.
+# =============================================================================
+
+BOLLETTINI_CONTENT = REPO / "content" / "pubblicazioni" / "bollettini-puglia-grotte"
+
+# anno -> file radice in old/.
+BOLLETTINI_FILES = {
+    1984: "1984.htm", 1985: "1985.htm", 1986: "1986.htm", 1991: "1991.htm",
+    1993: "1993.htm", 1995: "1995.htm", 1996: "1996.htm", 1999: "1999.htm",
+    2001: "2001.htm", 2003: "2003.htm", 2008: "2008.htm",
+}
+
+# anno -> (larghezza, altezza) reali della copertina scansionata (non tutte
+# identiche: le annate 1995/1996 sono leggermente più strette, il 2008 più
+# alto). Default 96x136 se un anno non è qui.
+BOLLETTINI_DIMS = {1995: (97, 135), 1996: (97, 135), 2008: (96, 138)}
+
+# anno -> alias di redirect, solo per le due annate che hanno davvero avuto
+# un permalink WordPress prima di questo script.
+BOLLETTINI_ALIASES = {
+    1984: "/home/pubblicazioni/bollettini-puglia-grotte/bollettino-1984/",
+    1985: "/home/pubblicazioni/bollettini-puglia-grotte/bollettino-1985/",
+}
+
+# Il link di download del bollettino 2008 in pdf (le altre annate non hanno
+# un pdf scaricabile in old/, solo l'indice testuale).
+LINK_REWRITE["bollettini/2008/GPGBollettino2008.pdf"] = \
+    "/archivio-storico/legacy/bollettini/2008/GPGBollettino2008.pdf"
+
+# Ogni <anno>.htm apre con lo stesso blocco fisso (link "torna alla home" +
+# copertina + intestazione "Puglia Grotte - <anno>"), ridondante qui perché
+# la pagina Hugo ha già titolo e una propria <figure> di copertina: si toglie
+# tutto fino a questa intestazione compresa, lasciando "Indice"/il link di
+# download e la lista degli articoli.
+BOLLETTINO_HEADER_RE = re.compile(
+    r"^.*?<b>Puglia Grotte - \d{4}</b>\s*(?:<br\s*/?>\s*)*",
+    re.I | re.S,
+)
+
+
+def build_bollettini():
+    """Idempotente come main()/extend_archive(): sovrascrive sempre le 11
+    pagine bollettino-<anno>.md con la stessa fonte/formattazione."""
+    BOLLETTINI_CONTENT.mkdir(parents=True, exist_ok=True)
+    image_refs: set[str] = set()
+    for year, fname in BOLLETTINI_FILES.items():
+        dest = BOLLETTINI_CONTENT / f"bollettino-{year}.md"
+        raw = (OLD_ROOT / fname).read_text(encoding="iso-8859-1")
+        content = extract_content(raw, "body")
+        content = strip_html_comments(content)
+        content = strip_nav_icons(content)
+        content = strip_print_close_widget(content)
+        content, n = BOLLETTINO_HEADER_RE.subn("", content, count=1)
+        if n == 0:
+            sys.exit(f"{fname}: intestazione 'Puglia Grotte - {year}' non trovata (sorgente cambiato?)")
+        content = resolve_mm_popups(content, fname)
+        content = rewrite_links_and_images(content, fname, image_refs)
+        content = strip_dead_anchors(content)
+        content = strip_popup_anchors(content)
+        md = html_to_md(content)
+
+        w, h = BOLLETTINI_DIMS.get(year, (96, 136))
+        cover = f"/archivio-storico/legacy/images/{year}_little.jpg"
+        fm = [
+            "---",
+            f"title: {yaml_str(f'Bollettino {year}')}",
+            f"date: {DATE_RIMIGRAZIONE}",
+        ]
+        if year in BOLLETTINI_ALIASES:
+            fm.append("aliases:")
+            fm.append(f"  - {yaml_str(BOLLETTINI_ALIASES[year])}")
+        fm += [
+            "---",
+            "",
+            "<figure>",
+            f'<img src="{cover}" title="Copertina" style="margin: 0px 5px; border: 1px solid black;" data-align="right" data-border="1" data-hspace="5" data-vspace="0" width="{w}" height="{h}" alt="Copertina" />',
+            f"<figcaption>Bollettino {year}</figcaption>",
+            "</figure>",
+            "",
+            # riga vuota indispensabile: senza uno stacco netto dal blocco
+            # HTML <figure> precedente, goldmark tratta quello che segue
+            # (l'intestazione "**Indice**") come continuazione dello stesso
+            # blocco HTML grezzo e non lo interpreta come Markdown (verificato
+            # sul rendering: **Indice** restava testo letterale non in
+            # grassetto, mentre l'elenco più sotto veniva comunque riconosciuto
+            # perché <ol> avvia un nuovo blocco HTML riconosciuto a sé).
+            "",
+        ]
+        dest.write_text("\n".join(fm) + md + "\n", encoding="utf-8")
+        print(f"scritto {dest.relative_to(REPO)}")
+
+    copy_assets(image_refs, direct_assets={"bollettini/2008/GPGBollettino2008.pdf"})
+    if warnings:
+        print("\n== Avvisi ==")
+        for w in warnings:
+            print(f"- {w}")
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--extend":
         extend_archive()
+    elif len(sys.argv) > 1 and sys.argv[1] == "--bollettini":
+        build_bollettini()
     else:
         main()

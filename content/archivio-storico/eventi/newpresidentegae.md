@@ -3,14 +3,6 @@ title: "Gaetano Proietto nuovo presidente del Gruppo Puglia Grotte"
 date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="10" data-vspace="10" data-border="0" data-align="left" width="174" height="58" />  
-  
-  
-  
-  
-  
-  
-
 <div align="center">
 
 **Gaetano Proietto nuovo presidente del Gruppo Puglia Grotte**

@@ -3,16 +3,6 @@ title: "Antonio Baccarelli nuovo Socio Onorario"
 date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/loghetto.gif" data-hspace="0" data-vspace="0" data-border="0" data-align="left" alt="Torna alla Home" />  
-  
-  
-  
-  
-  
-<img src="/archivio-storico/legacy/images/eventi.gif" data-border="0" data-align="left" width="59" height="26" />  
-  
-  
-  
 **Antonio Baccarelli nuovo Socio Onorario**  
   
 Con Assemblea Ordinaria del 10 febbraio 2005 i soci del Gruppo Puglia grotte avevano conferito ad **Antonio Baccarelli** il titolo di **socio onorario** in considerazione del noto e pluriennale impegno umanitario, conto tenuto della sensibile attività in difesa dell'ambiente e della fauna selvatica del nostro territorio. Tornato dal Mozambico per un breve periodo di vacanza in Italia, Antonio ha potuto ricevere il diploma commemorativo dell'evento.  

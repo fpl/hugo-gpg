@@ -2,14 +2,6 @@
 title: "Chi siamo"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/logo.gif" data-border="0" data-align="left" width="240" height="80" alt="Il nostro logo" />  
-  
-  
-  
-  
-  
-  
-  
 **Chi siamo**  
   
   
@@ -37,7 +29,7 @@ Forte dell'esperienza di anni, infatti, il Gruppo Puglia Grotte ha organizzato:
 - Tavola Rotonda Acque del Terzo Millennio (2001)
 - III Convegno Regionale di Speleologia Pugliese (2002)
 - VII Incontro Regionale della Speleologia Pugliese, **Spélaion** (2002)
-- I Convegno Regionale di Speleologia in Cavità Artificiali, Architetture nel Buio (2007)
+- [I Convegno Regionale di Speleologia in Cavità Artificiali](/archivio-storico/convegno-2007/), Architetture nel Buio (2007)
 - XVI Incontro di Speleologia Regionale Spélaion 9 - 10 - 11 dicembre 2011
 
 Il Gruppo Puglia Grotte pubblica il bollettino <a href="/archivio-storico/pugliagrotte/" target="_blank" title="Vai a Puglia Grotte">Puglia Grotte</a> e i Quaderni di Speleologia Meridionale, monografie su tematiche speleologiche. Ma la biblioteca sociale è ben più dotata: vanta, infatti, oltre 1.000 volumi di interesse speleologico: bollettini di associazioni, atti di Convegni, bibliografie, monografie. Vasta è anche la collezione cartografica e l'archivio dei rilievi topografici.  
