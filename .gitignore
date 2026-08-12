@@ -6,3 +6,12 @@ public/
 
 # Credenziali FTP di pubblicazione (vedi Makefile)
 .env.ftp
+
+# Bytecode compilato Python
+__pycache__/
+*.pyc
+
+# Copie di sicurezza locali create da safe_write_text() quando uno script di
+# conversione trova un file modificato a mano (vedi README.md): sono un
+# backup ridondante rispetto a git, che ormai è la fonte di verità.
+manual-backups/

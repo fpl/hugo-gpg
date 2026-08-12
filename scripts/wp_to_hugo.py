@@ -89,7 +89,6 @@ PAGE_MAP = {
     28: "chi-siamo/statuto.md",
     192: "chi-siamo/consiglio-direttivo.md",
     219: "chi-siamo/contatti.md",
-    49: "pubblicazioni/bollettini-puglia-grotte/_index.md",
     130: "pubblicazioni/il-primo-convegno-regionale-di-speleologia-pugliese.md",
     136: "pubblicazioni/il-xv-congresso-nazionale-di-speleologia.md",
     142: "pubblicazioni/secondo-convegno-regionale-di-speleologia.md",
@@ -113,13 +112,37 @@ PAGE_MAP = {
     368: "eventi/settimana-del-pianeta-terra.md",
     503: "eventi/una-mostra-fotografica-storica-sulle-grotte-nel-cuore-di-castellana.md",
     181: "museo/chi-era-franco-anelli.md",
-    52: "pubblicazioni/bollettini-puglia-grotte/bollettino-1984.md",
-    54: "pubblicazioni/bollettini-puglia-grotte/bollettino-1985.md",
     204: "esplorazioni/nazionali/progetto-impalata.md",
     206: "esplorazioni/nazionali/progetto-grotta-del-dragone.md",
     314: "esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali-2010.md",
     319: "esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali.md",
     328: "esplorazioni/nazionali/programma-attivita-speleologica-autunno-inverno-2006-2007.md",
+}
+
+# ID pagina WP -> stesso percorso content/, per pagine il cui CONTENUTO non
+# viene più generato da questo script (rimosse da PAGE_MAP) ma il cui vecchio
+# URL WP deve continuare a risolvere (old_path_map/alias), perché altro
+# contenuto reale le linka ancora con un href assoluto /home/....
+#
+# - 49 (bollettini-puglia-grotte/_index.md): ora una griglia CSS con
+#   shortcode {{< bollettino-cover >}} scritta a mano (vedi README.md,
+#   "Layout e template"), non più il contenuto grezzo dal DB -- una
+#   pipe-table con newline incorporate nelle celle che rompeva il parser di
+#   goldmark, il bug originale segnalato dall'utente.
+# - 52/54 (bollettino-1984/1985): generate esclusivamente da
+#   scripts/old_to_hugo.py --bollettini, per uniformità di formato con le
+#   altre 9 annate.
+#
+# In tutti e tre i casi, lasciarle in PAGE_MAP le faceva rigenerare e
+# sovrascrivere silenziosamente ad ogni rilancio di questo script (bug reale,
+# scoperto già committato nel repo). Rimuoverle da PAGE_MAP senza tenerle qui,
+# però, romperebbe old_path_map per chiunque le linki ancora dal vecchio
+# URL -- da cui questa mappa separata, usata SOLO per costruire
+# old_path_map/flat_page_map, mai per scrivere contenuto.
+MANUAL_PAGES = {
+    49: "pubblicazioni/bollettini-puglia-grotte/_index.md",
+    52: "pubblicazioni/bollettini-puglia-grotte/bollettino-1984.md",
+    54: "pubblicazioni/bollettini-puglia-grotte/bollettino-1985.md",
 }
 
 # Qualunque link interno assoluto (immagine, pagina, allegato) verso il vecchio
@@ -258,6 +281,16 @@ EXTERNAL_LINK_REWRITE = {
     # booking.grottedicastellana.it non risolve più; il dominio principale è
     # ancora attivo e la home espone comunque le informazioni di prenotazione.
     "http://booking.grottedicastellana.it/": "https://www.grottedicastellana.it/",
+    # Il vecchio OPAC "BookMarkWeb" della Biblioteca "Franco Anelli" (CIDS-SSI,
+    # Bologna) non esiste più: il catalogo è confluito nel catalogo unico
+    # "Speleoteca" (~20 biblioteche speleologiche italiane). home-lib=10 filtra
+    # sulla "Biblioteca Gruppo Puglia Grotte" (372 titoli, verificato) proprio
+    # come il link originale era pensato a mostrare il fondo del Gruppo Puglia
+    # Grotte, non il catalogo generico di Bologna. Segnalato dall'utente +
+    # verificato via ricerca web il 2026-08-12. &amp; letterale perché pandoc
+    # lascia l'attributo href intatto così com'è nel DB.
+    "http://bmw06.comperio.it/bmw2/speleoteca/opac.php?screen=homepage&amp;loc=S&amp;osc=homepage&amp;orderby=Autore":
+        "https://speleoteca.biblioteche.it/opac/search/lst?home-lib=10&q=",
 }
 
 
@@ -265,6 +298,55 @@ def rewrite_external_links(text: str) -> str:
     for old, new in sorted(EXTERNAL_LINK_REWRITE.items(), key=lambda kv: -len(kv[0])):
         text = text.replace(old, new)
     return text
+
+
+# Link assoluti al vecchio dominio FUORI da /home/: puntano alla radice del
+# sito pre-WordPress (es. storiagpg.htm, museo.htm, immagini in images/...),
+# non allo stesso spazio /home/ che INTERNAL_RE già gestisce. Questo script
+# non converte da solo quelle pagine (lo fa scripts/old_to_hugo.py, che scrive
+# la mappa completa risultante in .link-rewrite.json dopo ogni fase): qui si
+# legge quella mappa e si sostituisce il vecchio URL assoluto col permalink
+# Hugo corrispondente. Se .link-rewrite.json manca o non contiene ancora
+# quella voce, il link resta invariato e viene segnalato in warnings (mai
+# lasciato in silenzio come falso link "vivo" verso il vecchio dominio).
+OLD_DOMAIN_RE = re.compile(
+    r'https?://(?:www\.)?gruppopugliagrotte\.it/(?!home/)([^\s"\'\)>]+)'
+)
+OLD_LINK_REWRITE_PATH = REPO / ".link-rewrite.json"
+OLD_LINK_REWRITE: dict[str, str] = (
+    json.loads(OLD_LINK_REWRITE_PATH.read_text(encoding="utf-8"))
+    if OLD_LINK_REWRITE_PATH.exists() else {}
+)
+
+
+def rewrite_old_domain_links(text: str) -> str:
+    def repl(m):
+        rest = urllib.parse.unquote(m.group(1))
+        key = rest.split("?")[0].split("#")[0]
+        if key in OLD_LINK_REWRITE:
+            return OLD_LINK_REWRITE[key]
+        warnings.append(
+            f"link al vecchio sito (fuori da /home/) non risolto in .link-rewrite.json, "
+            f"lasciato invariato: {m.group(0)}"
+        )
+        return m.group(0)
+    return OLD_DOMAIN_RE.sub(repl, text)
+
+
+# images/on.gif è l'icona di rollover "acceso", un bullet decorativo dentro
+# link con ancora reale sulla stessa pagina -- non contenuto (stessa
+# classificazione di strip_nav_icons in scripts/old_to_hugo.py, che per questo
+# la esclude apposta da DIRECT_ASSETS). Va tolta dall'<img>, non risolta come
+# link: gestita qui perché è l'unica pagina proveniente da WordPress (non da
+# old/) a referenziarla ancora.
+NAV_ICON_IMG_RE = re.compile(
+    r'<img\b[^>]*\bsrc="https?://(?:www\.)?gruppopugliagrotte\.it/images/on\.gif"[^>]*/?>\s*',
+    re.I,
+)
+
+
+def strip_known_nav_icons(text: str) -> str:
+    return NAV_ICON_IMG_RE.sub("", text)
 
 
 def preprocess_shortcodes(html: str, attachments: dict[str, str]) -> str:
@@ -351,6 +433,8 @@ def write_content(rel_path: str, title: str, body_html: str, attachments,
         pre = preprocess_shortcodes(body_html, attachments)
         md = html_to_md(pre)
         md = rewrite_internal_links(md, old_path_map, flat_page_map, attachments_by_name)
+        md = strip_known_nav_icons(md)
+        md = rewrite_old_domain_links(md)
         md = rewrite_external_links(md)
     else:
         md = ("<!-- TODO migrazione: contenuto assente anche nella pagina originale del\n"
@@ -394,7 +478,11 @@ def main():
         attachments_by_name[name] = guid
 
     print("== Query pagine ==")
-    ids_csv = ",".join(str(i) for i in PAGE_MAP)
+    # Unione con MANUAL_PAGES: servono comunque i loro record (post_name,
+    # post_parent) per calcolare old_path_map/flat_page_map -- vedi sotto --
+    # anche se il contenuto non si riscrive più per queste pagine.
+    all_page_ids = set(PAGE_MAP) | set(MANUAL_PAGES)
+    ids_csv = ",".join(str(i) for i in all_page_ids)
     pages_by_id = {}
     for pid, title, name, parent, excerpt, content in sql_rows(
         f"SELECT ID, post_title, post_name, post_parent, post_excerpt, post_content "
@@ -405,7 +493,7 @@ def main():
             "excerpt": excerpt, "content": content,
         }
 
-    missing = set(PAGE_MAP) - set(pages_by_id)
+    missing = all_page_ids - set(pages_by_id)
     if missing:
         sys.exit(f"Pagine mancanti nel DB rispetto alla mappa: {missing}")
 
@@ -431,7 +519,7 @@ def main():
     # post, non solo i propri.
     old_path_map: dict[str, str] = {}
     flat_page_map: dict[str, str] = {}
-    for pid, rel_path in PAGE_MAP.items():
+    for pid, rel_path in {**PAGE_MAP, **MANUAL_PAGES}.items():
         old = build_old_url(pid, pages_by_id).rstrip("/")
         old_path_map[old] = new_permalink(rel_path)
         flat_page_map[pages_by_id[pid]["post_name"]] = new_permalink(rel_path)

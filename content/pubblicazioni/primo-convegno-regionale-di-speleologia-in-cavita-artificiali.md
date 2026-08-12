@@ -4,7 +4,7 @@ aliases:
   - "/home/pubblicazioni/primo-convegno-regionale-di-speleologia-in-cavita-artificiali/"
 ---
 
-<img src="http://www.gruppopugliagrotte.it/eventi/images/convegno2007/loghi.jpg" data-align="right" data-border="0" width="425" height="196" alt="Patrocini" />
+<img src="/archivio-storico/legacy/eventi/images/convegno2007/loghi.jpg" data-align="right" data-border="0" width="425" height="196" alt="Patrocini" />
  
  
  
@@ -24,7 +24,7 @@ Castellana Grotte (Ba)
 
 <div align="center">
 
-<img src="http://www.gruppopugliagrotte.it/eventi/images/convegno2007/logo.jpg" data-border="0" width="300" height="279" alt="logo" />
+<img src="/archivio-storico/legacy/eventi/images/convegno2007/logo.jpg" data-border="0" width="300" height="279" alt="logo" />
 
 </div>
 
@@ -35,10 +35,10 @@ L'iniziativa, pure, ha avuto l'obiettivo di mettere in relazione il mondo accade
 A corredo degli eventi, si sono avvicendate la riunione della Commissione Cavità Artificiali della <a href="https://www.speleo.it/" target="_blank" rel="noopener" title="Società Speleologica Italiana">Società Speleologica Italiana</a> e l’inaugurazione della Sala Multimediale dedicata a **Vittorio Castellani** presso il Museo Speleologico Franco Anelli.
 Il bilancio può chiudersi con segno positivo: oltre un centinaio di partecipanti provenienti da tutt’Italia - fatto di tutto rilievo conto tenuto del carattere locale dell’evento – hanno presenziato ai lavori. Da rimarcare, poi, che i partecipanti hanno potuto seguire gli interventi con gli Atti del Convegno tra le mani, grazie alla puntualità dei relatori e alla solerzia della redazione della rivista Grotte e dintorni.
 
-- [**Programma**](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm#programma "Programma")
-- [**Relatori**](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm# "Relatori")
-- [**Eventi collaterali**](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm#eventi "Eventi collaterali")
-- [**Immagini**](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm# "Immagini")
+- [**Programma**](/archivio-storico/convegno-2007/ "Programma")
+- [**Relatori**](/archivio-storico/convegno-2007/ "Relatori")
+- [**Eventi collaterali**](/archivio-storico/convegno-2007/ "Eventi collaterali")
+- [**Immagini**](/archivio-storico/convegno-2007/ "Immagini")
 - ** **
 
 ------------------------------------------------------------------------
@@ -63,13 +63,13 @@ Il bilancio può chiudersi con segno positivo: oltre un centinaio di partecipant
 |            ore 10:10             |                                                                                       Gaetano Proietto                                                                                       
                                                                                                                    Presidente Gruppo Puglia Grotte                                                                                |
 |  *Sessione di lavori mattutina*  |                                                                                                                                                                                              |
-|            ore 10:20             |                                                     [Ezio Burri](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm# "Ezio Burri")                                                     
+|            ore 10:20             |                                                     [Ezio Burri](/archivio-storico/convegno-2007/ "Ezio Burri")                                                     
                                                                                                *La Commissione Cavità Artificiali della Società Speleologica Italiana*                                                            |
-|            ore 10:35             | [Carla Galeazzi](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm# "Carla Galeazzi"), [Marco Meneghini](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm# "Marco Meneghini") 
+|            ore 10:35             | [Carla Galeazzi](/archivio-storico/convegno-2007/ "Carla Galeazzi"), [Marco Meneghini](/archivio-storico/convegno-2007/ "Marco Meneghini") 
                                                                                             *Il Catasto Nazionale delle Cavità Artificiali tra passato presente e futuro*                                                         |
-|            ore 10:50             |                                                [Roberto Caprara](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm# "Roberto Caprara")                                                
+|            ore 10:50             |                                                [Roberto Caprara](/archivio-storico/convegno-2007/ "Roberto Caprara")                                                
                                                                                                            *Tipologie delle abitazioni rupestri in Puglia*                                                                        |
-|            ore 11:30             |                                             [Franco Dell'Aquila](http://www.gruppopugliagrotte.it/eventi/convegno2007.htm# "Franco Dell'Aquila")                                             
+|            ore 11:30             |                                             [Franco Dell'Aquila](/archivio-storico/convegno-2007/ "Franco Dell'Aquila")                                             
                                                                                                                     *Abitazioni rupestri a pozzo*                                                                                 |
 |            ore 11:55             |                                                                                     Sergio Natale Maglio                                                                                     
                                                                                                  *Cicli climatici e architetture scavate: osservazioni preliminari*                                                               |
@@ -146,7 +146,7 @@ Museo Speleologico Franco Anelli \| Palazzo di Città
   riunione primaverile
   **venerdì 23 marzo 2007 - ore 16:00**
   Museo Speleologico Franco Anelli
-  <img src="http://www.gruppopugliagrotte.it/eventi/images/convegno2007/castellani.jpg" class="alignright" data-align="right" data-border="1" data-hspace="10" data-vspace="5" width="159" height="156" alt="Vittorio Castellani" />
+  <img src="/archivio-storico/legacy/eventi/images/convegno2007/castellani.jpg" class="alignright" data-align="right" data-border="1" data-hspace="10" data-vspace="5" width="159" height="156" alt="Vittorio Castellani" />
   **Apposizione targa commemorativa dedicata a *Vittorio Castellani***
   **sabato 24 marzo 2007 - ore 15:00**
   Museo Speleologico Franco Anelli

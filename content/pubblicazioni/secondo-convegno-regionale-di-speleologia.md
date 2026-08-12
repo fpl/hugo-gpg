@@ -10,7 +10,7 @@ Castellana Grotte
 </span>
 
 <figure>
-<img src="http://www.gruppopugliagrotte.it/images/convreg1992.jpg" data-align="right" data-border="1" data-hspace="10" data-vspace="10" width="120" height="178" alt="Gli Atti del Convegno" />
+<img src="/archivio-storico/legacy/images/convreg1992.jpg" data-align="right" data-border="1" data-hspace="10" data-vspace="10" width="120" height="178" alt="Gli Atti del Convegno" />
 <figcaption>Copertina degli Atti</figcaption>
 </figure>
 

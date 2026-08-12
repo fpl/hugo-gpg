@@ -103,6 +103,18 @@ LINK_REWRITE = {
     "santomas/chi.htm": "/archivio-storico/progetto-santo-tomas/",
     "santomas/perche.htm": "/archivio-storico/progetto-santo-tomas/",
     "santomas/dove.htm": "/archivio-storico/progetto-santo-tomas/",
+    # santomas/index.htm non è una pagina di contenuto: è solo il frameset di
+    # rilevamento risoluzione schermo (redirect JS a index1024.htm), verificato
+    # aprendo il sorgente -- nessun testo proprio da migrare. Punta comunque a
+    # /progetto-santo-tomas/, la pagina reale a cui i link con questo href si
+    # riferivano nell'intento (citata come "la spedizione Santo Tomás").
+    "santomas/index.htm": "/archivio-storico/progetto-santo-tomas/",
+    # old-index.htm non esiste in old/ con questo nome esatto (probabile refuso
+    # nel post WP originale, verificato: candidati più vicini sono index.htm/
+    # index_ita.htm/index1024.htm, tutte pagine di puro chrome/redirect senza
+    # testo proprio). L'intento del link ("guarda il vecchio sito") è coperto
+    # meglio dalla sezione che lo sostituisce.
+    "old-index.htm": "/archivio-storico/",
     "esplorazioni/speleoartifi/Catasto.pdf": "/archivio-storico/legacy/esplorazioni/speleoartifi/Catasto.pdf",
     "GruppoPugliaGrotteCatalogoBiblioteca2013.zip": "/archivio-storico/legacy/GruppoPugliaGrotteCatalogoBiblioteca2013.zip",
 }
@@ -207,6 +219,7 @@ DIRECT_ASSETS = [
     "esplorazioni/alburni/alburnifebb2012.pdf", "esplorazioni/alburni/ProgettoDidatticoAlburniFinale.pdf",
     "esplorazioni/alburni/ProgettoDidatticoAlburni.pdf", "esplorazioni/alburni/PROGETTO_GENTILI_2012.pdf",
     "esplorazioni/alburni/RelazioneAlburn28.04.06.05.2012.pdf",
+    "esplorazioni/alburni/CS fine campo Alburni 2012.pdf",
     "esplorazioni/speleoartifi/Catasto.pdf",
     "convreg/images/CassaRuralePetit.jpg", "convreg/images/ComuneCastellana.jpg",
     "convreg/images/GrotteSrl.jpg", "convreg/images/LabInstruments.jpg",
@@ -220,11 +233,45 @@ DIRECT_ASSETS = [
     "images/1996_little.jpg", "images/1999_little.jpg", "images/2001_little.jpg",
     "images/2003_little.jpg", "images/2008_little.jpg",
     "images/anelli.jpg", "images/bro.jpg", "images/convnaz87.jpg",
-    "images/convreg1992.jpg", "images/convreg85.jpg", "images/on.gif",
+    "images/convreg1992.jpg", "images/convreg85.jpg",
+    # images/on.gif ESCLUSO di proposito: non è contenuto, è l'icona di
+    # rollover "acceso" usata come bullet decorativo in link con ancora reale
+    # sulla stessa pagina (stessa classificazione già applicata in
+    # strip_nav_icons per il resto del sito) -- va tolta dall'<img>, non
+    # copiata come asset. Gestita in scripts/wp_to_hugo.py (unica pagina WP
+    # che la referenzia).
     "images/q_1985_little.jpg", "images/q_1986_little.jpg", "images/q_1987_little.jpg",
     "images/q_1995_little.jpg",
     "GruppoPugliaGrotteCatalogoBiblioteca2013.zip",
 ]
+
+# Ogni asset diretto copiato in static/archivio-storico/legacy/<rel> deve avere
+# anche una voce in LINK_REWRITE (altrimenti resta "solo copiato": nessun link
+# nel contenuto reale punta mai lì). setdefault: non tocca le due voci sopra
+# già mappate esplicitamente con lo stesso schema di percorso.
+for _asset in DIRECT_ASSETS:
+    LINK_REWRITE.setdefault(_asset, f"/archivio-storico/legacy/{_asset}")
+del _asset
+
+# LINK_REWRITE completa (Fase 1+2+3) esportata in .link-rewrite.json alla
+# radice del repo: scripts/wp_to_hugo.py la legge per risolvere gli stessi
+# vecchi link assoluti (fuori da /home/) quando compaiono nel contenuto reale
+# proveniente da WordPress, che questo script non tocca mai direttamente.
+# Fusa (non sovrascritta) con quanto già presente: le tre fasi si possono
+# rilanciare indipendentemente e ognuna aggiunge solo le proprie voci.
+LINK_REWRITE_EXPORT_PATH = REPO / ".link-rewrite.json"
+
+
+def export_link_rewrite():
+    existing = (
+        json.loads(LINK_REWRITE_EXPORT_PATH.read_text(encoding="utf-8"))
+        if LINK_REWRITE_EXPORT_PATH.exists() else {}
+    )
+    existing.update(LINK_REWRITE)
+    LINK_REWRITE_EXPORT_PATH.write_text(
+        json.dumps(existing, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+
 
 CLASS_ATTR = re.compile(r'class\s*=\s*"([^"]*)"', re.I)
 CONTENT_TAGS = ("td", "div")
@@ -691,6 +738,7 @@ def main():
     copy_assets(image_refs)
     apply_post_fixups()
     save_manifest()
+    export_link_rewrite()
 
     if warnings:
         print("\n== Avvisi ==")
@@ -871,6 +919,7 @@ def extend_archive():
         process_page(page, image_refs, date=DATE_RIMIGRAZIONE)
     copy_assets(image_refs, direct_assets=set())
     save_manifest()
+    export_link_rewrite()
 
     if warnings:
         print("\n== Avvisi ==")
@@ -979,6 +1028,7 @@ def build_bollettini():
 
     copy_assets(image_refs, direct_assets={"bollettini/2008/GPGBollettino2008.pdf"})
     save_manifest()
+    export_link_rewrite()
     if warnings:
         print("\n== Avvisi ==")
         for w in warnings:

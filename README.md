@@ -211,10 +211,23 @@ reale sono riscritti da `scripts/wp_to_hugo.py` verso il percorso Hugo corrispon
 non lasciati come redirect via alias: pagine/post reali, allegati sotto
 `wp-content/uploads/`, file nella cartella legacy `home/downloads/` (moduli di iscrizione,
 locandine — copiati in `static/downloads/`), e le "pagine-allegato" che WordPress genera
-per mostrare un file caricato (risolte per slug fino al file reale). Fanno eccezione, e
-restano non toccati, i link a un sito pre-WordPress ancora più vecchio (pagine `.htm` sotto
-un'altra struttura, es. `/convreg/programma.htm`) di cui non esiste alcuna copia da
-migrare: erano già rotti sul sito originale.
+per mostrare un file caricato (risolte per slug fino al file reale).
+
+Il contenuto reale, però, cita spesso anche link assoluti FUORI da `/home/`: puntano alla
+radice del sito pre-WordPress (es. `storiagpg.htm`, `images/anelli.jpg`,
+`esplorazioni/alburni/*.pdf`), quello coperto da `scripts/old_to_hugo.py` (vedi "Archivio
+storico" più sopra). Ogni volta che quello script gira (una qualunque delle tre fasi) scrive
+la sua mappa completa `LINK_REWRITE` in `.link-rewrite.json` alla radice del repo (fondendo,
+non sovrascrivendo, con quanto già presente — le tre fasi si possono rilanciare
+indipendentemente). `scripts/wp_to_hugo.py` legge quel file e riscrive questi link assoluti
+verso il permalink Hugo o l'asset statico corrispondente, esattamente come fa per `/home/`.
+**Per questo l'ordine di esecuzione conta**: va rilanciato prima `old_to_hugo.py` (tutte le
+fasi che servono) e poi `wp_to_hugo.py`, altrimenti quest'ultimo trova `.link-rewrite.json`
+incompleto o assente e lascia il link assoluto invariato, segnalandolo in `== Avvisi ==`
+invece di romperlo in silenzio.
+
+Restano volutamente non toccati solo i link a un sito ancora più vecchio, pre-1999, di cui
+non esiste alcuna copia da migrare (già rotti anche sul sito originale).
 
 ## Script di conversione
 
