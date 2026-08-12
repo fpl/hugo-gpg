@@ -10,7 +10,7 @@ Direttore: **Roberto Cupertino**
 
 Corso omologato dalla [Società Speleologica Italiana](https://www.speleo.it/)
 
-**[Copertina](/images/uploads/2019/09/Copertina-pagina.png)**
+**![Copertina](/images/uploads/2019/09/Copertina-pagina.png)**
 
 Appuntamento tutti i giovedì dalle ore 20:30 alle ore 22:30 presso la sede sociale di via Margherita di Savoia n. 18 (nei pressi di Largo Porta Grande) a Castellana Grotte, per informazioni ed iscrizioni.
 e-mail: **segreteria@***NOSPAM***gruppopugliagrotte.it** (rimuovi *NOSPAM* per l’indirizzo corretto).
