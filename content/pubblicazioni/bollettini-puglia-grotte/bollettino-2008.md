@@ -8,7 +8,7 @@ date: 2026-08-01
 <figcaption>Bollettino 2008</figcaption>
 </figure>
 
-<img src="/archivio-storico/legacy/images/download.gif" data-border="0" data-align="left" width="20" height="20" /> <a href="/archivio-storico/legacy/bollettini/2008/GPGBollettino2008.pdf" target="_blank" title="Scarica il bollettino 2008">Scarica il bollettino</a>  
+[Scarica il bollettino](/archivio-storico/legacy/bollettini/2008/GPGBollettino2008.pdf "Scarica il bollettino 2008")  
 (formato pdf dimensione 5.053)  
   
 
@@ -60,5 +60,5 @@ Alessandro Todaro
 
   
   
-<img src="/archivio-storico/legacy/images/download.gif" data-border="0" data-align="left" width="20" height="20" /> <a href="/archivio-storico/legacy/bollettini/2008/GPGBollettino2008.pdf" target="_blank" title="Scarica il bollettino 2008">Scarica il bollettino</a>  
+[Scarica il bollettino](/archivio-storico/legacy/bollettini/2008/GPGBollettino2008.pdf "Scarica il bollettino 2008")  
 (formato pdf dimensione 5.053)

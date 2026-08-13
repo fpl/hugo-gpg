@@ -102,12 +102,12 @@ Castellana-Grotte (BA).
 **Le schede informative**  
   
 
-|                      |             |                |                                                                                                                                                            |
-|:--------------------:|:-----------:|:--------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|    **Contenuto**     | **Formato** | **Dimensione** |                                                                        **Download**                                                                        |
-| L'AQP in sette passi |    .pdf     |     308 KB     | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
-|    L'AQP in cifre    |    .pdf     |     68 KB      | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
-|  Duilio Cambelotti   |    .pdf     |     152 KB     | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
+|                      |             |                |
+|:--------------------:|:-----------:|:--------------:|
+|    **Contenuto**     | **Formato** | **Dimensione** |
+| L'AQP in sette passi |    .pdf     |     308 KB     |
+|    L'AQP in cifre    |    .pdf     |     68 KB      |
+|  Duilio Cambelotti   |    .pdf     |     152 KB     |
 
   
 

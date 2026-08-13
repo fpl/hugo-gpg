@@ -81,13 +81,13 @@ Natale e Capodanno esclusi
 Trasferisci l'invito alla Mostra sul tuo computer facendo clic sui file:  
   
 
-|               |             |                |                                                                                                                                                            |
-|:-------------:|:-----------:|:--------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| **Contenuto** | **Formato** | **Dimensione** |                                                                        **Download**                                                                        |
-|     Retro     |    .pdf     |     224 KB     | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
-|     Retro     |    .jpg     |     262 KB     | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
-|    Fronte     |    .pdf     |     88 KB      | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
-|    Fronte     |    .jpg     |     142 KB     | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
+|               |             |                |
+|:-------------:|:-----------:|:--------------:|
+| **Contenuto** | **Formato** | **Dimensione** |
+|     Retro     |    .pdf     |     224 KB     |
+|     Retro     |    .jpg     |     262 KB     |
+|    Fronte     |    .pdf     |     88 KB      |
+|    Fronte     |    .jpg     |     142 KB     |
 
   
 

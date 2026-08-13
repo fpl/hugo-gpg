@@ -86,9 +86,9 @@ Lo sviluppo esponenziale del turismo a Cuba, infatti, sta creando le condizioni 
 Trasferiscila sulla tua macchina; è disponibile in tre versioni.  
   
 
-|             |                |                                                                                                                                                            |
-|:-----------:|:--------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| **Formato** | **Dimensione** |                                                                        **Download**                                                                        |
-|    .ppt     |     183 KB     | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
-|    .gif     |     177 KB     | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
-|    .gif     |     104 KB     | <img src="/archivio-storico/legacy/images/download.gif" data-border="0" width="20" height="20" alt="Fai clic per trasferire il file sulla tua macchina" /> |
+|             |                |
+|:-----------:|:--------------:|
+| **Formato** | **Dimensione** |
+|    .ppt     |     183 KB     |
+|    .gif     |     177 KB     |
+|    .gif     |     104 KB     |
