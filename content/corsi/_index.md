@@ -4,7 +4,7 @@ aliases:
   - "/home/corsi/"
 ---
 
-I nostri corsi di speleologia di primo livello, omologati dalla [https://www.speleo.it/](Società Speleologica Italiana)">
+I nostri corsi di speleologia di primo livello, omologati dalla [Società Speleologica Italiana](https://www.speleo.it/)
 
 - Il [LI corso](/corsi/51-corso-di-speleologia/) (2025)
 - Il [L corso](/corsi/50-corso-di-speleologia/) (2024)
