@@ -40,6 +40,10 @@ Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazi
 - [Esplorazione dal 28 aprile al 6 maggio 2012](/archivio-storico/legacy/esplorazioni/alburni/RelazioneAlburn28.04.06.05.2012.pdf "Esplorazione dal 28 aprile al 6 maggio 2012")
 - [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni16giu2012.pdf "Esplorazione 16 giugno 2012") 16 giugno 2012
 - [Campo estivo sui Monti Alburni](/archivio-storico/esplorazioni/alburni/campo-2012/ "Campo estivo sui Monti Alburni") - [relazione finale](/archivio-storico/legacy/esplorazioni/alburni/CS%20fine%20campo%20Alburni%202012.pdf "relazione finale")
+- 2015 [Nuove esplorazioni in Alburni - Il "buco" diventa grotta](/novita/nuove-esplorazioni-in-alburni-il-buco-diventa-grotta/ "Nuove esplorazioni in Alburni - Il buco diventa grotta")
+
+2017 [Risorgenza di Canale Palazzo: la storia continua...](/novita/risorgenza-di-canale-palazzo-la-storia-continua/ "Risorgenza di Canale Palazzo: la storia continua") - Orsomarso (CS), grotta già documentata sul Bollettino GPG 1995.
+
 Ricerca di nuove cavità:
 [Grotta in contrada Mamutte](/archivio-storico/esplorazioni/mamutte/ "Grotta in contrada Mamutte")
 [Grotta San Luca](/archivio-storico/esplorazioni/luca/ "Grotta San Luca")
