@@ -8,6 +8,9 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 **Le immagini della sera fatale**  
   
+<img src="/archivio-storico/legacy/eventi/images/ArrivedPresid.gif" width="485" height="302" alt="" />  
+(*Foto Graziana Quinto*)  
+  
 Sin dal 1995, quando venne chiamato a sostituire il presidentissimo Pino Pace, **Giuseppe Savino** è stato il presidente del Gruppo Puglia Grotte.  
   
 Giovedì 25 settembre 2003, nel corso di una seduta del Consiglio Direttivo, ha consegnato le sue dimissioni: impegni personali, ma anche un po' di stanchezza...  

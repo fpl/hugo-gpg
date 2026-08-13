@@ -1,0 +1,43 @@
+---
+title: "Incontro di Speleologia Italo-Cubana"
+date: 2006-06-08
+description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
+---
+<table width="100%" data-border="0" data-cellspacing="0" data-cellpadding="4">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="4" width="10%"><img src="/archivio-storico/legacy/eventi/images/cuba2006/titolo.jpg" data-border="0" width="60" height="800" /></td>
+<td class="testo" style="text-align: center;" data-valign="middle"></td>
+<td class="testo" style="text-align: center;" data-valign="middle"><img src="/archivio-storico/legacy/images/loghi/sec.jpg" data-border="0" data-hspace="10" data-vspace="10" width="100" height="96" /></td>
+</tr>
+<tr class="even">
+<td colspan="2" class="testo" data-valign="middle" style="text-align: center; color: Maroon;"><strong>Museo Speleologico Franco Anelli<br />
+Grotte di Castellana<br />
+<br />
+8 giugno 2006 ore 20.30</strong></td>
+</tr>
+<tr class="odd">
+<td class="testo" style="text-align: left;" data-valign="top"><br />
+<br />
+<br />
+<br />
+<br />
+&#10;<ul>
+<li><strong>L'invito</strong></li>
+<li><strong>La relazione</strong></li>
+<li><a href="/archivio-storico/eventi/cuba2006/immagini/" target="_self"><strong>Le immagini della serata</strong></a></li>
+</ul></td>
+<td style="text-align: center;"><img src="/archivio-storico/legacy/eventi/images/cuba2006/foto.jpg" data-border="0" width="171" height="400" /></td>
+</tr>
+<tr class="even">
+<td colspan="2" class="testo" style="text-align: center;" data-valign="middle"><strong>Patrocini</strong><br />
+<br />
+<img src="/archivio-storico/legacy/eventi/images/cuba2006/patrocini.jpg" data-border="0" width="400" height="76" /></td>
+</tr>
+</tbody>
+</table>
