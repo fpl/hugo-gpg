@@ -76,18 +76,18 @@ Ulteriori dati sul complesso carsico di <a href="http://www.italia-cuba.speleo.i
   
   
 
-**Presentazione** aspetti geologici (V. Iurilli) - file .ppt
+**Presentazione** aspetti geologici (V. Iurilli), conversione in pdf delle diapositive originali.
 
-1.  **Inquadramento** - 1.677 KB
-2.  **Storia geologica** - 500 KB
-3.  **La Cordillera de Guaniguanico** - 763 KB
-4.  **Idrografia** - 919 KB
-5.  **Sierras** - 1.308 KB
-6.  **Carsismo costiero** - 817 KB
-7.  **Santo Tomás** - 2.137 KB
-8.  **Concrezioni** - 4.070 KB
-9.  **Concrezioni** - 3.391 KB
-10. **Fine** - 1.636 KB
+1.  [Inquadramento](/archivio-storico/legacy/santomas/iurilli/1_InquadramentoGeograficoClimatico.pdf "Inquadramento") - 1.017 KB
+2.  [Storia geologica](/archivio-storico/legacy/santomas/iurilli/2_StoriaGeologica.pdf "Storia geologica") - 533 KB
+3.  [La Cordillera de Guaniguanico](/archivio-storico/legacy/santomas/iurilli/3_CordilleraGuaniguanico.pdf "La Cordillera de Guaniguanico") - 864 KB
+4.  [Idrografia](/archivio-storico/legacy/santomas/iurilli/4_Idrografia.pdf "Idrografia") - 1.173 KB
+5.  [Sierras](/archivio-storico/legacy/santomas/iurilli/5_Sierras.pdf "Sierras") - 1.464 KB
+6.  [Carsismo costiero](/archivio-storico/legacy/santomas/iurilli/6_carsismocostiero.pdf "Carsismo costiero") - 900 KB
+7.  [Santo Tomás](/archivio-storico/legacy/santomas/iurilli/7_santotomas.pdf "Santo Tomás") - 531 KB
+8.  [Concrezioni](/archivio-storico/legacy/santomas/iurilli/8_concrezioni.pdf "Concrezioni") - 558 KB
+9.  [Concrezioni](/archivio-storico/legacy/santomas/iurilli/9_concrezioni.pdf "Concrezioni") - 1.015 KB
+10. [Fine](/archivio-storico/legacy/santomas/iurilli/10_fine.pdf "Fine") - 208 KB
 
 La spedizione scientifica che stiamo progettando avrà come obiettivi l'investigazione del clima sotterraneo, la geologia, la natura dei fenomeni geomorfologici, l'idrologia carsica, l'analisi dei reperti archeologici custoditi, la biospeleologia e la fauna; infine, si ricercheranno tracce d'attività antropica, poiché questi luoghi sono stati frequentati dall'uomo a partire da 3.500 anni fa.  
   
