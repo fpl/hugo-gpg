@@ -1,6 +1,6 @@
 ---
 title: "Il nuovo bibliotecario del Gruppo Puglia Grotte"
-date: 2026-08-01
+date: 2011-11-16
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Il nuovo bibliotecario del Gruppo Puglia Grotte**<img src="/archivio-storico/legacy/images/soci/meuli.jpg" data-border="1" data-align="right" data-hspace="10" data-vspace="10" width="160" height="200" alt="Vito Meuli" />  

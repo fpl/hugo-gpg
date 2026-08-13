@@ -1,6 +1,6 @@
 ---
 title: "La piena alle Gravinelle 16 settembre 2006"
-date: 2026-08-01
+date: 2006-09-16
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **La piena alle Gravinelle - 16 settembre 2006**  

@@ -1,5 +1,6 @@
 ---
 title: "Le spedizioni in Albania"
+date: 1993-11-16
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/albania/albania.jpg" data-border="0" data-align="right" data-hspace="10" width="185" height="350" alt="Albania" />

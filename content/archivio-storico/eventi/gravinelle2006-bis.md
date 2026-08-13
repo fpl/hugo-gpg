@@ -1,6 +1,6 @@
 ---
 title: "Le piogge - 1 ottobre 2006"
-date: 2026-08-01
+date: 2006-10-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Sopralluoghi dopo le ultime piogge**  

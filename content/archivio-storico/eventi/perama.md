@@ -1,6 +1,6 @@
 ---
 title: "Interreg III - Giornate di Studio 15-18 novembre 2008"
-date: 2026-08-01
+date: 2008-11-15
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Interreg III - Giornate di Studio 15-18 novembre 2008**  

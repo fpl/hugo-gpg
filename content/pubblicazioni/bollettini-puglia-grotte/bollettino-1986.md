@@ -1,6 +1,6 @@
 ---
 title: "Bollettino 1986"
-date: 2026-08-01
+date: 1986-11-16
 ---
 
 <figure>

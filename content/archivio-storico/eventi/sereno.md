@@ -1,6 +1,6 @@
 ---
 title: "Il Gruppo Puglia Grotte a Sereno Variabile"
-date: 2026-08-01
+date: 2008-02-23
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

@@ -1,6 +1,6 @@
 ---
 title: "Bollettino 2015"
-date: 2026-08-01
+date: 2015-11-16
 ---
 
 <figure>

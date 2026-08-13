@@ -1,6 +1,6 @@
 ---
 title: "Benvenuto Presidente!"
-date: 2026-08-01
+date: 2003-11-13
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Benvenuto Presidente!**  

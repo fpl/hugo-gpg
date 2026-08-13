@@ -1,6 +1,6 @@
 ---
 title: "Auguri Gigi!"
-date: 2026-08-01
+date: 2006-03-25
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Auguri Gigi!**  

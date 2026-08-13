@@ -1,5 +1,5 @@
 <article class="post-card">
-  <p class="post-card__date">{{ .Date.Format "02.01.2006" }}</p>
+  {{ if not .Date.IsZero }}<p class="post-card__date">{{ .Date.Format "02.01.2006" }}</p>{{ end }}
   <h2 class="post-card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
   <div class="post-card__excerpt">{{ .Summary }}</div>
   <a class="post-card__more" href="{{ .RelPermalink }}">Continua a leggere →</a>

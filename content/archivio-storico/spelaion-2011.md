@@ -1,5 +1,6 @@
 ---
 title: "Spélaion 2011 — XVI Incontro di Speleologia Regionale"
+date: 2011-12-09
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/GPG40-EXT-C1.jpg" data-hspace="0" data-vspace="0" data-border="0" data-align="left" width="200" height="83" alt="Sito del Gruppo Puglia Grotte" />  

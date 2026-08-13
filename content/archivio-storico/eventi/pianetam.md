@@ -1,6 +1,6 @@
 ---
 title: "Il Gruppo Puglia Grotte va in onda a Pianeta Mare - Rete4"
-date: 2026-08-01
+date: 2005-02-27
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Il Gruppo Puglia Grotte va in onda a Pianeta Mare - Rete4**  

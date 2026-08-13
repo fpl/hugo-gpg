@@ -1,5 +1,6 @@
 ---
 title: "La Sociedad Espeleologica de Cuba a Castellana-Grotte"
+date: 2002-11-04
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Arrivano i Cubani!**  

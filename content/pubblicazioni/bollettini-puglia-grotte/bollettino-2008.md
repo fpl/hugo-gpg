@@ -1,6 +1,6 @@
 ---
 title: "Bollettino 2008"
-date: 2026-08-01
+date: 2008-11-16
 ---
 
 <figure>

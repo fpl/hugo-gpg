@@ -1,6 +1,6 @@
 ---
 title: "Il XXVII Corso di Speleologia"
-date: 2026-08-01
+date: 2005-11-03
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **XXVII Corso di Speleologia di 1° Livello**  

@@ -1,5 +1,6 @@
 ---
 title: "Programma attività speleologica autunno-inverno 2006-2007"
+date: 2006-11-12
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

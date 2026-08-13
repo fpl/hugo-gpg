@@ -1,6 +1,6 @@
 ---
 title: "Affidata al Gruppo Puglia Grotte l'esplorazione delle nuove cavità castellanesi"
-date: 2026-08-01
+date: 2011-06-03
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

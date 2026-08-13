@@ -1,6 +1,6 @@
 ---
 title: "Il XXI Corso di Speleologia"
-date: 2026-08-01
+date: 1999-10-14
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 Il corso, diretto da Rosanna Romanazzi, si è svolto dal 14 ottobre al 4 dicembre 1999; vi hanno preso parte 8 allievi, di cui una donna.  

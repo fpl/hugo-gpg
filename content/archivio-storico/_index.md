@@ -1,5 +1,6 @@
 ---
 title: "Archivio storico"
+date: 2026-08-01
 description: "Pagine recuperate dal sito del Gruppo Puglia Grotte precedente a WordPress (in linea 1999–2014)."
 ---
 

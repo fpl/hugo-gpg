@@ -1,5 +1,6 @@
 ---
 title: "Progetto Santo Tomás — spedizioni speleologiche a Cuba"
+date: 2003-11-16
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 Chi

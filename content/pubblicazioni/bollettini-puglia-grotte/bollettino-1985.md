@@ -1,6 +1,6 @@
 ---
 title: "Bollettino 1985"
-date: 2026-08-01
+date: 1985-11-16
 aliases:
   - "/home/pubblicazioni/bollettini-puglia-grotte/bollettino-1985/"
 ---

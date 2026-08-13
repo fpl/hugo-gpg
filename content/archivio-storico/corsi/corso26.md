@@ -1,6 +1,6 @@
 ---
 title: "Il XXVI Corso di Speleologia"
-date: 2026-08-01
+date: 2004-10-06
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **XXVI Corso di Speleologia di 1° Livello**  

@@ -1,6 +1,6 @@
 ---
 title: "Antonio Baccarelli nuovo Socio Onorario"
-date: 2026-08-01
+date: 2005-02-10
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Antonio Baccarelli nuovo Socio Onorario**  

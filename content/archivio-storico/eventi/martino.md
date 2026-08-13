@@ -1,6 +1,6 @@
 ---
 title: "San Martino al Gruppo Puglia Grotte 2004"
-date: 2026-08-01
+date: 2004-11-11
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **San Martino al Gruppo Puglia Grotte 2004**  

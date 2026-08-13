@@ -1,6 +1,6 @@
 ---
 title: "Bollettino 2024"
-date: 2026-08-01
+date: 2024-11-16
 ---
 
 <figure>

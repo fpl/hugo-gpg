@@ -1,5 +1,6 @@
 ---
 title: "L'avventura dell'uomo — Festival del film d'avventura"
+date: 2001-03-31
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **L'avventura dell'uomo**  

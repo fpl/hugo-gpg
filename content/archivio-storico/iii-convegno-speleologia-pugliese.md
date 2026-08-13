@@ -1,5 +1,6 @@
 ---
 title: "III Convegno di Speleologia Pugliese — Il Programma"
+date: 2002-12-06
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

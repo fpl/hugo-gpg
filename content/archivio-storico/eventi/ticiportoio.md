@@ -1,6 +1,6 @@
 ---
 title: "Il Gruppo Puglia Grotte a Ti ci porto io La7"
-date: 2026-08-01
+date: 2012-01-22
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Ti ci porto io - La7**  

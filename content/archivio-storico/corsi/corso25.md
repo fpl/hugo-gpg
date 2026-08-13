@@ -1,8 +1,13 @@
 ---
 title: "Il XXV Corso di Speleologia"
-date: 2026-08-01
+date: 2003-10-08
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
+**25° Corso di Speleologia di 1° Livello**  
+8 ottobre - 9 novembre 2003  
+Castellana-Grotte (BA)  
+Direttore: Gaetano Proietto
+
 <table width="100" data-border="0" data-cellspacing="0" data-cellpadding="0" data-align="right">
 <colgroup>
 <col style="width: 100%" />

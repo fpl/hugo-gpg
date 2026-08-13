@@ -1,6 +1,6 @@
 ---
 title: "70° anniversario della scoperta delle Grotte di Castellana"
-date: 2026-08-01
+date: 2008-01-23
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <table width="100%" data-cellspacing="0" data-cellpadding="10">

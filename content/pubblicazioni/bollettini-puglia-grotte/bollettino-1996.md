@@ -1,6 +1,6 @@
 ---
 title: "Bollettino 1996"
-date: 2026-08-01
+date: 1996-11-16
 ---
 
 <figure>

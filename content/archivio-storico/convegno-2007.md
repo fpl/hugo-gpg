@@ -1,5 +1,6 @@
 ---
 title: "I Convegno Regionale di Speleologia in Cavità Artificiali — Architetture nel Buio"
+date: 2007-03-24
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/eventi/images/convegno2007/loghi.jpg" data-border="0" data-align="right" width="425" height="196" alt="Patrocini" />  

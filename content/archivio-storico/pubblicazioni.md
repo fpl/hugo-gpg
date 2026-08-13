@@ -1,5 +1,6 @@
 ---
 title: "Pubblicazioni"
+date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 Le nostre pubblicazioni nascono dall'impegno dei soci e di quanti, appassionati di speleologia,  

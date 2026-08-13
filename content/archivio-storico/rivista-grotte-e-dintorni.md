@@ -1,5 +1,6 @@
 ---
 title: "Il Museo Speleologico Franco Anelli — la rivista Grotte e Dintorni"
+date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **La storia**  

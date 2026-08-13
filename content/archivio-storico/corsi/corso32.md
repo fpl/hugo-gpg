@@ -1,6 +1,6 @@
 ---
 title: "XXXII Corso di Speleologia di I Livello"
-date: 2026-08-01
+date: 2009-10-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/corso/32/images/6/fata.jpg" data-border="1" data-align="right" data-hspace="0" width="160" height="377" alt="Il direttore - foto Rosanna Laragione" />

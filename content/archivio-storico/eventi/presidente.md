@@ -1,6 +1,6 @@
 ---
 title: "Arrivederci, Presidente! - Ricordiamolo a dieci anni dalla scomparsa"
-date: 2026-08-01
+date: 2003-09-25
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/eventi/images/savino.jpg" data-border="1" data-hspace="10" data-vspace="5" data-align="left" width="100" height="154" alt="Giuseppe Savino" />

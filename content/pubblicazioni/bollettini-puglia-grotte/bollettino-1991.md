@@ -1,6 +1,6 @@
 ---
 title: "Bollettino 1991"
-date: 2026-08-01
+date: 1991-11-16
 ---
 
 <figure>

@@ -1,6 +1,6 @@
 ---
 title: "Il XXVIII Corso di Speleologia"
-date: 2026-08-01
+date: 2006-05-04
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/corso/27/images/anim.gif" data-border="0" data-hspace="0" data-vspace="0" data-align="right" width="200" height="60" alt="Festa di fine corso" />

@@ -1,6 +1,6 @@
 ---
 title: "Bollettino 2003"
-date: 2026-08-01
+date: 2003-11-16
 ---
 
 <figure>

@@ -1,5 +1,6 @@
 ---
 title: "Speleologia artificiale"
+date: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 Andare per ipogei artificiali è decisamente poco sano ed eccitante:
