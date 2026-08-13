@@ -8,6 +8,10 @@ date: 2026-08-01
 <figcaption>Bollettino 2024</figcaption>
 </figure>
 
+[Scarica il bollettino](/downloads/bollettino_2024.pdf "Scarica il bollettino 2024")  
+(formato pdf dimensione 4.514)  
+  
+
 **Indice**  
   
   
@@ -70,3 +74,9 @@ date: 2026-08-01
 
       
 17. *Soci del Gruppo Puglia Grotte al 31.12.2024*
+
+  
+  
+
+[Scarica il bollettino](/downloads/bollettino_2024.pdf "Scarica il bollettino 2024")  
+(formato pdf dimensione 4.514)
