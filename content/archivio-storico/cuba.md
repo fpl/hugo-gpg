@@ -75,20 +75,13 @@ Lo sviluppo esponenziale del turismo a Cuba, infatti, sta creando le condizioni 
 
   
   
-**Tutte le foto**  
+**[Tutte le foto](/archivio-storico/cuba-foto/)**  
   
   
 **Rassegna stampa dell'evento**  
-**Fax 02/11/2002**  
-**La Gazzetta del Mezzogiorno 02/11/2002**  
+[**Fax 02/11/2002**](/archivio-storico/legacy/rassegna/images/2002/Fax02.11.2002.jpg "Fax 02/11/2002")  
+[**La Gazzetta del Mezzogiorno 02/11/2002**](/archivio-storico/legacy/rassegna/images/2002/GdM02.11.2002.jpg "La Gazzetta del Mezzogiorno 02/11/2002")  
   
 **Presentazione** dell'evento.  
-Trasferiscila sulla tua macchina; è disponibile in tre versioni.  
-  
-
-|             |                |
-|:-----------:|:--------------:|
-| **Formato** | **Dimensione** |
-|    .ppt     |     183 KB     |
-|    .gif     |     177 KB     |
-|    .gif     |     104 KB     |
+[Scarica la presentazione](/archivio-storico/legacy/Presentazione.pdf "Scarica la presentazione dell'evento")  
+(formato pdf, conversione della presentazione PowerPoint originale, dimensione 137 KB)
