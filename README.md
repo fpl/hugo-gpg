@@ -339,7 +339,16 @@ automatiche), 0 errori, 105 alias funzionanti verso i vecchi URL — sia WordPre
 
 ## Makefile: build, bozze/contenuto futuro, pulizia, pubblicazione FTP
 
-`Makefile` copre l'intero ciclo locale e la pubblicazione, pensato per l'hosting Aruba
+Per facilitare il build, preview e delivery delle pagine generate si usa il programma `make` che deve essere installato insieme a `hugo`
+per la gestione del contenuto. Oltre a questo, per la pubblicazione delle pagine su Aruba occorre il programma `lftp`.
+
+In particolare su Debina/Ubuntu
+
+```
+sudo apt install -y make hugo lftp
+```
+
+Il `Makefile` distribuito copre l'intero ciclo locale e la pubblicazione, pensato per l'hosting Aruba
 (FTP). Target principali (`make help` li elenca tutti):
 
 | Target | Effetto |
