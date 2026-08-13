@@ -6,10 +6,10 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 **Chi siamo**  
   
   
-Il Gruppo Puglia Grotte fin dal 1971, anno della sua costituzione, svolge attività di ricerca ed esplorazione speleologica in Puglia, nell'Italia meridionale e in Albania.  
+Il Gruppo Puglia Grotte fin dal 1971, anno della sua costituzione, svolge attività di ricerca ed esplorazione speleologica in Puglia, nell'Italia meridionale e in Albania. Precursore del sodalizio fu il [**Gruppo Grotte Castellana**](/archivio-storico/gruppo-grotte-castellana/ "Gruppo Grotte Castellana: i pionieri della speleologia pugliese"), costituitosi già nel 1938 all'indomani della scoperta delle Grotte di Castellana.  
 Inoltre, nel pluriennale impegno dedicato alla didattica, ha dato vita a ben trentaquattro corsi di introduzione alla speleologia e diversi corsi di specializzazione a carattere regionale e nazionale.  
 Importante risulta anche l'organizzazione di corsi di speleologia, corsi di approfondimento per docenti e [laboratori didattici](/archivio-storico/la-scuola-nellambiente/ "La Scuola nell'Ambiente") per le scuole di ogni istruzione e grado.  
-Nel 1996, poi, ha tenuto il I Corso di Tecnica Speleologica a Corodove, in Albania.  
+Nel 1996, poi, ha tenuto il I Corso di Tecnica Speleologica a Corodove, in Albania, sotto il coordinamento di [**Ferdinando Didonna**](/archivio-storico/ferdinando-didonna/ "Ferdinando Didonna"), responsabile scientifico del Progetto Albania.  
   
 Sul [versante esplorativo](/archivio-storico/esplorazione-e-ricerca/ "Vai a Esplorazione e ricerca") ha organizzato spedizioni speleologiche e di ricerca in Marocco, Tunisia, [Albania](/archivio-storico/albania/ "Vai a Le spedizioni speleologiche in Albania") - ben cinque, dal 1993 al 1996, Cuba e Portogallo.
 Soci del Gruppo Puglia Grotte partecipano regolarmente a progetti di ricerca in Messico, Patagonia, Antartide e Filippine.  
@@ -29,7 +29,7 @@ Forte dell'esperienza di anni, infatti, il Gruppo Puglia Grotte ha organizzato:
 - International Speleological Conference, Tirana, Albania (1998)
 - Tavola Rotonda Acque del Terzo Millennio (2001)
 - III Convegno Regionale di Speleologia Pugliese (2002)
-- VII Incontro Regionale della Speleologia Pugliese, **Spélaion** (2002)
+- VII Incontro Regionale della Speleologia Pugliese, [**Spélaion**](/archivio-storico/iii-convegno-speleologia-pugliese/#spelaion "Spélaion 2002") (2002)
 - [I Convegno Regionale di Speleologia in Cavità Artificiali](/archivio-storico/convegno-2007/), Architetture nel Buio (2007)
 - XVI Incontro di Speleologia Regionale Spélaion 9 - 10 - 11 dicembre 2011
 
@@ -46,5 +46,5 @@ E' storia recente l'affidamento al Gruppo Puglia Grotte, da parte dell'Amministr
   
 Sul proprio sito internet www.gruppopugliagrotte.it, infine, il Gruppo Puglia Grotte presenta le immagini, la storia, gli amici, le avventure, i momenti più intensi della propria esistenza speleologica.
 
-Cos'è successo al gruppo anno per anno? Ecco la [**cronistoria**](/archivio-storico/crono/ "La cronistoria del gruppo") del Gruppo Puglia Grotte, e una raccolta di [immagini storiche](/archivio-storico/immagini-storiche/ "Immagini storiche") dagli archivi del Gruppo.  
-Vedi anche: [i materiali didattici](/archivio-storico/materiali-didattici/ "I materiali didattici") usati nei corsi, [i soci scomparsi](/archivio-storico/soci-scomparsi/ "Soci scomparsi") che qui ricordiamo, e le pagine dedicate a [Biospeleologia](/archivio-storico/biospeleologia/ "Biospeleologia") e a [i nostri corsi di speleologia in numeri](/archivio-storico/corsi/corsi-in-numeri/ "I nostri corsi di speleologia in numeri").
+Cos'è successo al gruppo anno per anno? Ecco la [**cronistoria**](/archivio-storico/crono/ "La cronistoria del gruppo") del Gruppo Puglia Grotte, una raccolta di [immagini storiche](/archivio-storico/immagini-storiche/ "Immagini storiche") dagli archivi del Gruppo, e la [**rassegna stampa**](/archivio-storico/rassegna-stampa/ "Rassegna stampa") dal 1972 al 2011.  
+Vedi anche: [i materiali didattici](/archivio-storico/materiali-didattici/ "I materiali didattici") usati nei corsi, [i soci scomparsi](/archivio-storico/soci-scomparsi/ "Soci scomparsi") che qui ricordiamo, e le pagine dedicate a [Biospeleologia](/archivio-storico/biospeleologia/ "Biospeleologia") e a [i nostri corsi di speleologia in numeri](/archivio-storico/corsi/corsi-in-numeri/ "I nostri corsi di speleologia in numeri"). L'ultima [Assemblea Ordinaria dei soci](/archivio-storico/assemblea-2013/ "Convocazione per Assemblea Ordinaria") qui pubblicata risale al 2013.

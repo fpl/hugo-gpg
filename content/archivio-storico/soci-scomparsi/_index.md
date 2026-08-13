@@ -12,5 +12,6 @@ Un ricordo di alcuni soci del Gruppo Puglia Grotte che non sono più tra noi.
 - [Alberto Pinto](/archivio-storico/soci-scomparsi/alberto-pinto/ "Chi era Alberto Pinto?")
 - [Giovanni Simonini](/archivio-storico/soci-scomparsi/giovanni-simonini/ "Chi era Giovanni Simonini?")
 - [Vito Fiore Mancini](/archivio-storico/soci-scomparsi/vito-fiore-mancini/ "Chi era Vito Fiore Mancini?")
+- [Domenico Racaniello](/archivio-storico/soci-scomparsi/domenico-racaniello/ "Chi era Domenico Racaniello?")
 
 Un ricordo di [Franco Anelli](/museo/chi-era-franco-anelli/ "Chi era Franco Anelli?") e di [Dino Faiano](/archivio-storico/eventi/festafaiano/ "Chi era Dino Faiano?") si trovano altrove sul sito.

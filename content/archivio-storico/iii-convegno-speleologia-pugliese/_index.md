@@ -28,9 +28,11 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 <a href="#6" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;document.on6&#39;,&#39;document.on6&#39;,&#39;../images/off.gif&#39;,&#39;#976378918720&#39;)"><strong>Contatti</strong></a>  
   
-**Gli Atti**  
+[**Gli Atti**](/archivio-storico/grotte-e-dintorni/numero-4/ "Vai al numero 4 della rivista")  
   
-**Le immagini**  
+[**Le immagini**](/archivio-storico/iii-convegno-speleologia-pugliese/immagini/ "Vai al 3° Convegno Regionale di Speleologia")  
+  
+[**Ecco com'è andata**](/archivio-storico/iii-convegno-speleologia-pugliese/risultati/ "III Convegno di Speleologia Pugliese — Ecco com'è andata")  
   
 <span id="1"></span>
 

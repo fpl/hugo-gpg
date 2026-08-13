@@ -152,15 +152,15 @@ La **Giornata Nazionale della Speleologia** del G.P.G.
 La [**Sociedad Espeleologica de Cuba**](/archivio-storico/cuba/ "Delegazione della Sociedad Espeleologica de Cuba a Castellana-Grotte") a Castellana-Grotte  
 3° [**Convegno**](/archivio-storico/iii-convegno-speleologia-pugliese/ "Vai al 3° Convegno Regionale di Speleologia") Regionale di Speleologia  
 [**Grotte e Dintorni**](/archivio-storico/grotte-e-dintorni/numero-4/ "Vai al numero 4 della rivista") 4/2002  
-**Luci dal Sottosuolo** - Storia della speleologia pugliese  
-**Spélaion** - VII Incontro Regionale della Speleologia Pugliese
+[**Luci dal Sottosuolo**](/archivio-storico/luci-dal-sottosuolo/ "Luci dal sottosuolo") - Storia della speleologia pugliese  
+[**Spélaion**](/archivio-storico/iii-convegno-speleologia-pugliese/#spelaion "Spélaion 2002") - VII Incontro Regionale della Speleologia Pugliese
 
 **2003**  
 Un [**falò**](/archivio-storico/eventi/falo-2003/ "Un falò per il Mozambico - Edizione 2003") per il Mozambico - Edizione 2003  
 65° [**anniversario**](/archivio-storico/eventi/anniversario-2003/ "65° anniversario della scoperta delle Grotte di Castellana") della scoperta delle Grotte di Castellana  
 **Trekking di Primavera** - Edizione 2003 - Programma di uscite  
 [**Grotte e Dintorni**](/archivio-storico/grotte-e-dintorni/numero-5/ "Vai al numero 5 della rivista") 5/2003  
-**Aiuto! Ci rubano gli ulivi!** - La nostra campagna per gli ulivi  
+[**Aiuto! Ci rubano gli ulivi!**](/archivio-storico/ulivi/ "Aiuto! Ci rubano gli ulivi!") - La nostra campagna per gli ulivi  
 [**Arrivederci, Presidente!**](/archivio-storico/eventi/presidente/ "Arrivederci, Presidente!") - Giuseppe Savino si dimette  
 [**Grotte e Dintorni**](/archivio-storico/grotte-e-dintorni/numero-6/ "Vai al numero 6 della rivista") 6/2003  
 [**Presidente ad interim**](/archivio-storico/eventi/presidente/ "Presidente ad interim") Francesca Franzoso  
@@ -179,7 +179,7 @@ Un **falò** per il Mozambico - Edizione 2004
 **Passeggiate di Primavera** - Edizione 2004 - Programma di uscite  
 Il nostro XXVI [**Corso**](/archivio-storico/corsi/corso26/ "XXVI Corso di Speleologia") di Speleologia di 1°livello  
 [**Grotte e Dintorni**](/archivio-storico/grotte-e-dintorni/numero-8/ "Vai al numero 8 della rivista") 8/2004  
-Scompare **Domenico Racaniello**  
+Scompare [**Domenico Racaniello**](/archivio-storico/soci-scomparsi/domenico-racaniello/ "Chi era Domenico Racaniello?")  
 **San Martino** al Gruppo Puglia Grotte 2004  
 **Progetto Catasto**: il Gruppo Puglia Grotte a lavoro  
 [**Speleopillole**](/archivio-storico/speleopillole/ "Speleopillole") - per gli speleologi di domani ed. 2004  
@@ -191,7 +191,7 @@ Il Gruppo Puglia Grotte va in onda a [**Pianeta Mare**](/archivio-storico/eventi
 **2005**  
 Un [**falò per il Mozambico**](/archivio-storico/eventi/falo2005/ "Un falò per il Mozambico") - edizione 2005  
 Antonio Baccarelli nuovo [**socio onorario**](/archivio-storico/eventi/bacca/ "Antonio Baccarelli nuovo socio onorario")  
-**Domenico Racaniello** nuovo socio alla memoria  
+[**Domenico Racaniello**](/archivio-storico/soci-scomparsi/domenico-racaniello/ "Chi era Domenico Racaniello?") nuovo socio alla memoria  
 **Passeggiate di primavera** - edizione 2005  
 Il Gruppo Puglia Grotte alla **Marcia Gravina-Altamura** 2005  
 **Giornata Nazionale della Speleologia** - Edizione 2005  
@@ -204,7 +204,7 @@ Il nostro [**XXVII Corso di Speleologia di I livello**](/archivio-storico/corsi/
 
 **2006**  
 Un [**falò per il Mozambico**](/archivio-storico/eventi/falo2006/ "Un falò per il Mozambico") - edizione 2006  
-Intervento di pulizia alle Grotte di Castellana - Fax 11/03/2006  
+Intervento di pulizia alle Grotte di Castellana - Fax 11/03/2006 [**1**](/archivio-storico/legacy/rassegna/images/2006/fax11.03.2006.jpg "Fax 11/03/2006") - [**2**](/archivio-storico/legacy/rassegna/images/2006/faxbis11.03.2006.jpg "Fax 11/03/2006")  
 **Passeggiate di Primavera - Edizione 2006**  
 [**Grotte e Dintorni**](/archivio-storico/grotte-e-dintorni/numero-10/ "Vai al numero 10/2005") 10/2005  
 **Dal Giordano al Golgota** - Il Gruppo Puglia Grotte e *La Zizzannia*  

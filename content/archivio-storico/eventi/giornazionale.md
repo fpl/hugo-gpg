@@ -24,7 +24,7 @@ E' prevista una grande iniziativa:
 <div align="center">
 
 *Mostra*  
-**Acqua. Il passato ed il futuro dell'acqua. Architettura dell'acqua per l'acqua**
+[**Acqua. Il passato ed il futuro dell'acqua. Architettura dell'acqua per l'acqua**](/archivio-storico/gns/ "Acqua. Il passato ed il futuro dell'acqua. Architettura dell'acqua per l'acqua")
 
 </div>
 
