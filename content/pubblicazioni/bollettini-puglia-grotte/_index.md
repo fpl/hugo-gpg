@@ -19,4 +19,6 @@ La cronologia dei bollettini dell'associazione.
 {{< bollettino-cover anno="2001" larghezza="96" altezza="136" >}}
 {{< bollettino-cover anno="2003" larghezza="96" altezza="136" >}}
 {{< bollettino-cover anno="2008" larghezza="96" altezza="138" >}}
+{{< bollettino-cover anno="2015" larghezza="96" altezza="139" >}}
+{{< bollettino-cover anno="2024" larghezza="96" altezza="136" >}}
 </div>
