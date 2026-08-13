@@ -8,7 +8,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 Il Gruppo Puglia Grotte fin dal 1971, anno della sua costituzione, svolge attività di ricerca ed esplorazione speleologica in Puglia, nell'Italia meridionale e in Albania.  
 Inoltre, nel pluriennale impegno dedicato alla didattica, ha dato vita a ben trentaquattro corsi di introduzione alla speleologia e diversi corsi di specializzazione a carattere regionale e nazionale.  
-Importante risulta anche l'organizzazione di corsi di speleologia, corsi di approfondimento per docenti e laboratori didattici per le scuole di ogni istruzione e grado.  
+Importante risulta anche l'organizzazione di corsi di speleologia, corsi di approfondimento per docenti e [laboratori didattici](/archivio-storico/la-scuola-nellambiente/ "La Scuola nell'Ambiente") per le scuole di ogni istruzione e grado.  
 Nel 1996, poi, ha tenuto il I Corso di Tecnica Speleologica a Corodove, in Albania.  
   
 Sul [versante esplorativo](/archivio-storico/esplorazione-e-ricerca/ "Vai a Esplorazione e ricerca") ha organizzato spedizioni speleologiche e di ricerca in Marocco, Tunisia, [Albania](/archivio-storico/albania/ "Vai a Le spedizioni speleologiche in Albania") - ben cinque, dal 1993 al 1996, Cuba e Portogallo.
@@ -45,3 +45,6 @@ In collaborazione con il Parco Letterario Formiche di Puglia intitolato a Tommas
 E' storia recente l'affidamento al Gruppo Puglia Grotte, da parte dell'Amministrazione Comunale di Castellana-Grotte, dell'incarico per l'esplorazione, lo studio e la documentazione delle cavità carsiche recentemente rinvenute nella cittadina, le Grotte dell'Abate Eustasio.  
   
 Sul proprio sito internet www.gruppopugliagrotte.it, infine, il Gruppo Puglia Grotte presenta le immagini, la storia, gli amici, le avventure, i momenti più intensi della propria esistenza speleologica.
+
+Cos'è successo al gruppo anno per anno? Ecco la [**cronistoria**](/archivio-storico/crono/ "La cronistoria del gruppo") del Gruppo Puglia Grotte, e una raccolta di [immagini storiche](/archivio-storico/immagini-storiche/ "Immagini storiche") dagli archivi del Gruppo.  
+Vedi anche: [i materiali didattici](/archivio-storico/materiali-didattici/ "I materiali didattici") usati nei corsi, [i soci scomparsi](/archivio-storico/soci-scomparsi/ "Soci scomparsi") che qui ricordiamo, e le pagine dedicate a [Biospeleologia](/archivio-storico/biospeleologia/ "Biospeleologia") e a [i nostri corsi di speleologia in numeri](/archivio-storico/corsi/corsi-in-numeri/ "I nostri corsi di speleologia in numeri").
