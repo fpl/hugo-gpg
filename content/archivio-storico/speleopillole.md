@@ -49,7 +49,7 @@ Si tratta di breve percorso introduttivo al mondo della speleologia suddiviso in
 
 **Speleopillole ha già incontrato**
 
-Sezione **Scout di Turi** (Ba) 4 agosto 2004
+Sezione [**Scout di Turi**](/archivio-storico/didattica/scout-turi/) (Ba) 4 agosto 2004
 
 **Contatti**
 
