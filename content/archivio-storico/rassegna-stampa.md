@@ -263,6 +263,7 @@ Un indice degli articoli di giornale, ritagli e comunicati stampa che hanno parl
 
 **2008**
 
+- [CNR Viaggi 19/07/2008](/archivio-storico/legacy/interviste/CNR19.07.08.mp3 "CNR Viaggi 19/07/2008") (audio)
 - [Fax 04/10/2008](/archivio-storico/legacy/rassegna/images/2008/Fax04.10.08.jpg "Fax 04/10/2008")
 - [Fax 10/05/2008](/archivio-storico/legacy/rassegna/images/2008/fax10.05.08.jpg "Fax 10/05/2008")
 - [Fax 15/03/2008](/archivio-storico/legacy/rassegna/images/2008/fax15.03.08.jpg "Fax 15/03/2008")
