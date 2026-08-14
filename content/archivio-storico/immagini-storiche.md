@@ -16,7 +16,7 @@ Una raccolta di fotografie d'epoca dagli archivi del Gruppo Puglia Grotte, senza
 | <img src="/archivio-storico/legacy/images/storia/frasassi.jpg" width="384" height="262" alt="Esplorazione a Frasassi - 1972" /> | Esplorazione a Frasassi - 1972 |
 | <img src="/archivio-storico/legacy/images/spedizioni/tunisia.jpg" width="384" height="295" alt="Spedizione in Tunisia" /> | Spedizione in Tunisia |
 | <img src="/archivio-storico/legacy/images/corsi/soccorso.jpg" width="252" height="404" alt="Simulazione di sblocco di un ferito" /> | Simulazione di sblocco di un ferito |
-| <img src="/archivio-storico/legacy/images/corsi/corso.jpg" width="400" height="278" alt="Gruppo in grotta" /> | Gruppo in grotta |
+| <img src="/archivio-storico/legacy/images/corsi/corso.jpg" width="400" height="278" alt="Allievi del XX corso alle Grotte di Castellana" /> | Allievi del XX corso alle Grotte di Castellana, riconoscibili fra gli altri F. Lovergine, M. Parise, N. Lasaracina, A. Visparelli De Girolamo, G. Lacerenza |
 | <img src="/archivio-storico/legacy/images/corsi/corso2.jpg" width="400" height="260" alt="Palestra di roccia - allievo e istruttore" /> | Palestra di roccia - allievo e istruttore |
 | <img src="/archivio-storico/legacy/images/corsi/corsi3.jpg" width="400" height="258" alt="Palestra di roccia - allievo e istruttore" /> | Palestra di roccia - allievo e istruttore |
 | <img src="/archivio-storico/legacy/images/corsi/corso4.jpg" width="400" height="262" alt="Palestra di roccia - L'armo" /> | Palestra di roccia - L'armo |
