@@ -62,10 +62,10 @@ Lo confessiamo: anche tra di noi vi sono quegli strani individui pronti ad andar
 -  [Esplorata antica cisterna nel centro storico di Castellana](/archivio-storico/speleologia-artificiale/ "Esplorata antica cisterna nel centro storico di Castellana")
 -  [I monaci basiliani: antichi speleologi](/archivio-storico/speleologia-artificiale/ "I monaci basiliani: antichi speleologi")
 -  [Gli impianti idrici sotterranei di Gravina in Puglia (BA)](/archivio-storico/speleologia-artificiale/ "Gli impianti idrici sotterranei di Gravina in Puglia (BA)")
--  [Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina](/archivio-storico/speleologia-artificiale/ "Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina")
--  [Rilievo di un'antica foggia a Putignano](/archivio-storico/speleologia-artificiale/ "Rilievo di un'antica foggia a Putignano")
--  [Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)](/archivio-storico/speleologia-artificiale/ "Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)")
+-  [Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina](/archivio-storico/bollettini/1999/quinto1999/ "Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina")
+-  [Rilievo di un'antica foggia a Putignano](/archivio-storico/bollettini/2003/quinto/ "Rilievo di un'antica foggia a Putignano")
+-  [Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)](/archivio-storico/bollettini/2001/manghisi-pace2001/ "Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)")
 -  [Esplorazione di cavità a Castellana-Grotte (BA)](/archivio-storico/speleologia-artificiale/ "Esplorazione di cavità a Castellana-Grotte")
--  [Sotto la città della birra. Speleologia urbana in Cechia](/archivio-storico/speleologia-artificiale/ "Sotto la città della birra. Speleologia urbana in Cechia") - [La Cripta dei Santi Andrea e Procopio](/archivio-storico/speleologia-artificiale/ "La Cripta dei Santi Andrea e Procopio")
+-  [Sotto la città della birra. Speleologia urbana in Cechia](/archivio-storico/bollettini/2001/lovece-parise2001/ "Sotto la città della birra. Speleologia urbana in Cechia") - [La Cripta dei Santi Andrea e Procopio](/archivio-storico/speleologia-artificiale/ "La Cripta dei Santi Andrea e Procopio")
 Qualcosa da dichiarare?
 Ecco le [Procedure per l’accatastamento di Cavità Artificiali](/archivio-storico/legacy/esplorazioni/speleoartifi/Catasto.pdf "Procedure per l’accatastamento di Cavità Artificiali") predisposte dalla *Commissione per le Cavità Artificiali* della [Società Speleologica Italiana](https://www.speleo.it/ "Sito della Società Speleologica Italiana").

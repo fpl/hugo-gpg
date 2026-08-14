@@ -24,7 +24,7 @@ date: 1986-11-16
 4.  *La Voragine "La Cupa" (13 Pu) e i suoi rifiuti*  
     A. Totaro  
       
-5.  *Prima tappa verso alcune grotte-santuario. La Grotta di S. Michele a Monte Laureto (Putignano)*  
+5.  [*Prima tappa verso alcune grotte-santuario. La Grotta di S. Michele a Monte Laureto (Putignano)*](/archivio-storico/bollettini/1986/comparelli-1986/ "Prima tappa verso alcune grotte-santuario. La Grotta di S. Michele a Monte Laureto (Putignano)")  
     A. Comparelli  
       
 6.  *La Grotta della Ferrata nel comune di Ruvo di Puglia*  

@@ -54,7 +54,7 @@ date: 1996-11-16
 14. *Bibliografia speleologica degli scritti dei soci del G.P.G. dal 1991 al 1995*  
     Vincenzo Manghisi  
       
-15. *Verso la conoscenza del proprio territorio*  
+15. [*Verso la conoscenza del proprio territorio*](/archivio-storico/bollettini/1996/lovece1996/ "Verso la conoscenza del proprio territorio")  
     Daniela Lovece  
       
 16. *Cronaca di una domenica speleologica vissuta da corsista*  

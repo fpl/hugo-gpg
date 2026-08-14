@@ -19,11 +19,11 @@ individui pronti ad andare in visibilio per un *opus reticulatum*.
 - [Esplorata antica cisterna nel centro storico di Castellana](/archivio-storico/esplorazioni/cisterna/ "Esplorata antica cisterna nel centro storico di Castellana")  
 - [I monaci basiliani: antichi speleologi](/archivio-storico/esplorazioni/basiliani/ "I monaci basiliani: antichi speleologi")  
 - [Gli impianti idrici sotterranei di Gravina in Puglia (BA)](/archivio-storico/esplorazioni/gravina/ "Gli impianti idrici sotterranei di Gravina in Puglia (BA)")  
-- **Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina**  
-- **Rilievo di un'antica foggia a Putignano**  
-- **Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)**  
+- [Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina](/archivio-storico/bollettini/1999/quinto1999/ "Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina")  
+- [Rilievo di un'antica foggia a Putignano](/archivio-storico/bollettini/2003/quinto/ "Rilievo di un'antica foggia a Putignano")  
+- [Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)](/archivio-storico/bollettini/2001/manghisi-pace2001/ "Un'antica galleria sotterranea scoperta a Castellana-Grotte")  
 - [Esplorazione di cavità a Castellana-Grotte](/archivio-storico/esplorazioni/portagrande/ "Esplorata cavità a Castellana-Grotte") (BA)  
-- **Sotto la città della birra. Speleologia urbana in Cechia**
+- [Sotto la città della birra. Speleologia urbana in Cechia](/archivio-storico/bollettini/2001/lovece-parise2001/ "Sotto la città della birra. Speleologia urbana in Cechia")
 - [La Cripta dei Santi Andrea e Procopio](/archivio-storico/esplorazioni/procopio/ "La Cripta dei Santi Andrea e Procopio")  
   
 Qualcosa da dichiarare?  

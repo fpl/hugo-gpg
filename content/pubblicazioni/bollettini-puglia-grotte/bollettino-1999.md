@@ -43,7 +43,7 @@ date: 1999-11-16
 9.  *La Grotta di San Michele o di Sant'Angelo in Gurgo ad Andria (BA)*  
     Antonio Comparelli, Vincenzo Manghisi  
       
-10. *La prima volta - Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina*  
+10. [*La prima volta - Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina*](/archivio-storico/bollettini/1999/quinto1999/ "La prima volta - Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina")  
     Graziana Quinto  
       
 11. *Il contributo del GPG al Catasto delle Grotte della Regione Puglia*  
@@ -62,7 +62,7 @@ date: 1999-11-16
 15. *XX Corso di speleologia: dall'A alla Z*  
     Anonimo Corsista  
       
-16. *Grande come la paura*  
+16. [*Grande come la paura*](/archivio-storico/bollettini/1999/lovece1999/ "Grande come la paura")  
     Il GPG nell'Antro del Monte Corchia  
     Daniela Lovece  
       

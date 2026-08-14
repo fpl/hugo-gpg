@@ -27,7 +27,7 @@ date: 1991-11-16
 5.  *Una nuova cavità: "Grotta Scialpi" (Comune di Manduria - Ta)*  
     Giuseppe Savino  
       
-6.  *Le Grotte delle Madonna delle Grazie a Putignano (Bari)*  
+6.  [*Le Grotte delle Madonna delle Grazie a Putignano (Bari)*](/archivio-storico/bollettini/1991/comparellimanghisi-1991/ "Le Grotte delle Madonna delle Grazie a Putignano (Bari)")  
     Antonio Comparelli - Vincenzo Manghisi  
       
 7.  *Ritrovamenti archeologici nella "Lama di Tagliamento" in territorio di Monopoli (Bari)*  
@@ -54,6 +54,6 @@ date: 1991-11-16
     Traduzione da "Il Signore degli Anelli" di J.R.R. Tolkien  
     Carlo De Marzo  
       
-15. *Speleo Flash*  
+15. [*Speleo Flash*](/archivio-storico/bollettini/1991/speleoflash-1991/ "Speleo Flash")  
       
 16. *Elenco soci*

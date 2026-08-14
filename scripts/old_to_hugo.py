@@ -1041,10 +1041,372 @@ def build_bollettini():
             print(f"- {w}")
 
 
+# =============================================================================
+# Fase 4: testo integrale degli articoli dei bollettini (bollettini/*.htm),
+# oltre al solo indice già presente in bollettino-<anno>.md (Fase 3). Una
+# pagina content/archivio-storico/bollettini/<anno>/<slug>.md per articolo.
+#
+# Nota encoding: a differenza del resto di old/ (decodificato "iso-8859-1" nel
+# resto di questo script, verificato con `file`), i sorgenti di bollettini/
+# contengono byte 0x80-0x9F genuinamente Windows-1252 (es. l'apostrofo curvo
+# 0x92 in "L\x92Aviso" -> "L'Aviso" in dellerose_2001.htm) che iso-8859-1
+# decodificherebbe come caratteri di controllo/lettere accentate sbagliate
+# (es. 0x92 -> "\x92" non stampabile, la "Á" di scarto vista in un test
+# preliminare veniva dal byte successivo). "cp1252" decodifica quei byte
+# correttamente ed è identico a iso-8859-1 su tutto il resto (0x00-0x7F e
+# 0xA0-0xFF): nessuna regressione possibile sulle fasi precedenti, che restano
+# su iso-8859-1 e non vengono toccate da questa funzione.
+# =============================================================================
+
+BOLLETTINI_TESTO_DIR = OLD_ROOT / "bollettini"
+BOLLETTINI_TESTO_CONTENT = REPO / "content" / "archivio-storico" / "bollettini"
+
+# anno esplicito per gli articoli che non sono del 2001 (la cartella radice di
+# bollettini/ mescola annate diverse, verificato confrontando ogni <title> con
+# l'indice reale in content/pubblicazioni/bollettini-puglia-grotte/
+# bollettino-<anno>.md); bollettini/2003/ invece è tutta il 2003.
+_BOLLETTINI_TESTO_YEAR_OVERRIDES = {
+    "SpeleoFlash_1991.htm": 1991, "comparelliManghisi_1991.htm": 1991,
+    "comparelli_1986.htm": 1986,
+    "lovece1996.htm": 1996,
+    "lovece1999.htm": 1999, "quinto1999.htm": 1999,
+}
+
+# 2003/didonna_esp.htm non ha una voce propria nell'indice: è la versione
+# spagnola dello stesso articolo di 2003/didonna.htm (bollettino-2003.md,
+# voce 6: "Corsi di Speleologia in Costarica" / "Cursos de Espeleología en
+# Costa Rica (en español)", un solo item, due lingue) -- una sola pagina Hugo
+# con entrambe, non due pagine separate.
+_BOLLETTINI_TESTO_MERGE_SOURCES = {
+    "2003/didonna.htm": ["2003/didonna_esp.htm"],
+}
+_BOLLETTINI_TESTO_MERGED_AWAY = {
+    src for srcs in _BOLLETTINI_TESTO_MERGE_SOURCES.values() for src in srcs
+}
+
+# titolo reale (dal corpo della pagina) per i pochi file il cui <title> è
+# sbagliato nel sorgente stesso (refuso di copia-incolla, non invenzione):
+# speleoflash_2001.htm ha <title>...Proyecto Cuatrocienegas...</title>,
+# identico per errore al file bernabei_2001.htm adiacente, mentre il proprio
+# <b> in pagina dice "Speleo flash" (coerente con bollettino-2001.md, voce 28).
+BOLLETTINI_TESTO_TITLE_OVERRIDES = {
+    "speleoflash_2001.htm": "Speleo flash",
+}
+
+
+def _discover_bollettini_testo() -> dict[str, int]:
+    files: dict[str, int] = {}
+    for p in sorted(BOLLETTINI_TESTO_DIR.glob("*.htm")):
+        files[p.name] = _BOLLETTINI_TESTO_YEAR_OVERRIDES.get(p.name, 2001)
+    for p in sorted((BOLLETTINI_TESTO_DIR / "2003").glob("*.htm")):
+        files[f"2003/{p.name}"] = 2003
+    for merged in _BOLLETTINI_TESTO_MERGED_AWAY:
+        del files[merged]
+    return files
+
+
+# dellerose_2001.htm ha una corruzione genuina del sorgente (non un problema
+# di decodifica): l'apostrofo curvo 0x92 di "l'Aviso"/"dell'aviso" è seguito
+# da un byte accentato estraneo (0xC0 "À" o 0xE0 "à") invece della lettera
+# "A"/"a" attesa -- 14 occorrenze verificate, sempre e solo in questo file,
+# sempre subito prima di "viso". Corretto qui, sui byte grezzi, prima della
+# decodifica (stesso principio di SOURCE_PATCHES sopra: fix di un refuso
+# genuino del sorgente, non contenuto alterato).
+BOLLETTINI_TESTO_BYTE_PATCHES = {
+    "dellerose_2001.htm": [
+        (b"\x92\xc0viso", b"\x92Aviso"),
+        (b"\x92\xe0viso", b"\x92aviso"),
+    ],
+}
+
+
+def _read_bollettino_source(rel: str) -> str:
+    path = BOLLETTINI_TESTO_DIR / rel
+    raw = path.read_bytes()
+    for find, repl in BOLLETTINI_TESTO_BYTE_PATCHES.get(rel, []):
+        if find not in raw:
+            sys.exit(f"BOLLETTINI_TESTO_BYTE_PATCHES[{rel}]: pattern non trovato (sorgente cambiato?)")
+        raw = raw.replace(find, repl)
+    return raw.decode("cp1252")
+
+
+BOLLETTINO_ARTICLE_TITLE_TAG_RE = re.compile(
+    r"<title>Gruppo Puglia Grotte - Pubblicazioni - Puglia Grotte - \d{4} - (.*?)</title>",
+    re.S,
+)
+
+
+def derive_bollettino_title(fname: str, raw: str) -> str:
+    if fname in BOLLETTINI_TESTO_TITLE_OVERRIDES:
+        return BOLLETTINI_TESTO_TITLE_OVERRIDES[fname]
+    m = BOLLETTINO_ARTICLE_TITLE_TAG_RE.search(raw)
+    if not m:
+        sys.exit(f"{fname}: <title> non nel formato atteso 'Puglia Grotte - YYYY - Titolo'")
+    import html as _html
+    return _html.unescape(re.sub(r"\s+", " ", m.group(1))).strip()
+
+
+# indice cliccabile (<ul>/<ol> con voci che linkano ad ancore #N più sotto
+# nella stessa pagina), presente solo negli articoli più lunghi -- ridondante
+# su una singola pagina Hugo senza paginazione. Tolto solo se OGNI link della
+# lista punta a un'ancora (#...), per non toccare mai un elenco che sia
+# contenuto reale (es. l'elenco soci di members_2001.htm/2003/x.htm, che non
+# ha alcun href).
+NAV_TOC_LIST_RE = re.compile(r"<(ul|ol)\b[^>]*>(.*?)</\1>", re.I | re.S)
+
+
+def strip_anchor_toc(html: str) -> str:
+    def repl(m):
+        block = m.group(0)
+        hrefs = re.findall(r'href=(["\'])(.*?)\1', block, re.I)
+        if hrefs and all(h.startswith("#") for _, h in hrefs):
+            return ""
+        return block
+    return NAV_TOC_LIST_RE.sub(repl, html)
+
+
+ANCHOR_NAME_RE = re.compile(r'<a\s+name="[^"]*"\s*></a>', re.I)
+# "<div align=right><a href=#top><b>^^^</b></a></div>" ("Torna in alto") o la
+# variante "<div align=right><a href=#up title="Torna su"><b>^ Torna su
+# ^</b></a></div>" -- stesso widget di rimando all'inizio pagina, due href
+# d'ancora diversi usati a seconda del file. Riconosciuto dal testo (un
+# accento circonflesso "^"), non da un href fisso, per coprire entrambe le
+# forme senza un'unione manuale di alternative fragile.
+BACK_TO_TOP_RE = re.compile(
+    r'(<br\s*/?>\s*)*<div[^>]*align="right"[^>]*>\s*(?:<a\b[^>]*href="#(?:top|up)"[^>]*>\s*)?<b>[^<]*\^[^<]*</b>\s*(?:</a>\s*)?</div>',
+    re.I | re.S,
+)
+# footer di chiusura ripetuto identico su ogni pagina di bollettini/ ("<div
+# align=center><font...><a onMouseUp="MM_openBrWindow('...copy.htm',...)">©
+# Gruppo Puglia Grotte</a></font></div>"): puro chrome del popup "note legali"
+# del sito originale, non contenuto dell'articolo -- rimosso per intero
+# (non solo il link, come farebbe strip_popup_anchors) invece di degradare a
+# testo semplice "© Gruppo Puglia Grotte" in coda a ogni pagina.
+COPYRIGHT_FOOTER_RE = re.compile(
+    r'<div[^>]*align="center"[^>]*>\s*<font[^>]*>\s*<a\b[^>]*copy\.htm[^>]*>.*?</a>\s*</font>\s*</div>',
+    re.I | re.S,
+)
+
+
+def strip_bollettino_chrome(html: str) -> str:
+    html = ANCHOR_NAME_RE.sub("", html)
+    html = BACK_TO_TOP_RE.sub("", html)
+    html = COPYRIGHT_FOOTER_RE.sub("", html)
+    return html
+
+
+# <div align="right|center|left"> è usato in bollettini/ sia per chrome di
+# navigazione (già tolto sopra) sia per contenuto reale (un'immagine centrata,
+# un paragrafo di chiusura allineato a destra, es. "Buona lettura!" in
+# 2003/sgobba.htm): pandoc non sa esprimere l'allineamento in Markdown e
+# lascia l'intero <div> come HTML grezzo nell'output. Tolto qui solo il
+# wrapper (non il contenuto, a differenza delle funzioni di chrome sopra) --
+# l'allineamento stesso non ha equivalente Markdown e si perde, come già
+# accade altrove nel sito per lo stesso motivo (unwrap_absolute_divs).
+ALIGN_DIV_RE = re.compile(r'<div[^>]*\balign="(?:right|center|left)"[^>]*>(.*?)</div>', re.I | re.S)
+
+
+def unwrap_align_divs(html: str) -> str:
+    prev = None
+    while prev != html:
+        prev = html
+        html = ALIGN_DIV_RE.sub(r"\1", html)
+    return html
+
+
+# pandoc, di fronte a un <a> con QUALSIASI attributo oltre a href/title (es.
+# target="_blank" -- comune nei link esterni di bollettini/), lo lascia HTML
+# grezzo nel Markdown invece di convertirlo in [testo](url) (stesso problema
+# già risolto per il contenuto WordPress in wp_to_hugo.py:simplify_tags,
+# verificato anche qui su 2003/didonna.htm: <a href=... target="_blank"
+# title=...> restava intatto in output). Applicato solo qui (non nel resto di
+# questo script, che già produce Markdown pulito senza) per non toccare
+# l'output già verificato delle Fasi 1-3.
+BOLLETTINO_ANCHOR_TAG_RE = re.compile(r'<a\s+([^>]*)>', re.I)
+
+
+def simplify_bollettino_anchors(html: str) -> str:
+    def repl(m):
+        found = dict(re.findall(r'([\w-]+)\s*=\s*"([^"]*)"', m.group(1)))
+        if "href" not in found:
+            keep = ("name", "id")
+        else:
+            keep = ("href", "title")
+        attrs = " ".join(f'{k}="{found[k]}"' for k in keep if found.get(k))
+        return f"<a {attrs}>"
+    return BOLLETTINO_ANCHOR_TAG_RE.sub(repl, html)
+
+
+def slugify_bollettino(fname: str) -> str:
+    stem = Path(fname).stem
+    return slugify(stem)
+
+
+def process_bollettino_article(fname: str, year: int, image_refs: set[str]) -> tuple[str, str]:
+    """Ritorna (slug, title). Scrive la pagina Hugo."""
+    sources = [fname] + _BOLLETTINI_TESTO_MERGE_SOURCES.get(fname, [])
+    raw0 = _read_bollettino_source(fname)
+    title = derive_bollettino_title(fname, raw0)
+
+    bodies = []
+    for i, src in enumerate(sources):
+        raw = _read_bollettino_source(src)
+        content = extract_content(raw, "body")
+        content = strip_html_comments(content)
+        content = strip_nav_icons(content)
+        content = strip_print_close_widget(content)
+        content = strip_anchor_toc(content)
+        content = strip_bollettino_chrome(content)
+        content = unwrap_align_divs(content)
+        content = unwrap_absolute_divs(content)
+        content, n = BOLLETTINO_HEADER_RE.subn("", content, count=1)
+        if n == 0:
+            sys.exit(f"bollettini/{src}: intestazione 'Puglia Grotte - {year}' non trovata")
+        src_rel = f"bollettini/{src}"
+        content = resolve_mm_popups(content, src_rel)
+        content = rewrite_links_and_images(content, src_rel, image_refs)
+        content = strip_dead_anchors(content)
+        content = strip_popup_anchors(content)
+        content = simplify_bollettino_anchors(content)
+        if i > 0:
+            # seconda fonte unita (es. la versione spagnola di un articolo):
+            # separatore esplicito, non fusione silenziosa dei due testi.
+            content = "<p><b>Versión en español</b></p>\n" + content
+        bodies.append(content)
+    html = "\n<hr>\n".join(bodies)
+    md = html_to_md(html)
+
+    slug = slugify_bollettino(fname)
+    fm = [
+        "---",
+        f"title: {yaml_str(title)}",
+        f"date: {year}-11-16",
+        'description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."',
+        "---",
+        "",
+    ]
+    dest = BOLLETTINI_TESTO_CONTENT / str(year) / f"{slug}.md"
+    safe_write_text(dest, "\n".join(fm) + md + "\n")
+    return slug, title
+
+
+def write_bollettini_testo_index():
+    safe_write_text(
+        BOLLETTINI_TESTO_CONTENT / "_index.md",
+        "\n".join([
+            "---",
+            'title: "Bollettini — testo integrale degli articoli"',
+            f"date: {DATE_RIMIGRAZIONE}",
+            'description: "Testo integrale degli articoli dei bollettini Puglia Grotte 1986-2003, recuperato dal sito precedente a WordPress."',
+            "---",
+            "",
+            "Testo integrale dei singoli articoli dei bollettini, recuperato dal sito "
+            "precedente a WordPress. Gli indici completi di ogni annata sono in "
+            "[Bollettini Puglia Grotte](/pubblicazioni/bollettini-puglia-grotte/), "
+            "che linka anche a queste pagine.",
+            "",
+        ]) + "\n",
+    )
+
+
+def build_bollettini_testo():
+    write_bollettini_testo_index()
+    files = _discover_bollettini_testo()
+    image_refs: set[str] = set()
+    generated: dict[str, tuple[int, str, str]] = {}  # fname -> (year, slug, title)
+    for fname, year in files.items():
+        slug, title = process_bollettino_article(fname, year, image_refs)
+        generated[fname] = (year, slug, title)
+    copy_assets(image_refs, direct_assets=set())
+    save_manifest()
+
+    print(f"\n{len(generated)} articoli generati sotto content/archivio-storico/bollettini/")
+    if warnings:
+        print("\n== Avvisi ==")
+        for w in warnings:
+            print(f"- {w}")
+    return generated
+
+
+# indice (bollettino-<anno>.md) -> testo esatto dello *titolo* corsivo da
+# collegare, per i casi in cui il titolo derivato dall'articolo (Fase 4) non
+# coincide carattere per carattere con quello scritto nell'indice (Fase 3,
+# generato da un'altra pagina sorgente di old/, l'<anno>.htm radice): refusi
+# indipendenti tra le due pagine originali (es. "una"/"un", virgola/trattino),
+# maiuscole diverse (Speleo Flash/Speleo flash), o titoli su due righe nel
+# markdown dell'indice di cui si collega solo la parte in corsivo. Verificato
+# a mano confrontando ogni caso, non un'euristica automatica.
+BOLLETTINI_INDEX_LINK_OVERRIDES = {
+    "SpeleoFlash_1991.htm": "Speleo Flash",
+    "lovece1999.htm": "Grande come la paura",
+    "amatulli_2001.htm": "Alburni: ancora nuove scoperte, Metodologie organizzative per una battuta esplorativa",
+    "bernabei_2001.htm": "Proyecto Cuatrociénegas, Coahuila, Mexico",
+    "dellerose_2001.htm": "L'Aviso Neviera (Pu 196) a Sogliano Cavour (LE)",
+    "didonna_2001.htm": "Grotte e Speleologia del Costa Rica",
+    "manghisi4_2001.htm": 'Il Centro di Ducumentazione Speleologica "F. Orofino" presso il Museo Speleologico "F. Anelli" delle Grotte di Castellana',
+    "montenegro_amatulli2001.htm": "Capreolus capreolus nella grotta del Tasso Selvaggio",
+    "speleoflash_2001.htm": "Speleo-Flash",
+    "2003/didonna.htm": "Corsi di Speleologia in Costarica",
+    "2003/lovece.htm": "Incidente alla Grave di Polignano (Ba)",
+    "2003/lovecepace.htm": "23 gennaio 1938 - 23 gennaio 2004:  \n    66° anniversario della scoperta delle Grotte di Castellana",
+    "2003/manghisi5.htm": "Cavità artificiali a Monopoli (Ba)",
+    "2003/manghisi6.htm": "La Cantina del Diavolo a Villers-Cotterets",
+    "2003/proiettoalii.htm": "La Grave dell'Auletta (Monti Alburni, Campania)",
+    "2003/sgobba2.htm": "La Foggia di Via Bini",
+    "2003/x.htm": "Soci del Gruppo Puglia Grotte nel 2003",
+}
+
+
+def link_bollettini_index(generated: dict[str, tuple[int, str, str]]):
+    """Collega, negli indici bollettino-<anno>.md già esistenti (Fase 3), ogni
+    titolo in corsivo non ancora linkato alla pagina appena generata (Fase 4).
+    Da eseguire DOPO build_bollettini_testo(). Scrive DIRETTAMENTE sul file
+    (non passa da safe_write_text/.content-manifest.json): questi indici sono
+    già protetti come "modificati a mano" (rigenerati a suo tempo da
+    build_bollettini(), poi corretti a mano in sessioni precedenti, es. i
+    link aggiunti alle presentazioni PPT/PDF di Santo Tomás) -- rigenerarli da
+    zero qui perderebbe quelle correzioni. Questa funzione non rigenera nulla:
+    applica solo una sostituzione mirata e minima (un titolo in corsivo ->
+    stesso titolo linkato) sul contenuto ATTUALE su disco, esattamente come
+    farebbe una modifica a mano con l'editor -- non richiede quindi --force
+    né tocca il manifest. Idempotente: se il link è già presente (rilancio),
+    salta senza errori; fallisce rumorosamente solo se non trova né la forma
+    sciolta né quella già linkata (fonte cambiata in modo imprevisto)."""
+    by_year: dict[int, list[tuple[str, str, str]]] = {}  # anno -> [(fname, slug, span)]
+    for fname, (year, slug, title) in generated.items():
+        span = BOLLETTINI_INDEX_LINK_OVERRIDES.get(fname, title)
+        by_year.setdefault(year, []).append((fname, slug, span))
+
+    for year, items in sorted(by_year.items()):
+        dest = BOLLETTINI_CONTENT / f"bollettino-{year}.md"
+        text = dest.read_text(encoding="utf-8")
+        changed = False
+        for fname, slug, span in items:
+            needle = f"*{span}*"
+            url = f"/archivio-storico/bollettini/{year}/{slug}/"
+            title_attr = span.replace("\n", " ").replace("  ", " ").strip()
+            replacement = f"[*{span}*]({url} {yaml_str(title_attr)})"
+            if replacement in text:
+                continue
+            count = text.count(needle)
+            if count == 0:
+                sys.exit(f"bollettino-{year}.md: titolo non trovato: {needle!r} (da {fname})")
+            if count > 1:
+                sys.exit(f"bollettino-{year}.md: titolo ambiguo (compare {count} volte): {needle!r} (da {fname})")
+            text = text.replace(needle, replacement, 1)
+            changed = True
+        if changed:
+            dest.write_text(text, encoding="utf-8")
+            print(f"collegati i titoli in bollettino-{year}.md")
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--extend":
         extend_archive()
     elif len(sys.argv) > 1 and sys.argv[1] == "--bollettini":
         build_bollettini()
+    elif len(sys.argv) > 1 and sys.argv[1] == "--bollettini-testo":
+        generated = build_bollettini_testo()
+        link_bollettini_index(generated)
     else:
         main()
