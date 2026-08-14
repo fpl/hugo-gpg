@@ -168,15 +168,23 @@ h3 { font-size: var(--size-h3); }
 }
 /* header_textcolor reale da theme_mods_twentythirteen nel DB WordPress:
    #f4f3bc (crema chiaro), non bianco come nell'ipotesi iniziale. */
-.site-header__brand { color: #f4f3bc; display: block; }
+.site-header__brand {
+  color: #f4f3bc;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: var(--space-2);
+}
 .site-header__logo {
-  display: block;
-  width: 5.5rem;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 4.5rem;
   height: auto;
-  margin-bottom: var(--space-2);
   filter: drop-shadow(0 1px 4px rgba(0,0,0,0.6));
 }
 .site-header__name {
+  grid-column: 2;
+  grid-row: 1;
   display: block;
   font-family: var(--font-display);
   font-weight: 700;
@@ -186,6 +194,8 @@ h3 { font-size: var(--size-h3); }
   text-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 .site-header__claim {
+  grid-column: 2;
+  grid-row: 2;
   display: block;
   font: 300 italic var(--size-tagline) var(--font-body);
   color: #f4f3bc;
@@ -509,6 +519,7 @@ hr {
 @media (max-width: 480px) {
   .site-footer__grid { grid-template-columns: 1fr; }
   .site-header__name { font-size: 2.25rem; } /* 36px, come .site-title a 767px nel tema originale */
+  .site-header__logo { width: 2.75rem; }
 }
 
 /* Tabelle-galleria: molte pagine dell'archivio storico (corsi, rassegna
