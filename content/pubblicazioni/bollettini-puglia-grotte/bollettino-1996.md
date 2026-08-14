@@ -8,6 +8,8 @@ date: 1996-11-16
 <figcaption>Bollettino 1996</figcaption>
 </figure>
 
+*Il testo integrale online è disponibile solo per gli articoli con un link qui sotto; gli altri restano documentati solo in questo indice, come nel bollettino a stampa dell'epoca.*
+
 **Indice**  
   
   

@@ -8,6 +8,8 @@ date: 1993-11-16
 <figcaption>Bollettino 1993</figcaption>
 </figure>
 
+*Il testo integrale dei singoli articoli non è disponibile online: l'indice riproduce il sommario del bollettino a stampa dell'epoca.*
+
 **Indice**  
   
   

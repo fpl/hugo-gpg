@@ -10,6 +10,8 @@ aliases:
 <figcaption>Bollettino 1984</figcaption>
 </figure>
 
+*Il testo integrale dei singoli articoli non è disponibile online: l'indice riproduce il sommario del bollettino a stampa dell'epoca.*
+
 **Indice**  
   
   
