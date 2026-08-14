@@ -6,6 +6,7 @@ aliases:
 
 I nostri corsi di speleologia di primo livello, omologati dalla [Società Speleologica Italiana](https://www.speleo.it/)
 
+- Il [LII corso](/corsi/52-corso-di-speleologia/) (2026)
 - Il [LI corso](/corsi/51-corso-di-speleologia/) (2025)
 - Il [L corso](/corsi/50-corso-di-speleologia/) (2024)
 - Il [XLIX corso](/corsi/49-corso-di-speleologia/) (2023)
