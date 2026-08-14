@@ -2,6 +2,8 @@
 title: "Visita alla Grotta del Ciolo"
 date: 2026-05-10
 description: "Relazione della visita alla Grotta del Ciolo (Gagliano del Capo, LE), raggiungibile solo dal mare tramite una calata di circa 60 metri."
+categories:
+  - "Relazioni"
 ---
 
 **Luogo:** Grotta del Ciolo — Gagliano del Capo (Lecce), identificata nel Catasto delle Grotte della Puglia con il numero 113
