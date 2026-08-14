@@ -4,7 +4,7 @@ aliases:
   - "/home/chi-siamo/lo-statuto/"
 ---
 
-*Lo statuto approvato dall’Assemblea Straordinaria dei Soci del 19 giugno 2025*
+*Lo statuto approvato dall’Assemblea Straordinaria dei Soci del 19 giugno 2025, in vista del recepimento della riforma del Terzo Settore*
 
 La versione [PDF](/images/uploads/2026/04/STATUTO_PDFA.pdf)
 
@@ -81,7 +81,7 @@ Al volontario possono essere rimborsate dall'Associazione soltanto le spese effe
 Ai sensi dell’art. 17 comma 4 del D.Lgs. 117/2017 le spese sostenute dal volontario possono essere rimborsate anche a fronte di una autocertificazione resa ai sensi dell’art. 46 del D.P.R. n.445/2000, purché non superino l'importo massimo fissato dalle norme vigenti, previa delibera del Consiglio Direttivo che stabilisca le tipologie di spese e attività di volontariato per le quali è ammessa questa modalità di rimborso.
 La qualità di volontario è incompatibile con qualsiasi forma di rapporto di lavoro subordinato o autonomo e con ogni altro rapporto di lavoro retribuito con l'ente di cui il volontario è socio o associato o tramite il quale svolge la propria attività volontaria.
 Non si considera volontario l'associato che occasionalmente coadiuvi gli organi sociali nello svolgimento delle loro funzioni.
-I soci che prestano attività di volontariato**,** ai sensi dell’art. 18, comma 1, del D.Lgs. n. 117/2017**,** sono assicurati contro gli infortuni e le malattie, connessi allo svolgimento dell’attività stessa, nonché per la responsabilità civile verso terzi.
+I soci che prestano attività di volontariato, ai sensi dell’art. 18, comma 1, del D.Lgs. n. 117/2017, sono assicurati contro gli infortuni e le malattie, connessi allo svolgimento dell’attività stessa, nonché per la responsabilità civile verso terzi.
 I soci volontari sono iscritti in un apposito registro.
 
 ### **Sostenitori**
