@@ -19,6 +19,7 @@ La versione [PDF](/images/uploads/2026/04/STATUTO_PDFA.pdf)
 **Art. 1.** È costituita, nel numero minimo dei soci previsto dalla legge, con sede in CASTELLANA GROTTE in Via Margherita di Savoia n. 18 quale Ente del Terzo Settore, un’associazione denominata **“GRUPPO PUGLIA GROTTE - APS”** in conformità al dettato dell’art. 35 del D.lgs. 117/2017. L’associazione, ove previsto, ricomprenderà nella denominazione anche l’acronimo ETS con l’iscrizione nel Registro Unico Nazionale del Terzo Settore (RUNTS), allorquando istituito.
 Il trasferimento della sede legale nell’ambito dello stesso Comune potrà avvenire con delibera del Consiglio Direttivo. Il trasferimento della sede legale in altra città dovrà essere disposta con delibera dell’Assemblea di modifica dello statuto.
 La durata dell'associazione è illimitata.
+
 **Art. 2.** L’associazione “GRUPPO PUGLIA GROTTE - APS”, più avanti chiamata per brevità Associazione, si ispira ai principi di democraticità e gratuità, non ha scopo di lucro e persegue esclusivamente finalità di solidarietà sociale.
 
 ### **Finalità e attività**
@@ -29,10 +30,13 @@ La durata dell'associazione è illimitata.
 (f) interventi di tutela e valorizzazione del patrimonio culturale e del paesaggio, ai sensi del decreto legislativo 22 gennaio 2004, n. 42, e successive modificazioni;
 (h) ricerca scientifica di particolare interesse sociale;
 (i) organizzazione e gestione di attività culturali, artistiche o ricreative di interesse sociale, incluse attività, anche editoriali, di promozione e diffusione della cultura e della pratica del volontariato e delle attività di interesse generale di cui al presente articolo.
+
 **Art. 4.** L’Associazione realizza i propri scopi con le seguenti attività:
 Lo studio, la divulgazione, la tutela e la salvaguardia del fenomeno carsico e di tutte le manifestazioni ad essa connesse. Per conseguire tali finalità l’Associazione può editare e diffondere libri, prodotti multimediali e audiovisivi, organizzare corsi, convegni congressi e simposi, partecipare in Società – anche di capitali, assumere incarichi di consulenza tecnica e scientifica, che abbiano come scopi quelli affini agli interessi della Associazione; promuove l’attività escursionistica al fine della tutela e salvaguardia del patrimonio naturalistico e ambientale. L’Associazione collabora con la Società Speleologica Italiana, con la Federazione Speleologica Pugliese, con il Corpo Nazionale di Soccorso Alpino e Speleologico, con Gruppi o Enti specializzati, anche costituiti in altri Paesi. Nel rispetto dei principi statutari l’Associazione  può partecipare a progetti proposti e finanziati dall’Unione Europea e da altri organismi Nazionali ed Internazionali, anche non governativi, aventi come finalità lo studio, la diffusione, la valorizzazione del fenomeno carsico e ogni manifestazione ad esso connessa.
+
 **Art. 5.** Per lo svolgimento delle predette attività l’Associazione si avvale prevalentemente dell’attività di volontariato dei propri associati o delle persone aderenti agli enti associati.
 Per il perseguimento dei propri scopi l’Associazione potrà inoltre aderire anche ad altri organismi, tra cui le reti associative, di cui condivide finalità e metodi, nonché collaborare con Enti pubblici e privati al fine del conseguimento delle finalità statutarie.
+
 **Art. 6.** Ai sensi dell’art. 6 del D.Lgs. 117/2017 l’Associazione potrà svolgere anche attività diverse rispetto a quelle d’interesse generale, secondarie e strumentali rispetto a queste ultime, secondo criteri e limiti definiti con apposito Decreto Ministeriale.
 L’individuazione di tali attività sarà operata dal Consiglio Direttivo con apposita delibera.
 
@@ -43,7 +47,9 @@ Possono essere ammessi come associati altri Enti del Terzo Settore o senza scopo
 Il mantenimento della qualifica di socio è subordinato al pagamento della quota associativa annuale nei termini prescritti dal Consiglio Direttivo.
 Possono essere nominati Soci Onorari le persone fisiche, enti o istituzioni che si siano distinti per particolari meriti scientifici, culturali, sociali o per aver contribuito in modo significativo al sostegno, allo sviluppo e al prestigio dell'Associazione, condividendone gli scopi e le finalità.
 I Soci Onorari sono esonerati dal versamento della quota associativa annuale, salvo diversa deliberazione del Consiglio Direttivo.
+
 **Art. 8.** La domanda di ammissione a socio deve essere presentata al Consiglio Direttivo. Il Consiglio deciderà sull’accoglimento o il rigetto dell’ammissione dell’aspirante. L’adesione del socio è annotata nel libro soci.
+
 **Art.** **9**. Il rigetto della domanda di iscrizione deve essere comunicato per iscritto all’interessato specificandone i motivi entro 60 giorni. In questo caso l’aspirante socio entro 60 giorni ha la facoltà di presentare ricorso all’Assemblea che prenderà in esame la richiesta nel corso della sua prima riunione.
 
 ### **Diritti e doveri dei soci**
@@ -104,17 +110,16 @@ Tutte le cariche sociali sono elettive e gratuite, salvo il rimborso delle spese
 L’Assemblea è presieduta di norma dal Presidente che la convoca:
 
 - almeno una volta all’anno;
-
-<!-- -->
-
 - entro quattro mesi dalla chiusura dell’esercizio, per l’approvazione del bilancio;
 - ogni qualvolta lo ritenga necessario il Consiglio Direttivo;
 - quando ne è fatta richiesta motivata da almeno un decimo degli associati.
 
 Per convocare l’Assemblea, il Consiglio Direttivo si riunisce in seduta, delibera il luogo, le modalità, il giorno e l’ora della prima convocazione e della seconda convocazione, che deve avvenire almeno il giorno successivo alla prima.
+
 **Art. 17.** L’Assemblea, è convocata almeno 10 giorni prima del giorno previsto mediante invio di lettera raccomandata a.r., ovvero consegnata a mano, debitamente controfirmata, a mezzo sms, telefax o e-mail, ovvero con altri mezzi tecnologici che garantiscano la certezza dell’avvenuta ricezione della convocazione.
 L’avviso di convocazione deve contenere il giorno, l’ora e sede della convocazione, l’ordine del giorno con i punti oggetto del dibattimento.
 All’Assemblea sono convocati tutti i soci, anche se sospesi o esclusi in attesa di giudizio definitivo dell’Assemblea.
+
 **Art. 18.** L’Assemblea ha i seguenti compiti:
 
 - discute ed approva il bilancio;
@@ -137,8 +142,10 @@ All’Assemblea sono convocati tutti i soci, anche se sospesi o esclusi in attes
 **Art. 19.** L’Assemblea è validamente costituita con la presenza di almeno la metà degli associati, presenti in proprio o per delega scritta da conferirsi ad altro aderente anche in calce all'avviso di convocazione; mentre in seconda convocazione è valida la deliberazione presa qualunque sia il numero degli intervenuti. Ciascun aderente può essere latore di un numero massimo di una delega.
 È possibile l’intervento all’Assemblea mediante mezzi di telecomunicazione ovvero l’espressione del voto per corrispondenza o in via elettronica, purché sia possibile verificare l’identità dell’associato che partecipa e vota.
 Le deliberazioni dell’Assemblea sono prese a maggioranza dei voti.
+
 **Art. 20**. Per le modifiche statutarie l’Assemblea delibera in presenza di almeno tre quarti degli associati e con il voto favorevole della maggioranza dei presenti.
 Per lo scioglimento dell’Associazione e devoluzione del patrimonio, l’Assemblea delibera con il voto favorevole di almeno tre quarti degli associati.
+
 **Art. 21.** Nelle delibere di approvazione del Bilancio e in quelle che riguardano la loro responsabilità, i componenti del Consiglio Direttivo non hanno voto. Per le votazioni si procede normalmente per alzata di mano. Per l’elezione delle cariche sociali si procede mediante il voto a scrutinio segreto su scheda.
 Le deliberazioni sono immediatamente esecutive e devono risultare insieme alla sintesi del dibattito da apposito verbale redatto dal Segretario dell’Assemblea e sottoscritto dal Presidente e dal Segretario stesso.
 
@@ -149,18 +156,17 @@ Tutti i componenti devono essere scelti tra le persone fisiche associate ovvero 
 Non può essere eletto consigliere, e se eletto decade dal suo ufficio, l’interdetto, l’inabilitato, il fallito, o chi è stato condannato ad una pena che importa l’interdizione, anche temporanea, dai pubblici uffici o l’incapacità ad esercitare uffici direttivi.
 L’eventuale assenza per due sedute consecutive senza giustificato motivo comporta la decadenza della carica. Il giustificato motivo è da comunicarsi al consiglio a mezzo mail, sms o altre tipologie di messaggi elettronici.
 I consiglieri entro 30 giorni dalla notizia della loro elezione devono chiedere l’iscrizione nel Registro Unico Nazionale del Terzo Settore, allorquando istituito, indicando per ciascuno di essi il nome, il cognome, il luogo e la data di nascita, il domicilio e la cittadinanza, nonché a quali di essi è attribuita la rappresentanza dell’ente, precisando se disgiuntamente o congiuntamente; il potere di rappresentanza attribuito agli amministratori è generale ed eventuali limitazioni non sono opponibili ai terzi se non sono iscritte nel Registro Unico Nazionale del Terzo Settore.
+
 **Art. 23.** Il Consiglio Direttivo è convocato dal Presidente ogni volta che vi sia materia su cui deliberare, quando ne sia fatta richiesta da almeno un terzo dei consiglieri.
 La convocazione è fatta a mezzo avviso affisso nella sede sociale almeno 5 giorni prima della riunione oppure a mezzo e-mail inviata almeno 5 giorni prima della riunione stessa.
 In casi di urgenza, il Consiglio Direttivo può essere convocato anche per le vie telefoniche, con sole 24 ore di preavviso.
 Le riunioni sono valide quando vi interviene la maggioranza dei consiglieri.
 Le deliberazioni sono prese a maggioranza dei presenti. Le votazioni sono palesi tranne nei casi di nomine o comunque riguardanti le persone.
+
 **Art. 24.** Il Consiglio Direttivo è investito dei più ampi poteri per la gestione dell’Associazione; pone in essere ogni atto esecutivo necessario per la realizzazione del programma di attività che non sia riservato per Legge o per statuto alla competenza dell’Assemblea dei soci.
 Nello specifico:
 
 - elegge tra i propri componenti il presidente;
-
-<!-- -->
-
 - elegge tra i propri componenti il vice presidente;
 - elegge il tesoriere e il segretario;
 - attua tutti gli atti di ordinaria e straordinaria amministrazione;
@@ -216,6 +222,7 @@ In ogni caso, l’Assemblea dei soci può eleggere il Revisore dei conti, qualor
 **Art. 31.** Gli esercizi sociali si chiudono il 31 dicembre di ogni anno e con la chiusura dell’esercizio verrà formato il bilancio che dovrà essere presentato all’Assemblea per l’approvazione entro quattro mesi dalla chiusura dell’esercizio sociale.
 Il bilancio è formato dallo stato patrimoniale, dal rendiconto gestionale con l’indicazione dei proventi e degli oneri dell’Associazione e dalla relazione di missione che illustra le poste di bilancio, l’andamento economico e gestionale dell’Associazione e le modalità di perseguimento delle finalità statutarie.
 In caso di ricavi, rendite, proventi o entrate comunque denominate inferiori a euro 220.000,00 il bilancio può essere redatto nella forma del rendiconto finanziario per cassa.
+
 **Art. 32.** Le entrate dell’Associazione sono costituite da:
 
 1.  quote associative degli aderenti;
@@ -228,6 +235,7 @@ In caso di ricavi, rendite, proventi o entrate comunque denominate inferiori a e
 8.  ogni altra entrata derivante da attività diverse di cui all’art. 6 del D.lgs. n.117/17 e s.m.i., comunque secondarie e strumentali rispetto a quelle di interesse generale di cui all’art. 3 del presente statuto che a qualsiasi titolo pervenga all’Associazione.
 
 Il Consiglio Direttivo documenta il carattere secondario e strumentale delle attività diverse rispetto a quelle di interesse generale, a seconda dei casi, nella relazione di missione o in una annotazione in calce al rendiconto per cassa o nella nota integrativa al bilancio.
+
 **Art. 33.** Il patrimonio sociale è costituito da:
 
 1.  beni immobili e mobili;
