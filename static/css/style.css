@@ -383,6 +383,44 @@ hr {
 .prose th { text-transform: uppercase; text-align: left; font-weight: bold; padding: 6px 10px 6px 0; }
 .prose td { border-top: 1px solid var(--color-border); padding: 6px 10px 6px 0; }
 
+/* Tabelle-galleria (righe di foto generate da pandoc dalle pagine storiche
+   migrate, una foto per cella): a 3 celle per riga nella colonna di lettura
+   (--measure, 604px) ogni foto rendeva a ~190px -- ben sotto la risoluzione
+   reale della maggior parte delle foto d'epoca migrate (mediana ~300px di
+   larghezza, verificato su un campione di 400 immagini dell'archivio
+   storico): apparivano più piccole del necessario, senza alcun vantaggio
+   dato che il file intero è comunque scaricato. Portate a una griglia CSS a
+   2 colonne -- non più il numero di <td> per riga dell'HTML originale (un
+   conteggio di colonne non è pilotabile da CSS su una <table>: si
+   riappiattisce la tabella con display:contents su tbody/tr, così le celle
+   fluiscono libere nella griglia indipendentemente da come erano
+   raggruppate in righe nel sorgente). A ~280px di cella la maggior parte
+   delle foto rende vicino alla propria risoluzione reale, quindi più grande
+   senza un ingrandimento oltre l'originale percepibile. :has() individua
+   solo le tabelle-galleria (con almeno un'immagine), lasciando le tabelle
+   di soli dati (es. la scheda catastale di bollettini/parise_2001.htm) nel
+   loro layout normale. Sotto i 600px: colonna singola (vedi la media query
+   più sotto, che sovrascrive queste regole). */
+.prose table:has(img) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3) var(--space-3);
+  border-bottom: 0;
+}
+.prose table:has(img) colgroup,
+.prose table:has(img) thead { display: none; }
+.prose table:has(img) tbody,
+.prose table:has(img) tr { display: contents; }
+/* width: 100% qui è necessario, non solo estetico: molte <td> hanno un
+   attributo HTML width="50%"/"33%" ereditato dal layout a tabella
+   originale, che i browser continuano ad applicare come regola di priorità
+   bassissima (hint di presentazione) ANCHE dopo che display è stato
+   portato a block -- senza un width esplicito la cella (e quindi l'immagine
+   dentro, che eredita 100% DI QUELLA cella) resta a metà della colonna
+   della griglia invece di riempirla. */
+.prose table:has(img) td { display: block; width: 100%; border-top: 0; padding: 0; }
+.prose table:has(img) img { width: 100%; height: auto; margin-block: 0 var(--space-1); }
+
 /* Sostituisce lo shortcode [gallery] di WordPress: griglia semplice, usata in
    7 pagine del sito reale (troppo poco per giustificare un template dedicato). */
 .wp-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-2); margin-block: var(--space-3); }
