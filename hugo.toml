@@ -41,11 +41,23 @@ summarylength = 40
 #
 # Struttura ricostruita dal menu reale nel DB WordPress (termine "Menu", 15 voci
 # pubblicate in wp_posts/wp_postmeta, non più indovinata da snippet di ricerca).
-# La voce "Home" del menu reale (link custom) non è ripetuta qui: il logo/titolo
-# del sito porta già alla home. La voce "La nostra storia" nel DB punta alla
-# stessa pagina di "Chi siamo" (nessun contenuto separato) ed è stata omessa.
+# La voce "Home" del menu reale (link custom) non è ripetuta qui sotto come
+# voce a sé nel DB originale: nel tema WordPress il logo/titolo del sito
+# portava già alla home. Su questo sito il titolo non è più un link (poco
+# intuitivo senza gli affordance visivi di un logo cliccabile): "Home" è
+# quindi una voce di menu esplicita, aggiunta per decisione dell'utente
+# (non presente nel DB reale). Punta a "/" per ora; in un'iterazione
+# successiva potrà puntare a una pagina "hero" dedicata invece della home
+# corrente (l'elenco notizie).
+# La voce "La nostra storia" nel DB punta alla stessa pagina di "Chi siamo"
+# (nessun contenuto separato) ed è stata omessa.
 
 [menu]
+
+  [[menu.main]]
+    name   = "Home"
+    url    = "/"
+    weight = 5
 
   [[menu.main]]
     name   = "Chi siamo"
