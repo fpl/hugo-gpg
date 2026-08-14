@@ -1,6 +1,7 @@
 ---
 title: "Grotta del Mezzogiorno e Frasassi"
 date: 2024-11-16
+anni: "2024"
 description: "Relazione dell'uscita del 16 e 17 novembre 2024, ultima del 50° Corso di Introduzione alla Speleologia: la traversata della Grotta del Mezzogiorno a Genga e la visita alle Grotte di Frasassi."
 categories:
   - "Relazioni"

@@ -1,6 +1,7 @@
 ---
 title: "Uscita alla Grave Rotolo"
 date: 2026-03-15
+anni: "2026"
 description: "Relazione di uscita speleologica alla Grave Rotolo, trovata in condizioni al limite della praticabilità sicura per le piogge insistenti della stagione."
 categories:
   - "Relazioni"
