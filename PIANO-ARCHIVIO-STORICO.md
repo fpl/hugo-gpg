@@ -6,6 +6,9 @@ Documento di riferimento per il lavoro ancora da fare nel recupero di
 completata o quando il censimento cambia (es. se emergono nuove pagine
 durante il lavoro).
 
+**Stato: tutte e 7 le fasi (C, A, B, D, G, E, F) sono completate.** Il piano
+resta come riferimento storico delle decisioni prese fase per fase.
+
 ## Contesto
 
 Le fasi già completate (script `old_to_hugo.py`, più parecchio lavoro manuale di
@@ -110,22 +113,34 @@ Da decidere con l'utente: rassegna completa (tutti i 40 anni) o solo gli
 anni/articoli già citati da altro contenuto migrato, come fu la scelta originale
 per la Fase 1.
 
-### Fase E — Gallerie fotografiche complete dei corsi (105 pagine)
+### Fase E — Gallerie fotografiche complete dei corsi ✅ completata
 
 `corso/<numero>/` (23–36) contiene le gallerie fotografiche integrali e pagine di
 dettaglio (es. `badino.htm`, programmi) di ogni edizione — le pagine `corsoNN.md`
-già migrate ne riportano solo una selezione o un riassunto. `corso/corsoNN.htm` a
-livello radice è invece un mirror dei file già in `old/` root, non contenuto
-nuovo. Fase di arricchimento, non di correzione di link rotti: priorità più bassa
-di A/B/C.
+già migrate ne riportano solo una selezione o un riassunto.
 
-### Fase F — Testo integrale degli articoli dei bollettini (73 pagine)
+Migrata: 13 edizioni (23–29, 31–36; la 30 non ha pagine .htm proprie, solo
+materiali in PDF ora collegati a mano in `corso30.md`) riunite ciascuna in
+un'unica pagina `content/archivio-storico/corsi/<N>/archivio-fotografico.md`
+(~2000 foto totali), più `programma.md` per le sole edizioni 23–25 (uniche con
+un programma di corso proprio in `old/`). Script: `build_corsi_gallerie()` /
+`python3 scripts/old_to_hugo.py --corsi-gallerie` in `scripts/old_to_hugo.py`.
+Non tutti i file erano gallerie pure (alcuni sono resoconti narrativi di singole
+uscite, es. `corso/28/1.htm`, `corso/32/pozzo.htm`): trattati con la stessa
+pipeline, che rende bene entrambi i casi.
+
+### Fase F — Testo integrale degli articoli dei bollettini ✅ completata
 
 `bollettini/<autore>_<anno>.htm` — testo completo di singoli articoli (es.
 `amatulli_2001.htm`, `comparelli_1986.htm`), oltre al solo indice già presente
-nelle pagine `bollettino-YYYY.md`. Stesso discorso della Fase E: arricchimento
-facoltativo, volume alto, nessun link rotto da correggere. Da valutare se vale lo
-sforzo rispetto al solo indice già presente.
+nelle pagine `bollettino-YYYY.md`.
+
+Migrati: 72 articoli (1986, 1991, 1996, 1999, 2001, 2003) sotto
+`content/archivio-storico/bollettini/<anno>/`, con ogni titolo negli indici
+`bollettino-<anno>.md` ora collegato alla pagina reale (prima testo semplice non
+linkato). Include, per scelta esplicita dell'utente, le due pagine con l'elenco
+soci (`members_2001.htm`, `2003/x.htm`). Script: `build_bollettini_testo()` +
+`link_bollettini_index()` / `python3 scripts/old_to_hugo.py --bollettini-testo`.
 
 ### Fase G — Sezioni tematiche autonome mai toccate (~70 pagine)
 
