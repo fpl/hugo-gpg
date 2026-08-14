@@ -513,7 +513,9 @@ hr {
 }
 
 @media (max-width: 767px) {
-  .site-header__hero { min-height: 0; }
+  /* altezza fissa (non cover) per evitare che il testo su più righe forzi
+     uno zoom oltre la risoluzione nativa di sfondo1.jpg (230px) */
+  .site-header__hero { min-height: 0; background-size: auto var(--header-h); background-repeat: no-repeat; }
 }
 
 @media (max-width: 480px) {
