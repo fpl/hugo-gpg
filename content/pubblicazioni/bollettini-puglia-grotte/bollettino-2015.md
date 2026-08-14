@@ -4,9 +4,13 @@ date: 2015-11-16
 ---
 
 <figure>
-<img src="/archivio-storico/legacy/images/2015_little.jpg" title="Copertina" style="margin: 0px 5px; border: 1px solid black;" data-align="right" data-border="1" data-hspace="5" data-vspace="0" width="96" height="139" alt="Copertina" />
+<img src="/archivio-storico/legacy/images/2015_little.jpg" title="Copertina" style="margin: 0px 5px; border: 1px solid black;" data-align="right" data-border="1" data-hspace="5" data-vspace="0" width="96" height="136" alt="Copertina" />
 <figcaption>Bollettino 2015</figcaption>
 </figure>
+
+[Scarica il bollettino](/downloads/bollettino_2015.pdf "Scarica il bollettino 2015")  
+(formato pdf dimensione 10.568)  
+  
 
 **Indice**  
   
@@ -99,3 +103,9 @@ date: 2015-11-16
 
       
 27. *Elenco Soci del Gruppo Puglia Grotte*
+
+  
+  
+
+[Scarica il bollettino](/downloads/bollettino_2015.pdf "Scarica il bollettino 2015")  
+(formato pdf dimensione 10.568)
