@@ -75,7 +75,12 @@ body {
   font-size: 1rem;
   line-height: 1.5;
 }
-img, svg { max-width: 100%; display: block; }
+/* height: auto è essenziale: moltissime immagini delle pagine storiche
+   migrate hanno width/height fissi nell'HTML sorgente (scansioni/foto
+   d'epoca). Senza, max-width:100% da solo restringe la larghezza su schermi
+   stretti ma lascia l'altezza al valore fisso dell'attributo, deformando la
+   foto invece di scalarla in proporzione. */
+img, svg { max-width: 100%; height: auto; display: block; }
 
 a { color: var(--color-link); text-decoration: none; }
 a:visited { color: var(--color-link-visited); }
@@ -460,6 +465,29 @@ hr {
 @media (max-width: 480px) {
   .site-footer__grid { grid-template-columns: 1fr; }
   .site-header__name { font-size: 2.25rem; } /* 36px, come .site-title a 767px nel tema originale */
+}
+
+/* Tabelle-galleria: molte pagine dell'archivio storico (corsi, rassegna
+   stampa, sezioni tematiche) sono tabelle HTML grezze a 2-3 colonne generate
+   da pandoc dalle pagine originali, una foto per cella. Su schermo stretto
+   quelle colonne si riducono a poche decine di pixel l'una -- height:auto
+   (sopra) evita la deformazione, ma le foto restano comunque minuscole.
+   :has() individua solo le tabelle-galleria (quelle con almeno un'immagine),
+   lasciando intatte le tabelle di soli dati (es. la scheda catastale di
+   bollettini/parise_2001.htm): impilate su una colonna sola, una foto alla
+   volta a piena larghezza invece di una griglia stretta. Supportato da tutti
+   i browser moderni (Chrome/Firefox/Safari dal 2023); dove :has() non fosse
+   disponibile la tabella resta semplicemente nel layout a più colonne di
+   prima, nessuna rottura.  */
+@media (max-width: 600px) {
+  .prose table:has(img) { display: block; border-bottom: 0; }
+  .prose table:has(img) colgroup { display: none; }
+  .prose table:has(img) tbody,
+  .prose table:has(img) tr { display: block; width: 100%; }
+  .prose table:has(img) td {
+    display: block; width: 100% !important;
+    border-top: 0; padding: 0 0 var(--space-3);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
