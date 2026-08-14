@@ -116,6 +116,11 @@ summarylength = 40
     weight = 40
 
   [[menu.main]]
+    name   = "Relazioni Uscite"
+    url    = "/relazioni/"
+    weight = 45
+
+  [[menu.main]]
     name   = "Pubblicazioni"
     url    = "/pubblicazioni/"
     weight = 50
