@@ -1651,6 +1651,180 @@ def build_corsi_gallerie():
             print(f"- {w}")
 
 
+# =============================================================================
+# Fase 6: pagine orfane scoperte in un nuovo censimento di old/ dopo il
+# completamento delle Fasi 1-5, mai referenziate né dal resto di old/ già
+# migrato né dal vero content/ WordPress. Copre la Fase H del piano
+# (dettagli del Museo Speleologico Franco Anelli) e la Fase A-bis (residuo
+# di pagine orfane collegate a contenuto già migrato, stesso pattern della
+# Fase A originale: sotto-pagine mai seguite, popup non aperti la prima
+# volta). Verificato pagina per pagina con extract_content(..., "auto") che
+# tutte estraggono contenuto reale sensato prima di scriverle.
+#
+# attivi/preveticelli.htm ESCLUSA di proposito: "(Foto di , testo di )" con
+# i campi vuoti e nessuna immagine nella galleria sottostante -- una pagina
+# mai completata nemmeno sul sito originale, non solo mai linkata. Nessun
+# dato reale da recuperare, quindi nessun placeholder (non fa parte di
+# alcuna sezione/indice visibile che ne renderebbe evidente l'assenza).
+# =============================================================================
+
+LINK_REWRITE["esplorazioni/monopoli.htm"] = "/archivio-storico/esplorazioni/monopoli/"
+LINK_REWRITE["esplorazioni/monopoli2.htm"] = "/archivio-storico/esplorazioni/monopoli-rilievo/"
+LINK_REWRITE["esplorazioni/fotomonopoli.htm"] = "/archivio-storico/esplorazioni/monopoli-reportage-fotografico/"
+
+# esplorazioni/monopoli2.htm incorpora un iframe YouTube (il "video di
+# Giampaolo Pinto" citato nel testo): niente embed di terzi su un sito
+# statico (stessa policy già applicata altrove nel progetto), ma il link
+# reale al video resta, non va perso.
+SOURCE_PATCHES["esplorazioni/monopoli2.htm"] = (
+    '<iframe width="420" height="315" src="http://www.youtube.com/embed/dSYiPXdHsxo" frameborder="0" allowfullscreen></iframe>',
+    '<a href="https://www.youtube.com/watch?v=dSYiPXdHsxo" target="_blank" title="Video di Giampaolo Pinto">Il video di Giampaolo Pinto</a> (YouTube)',
+)
+# "Minevino Murge" per "Minervino Murge" (comune reale, BAT): refuso genuino
+# e coerente nel sorgente (compare così sia nel calendario sia nel corpo
+# dell'articolo, mai "Minervino"), corretto qui.
+SOURCE_PATCHES["attivi/volpe.htm"] = ("Minevino Murge", "Minervino Murge")
+
+FASE_H_A_BIS_DIRECT_ASSETS = [
+    "esplorazioni/monopoli/relazionefinale.pdf",
+    "esplorazioni/monopoli/TRASMISSIONERILIEVIMONOPOLI.pdf",
+]
+for _asset in FASE_H_A_BIS_DIRECT_ASSETS:
+    LINK_REWRITE.setdefault(_asset, f"/archivio-storico/legacy/{_asset}")
+del _asset
+
+FASE_H_A_BIS_PAGES = [
+    # --- Fase A-bis: residuo di pagine orfane ---
+    dict(slug="soci-scomparsi/dino-faiano", title="Chi era Dino Faiano?",
+         sources=["faianochi.htm"], mode="auto", date=DATE_RIMIGRAZIONE),
+    dict(slug="esplorazioni/monopoli-rilievo", title="Il rilievo nel sottosuolo di Monopoli",
+         sources=["esplorazioni/monopoli2.htm"], mode="auto", date="2010-12-11"),
+    dict(slug="esplorazioni/monopoli-reportage-fotografico",
+         title="Il reportage fotografico del rilievo nei rifugi antiaerei di Monopoli",
+         sources=["esplorazioni/fotomonopoli.htm"], mode="auto", date="2010-12-11"),
+    # nidificate sotto programma-2006-2007/, come le altre uscite dello
+    # stesso calendario già migrate in Fase A (angelo/braca/laterza/notarvincenzo).
+    dict(slug="programma-2006-2007/grotta-della-volpe", title="Grotta della Volpe",
+         sources=["attivi/volpe.htm"], mode="auto", date="2006-12-17"),
+    dict(slug="programma-2006-2007/pulo-di-altamura", title="Inghiottitoio del Pulo di Altamura",
+         sources=["attivi/pulo.htm"], mode="auto", date="2006-11-26"),
+]
+
+# --- Fase H: Museo Speleologico Franco Anelli, sezioni di dettaglio ---
+# Ogni pagina condivide lo stesso template: una <td> di navigazione a schede
+# JS ("La storia"/"Attività"/"La rivista", link museo.htm?storia ecc. --
+# chrome puro, tre etichette fisse ripetute identiche su tutte e sei le
+# pagine, mai ancore reali) seguita dal contenuto vero. La posizione della
+# cella di contenuto rispetto a quella di navigazione NON è uniforme --
+# verificato: in alcune pagine (es. museo_percorso.htm) è la <td> SORELLA
+# nella stessa <table>, in altre (es. museo_catalogo.htm) è un <div
+# id="dove"...position:absolute...> che segue l'intera <table> di
+# navigazione -- quindi si toglie solo la <td> di navigazione stessa (mai
+# l'intera <table>, che in alcuni casi conterrebbe anche il contenuto vero
+# nella cella accanto). L'indirizzo del museo (stesso <div id="dove"> in
+# ogni pagina, già presente su museo.md, la pagina madre) è tolto a parte.
+MUSEO_NAV_TD_RE = re.compile(
+    r'<td\b(?:(?!</td>).)*?museo\.htm\?storia(?:(?!</td>).)*?</td>',
+    re.I | re.S,
+)
+MUSEO_ADDRESS_DIV_RE = re.compile(r'<div\s+id="dove"[^>]*>.*?</div>', re.I | re.S)
+# variante "torna su" propria di questi file: tre <b>^</b> separati da <br>
+# (non un singolo <b> con "^^^"/"^ Torna su ^" come nelle pagine dei
+# bollettini, già gestite da BACK_TO_TOP_RE -- pattern diverso, non riusabile).
+MUSEO_BACK_TO_TOP_RE = re.compile(
+    r'(<br\s*/?>\s*)*<div[^>]*align="right"[^>]*>\s*<a\b[^>]*href="#(?:up|top)"[^>]*>'
+    r'(?:\s*<b>[^<]*\^[^<]*</b>\s*(?:<br\s*/?>)?)+\s*</a>\s*</div>',
+    re.I | re.S,
+)
+# dopo aver tolto la <td> di navigazione, in alcune pagine (es.
+# museo_catalogo.htm) resta un guscio di tabella con celle ormai vuote (il
+# contenuto vero era altrove, in un <div id="dove"> già tolto sopra):
+# pandoc lo renderebbe come una tabella Markdown vuota.
+MUSEO_EMPTY_TABLE_RE = re.compile(
+    r'<table\b[^>]*>(?:\s|<colgroup>.*?</colgroup>|</?tbody>|<tr[^>]*>|</tr>|<td[^>]*>\s*</td>)*</table>',
+    re.I | re.S,
+)
+
+
+def strip_museo_tab_chrome(html: str) -> str:
+    html = MUSEO_NAV_TD_RE.sub("", html)
+    html = MUSEO_ADDRESS_DIV_RE.sub("", html)
+    html = MUSEO_BACK_TO_TOP_RE.sub("", html)
+    html = MUSEO_EMPTY_TABLE_RE.sub("", html)
+    return html
+
+
+def process_museo_page(page: dict, image_refs: set[str], date: str):
+    bodies = []
+    for src in page["sources"]:
+        raw = (OLD_ROOT / src).read_text(encoding="iso-8859-1")
+        content = extract_content(raw, page["mode"])
+        content = strip_html_comments(content)
+        content = strip_nav_icons(content)
+        content = strip_museo_tab_chrome(content)
+        content = strip_print_close_widget(content)
+        content = unwrap_absolute_divs(content)
+        content = resolve_mm_popups(content, src)
+        content = rewrite_links_and_images(content, src, image_refs)
+        content = strip_dead_anchors(content)
+        content = strip_popup_anchors(content)
+        bodies.append(content)
+    html = "\n<hr>\n".join(bodies)
+    md = html_to_md(html)
+    # &#10; comparso nell'output di pandoc (non nel sorgente, verificato) in
+    # corrispondenza di alcuni <br> dentro l'HTML grezzo che pandoc non sa
+    # esprimere altrimenti -- stesso artefatto già corretto a mano in
+    # corso30.md, qui tolto in automatico.
+    md = md.replace("&#10;", "")
+
+    fm = [
+        "---",
+        f"title: {yaml_str(page['title'])}",
+        f"date: {date}",
+        'description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."',
+        "---",
+        "",
+    ]
+    dest = CONTENT / f"{page['slug']}.md"
+    safe_write_text(dest, "\n".join(fm) + md + "\n")
+
+
+MUSEO_DETAIL_PAGES = [
+    # stessa data convenzionale di museo.md (2000-01-23), pagine descrittive
+    # senza una data reale propria, come la pagina madre di cui sono dettaglio.
+    dict(slug="museo-percorso", title="Il percorso museale",
+         sources=["museo_percorso.htm"], mode="auto", date="2000-01-23"),
+    dict(slug="museo-laboratorio", title="Il laboratorio di biospeleologia e mineralogia",
+         sources=["museo_labo.htm"], mode="auto", date="2000-01-23"),
+    # "spelologica" nel <title> originale è un refuso genuino (verificabile:
+    # il resto del sito scrive sempre "speleologica"), corretto qui.
+    dict(slug="museo-centro-documentazione", title="Il Centro di documentazione speleologica Franco Orofino",
+         sources=["museo_biblio.htm"], mode="auto", date="2000-01-23"),
+    dict(slug="museo-catalogo", title="Catalogo del museo",
+         sources=["museo_catalogo.htm"], mode="auto", date="2000-01-23"),
+    dict(slug="museo-archivio-iconografico", title="Archivio iconografico delle Grotte di Castellana",
+         sources=["museo_archivio.htm"], mode="auto", date="2000-01-23"),
+    dict(slug="museo-e-finalmente", title="E finalmente…",
+         sources=["museo_sogno.htm"], mode="auto", date="2000-01-23"),
+]
+
+
+def build_fase_h_a_bis():
+    image_refs: set[str] = set()
+    for page in FASE_H_A_BIS_PAGES:
+        process_page(page, image_refs, date=page["date"])
+    for page in MUSEO_DETAIL_PAGES:
+        process_museo_page(page, image_refs, date=page["date"])
+    copy_assets(image_refs, direct_assets=set(FASE_H_A_BIS_DIRECT_ASSETS))
+    save_manifest()
+    export_link_rewrite()
+
+    if warnings:
+        print("\n== Avvisi ==")
+        for w in warnings:
+            print(f"- {w}")
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--extend":
         extend_archive()
@@ -1661,5 +1835,7 @@ if __name__ == "__main__":
         link_bollettini_index(generated)
     elif len(sys.argv) > 1 and sys.argv[1] == "--corsi-gallerie":
         build_corsi_gallerie()
+    elif len(sys.argv) > 1 and sys.argv[1] == "--fase-h-a-bis":
+        build_fase_h_a_bis()
     else:
         main()

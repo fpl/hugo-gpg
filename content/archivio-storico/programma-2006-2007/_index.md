@@ -18,7 +18,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 
 - 12 novembre uscita di perfezionamento - [Notarvincenzo Ruvo di Puglia - BA](/archivio-storico/programma-2006-2007/notarvincenzo/ "Notarvincenzo")  
 - 18-19 uscita di perfezionamento su tecniche d'armo avanzate in parete - [Gravina di Laterza - TA](/archivio-storico/programma-2006-2007/laterza/ "Gravina di Laterza - TA")  
-- 26 uscita di perfezionamento su tecniche d'armo avanzate in grotta - Inghiottitoio del Pulo di Altamura - BA
+- 26 uscita di perfezionamento su tecniche d'armo avanzate in grotta - [Inghiottitoio del Pulo di Altamura - BA](/archivio-storico/programma-2006-2007/pulo-di-altamura/ "Inghiottitoio del Pulo di Altamura")
 
 **Dicembre**
 
@@ -26,7 +26,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   Matese](/archivio-storico/programma-2006-2007/braca/ "Grotta di Campo Braca")  
 - 8-9-10 Monti Alburni: completamento esplorazioni campo - Grave d'Inverno:
   nuove segnalazioni in zona Grotta dei Vitelli - SA  
-- 17 Grotta della Volpe - Minevino Murge - BA  
+- 17 [Grotta della Volpe - Minervino Murge - BA](/archivio-storico/programma-2006-2007/grotta-della-volpe/ "Grotta della Volpe")  
 - 26 [Grotta della Cava di Sant'Angelo - Ostuni - BR](/archivio-storico/programma-2006-2007/angelo/ "Grotta della Cava di Sant'Angelo - Ostuni - BR")  
 
 **Gennaio**

@@ -75,3 +75,8 @@ Determinata la possibilità di permanere per un breve periodo di tempo senza alc
 - [Fax Monopoli](/archivio-storico/legacy/rassegna/2009/Fax19.12.09Monopoli4.pdf "Fax Monopoli 19/12/09") del 19/12/09 pag. 19
 - [Fax Monopoli](/archivio-storico/legacy/rassegna/2009/Fax19.12.09Monopoli5.pdf "Fax Monopoli 19/12/09") del 19/12/09 pag. 20
 - [Fax Monopoli](/archivio-storico/legacy/rassegna/2009/Fax19.12.09Monopoli6.pdf "Fax Monopoli 19/12/09") del 19/12/09 pag. 21
+
+**Vedi anche**
+
+- [Il rilievo nel sottosuolo di Monopoli](/archivio-storico/esplorazioni/monopoli-rilievo/ "Il rilievo nel sottosuolo di Monopoli") — il seguito del lavoro, presentato a Spelaion 2010
+- [Il reportage fotografico completo](/archivio-storico/esplorazioni/monopoli-reportage-fotografico/ "Il reportage fotografico del rilievo nei rifugi antiaerei di Monopoli") di Giampaolo Pinto

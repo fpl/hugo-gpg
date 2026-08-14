@@ -50,12 +50,12 @@ Speleologico.
 
 Le attività del Museo Speleologico Franco Anelli si sono concentrate su:
 
-- Il laboratorio didattico di biospeleologia e mineralogia
-- Centro di documentazione Spelologica Franco Orofino
-- Il percorso museale
-- Il catalogo bibliografico del museo
-- Archivio fotografico delle Grotte di Castellana
-- Visite Speleojunior
+- [Il laboratorio didattico di biospeleologia e mineralogia](/archivio-storico/museo-laboratorio/ "Il laboratorio di biospeleologia e mineralogia")
+- [Centro di documentazione speleologica Franco Orofino](/archivio-storico/museo-centro-documentazione/ "Il Centro di documentazione speleologica Franco Orofino")
+- [Il percorso museale](/archivio-storico/museo-percorso/ "Il percorso museale")
+- [Il catalogo bibliografico del museo](/archivio-storico/museo-catalogo/ "Catalogo del museo")
+- [Archivio fotografico delle Grotte di Castellana](/archivio-storico/museo-archivio-iconografico/ "Archivio iconografico delle Grotte di Castellana")
+- [Visite Speleojunior](/archivio-storico/didattica/speleojunior/ "Speleojunior")
 
 Dal 2020 la presenza del Gruppo presso il museo si è ridotta ed anche
 l'offerta turistica si è modificata, con l'evolvere di gusti ed esigenze. 

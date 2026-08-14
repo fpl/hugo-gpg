@@ -27,7 +27,7 @@ Da qualche anno ci siamo abituati a fare a meno dell'ironia, della tenerezza e d
 Ora, vorremmo dare un'idea di quello che era a chi non ha avuto la fortuna di conoscerlo.  
 Non si tratta di una commemorazione ufficiale, non ci saranno discorsi, né targhe.  
   
-**Chi era Dino Faiano?**  
+[**Chi era Dino Faiano?**](/archivio-storico/soci-scomparsi/dino-faiano/ "Chi era Dino Faiano?")  
 E' stato tra i fondatori del Gruppo Puglia Grotte, ha vissuto gli albori della
 speleologia pugliese, ha svolto l'incarico di guida alle Grotte di Castellana per decenni, ha visitato Paesi lontani, ha scalato le cime più belle.  
 Insomma, era una persona ricca.  
