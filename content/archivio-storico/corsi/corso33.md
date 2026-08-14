@@ -56,3 +56,4 @@ Impossibile eseguire JavaScript
 </tr>
 </tbody>
 </table>
+[Archivio fotografico completo](/archivio-storico/corsi/33/archivio-fotografico/)  

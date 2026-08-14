@@ -40,3 +40,4 @@ quinta uscita - <strong>Grotte in località Monti Alburni</strong>
 </tr>
 </tbody>
 </table>
+[Archivio fotografico completo](/archivio-storico/corsi/28/archivio-fotografico/)  

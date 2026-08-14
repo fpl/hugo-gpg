@@ -7,3 +7,5 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 9 aprile - 9 maggio 2002  
 Castellana-Grotte (BA)  
 Direttore: Domenico Sgobba
+[Archivio fotografico completo](/archivio-storico/corsi/23/archivio-fotografico/)  
+[Il programma](/archivio-storico/corsi/23/programma/)  

@@ -38,3 +38,4 @@ Pozzo Cucù Castellana-Grotte (Ba)
 </tr>
 </tbody>
 </table>
+[Archivio fotografico completo](/archivio-storico/corsi/32/archivio-fotografico/)  

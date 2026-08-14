@@ -469,7 +469,23 @@ def _text_len(html_fragment: str) -> int:
     return len(re.sub(r"\s+", " ", text).strip())
 
 
+def _full_body_extraction(raw: str) -> str | None:
+    """A differenza di _body_extraction (che sceglie UN <td> di contenuto),
+    ritorna l'intero <body>: serve per le pagine con più <td> fratelli allo
+    stesso livello che insieme formano il contenuto (es. corso/<N>/*.htm: un
+    primo <td colspan> di intestazione/testo, poi righe di <td> con le foto
+    della galleria) -- _body_extraction sceglierebbe solo il <td> con più
+    testo (l'intestazione) e scarterebbe silenziosamente l'intera galleria."""
+    m = re.search(r"<body[^>]*>(.*)</body>", raw, re.I | re.S)
+    return m.group(1) if m else None
+
+
 def extract_content(raw: str, mode: str) -> str:
+    if mode == "full":
+        result = _full_body_extraction(raw)
+        if result is None:
+            sys.exit("nessun <body> trovato per una pagina in modalità 'full'")
+        return result
     if mode == "testo":
         result = _testo_extraction(raw)
         if result is None:
@@ -1400,6 +1416,241 @@ def link_bollettini_index(generated: dict[str, tuple[int, str, str]]):
             print(f"collegati i titoli in bollettino-{year}.md")
 
 
+# =============================================================================
+# Fase 5: gallerie fotografiche complete dei corsi (corso/<numero>/*.htm, numeri
+# 23-36). Le pagine corsoNN.md già migrate (Fase 2) riportano solo un breve
+# riassunto; qui sotto sta l'archivio fotografico integrale di ogni edizione,
+# spesso paginato su più file nel sito originale (limite di banda dell'epoca)
+# e qui riunito in un'unica pagina Hugo per corso, in ordine di file.
+#
+# Verificato pagina per pagina che questi file NON sono tutti gallerie pure:
+# alcuni (es. corso/28/1.htm) sono resoconti narrativi di una singola uscita
+# con foto intercalate, altri (es. corso/26/immagini2.htm) sono griglie di
+# foto senza alcun testo. Uniti nello stesso modo (estrazione dell'intero
+# <body>, non di una singola <td> come per le altre fasi -- necessario perché
+# qui il contenuto reale è distribuito su più <td> fratelli allo stesso
+# livello, non annidato in un unico contenitore) e lasciati a pandoc, che
+# rende bene entrambi i casi: paragrafi puliti per il testo narrativo, tabella
+# HTML grezza (comunque visualizzata correttamente dal browser) per le griglie
+# di foto quando le celle hanno contenuto multi-riga che gfm non sa esprimere
+# in Markdown puro -- stesso comportamento già verificato e accettato per la
+# tabella dati catastali di bollettini/parise_2001.htm (Fase 4).
+# =============================================================================
+
+CORSI_CONTENT = REPO / "content" / "archivio-storico" / "corsi"
+
+# 30 escluso: nessun file .htm in corso/30/, solo moduli/regolamento in PDF
+# (gestiti da build_corso30_materiali, non da questa funzione).
+CORSI_GALLERIA_RANGE = [23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36]
+
+# programma.htm (23-25) è un programma di corso (materia diversa, non un
+# racconto/foto di una singola giornata): pagina a sé, vedi
+# build_corsi_programmi più sotto.
+CORSI_GALLERIA_EXCLUDE = {"programma.htm"}
+
+# link locali a file non immagine (pdf/doc/zip) dentro le pagine di galleria:
+# rewrite_links_and_images gestisce automaticamente solo gli <img src=...>
+# (jpg/gif/png), non gli <a href=...> verso altri formati -- questi restano
+# altrimenti testo semplice (link tolto da strip_dead_anchors, come per
+# qualunque altro link interno non riconosciuto). Trovato con una scansione
+# di tutti i corso/<N>/*.htm per href locali .pdf/.doc/.zip: un solo caso
+# reale (corso/33/settimana.htm, "la lezione" di Lovece per la Settimana
+# della cultura speleologica).
+CORSI_EXTRA_ASSETS = ["corso/33/LezioneLovece.pdf"]
+for _asset in CORSI_EXTRA_ASSETS:
+    LINK_REWRITE.setdefault(_asset, f"/archivio-storico/legacy/{_asset}".replace(" ", "%20"))
+del _asset
+
+NAV_LOGO_LINK_RE = re.compile(r'<a\s+href="[^"]*index_ita\.htm"[^>]*>.*?</a>', re.I | re.S)
+
+
+def _discover_corso_galleria_files(n: int) -> list[str]:
+    d = OLD_ROOT / "corso" / str(n)
+    files = []
+    for p in sorted(d.glob("*.htm")):
+        if p.name.endswith("_eng.htm") or p.name in CORSI_GALLERIA_EXCLUDE:
+            continue
+        files.append(f"corso/{n}/{p.name}")
+    return files
+
+
+def _read_corso_meta(n: int) -> tuple[str, str]:
+    """(titolo, data) dalla pagina corsoNN.md già migrata (Fase 2): fonte
+    unica già verificata per titolo e data reale di ogni edizione."""
+    text = (CORSI_CONTENT / f"corso{n}.md").read_text(encoding="utf-8")
+    title_m = re.search(r'^title:\s*"(.*)"\s*$', text, re.M)
+    date_m = re.search(r'^date:\s*(\S+)\s*$', text, re.M)
+    return title_m.group(1), date_m.group(1)
+
+
+# alcune gallerie dei corsi referenziano immagini che risultano assenti dalla
+# copia di old/ fornita (es. TUTTE le 45 immagini di corso/29/festa.htm, o
+# alcune di corso/31/4.htm-5.htm e corso/32/pulo.htm): non un errore di questo
+# script, verificato che le cartelle stesse mancano su disco (non solo un
+# problema di maiuscole/minuscole, già gestito da find_case_insensitive).
+# Stesso trattamento già riservato altrove nel sito a foto mancanti dalla
+# copia originale: il riferimento <img> viene tolto (non lasciato come
+# immagine rotta), l'eventuale didascalia/testo intorno resta intatta.
+MISSING_IMG_RE = re.compile(r'''<img\b[^>]*\bsrc=(["'])/archivio-storico/legacy/(.+?)\1[^>]*/?>''', re.I)
+
+
+def _corso_image_exists(rel: str) -> bool:
+    path = OLD_ROOT / rel
+    return path.exists() or find_case_insensitive(path) is not None
+
+
+def strip_missing_corso_images(html: str, image_refs: set[str]) -> str:
+    def repl(m):
+        rel = m.group(2)
+        if _corso_image_exists(rel):
+            return m.group(0)
+        image_refs.discard(rel)
+        return ""
+    return MISSING_IMG_RE.sub(repl, html)
+
+
+def _process_corso_fragment(src: str, image_refs: set[str]) -> str:
+    raw = (OLD_ROOT / src).read_text(encoding="cp1252")
+    content = extract_content(raw, "full")
+    content = strip_html_comments(content)
+    content = NAV_LOGO_LINK_RE.sub("", content)
+    content = strip_nav_icons(content)
+    content = strip_print_close_widget(content)
+    content = unwrap_align_divs(content)
+    content = unwrap_absolute_divs(content)
+    content = resolve_mm_popups(content, src)
+    content = rewrite_links_and_images(content, src, image_refs)
+    content = strip_missing_corso_images(content, image_refs)
+    content = strip_dead_anchors(content)
+    content = strip_popup_anchors(content)
+    content = simplify_bollettino_anchors(content)
+    return content
+
+
+def process_corso_galleria(n: int, image_refs: set[str]) -> str:
+    course_title, date = _read_corso_meta(n)
+    sources = _discover_corso_galleria_files(n)
+    bodies = [_process_corso_fragment(src, image_refs) for src in sources]
+    html = "\n<hr>\n".join(bodies)
+    md = html_to_md(html)
+
+    fm = [
+        "---",
+        f'title: {yaml_str(f"Archivio fotografico — {course_title}")}',
+        f"date: {date}",
+        'description: "Archivio fotografico completo, recuperato dal sito del Gruppo Puglia Grotte precedente a WordPress."',
+        "---",
+        "",
+    ]
+    dest = CORSI_CONTENT / str(n) / "archivio-fotografico.md"
+    safe_write_text(dest, "\n".join(fm) + md + "\n")
+    return f"/archivio-storico/corsi/{n}/archivio-fotografico/"
+
+
+# programma.htm esiste solo per le edizioni 23-25 (le successive non hanno
+# una pagina programma propria in old/, verificato con `find`).
+CORSI_PROGRAMMA_RANGE = [23, 24, 25]
+
+
+def process_corso_programma(n: int, image_refs: set[str]) -> str:
+    course_title, date = _read_corso_meta(n)
+    src = f"corso/{n}/programma.htm"
+    raw = (OLD_ROOT / src).read_text(encoding="cp1252")
+    content = extract_content(raw, "auto")
+    content = strip_html_comments(content)
+    content = NAV_LOGO_LINK_RE.sub("", content)
+    content = strip_nav_icons(content)
+    content = strip_print_close_widget(content)
+    content = unwrap_align_divs(content)
+    content = unwrap_absolute_divs(content)
+    content = resolve_mm_popups(content, src)
+    content = rewrite_links_and_images(content, src, image_refs)
+    content = strip_dead_anchors(content)
+    content = strip_popup_anchors(content)
+    content = simplify_bollettino_anchors(content)
+    md = html_to_md(content)
+
+    fm = [
+        "---",
+        f'title: {yaml_str(f"Il programma — {course_title}")}',
+        f"date: {date}",
+        'description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."',
+        "---",
+        "",
+    ]
+    dest = CORSI_CONTENT / str(n) / "programma.md"
+    safe_write_text(dest, "\n".join(fm) + md + "\n")
+    return f"/archivio-storico/corsi/{n}/programma/"
+
+
+def link_corso_pages(links: dict[int, list[tuple[str, str]]]):
+    """Aggiunge, in coda a ogni corsoNN.md già esistente, i link alle pagine
+    appena generate (archivio fotografico / programma) -- stessa logica di
+    link_bollettini_index: scrittura diretta (non passa dal manifest, questi
+    file sono già segnalati come modificati a mano da sessioni precedenti),
+    idempotente (non ri-aggiunge un link già presente)."""
+    for n, items in sorted(links.items()):
+        dest = CORSI_CONTENT / f"corso{n}.md"
+        text = dest.read_text(encoding="utf-8")
+        changed = False
+        for label, url in items:
+            line = f"[{label}]({url})"
+            if line in text:
+                continue
+            sep = "  \n" if text.endswith("  \n") or text.rstrip("\n").endswith("  ") else "\n\n"
+            text = text.rstrip("\n") + "\n" + line + "  \n"
+            changed = True
+        if changed:
+            dest.write_text(text, encoding="utf-8")
+            print(f"collegate le pagine aggiuntive in corso{n}.md")
+
+
+# corso/30/ non ha alcuna pagina .htm di contenuto (solo moduli/regolamento
+# in PDF + il manifesto del corso in JPG): corso30.md esisteva già (Fase 2)
+# con questi materiali citati come testo semplice non linkato (estratti dalla
+# stessa cella "testo" di corso/corso30.htm usata per il riassunto). Questa
+# funzione si limita a copiare gli asset -- il collegamento dei link nel
+# testo esistente è stato fatto a mano direttamente su corso30.md (non è
+# un'operazione automatizzabile in sicurezza: il testo "Regolamento pdf -
+# zip" ecc. non ha una struttura ripetibile su cui costruire un pattern).
+CORSO_30_MATERIALI = [
+    "corso/30/GPGProgrammaXXXCorso.pdf",
+    "corso/30/GPGRegolamento.pdf",
+    "corso/30/GPGModuloIscrizione.pdf",
+    "corso/30/GPGliberatoriafoto.pdf",
+    "corso/30/SSIModuloISCRIZIONE.pdf",
+    "corso/30/CSXXXCorso.pdf",
+    "corso/30/images/manifesto.jpg",
+]
+
+
+def build_corso30_materiali():
+    direct_assets = set(CORSO_30_MATERIALI)
+    copy_assets(set(), direct_assets=direct_assets)
+    for rel in direct_assets:
+        LINK_REWRITE.setdefault(rel, f"/archivio-storico/legacy/{rel}".replace(" ", "%20"))
+
+
+def build_corsi_gallerie():
+    image_refs: set[str] = set()
+    links: dict[int, list[tuple[str, str]]] = {}
+    for n in CORSI_GALLERIA_RANGE:
+        url = process_corso_galleria(n, image_refs)
+        links.setdefault(n, []).append(("Archivio fotografico completo", url))
+    for n in CORSI_PROGRAMMA_RANGE:
+        url = process_corso_programma(n, image_refs)
+        links.setdefault(n, []).append(("Il programma", url))
+    copy_assets(image_refs, direct_assets=set(CORSI_EXTRA_ASSETS))
+    save_manifest()
+    link_corso_pages(links)
+    build_corso30_materiali()
+
+    if warnings:
+        print("\n== Avvisi ==")
+        for w in warnings:
+            print(f"- {w}")
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--extend":
         extend_archive()
@@ -1408,5 +1659,7 @@ if __name__ == "__main__":
     elif len(sys.argv) > 1 and sys.argv[1] == "--bollettini-testo":
         generated = build_bollettini_testo()
         link_bollettini_index(generated)
+    elif len(sys.argv) > 1 and sys.argv[1] == "--corsi-gallerie":
+        build_corsi_gallerie()
     else:
         main()

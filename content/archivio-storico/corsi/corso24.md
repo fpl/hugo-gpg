@@ -7,3 +7,5 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 15 ottobre - 5 dicembre 2002  
 Castellana-Grotte (BA)  
 Direttore: Antonio Trocino
+[Archivio fotografico completo](/archivio-storico/corsi/24/archivio-fotografico/)  
+[Il programma](/archivio-storico/corsi/24/programma/)  

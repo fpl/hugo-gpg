@@ -37,3 +37,5 @@ Vi sono state dieci lezioni teoriche, tra cui una tenuta da **Giovanni Badino** 
 Materiali:
 
 - **Il Programma**
+[Archivio fotografico completo](/archivio-storico/corsi/25/archivio-fotografico/)  
+[Il programma](/archivio-storico/corsi/25/programma/)  
