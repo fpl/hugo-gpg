@@ -457,6 +457,7 @@ hr {
   color: #fff;
   margin-bottom: var(--space-2);
 }
+.site-footer__logo { width: 5.5rem; height: auto; margin-bottom: var(--space-2); }
 .site-footer a { color: var(--color-footer-link); }
 .site-footer a:hover { color: #fff; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; font-size: var(--size-small); }
