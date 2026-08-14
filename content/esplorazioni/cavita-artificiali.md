@@ -4,6 +4,5 @@ aliases:
   - "/home/cavita-artificiali/"
 ---
 
-<!-- TODO migrazione: contenuto assente anche nella pagina originale del
-     sito, verificato nel dump del database (non è un errore di
-     conversione). Non inventare testo qui. -->
+Il gruppo ha svolto diverse ricerche nell'ambito delle cavità artificiali.
+Per il momento, il materiale storico relativo è disponibile [qui](/archivio-storico/speleologia-artificiale/)

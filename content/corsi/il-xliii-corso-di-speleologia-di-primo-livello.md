@@ -17,5 +17,6 @@ e-mail: **segreteria@***NOSPAM***gruppopugliagrotte.it** (rimuovi *NOSPAM* p
 - [Iscrizione e assicurazione SSI](/downloads/individuali.pdf "Domanda di iscrizione ")
 - [Locandina](/images/uploads/2017/09/Locandina.jpg "Locandina")
 
-<span style="text-decoration: underline;">Il corso sarà preceduto dalle attività legate alla [**Giornata Nazionale della Speleologia**](http://www.giornatedellaspeleologia.it/) il giorno** 1 ottobre 2017** alle quali tutti i corsisti potranno partecipare.</span>
+Il corso sarà preceduto dalle attività legate alla [**Giornata Nazionale della Speleologia**](http://www.giornatedellaspeleologia.it/) il giorno **1 ottobre 2017** alle quali tutti i corsisti potranno partecipare.
+
 E naturalmente, un saluto dalla direttrice…
