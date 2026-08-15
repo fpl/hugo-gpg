@@ -7,3 +7,4 @@ Racconti e relazioni tecniche delle uscite speleologiche del Gruppo Puglia Grott
 - [Uscita alla Grave Rotolo](/relazioni/grave-rotolo/ "Uscita alla Grave Rotolo")
 - [Visita alla Grotta del Ciolo](/relazioni/grotta-del-ciolo/ "Visita alla Grotta del Ciolo")
 - [Grotta del Mezzogiorno e Frasassi](/relazioni/grotta-del-mezzogiorno-frasassi/ "Grotta del Mezzogiorno e Frasassi")
+- [Uscita all'Abisso di Cul di Bove](/relazioni/abisso-di-cul-di-bove/ "Uscita all'Abisso di Cul di Bove")
