@@ -17,6 +17,8 @@ categories:
 
 **Partecipanti:** Claudio, Modesto, Marni, Francesca, Bobbi, Domenico e Riccardo
 
+**Relazione a cura di** Riccardo Ivone
+
 **Foto a cura di** Francesca "Kite" Bellino
 
 <figure>
