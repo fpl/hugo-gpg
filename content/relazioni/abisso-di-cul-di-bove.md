@@ -17,6 +17,8 @@ categories:
 
 **Partecipanti:** Claudio, Modesto, Marni, Francesca, Bobbi, Domenico e Riccardo
 
+**Foto a cura di** Francesca "Kite" Bellino
+
 <figure>
 <img src="/images/relazioni/cul-di-bove/rilievo.jpg" width="1400" height="583" alt="Rilievo dell'Abisso di Cul di Bove (A 140), sezione, Campochiaro (CB), Molise" />
 <figcaption>Rilievo dell'Abisso di Cul di Bove (A 140) — rilievo C.S.R., luglio-ottobre 1989, disegno di Stefano Gambari</figcaption>
