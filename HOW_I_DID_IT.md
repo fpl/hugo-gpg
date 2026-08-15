@@ -1,5 +1,11 @@
 # Come è stata fatta: cronaca della migrazione gruppopugliagrotte.it → Hugo
 
+**Istantanea al 15 agosto 2026.** Il lavoro di migrazione è tuttora in corso: questo
+documento fotografa lo stato e la cronologia delle attività fino a questa data e non
+viene aggiornato retroattivamente a ogni modifica successiva — per lo stato più recente
+del contenuto e della struttura fare sempre riferimento a `README.md` e alla cronologia
+git.
+
 Questo documento racconta, in ordine cronologico, tutto il lavoro svolto per migrare
 **gruppopugliagrotte.it** (sito dell'associazione di speleologia Gruppo Puglia Grotte,
 Castellana Grotte, Bari) da WordPress a Hugo. È un resoconto di attività, non una guida
