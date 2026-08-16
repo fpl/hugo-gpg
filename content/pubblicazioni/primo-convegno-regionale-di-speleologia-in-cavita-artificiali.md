@@ -5,28 +5,13 @@ aliases:
 ---
 
 ![Patrocini](/archivio-storico/legacy/eventi/images/convegno2007/loghi.jpg)
- 
- 
- 
- 
- 
-
-<div align="center">
 
 **I Convegno Regionale di Speleologia in Cavità Artificiali**
 *Architetture nel Buio*
 24-25 marzo 2007
 Castellana Grotte (Ba)
 
-</div>
-
- 
-
-<div align="center">
-
 ![logo](/archivio-storico/legacy/eventi/images/convegno2007/logo.jpg)
-
-</div>
 
 Nei giorni 24 e 25 marzo 2007 - a Castellana-Grotte BA, nelle sale del Palazzo di Città e del Museo Speleologico *Franco Anelli* - il Gruppo Puglia Grotte ha organizzato il *I Convegno Regionale di Speleologia in Cavità Artificiali Architetture nel Buio*.
 L'incontro era teso a diffondere la conoscenza del patrimonio ipogeo artificiale pugliese inteso nelle sue varie espressioni e significati.
@@ -39,92 +24,66 @@ Il bilancio può chiudersi con segno positivo: oltre un centinaio di partecipant
 - [**Relatori**](/archivio-storico/convegno-2007/ "Relatori")
 - [**Eventi collaterali**](/archivio-storico/convegno-2007/ "Eventi collaterali")
 - [**Immagini**](/archivio-storico/convegno-2007/ "Immagini")
-- ** **
 
 ------------------------------------------------------------------------
 
 <span id="programma"></span>**Programma**
 **Sabato 24 marzo 2007**
 
-|                                  |                                                                                                                                                                                              |
-|:--------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|     *Saluto delle autorità*      |                                                                                                                                                                                              |
-|             ore 9:20             |                                                                                         Simone Pinto                                                                                         
-                                                                                                                    Sindaco di Castellana-Grotte                                                                                  |
-|             ore 9:30             |                                                                                       Angela Barbanente                                                                                      
-                                                                                                        Assessorato Regione Puglia all'Assetto del Territorio                                                                     |
-|             ore 9:40             |                                                                                      Giovanni Giangreco                                                                                      
-                                                                                                     Soprintendenza ai Monumenti Province Lecce Brindisi Taranto                                                                  |
-|             ore 9:50             |                                                                                        Giuseppe Savino                                                                                       
-                                                                                                                   Presidente Grotte di Castellana                                                                                
-                                                                                                                  Federazione Speleologica Pugliese                                                                               |
-|            ore 10:00             |                                                                                       Alessandro Reina                                                                                       
-                                                                                                             Direttore Scientifico Grotte di Castellana                                                                           |
-|            ore 10:10             |                                                                                       Gaetano Proietto                                                                                       
-                                                                                                                   Presidente Gruppo Puglia Grotte                                                                                |
-|  *Sessione di lavori mattutina*  |                                                                                                                                                                                              |
-|            ore 10:20             |                                                     [Ezio Burri](/archivio-storico/convegno-2007/ "Ezio Burri")                                                     
-                                                                                               *La Commissione Cavità Artificiali della Società Speleologica Italiana*                                                            |
-|            ore 10:35             | [Carla Galeazzi](/archivio-storico/convegno-2007/ "Carla Galeazzi"), [Marco Meneghini](/archivio-storico/convegno-2007/ "Marco Meneghini") 
-                                                                                            *Il Catasto Nazionale delle Cavità Artificiali tra passato presente e futuro*                                                         |
-|            ore 10:50             |                                                [Roberto Caprara](/archivio-storico/convegno-2007/ "Roberto Caprara")                                                
-                                                                                                           *Tipologie delle abitazioni rupestri in Puglia*                                                                        |
-|            ore 11:30             |                                             [Franco Dell'Aquila](/archivio-storico/convegno-2007/ "Franco Dell'Aquila")                                             
-                                                                                                                    *Abitazioni rupestri a pozzo*                                                                                 |
-|            ore 11:55             |                                                                                     Sergio Natale Maglio                                                                                     
-                                                                                                 *Cicli climatici e architetture scavate: osservazioni preliminari*                                                               |
-|            ore 13:00             |                                                                              Museo Speleologico *Franco Anelli*                                                                              
-                                                                                                          Buffet a cura dell'Istituto Professionale di Stato                                                                      
-                                                                                                 per i Servizi Alberghieri e della Ristorazione di Castellana-Grotte                                                              |
-|            ore 15:00             |                                                                              Museo Speleologico *Franco Anelli*                                                                              
-                                                                                                        Inaugurazione Sala Multimediale *Vittorio Castellani*                                                                     |
-| *Sessione di lavori pomeridiana* |                                                                                                                                                                                              |
-|            ore 15:30             |                                                                                       Massimo Tarantini                                                                                      
-                                                                                                            *Le miniere neolitiche di selce sul Gargano*                                                                          |
-|            ore 15:55             |                                                                                     Alexander Wagensommer                                                                                    
-                                                                                                      *Le cavità estrattive di tufo a San Giovanni Rotondo FG*                                                                    |
-|            ore 16:20             |                                                                               Angelo Conte, Salvatore Ficocelli                                                                              
-                                                                                                           *L'acquedotto del Triglio da Statte a Taranto*                                                                         |
-|            ore 17:00             |                                                                                        Patrizia Maranò                                                                                       
-                                                                                                  *Le cisterne per la raccolta dell'acqua piovana a Grottaglie TA*                                                                |
-|            ore 17:25             |                                                                                     Gianclaudio Sannicola                                                                                    
-                                                                                         *Note di speleo-archeologia industriale. Il fenomeno dei frantoi ipogei in Puglia*                                                       |
-|            ore 17:50             |                                                                                       Michele Bonfrate                                                                                       
-                                                                                                              *Cavità antropiche nella città di Lecce*                                                                            |
-|            ore 20:30             |                                                                                        Cena ufficiale                                                                                        |
+**Saluto delle autorità**
+
+| Orario | Relatore |
+|---|---|
+| 9:20 | Simone Pinto<br>Sindaco di Castellana-Grotte |
+| 9:30 | Angela Barbanente<br>Assessorato Regione Puglia all'Assetto del Territorio |
+| 9:40 | Giovanni Giangreco<br>Soprintendenza ai Monumenti Province Lecce Brindisi Taranto |
+| 9:50 | Giuseppe Savino<br>Presidente Grotte di Castellana<br>Federazione Speleologica Pugliese |
+| 10:00 | Alessandro Reina<br>Direttore Scientifico Grotte di Castellana |
+| 10:10 | Gaetano Proietto<br>Presidente Gruppo Puglia Grotte |
+
+**Sessione di lavori mattutina**
+
+| Orario | Relatore |
+|---|---|
+| 10:20 | [Ezio Burri](/archivio-storico/convegno-2007/ "Ezio Burri")<br>*La Commissione Cavità Artificiali della Società Speleologica Italiana* |
+| 10:35 | [Carla Galeazzi](/archivio-storico/convegno-2007/ "Carla Galeazzi"), [Marco Meneghini](/archivio-storico/convegno-2007/ "Marco Meneghini")<br>*Il Catasto Nazionale delle Cavità Artificiali tra passato presente e futuro* |
+| 10:50 | [Roberto Caprara](/archivio-storico/convegno-2007/ "Roberto Caprara")<br>*Tipologie delle abitazioni rupestri in Puglia* |
+| 11:30 | [Franco Dell'Aquila](/archivio-storico/convegno-2007/ "Franco Dell'Aquila")<br>*Abitazioni rupestri a pozzo* |
+| 11:55 | Sergio Natale Maglio<br>*Cicli climatici e architetture scavate: osservazioni preliminari* |
+| 13:00 | Museo Speleologico *Franco Anelli*<br>Buffet a cura dell'Istituto Professionale di Stato<br>per i Servizi Alberghieri e della Ristorazione di Castellana-Grotte |
+| 15:00 | Museo Speleologico *Franco Anelli*<br>Inaugurazione Sala Multimediale *Vittorio Castellani* |
+
+**Sessione di lavori pomeridiana**
+
+| Orario | Relatore |
+|---|---|
+| 15:30 | Massimo Tarantini<br>*Le miniere neolitiche di selce sul Gargano* |
+| 15:55 | Alexander Wagensommer<br>*Le cavità estrattive di tufo a San Giovanni Rotondo FG* |
+| 16:20 | Angelo Conte, Salvatore Ficocelli<br>*L'acquedotto del Triglio da Statte a Taranto* |
+| 17:00 | Patrizia Maranò<br>*Le cisterne per la raccolta dell'acqua piovana a Grottaglie TA* |
+| 17:25 | Gianclaudio Sannicola<br>*Note di speleo-archeologia industriale. Il fenomeno dei frantoi ipogei in Puglia* |
+| 17:50 | Michele Bonfrate<br>*Cavità antropiche nella città di Lecce* |
+| 20:30 | Cena ufficiale |
 
 **Domenica 25 marzo 2007**
 
-<table data-border="0" width="100%" data-cellspacing="0" data-cellpadding="5">
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td class="testo" style="text-align: center;" data-valign="middle" data-bgcolor="Silver" width="15%">Escursione A
-Grotte rupestri di Mottola</td>
-<td class="testo" style="text-align: left;" width="85%">Ore 9:00 Partenza da Largo Portagrande, Castellana-Grotte BA
-<ul>
-<li>Cripta di S. Nicola e Cripta di Santa Margherita - Mottola TA</li>
-<li>Insediamenti rupestri della Gravina di Petruscio - Mottola TA</li>
-<li>Buffet in una grotta rupestre</li>
-</ul>
-Senza particolare difficoltà, munirsi di abbigliamento idoneo e calzature comode.</td>
-</tr>
-<tr class="even">
-<td class="testo" style="text-align: center;" data-valign="middle" data-bgcolor="Silver" width="15%">Escursione B
-Massafra sotterranea</td>
-<td class="testo" style="text-align: left;" width="85%">Ore 8:00 Partenza da Largo Portagrande, Castellana-Grotte BA
-<ul>
-<li>Sotterranei Chiesa e Convento di San Benedetto, Rifugio militare - Massafra TA</li>
-</ul>
-Lievi difficoltà, munirsi di attrezzatura speleologica per progressione orizzontale in luoghi umidi, abbigliamento idoneo e calzature comode.</td>
-</tr>
-</tbody>
-</table>
+**Escursione A — Grotte rupestri di Mottola**
 
- 
+Ore 9:00 Partenza da Largo Portagrande, Castellana-Grotte BA
+
+- Cripta di S. Nicola e Cripta di Santa Margherita - Mottola TA
+- Insediamenti rupestri della Gravina di Petruscio - Mottola TA
+- Buffet in una grotta rupestre
+
+Senza particolare difficoltà, munirsi di abbigliamento idoneo e calzature comode.
+
+**Escursione B — Massafra sotterranea**
+
+Ore 8:00 Partenza da Largo Portagrande, Castellana-Grotte BA
+
+- Sotterranei Chiesa e Convento di San Benedetto, Rifugio militare - Massafra TA
+
+Lievi difficoltà, munirsi di attrezzatura speleologica per progressione orizzontale in luoghi umidi, abbigliamento idoneo e calzature comode.
 
 ------------------------------------------------------------------------
 
@@ -142,11 +101,15 @@ Museo Speleologico Franco Anelli \| Palazzo di Città
 - *Frantoio ipogeo di Bisceglie* - Giuseppe F. Ruggieri
 - *Frantoi ipogei a Cisternino* - Mimmo Tamborrino
 - *Gravina sotterranea* - Michele Parisi
-- *Storia del Trogloditismo sulla Terra* - Sergio Natale Maglio**Commissione Cavità Artificiali Società Speleologica Italiana**
-  riunione primaverile
-  **venerdì 23 marzo 2007 - ore 16:00**
-  Museo Speleologico Franco Anelli
-  ![Vittorio Castellani](/archivio-storico/legacy/eventi/images/convegno2007/castellani.jpg)
-  **Apposizione targa commemorativa dedicata a *Vittorio Castellani***
-  **sabato 24 marzo 2007 - ore 15:00**
-  Museo Speleologico Franco Anelli
+- *Storia del Trogloditismo sulla Terra* - Sergio Natale Maglio
+
+**Commissione Cavità Artificiali Società Speleologica Italiana**
+riunione primaverile
+**venerdì 23 marzo 2007 - ore 16:00**
+Museo Speleologico Franco Anelli
+
+![Vittorio Castellani](/archivio-storico/legacy/eventi/images/convegno2007/castellani.jpg)
+
+**Apposizione targa commemorativa dedicata a *Vittorio Castellani***
+**sabato 24 marzo 2007 - ore 15:00**
+Museo Speleologico Franco Anelli
