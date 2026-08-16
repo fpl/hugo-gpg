@@ -9,7 +9,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 
 ------------------------------------------------------------------------
 
-<img src="/archivio-storico/legacy/images/italia-cuba.jpg" data-border="0" data-align="right" data-hspace="10" data-vspace="0" width="60" height="48" alt="Italia-Cuba" /> Una delegazione della *Sociedad Espeleologica de Cuba* sarà in visita a Castellana-Grotte ospite del Gruppo Puglia Grotte e della Società Grotte di Castellana S.r.l.  
+<img src="/archivio-storico/legacy/images/italia-cuba.jpg" width="60" height="48" alt="Italia-Cuba" /> Una delegazione della *Sociedad Espeleologica de Cuba* sarà in visita a Castellana-Grotte ospite del Gruppo Puglia Grotte e della Società Grotte di Castellana S.r.l.  
   
 
 <div style="cursor:hand; color: #0070BA; font-weight: bold;" onclick="expandit(this)">
@@ -21,7 +21,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 <span style="&amp;{head};">
 </span>
 
-<table width="100%" data-border="1" data-cellspacing="0" data-cellpadding="4" data-align="center" data-bordercolor="White" data-bgcolor="Silver">
+<table>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
@@ -61,7 +61,7 @@ costante e duratura attività di ricerca.</td>
 <span style="&amp;{head};">
 </span>
 
-<table width="100%" data-border="1" data-cellspacing="0" data-cellpadding="4" data-align="center" data-bordercolor="#ffffff" data-bgcolor="Silver">
+<table>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>

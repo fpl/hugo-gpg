@@ -8,7 +8,7 @@ Festival Internazionale del film e del documentario d'avventura ed esplorazione
   
   
   
-<img src="/archivio-storico/legacy/images/festival.jpg" data-border="0" data-hspace="10" data-vspace="0" data-align="right" width="260" height="173" />
+<img src="/archivio-storico/legacy/images/festival.jpg" width="260" height="173" />
 **Festival "L'Avventura dell'uomo": sette le opere premiate**  
   
 *Conclusa la prima edizione del Festival Internazionale del film e del documentario di esplorazione e avventura*  

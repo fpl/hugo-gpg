@@ -19,7 +19,7 @@ tel. +39-080-4998230
 
 **La rivista**  
   
-<img src="/archivio-storico/legacy/images/museo/anelli.jpg" data-border="1" data-align="right" data-hspace="10" data-vspace="10" width="230" height="203" alt="Franco Anelli ed un suo collaboratore" />
+<img src="/archivio-storico/legacy/images/museo/anelli.jpg" width="230" height="203" alt="Franco Anelli ed un suo collaboratore" />
 *Grotte e dintorni* è la rivista di divulgazione scientifica e culturale del Museo Speleologico Franco Anelli:
 
 - [**Numero 1**](/archivio-storico/grotte-e-dintorni/numero-1/)

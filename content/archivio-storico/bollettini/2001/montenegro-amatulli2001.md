@@ -12,7 +12,7 @@ la grotta Tasso Selvaggio. Alla base del secondo pozzo, in mezzo ad ammassi
 franosi di piccole dimensioni posizionati nella nicchia in direzione 110° N
 (punto "Cr" nel rilievo), sono stati trovati due crani di Capreolus
 capreolus Linnaeus, 1758.  
-<img src="/archivio-storico/legacy/images/bollettini/montenegro_amatulli2001_1.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="right" width="199" height="299" alt="Modello ideale del palco di capriolo, a seconda della classe sociale e dell&#39;età" />
+<img src="/archivio-storico/legacy/images/bollettini/montenegro_amatulli2001_1.jpg" width="199" height="299" alt="Modello ideale del palco di capriolo, a seconda della classe sociale e dell&#39;età" />
 Il riconoscimento è stato possibile grazie alla presenza del palco tipico di questo ungulato che si forma in inverno/estate e cade dopo la
 stagione degli amori, in autunno. Nell'Italia centrale adriatica, e in quasi
 tutto il meridione, il capriolo sembra essere scomparso sul finire dell'800
@@ -32,7 +32,7 @@ I crani sono stati siglati in base alla località di rinvenimento e al luogo in 
   
 **Descrizione dei crani Capreolus Capreolus L. - CATS1A - Capriolo Alburni Tasso Selvaggio Amatulli**  
   
-<img src="/archivio-storico/legacy/images/bollettini/montenegro_amatulli2001_2.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="right" width="286" height="154" alt="Dimensione dei palchi" />
+<img src="/archivio-storico/legacy/images/bollettini/montenegro_amatulli2001_2.jpg" width="286" height="154" alt="Dimensione dei palchi" />
 Nel complesso il palco (prosecuzione di strutture ossee dette steli, più o
 meno inclinate verso l'indietro) si conserva bene, presenta smussamento
 delle cime, ben evidenti le perle e la rosa (rigonfiamento basale che segna
@@ -53,7 +53,7 @@ e la forma di questo dipendono molto dalla crescita dell'individuo,
 dall'età, dal tipo di alimentazione, dallo stato di salute, dalla vita
 sociale; quest'ultima agisce anche indirettamente attraverso la produzione
 dell'ormone testosterone (TSH).
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Descrizione dei crani Capreolus Capreolus L. - CATS1M - Capriolo Alburni Tasso Selvaggio Matrella**  
   
@@ -70,7 +70,7 @@ Si può supporre, osservando la parte destra del cranio, che il capriolo sia
 morto poggiando su questo lato; tale supposizione si basa sulla presenza di
 impronte di colore nero, dei vasi sanguigni.  
 Queste si formano dopo la morte quando, per azione della forza di gravità, il sangue tende a posarsi sul lato su cui poggia l'animale.
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Conclusioni**  
   
@@ -91,7 +91,7 @@ morte.
 In tal modo si potrebbe ottenere un quadro più completo della
 distribuzione della specie nell'Italia meridionale ed eventualmente
 individuarne la sottospecie.
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Bibliografia**  
   
@@ -101,5 +101,5 @@ Toso S., Apollonio M., Rosselli D., Guberti V.&Giovannini A., *Biologia e
 conservazione degli ungulati alpini*, Edizioni Parco Naturale della Val
 Troncea (TO).  
   
-[](#up "Torna su")
+[**^ Torna su ^**](#up "Torna su")
 *Vincenza Montenegro, Giuseppe Amatulli*

@@ -22,14 +22,14 @@ speleologica:
 - goniometro trasparente  
 - GPS (Geographic Position System)  
 - righello UTM
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Come leggere una carta**  
   
 Il territorio nazionale italiano è compreso fra tre fusi (le aree comprese
 tra i meridiani), infatti il globo terrestre è stato suddiviso verticalmente
 in 60 fusi dall'ampiezza di 6° di longitudine ciascuno (60 \* 6° = 360°) e in
-fasce in senso orizzontale, contrassegnate da lettere alfabetiche.<img src="/archivio-storico/legacy/images/bollettini/quinti_nanna2001_1.gif" data-border="0" data-hspace="10" data-vspace="10" data-align="right" width="283" height="300" alt="Figura 1" /> Ogni
+fasce in senso orizzontale, contrassegnate da lettere alfabetiche.<img src="/archivio-storico/legacy/images/bollettini/quinti_nanna2001_1.gif" width="283" height="300" alt="Figura 1" /> Ogni
 punto della terra è "imprigionato" in una delle 1200 zone che si formano
 dall'incrocio di fusi e fasce. Ogni zona porta il nome del fuso e della
 fascia, indicati da rispettivamente da un numero arabo e da una lettera
@@ -81,7 +81,7 @@ La data di edizione della carta fa la differenza, ecco una classificazione appro
     anziché 1:25000, inoltre per l'orografia - le isoipse o curve di livello
     sono evidenziate con sfumature.
 
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Distanza di due punti in linea d'aria**  
   
@@ -89,7 +89,7 @@ Prendi un punto A e un punto B sulla tavoletta per determinare la loro
 distanza in linea d'aria devi utilizzare un righello millimetrato. Se ad
 esempio la distanza è di 6,7 cm sulla carta, realmente si tratterà di 1 km e
 670 m circa considerando sempre la scala 1:25.000.  
-<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_2.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="right" width="192" height="209" alt="Fig. 2 " />
+<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_2.jpg" width="192" height="209" alt="Fig. 2 " />
 E' evidente che per determinare la lunghezza di un percorso a curve (strada
 o sentiero) devi adottare un altro metodo: suddividere il percorso in tanti
 tratti più o meno rettilinei da misurare uno alla volta con precisione e da
@@ -101,7 +101,7 @@ e larghezza) una realtà tridimensionale (che si sviluppa anche in altezza)
 come in una fotografia; ma mentre quest'ultima, sebbene in maniera
 appiattita, rappresenta la realtà, nel disegno cartografico si utilizza una
 simbologia o segni convenzionali.  
-<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_3.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="left" width="197" height="178" alt="Figura 3" />La planimetria può essere definita come la descrizione in pianta di forme e di strutture tridimensionali secondo una
+<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_3.jpg" width="197" height="178" alt="Figura 3" />La planimetria può essere definita come la descrizione in pianta di forme e di strutture tridimensionali secondo una
 scala di lettura; l'altimetria invece è la rappresentazione della
 conformazione del suolo per la determinazione della quota di un punto del
 terreno rispetto a un livello stabilito (in genere il livello del mare
@@ -117,18 +117,18 @@ una curva di livello vuol dire che il sentiero è in piano.
 Se invece taglia una o più curve di livello vuol dire che stai salendo o scendendo di quota.  
 Di quanto? Basterà contare le curve di livello tagliate dal sentiero e
 moltiplicarle per 25 metri.  
-<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_4.jpg" data-hspace="10" data-vspace="10" data-border="0" data-align="right" width="241" height="203" alt="Figura 4" />
+<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_4.jpg" width="241" height="203" alt="Figura 4" />
 Per capire se si tratta di un rilievo o di una depressione basta guardare
 l'incremento delle quote se è crescente (dalla curva più larga a quella più
 stretta) si tratta di un rilievo; tanto più le curve di livello sono
 disegnate una vicino all'altra, tanto maggiore è la pendenza.  
 Infine nelle zone di montagna dove le pendenze sono a volte molto forti, non è sempre possibile disegnare curve troppo ravvicinate tra loro perché risulterebbero troppo fitte e quindi incomprensibili.  
 In questi casi si ricorre ad altre tecniche tipo l'ombreggiatura o il tratteggio (fig. 3) e a speciali simboli (fig. 4).
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Come orientare la carta**  
   
-<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_5.jpg" data-hspace="10" data-vspace="10" data-border="0" data-align="right" width="299" height="207" alt="Figura 5" />
+<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_5.jpg" width="299" height="207" alt="Figura 5" />
 Ogni volta, prima di usare la bussola, devi orientare la carta:  
 - il piano della bussola deve essere assolutamente orizzontale rispetto al
 terreno, altrimenti l'ago magnetico non potrà muoversi liberamente;  
@@ -145,7 +145,7 @@ centro della carta". Supponendo che la declinazione magnetica sia datata 1°
 gennaio 1959, con convergenza al centro della carta uguale a 4° 14' (cioè
 254') e che diminuisca 6' all'anno avremo che nel 2001, poiché sono
 trascorsi 42 anni, la declinazione sarà: 254'- 6 \* 42 = 2'.  
-<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_6.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="left" width="446" height="159" alt="Figura 6" />  
+<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_6.jpg" width="446" height="159" alt="Figura 6" />  
 Ora non resta che regolare la carta. Sul margine superiore vi è una scala
 graduata da 0 a 7 gradi con suddivisioni in primi, basterà allora unire con
 una retta il punto P (che trovi in basso) con la seconda tacca dopo lo 0
@@ -153,11 +153,11 @@ corrispondente appunto a 2'.
 Questa retta ti darà la vera direzione del nord
 geografico ed esattamente su questa direzione che dovrai allineare l'ago
 calamitato della bussola per avere la cartina correttamente orientata.
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Come riferire le nostre coordinate**  
   
-<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_7.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="right" width="193" height="211" alt="Figura 7" />
+<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_7.jpg" width="193" height="211" alt="Figura 7" />
 Guardando la tavoletta viene riportato sulla destra un "*esempio di
 designazione di un punto*" e vi si raccomanda di citare sempre: la
 designazione di zona e le lettere che identificano il quadrato di 100 Km di
@@ -185,11 +185,11 @@ trovarsi all'incrocio preciso di due coordinate, se ti trovassi tra 78 e 79
 in località Ponte Vecchio, la coordinata orizzontale sarebbe 96 Km + 0 hm
 cioè 960, la coordinata verticale con l'ausilio del coordinatometro che
 ipoteticamente segna 4 hm sarebbe 32TMR960784.
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Il Gps**  
   
-<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_8.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="right" width="384" height="520" alt="Fig. 8" />
+<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_8.jpg" width="384" height="520" alt="Fig. 8" />
 Oltre alla bussola e al compasso, esiste un altro strumento che ci aiuta
 nella navigazione terrestre: il GPS. Si tratta di un ricevitore che elabora
 stringhe di dati inviati dai satelliti e traducendole in una posizione,
@@ -236,11 +236,11 @@ U.S. Army ha sviluppato un nuovo sistema di localizzazione criptato basato
 su una diversa rete satellitare non disponibile, che garantisce una
 precisione più elevata, inferiore al metro (da fonti non ufficiali circa 1
 cm).
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Terminale più adatto**  
   
-<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_9.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="right" width="226" height="181" alt="Fig. 9" />
+<img src="/archivio-storico/legacy/images/bollettini/quinto_nanna2001_9.jpg" width="226" height="181" alt="Fig. 9" />
 La mia esperienza si basa sulle unità Garmin sicuramente, ad oggi, con la
 tecnologia più avanzata sul mercato.  
 Fondamentale è il sistema che usa il ricevitore per acquisire i dati. Ve ne
@@ -260,7 +260,7 @@ memorizzabili, delle rotte (routes) e della lunghezza della traccia (track).
 La capacità di memoria è per tutti tra i 250 ed i 500 waypoint, mentre per
 quanto riguarda i punti track il GPS3 ne è il più dotato, sono infatti 1900,
 con la possibilità di salvarli separatamente in 10 track separati.
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **I Map Datum**  
   
@@ -274,7 +274,7 @@ di Setup, hai già visto che questi parametri sono riportati sul bordo di
 ogni tavoletta.
 Nella figura 8 sono riportati i Map Datum (o i dati da inserire come User
 Datum) relativi alle carte più usate in Africa ed in Italia.
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Come settare il GPS**  
   
@@ -286,7 +286,7 @@ Come riferimento di default, tutte le unità GPS usano il WGS84(World
 Geografic Standard 1984) per il formato dei dati. E' l'unico usato come
 standard mondiale ed è l'unico formato possibile per i GPS Garmin quando ci
 si interfaccia con un computer per l'elaborazione dati.
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Come riportare la posizione sulla carta**  
   
@@ -327,7 +327,7 @@ una criminale leggerezza partire a capo di un gruppo che confida in te e nel
 GPS, per percorrere luoghi dove la perdita dell'orientamento è una costante,
 senza che tu abbia una padronanza degli strumenti e delle tecniche ad essi
 correlate.
-[](#up "Torna su")  
+[**^ Torna su ^**](#up "Torna su")  
   
 **Bibliografia**  
   
@@ -337,5 +337,5 @@ C.F. Capello, La lettura delle carte topografiche e l'interpretazione del
 paesaggio, Giappichelli editore, 1968, ISBN88-348-1435-5.  
 F. Baggiani, M. Comar, F. Gherbaz, G. Nussdorfer, Manuale di rilievo ipogeo.  
   
-[](#up "Torna su")
+[**^ Torna su ^**](#up "Torna su")
 *Domenico Nanna, Quinto Graziana*

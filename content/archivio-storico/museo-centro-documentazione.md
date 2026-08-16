@@ -3,15 +3,15 @@ title: "Il Centro di documentazione speleologica Franco Orofino"
 date: 2000-01-23
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<table width="100%" data-cellspacing="0" data-cellpadding="20" data-border="0">
+<table>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td width="500" data-valign="TOP"><strong>Centro di documentazione speleologica Franco Orofino</strong><br />
+<td><strong>Centro di documentazione speleologica Franco Orofino</strong><br />
 <br />
-<img src="/archivio-storico/legacy/images/storia/piccole/orofino.jpg" data-border="1" data-align="right" data-hspace="10" data-vspace="0" width="150" height="118" alt="Franco Orofino" />
+<img src="/archivio-storico/legacy/images/storia/piccole/orofino.jpg" width="150" height="118" alt="Franco Orofino" />
 Al piano rialzato del Museo Speleologico Franco Anelli è collocato il Centro di Documentazione Speleologica <strong>Franco Orofino</strong>.<br />
 <br />
 Esso comprende:<br />

@@ -23,7 +23,7 @@ Il prof. Franco Anelli non ha potuto vedere realizzato il suo [**sogno**](/archi
   
 Le attività del Museo Speleologico Franco Anelli sono attualmente concentrate su:  
   
-<img src="/archivio-storico/legacy/images/museo/museobimbi.gif" data-border="0" data-align="right" width="170" height="71" alt="Vai al Progetto Scuole al Museo" />
+<img src="/archivio-storico/legacy/images/museo/museobimbi.gif" width="170" height="71" alt="Vai al Progetto Scuole al Museo" />
 
 - [**Laboratorio di biospeleologia e mineralogia**](/archivio-storico/museo-laboratorio/ "Il laboratorio di biospeleologia e mineralogia")  
 - [**Centro di documentazione speleologica Franco Orofino**](/archivio-storico/museo-centro-documentazione/ "Il Centro di documentazione speleologica Franco Orofino")
@@ -43,7 +43,7 @@ Allestita in occasione della I **Giornata Nazionale della Speleologia** 11-12-13
 
 **La rivista**  
   
-<img src="/archivio-storico/legacy/images/museo/anelli.jpg" data-border="1" data-align="right" data-hspace="10" data-vspace="10" width="230" height="203" alt="Franco Anelli ed un suo collaboratore" />
+<img src="/archivio-storico/legacy/images/museo/anelli.jpg" width="230" height="203" alt="Franco Anelli ed un suo collaboratore" />
 *Grotte e dintorni* è la rivista di divulgazione scientifica e culturale del Museo Speleologico Franco Anelli:
 
 - [**Numero 1**](/archivio-storico/grotte-e-dintorni/numero-1/ "Grotte e Dintorni - Numero 1")
