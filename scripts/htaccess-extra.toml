@@ -1,0 +1,13 @@
+# Config aggiuntiva usata SOLO da scripts/generate-htaccess.py, via
+# `hugo --config hugo.toml,scripts/htaccess-extra.toml`: registra un output
+# format di solo testo che, per la home, elenca "vecchio-path|permalink" per
+# ogni pagina con almeno un alias (layouts/index.aliasdump.txt). Mai incluso
+# in una build normale (Makefile/make publish usano solo hugo.toml).
+[outputFormats.ALIASDUMP]
+  mediaType = "text/plain"
+  baseName = "aliasdump"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "ALIASDUMP"]

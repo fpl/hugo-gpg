@@ -1,0 +1,8 @@
+{{/* Usato solo da scripts/generate-htaccess.py, con l'output format ALIASDUMP
+     abilitato via scripts/htaccess-extra.toml (--config aggiuntivo, mai
+     incluso in una build normale): un dump "vecchio-path|permalink-nuovo"
+     per ogni pagina con almeno un alias, usato per generare static/.htaccess.
+     Innocuo se la sola hugo.toml principale viene usata: senza l'output
+     format registrato in [outputs] home non viene mai generato. */}}
+{{ range .Site.Pages }}{{ $perm := .Permalink }}{{ range .Aliases }}{{ . }}|{{ $perm }}
+{{ end }}{{ end }}

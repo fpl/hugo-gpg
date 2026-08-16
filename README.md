@@ -407,18 +407,18 @@ il 16/08/2026: 1 e 2 sono ancora aperti, nessuno dei quattro è completo.
      `interviste/` — mai affrontata, ma quasi tutto il materiale è audio/video non
      testuale (`CNR19.07.08.wmv`/`.mp3`/`.swf`), probabilmente non ha senso convertirlo in
      Markdown: da valutare se vale la pena solo per le pagine indice.
-3. **Redirect 301 lato server**, da configurare quando il sito va in produzione — non
-   sostituiti da `make publish` (carica solo i file statici) né dagli `aliases:` di Hugo
-   già generati, che sono più deboli di un vero redirect HTTP: ogni pagina alias è un file
-   statico con `<meta http-equiv="refresh" content="0; url=...">` +
-   `<link rel="canonical">` + `<meta name="robots" content="noindex">` — funziona per
-   l'utente e non crea contenuto duplicato per i motori di ricerca, ma non è un vero
-   `301 Moved Permanently`: alcuni crawler/tool non lo seguono in modo affidabile, e non
-   trasferisce il "peso" SEO accumulato dal vecchio URL con la stessa forza di un 301
-   reale. Per farlo davvero: un `.htaccess` nella root del sito su Aruba (hosting Apache)
-   con una riga `Redirect 301 /vecchio/percorso /nuovo/percorso` per ogni alias — la
-   mappatura completa non va scritta a mano, è già tutta nei campi `aliases:` del front
-   matter di ogni pagina in `content/**/*.md` e può essere estratta con uno script.
+3. ~~Redirect 301 lato server~~ **Fatto** (16/08/2026): `static/.htaccess`, generato da
+   `python3 scripts/generate-htaccess.py` — una `RedirectMatch 301` per ognuno dei 72
+   `aliases:` reali nel front matter di `content/**/*.md` (i vecchi URL WordPress,
+   prefisso `/home/`, verso i nuovi permalink), verso la produzione perché passa da
+   `static/` come qualunque altro asset e viene incluso automaticamente in `make publish`.
+   Non sostituisce gli `aliases:` di Hugo (restano utili per l'anteprima locale e per
+   `hugo server`, dove `.htaccess` non ha effetto): li rende ridondanti solo in
+   produzione, dove contano i redirect HTTP veri, non il
+   `<meta http-equiv="refresh">` più debole che genera Hugo da solo. Rigenerare con lo
+   stesso script (non a mano) se cambia un permalink o se ne aggiunge uno nuovo con
+   `aliases:` — usa una destinazione temporanea via `hugo --config
+   hugo.toml,scripts/htaccess-extra.toml`, non tocca la build normale.
 4. **Email meno esposte agli scraper**, ancora tutte in chiaro: 44 file in `content/`
    contengono un `mailto:` diretto, per almeno 16 indirizzi reali distinti (ruoli
    istituzionali: `presidente@`, `segreteria@`, `webmaster@`, `direttorescuola@`, ecc. —

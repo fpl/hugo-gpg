@@ -1,0 +1,83 @@
+# Redirect 301 dai vecchi URL WordPress (prefisso /home/, dove girava
+# WordPress) ai nuovi permalink Hugo. Generato da scripts/generate-htaccess.py
+# a partire dagli "aliases:" nel front matter di content/**/*.md -- non
+# scritto a mano: se cambia un permalink, rilanciare lo script invece di
+# editare qui (le modifiche manuali verrebbero perse al prossimo rilancio).
+#
+# RedirectMatch (non Redirect): match esatto per regex ancorata (^...$),
+# non prefisso -- evita che una regola più corta (es. /home/corsi/) intercetti
+# per errore richieste più specifiche (es. /home/corsi/52-corso-.../) in base
+# all'ordine delle direttive.
+
+RedirectMatch 301 ^/home/ambiente/?$ https://www.gruppopugliagrotte.it/ambiente/
+RedirectMatch 301 ^/home/cavita-artificiali/?$ https://www.gruppopugliagrotte.it/esplorazioni/cavita-artificiali/
+RedirectMatch 301 ^/home/chi-siamo/?$ https://www.gruppopugliagrotte.it/chi-siamo/
+RedirectMatch 301 ^/home/chi-siamo/contatti/?$ https://www.gruppopugliagrotte.it/chi-siamo/contatti/
+RedirectMatch 301 ^/home/chi-siamo/il-consiglio-direttivo/?$ https://www.gruppopugliagrotte.it/chi-siamo/consiglio-direttivo/
+RedirectMatch 301 ^/home/chi-siamo/lo-statuto/?$ https://www.gruppopugliagrotte.it/chi-siamo/statuto/
+RedirectMatch 301 ^/home/convegno-11-13-maggio-programma-e-registrazione/?$ https://www.gruppopugliagrotte.it/novita/convegno-11-13-maggio-programma-e-registrazione/
+RedirectMatch 301 ^/home/corsi/?$ https://www.gruppopugliagrotte.it/corsi/
+RedirectMatch 301 ^/home/corsi/49-corso-di-speleologia/?$ https://www.gruppopugliagrotte.it/corsi/49-corso-di-speleologia/
+RedirectMatch 301 ^/home/corsi/50-corso-di-speleologia/?$ https://www.gruppopugliagrotte.it/corsi/50-corso-di-speleologia/
+RedirectMatch 301 ^/home/corsi/51-corso-di-speleologia/?$ https://www.gruppopugliagrotte.it/corsi/51-corso-di-speleologia/
+RedirectMatch 301 ^/home/corsi/52-corso-di-speleologia/?$ https://www.gruppopugliagrotte.it/corsi/52-corso-di-speleologia/
+RedirectMatch 301 ^/home/corsi/il-45-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/corsi/il-45-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/corsi/il-46-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/corsi/il-46-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/corsi/il-48-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/corsi/il-48-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/corsi/il-xli-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/corsi/il-xli-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/corsi/il-xliii-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/corsi/il-xliii-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/corsi/il-xxxvii-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/corsi/il-xxxvii-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/corsi/il-xxxviii-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/corsi/il-xxxviii-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/discesa-della-grave-delle-grotte-castellana/?$ https://www.gruppopugliagrotte.it/novita/discesa-della-grave-delle-grotte-castellana/
+RedirectMatch 301 ^/home/discesa-della-grave-delle-grotte-di-castellana/?$ https://www.gruppopugliagrotte.it/novita/discesa-della-grave-delle-grotte-di-castellana/
+RedirectMatch 301 ^/home/esplorazioni/?$ https://www.gruppopugliagrotte.it/esplorazioni/
+RedirectMatch 301 ^/home/esplorazioni/internazionali/?$ https://www.gruppopugliagrotte.it/esplorazioni/internazionali/
+RedirectMatch 301 ^/home/esplorazioni/nazionali/?$ https://www.gruppopugliagrotte.it/esplorazioni/nazionali/
+RedirectMatch 301 ^/home/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali-2010/?$ https://www.gruppopugliagrotte.it/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali-2010/
+RedirectMatch 301 ^/home/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali/?$ https://www.gruppopugliagrotte.it/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali/
+RedirectMatch 301 ^/home/esplorazioni/nazionali/progetto-grotta-del-dragone/?$ https://www.gruppopugliagrotte.it/esplorazioni/nazionali/progetto-grotta-del-dragone/
+RedirectMatch 301 ^/home/esplorazioni/nazionali/progetto-impalata/?$ https://www.gruppopugliagrotte.it/esplorazioni/nazionali/progetto-impalata/
+RedirectMatch 301 ^/home/esplorazioni/nazionali/programma-attivita-speleologica-autunno-inverno-2006-2007/?$ https://www.gruppopugliagrotte.it/esplorazioni/nazionali/programma-attivita-speleologica-autunno-inverno-2006-2007/
+RedirectMatch 301 ^/home/eventi/?$ https://www.gruppopugliagrotte.it/eventi/
+RedirectMatch 301 ^/home/eventi/discesa-su-teleferica-della-befana/?$ https://www.gruppopugliagrotte.it/eventi/discesa-su-teleferica-della-befana/
+RedirectMatch 301 ^/home/eventi/settimana-del-pianeta-terra/?$ https://www.gruppopugliagrotte.it/eventi/settimana-del-pianeta-terra/
+RedirectMatch 301 ^/home/eventi/tavola-rotonda-acque-del-terzo-millennio/?$ https://www.gruppopugliagrotte.it/eventi/tavola-rotonda-acque-del-terzo-millennio/
+RedirectMatch 301 ^/home/eventi/una-mostra-fotografica-storica-sulle-grotte-nel-cuore-di-castellana/?$ https://www.gruppopugliagrotte.it/eventi/una-mostra-fotografica-storica-sulle-grotte-nel-cuore-di-castellana/
+RedirectMatch 301 ^/home/giornata-mondiale-della-biodiversita/?$ https://www.gruppopugliagrotte.it/novita/giornata-mondiale-della-biodiversita/
+RedirectMatch 301 ^/home/giornata-nazionale-della-speleologia-2015/?$ https://www.gruppopugliagrotte.it/novita/giornata-nazionale-della-speleologia-2015/
+RedirectMatch 301 ^/home/giornata-nazionale-della-speleologia-2017/?$ https://www.gruppopugliagrotte.it/novita/giornata-nazionale-della-speleologia-2017/
+RedirectMatch 301 ^/home/giornata-nazionale-della-speleologia/?$ https://www.gruppopugliagrotte.it/novita/giornata-nazionale-della-speleologia/
+RedirectMatch 301 ^/home/grotte-turismo-e-ricerca-scientifica/?$ https://www.gruppopugliagrotte.it/novita/grotte-turismo-e-ricerca-scientifica/
+RedirectMatch 301 ^/home/il-43-corso-di-primo-livello/?$ https://www.gruppopugliagrotte.it/novita/il-43-corso-di-primo-livello/
+RedirectMatch 301 ^/home/il-51-corso-di-introduzione-alla-speleologia/?$ https://www.gruppopugliagrotte.it/novita/il-51-corso-di-introduzione-alla-speleologia/
+RedirectMatch 301 ^/home/il-corso-di-introduzione-del-2024/?$ https://www.gruppopugliagrotte.it/novita/il-corso-di-introduzione-del-2024/
+RedirectMatch 301 ^/home/il-corso-di-primo-livello-2014/?$ https://www.gruppopugliagrotte.it/novita/il-corso-di-primo-livello-2014/
+RedirectMatch 301 ^/home/il-corso-di-primo-livello-2015/?$ https://www.gruppopugliagrotte.it/novita/il-corso-di-primo-livello-2015/
+RedirectMatch 301 ^/home/il-corso-di-primo-livello-2016/?$ https://www.gruppopugliagrotte.it/novita/il-corso-di-primo-livello-2016/
+RedirectMatch 301 ^/home/il-nuovo-sito/?$ https://www.gruppopugliagrotte.it/novita/il-nuovo-sito/
+RedirectMatch 301 ^/home/la-giornata-nazionale-della-speleologia-2019/?$ https://www.gruppopugliagrotte.it/novita/la-giornata-nazionale-della-speleologia-2019/
+RedirectMatch 301 ^/home/museo/?$ https://www.gruppopugliagrotte.it/museo/
+RedirectMatch 301 ^/home/museo/chi-era-franco-anelli/?$ https://www.gruppopugliagrotte.it/museo/chi-era-franco-anelli/
+RedirectMatch 301 ^/home/novita/di-nuovo-il-nuovo-sito/?$ https://www.gruppopugliagrotte.it/novita/di-nuovo-il-nuovo-sito/
+RedirectMatch 301 ^/home/nuove-esplorazioni-in-alburni-il-buco-diventa-grotta/?$ https://www.gruppopugliagrotte.it/novita/nuove-esplorazioni-in-alburni-il-buco-diventa-grotta/
+RedirectMatch 301 ^/home/progetto-stem-science-technology-engineering-mathematics-i-colori-della-scienza-in-collaborazione-con-litt-luigi-dellerba/?$ https://www.gruppopugliagrotte.it/novita/progetto-stem-science-technology-engineering-mathematics-i-colori-della-scienza-in-collaborazione-con-litt-luigi-dellerba/
+RedirectMatch 301 ^/home/pronti-per-46-corso-di-primo-livello/?$ https://www.gruppopugliagrotte.it/novita/pronti-per-46-corso-di-primo-livello/
+RedirectMatch 301 ^/home/pronti-per-il-48-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/novita/pronti-per-il-48-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/pronti-per-il-49-corso-di-speleologia-di-primo-livello/?$ https://www.gruppopugliagrotte.it/novita/pronti-per-il-49-corso-di-speleologia-di-primo-livello/
+RedirectMatch 301 ^/home/pubblicazioni/?$ https://www.gruppopugliagrotte.it/pubblicazioni/
+RedirectMatch 301 ^/home/pubblicazioni/bollettini-puglia-grotte/?$ https://www.gruppopugliagrotte.it/pubblicazioni/bollettini-puglia-grotte/
+RedirectMatch 301 ^/home/pubblicazioni/bollettini-puglia-grotte/bollettino-1984/?$ https://www.gruppopugliagrotte.it/pubblicazioni/bollettini-puglia-grotte/bollettino-1984/
+RedirectMatch 301 ^/home/pubblicazioni/bollettini-puglia-grotte/bollettino-1985/?$ https://www.gruppopugliagrotte.it/pubblicazioni/bollettini-puglia-grotte/bollettino-1985/
+RedirectMatch 301 ^/home/pubblicazioni/i-quaderni-di-speleologia-meridionale/?$ https://www.gruppopugliagrotte.it/pubblicazioni/i-quaderni-di-speleologia-meridionale/
+RedirectMatch 301 ^/home/pubblicazioni/il-primo-convegno-regionale-di-speleologia-pugliese/?$ https://www.gruppopugliagrotte.it/pubblicazioni/il-primo-convegno-regionale-di-speleologia-pugliese/
+RedirectMatch 301 ^/home/pubblicazioni/il-terzo-convegno-di-speleologia-pugliese-spelaion/?$ https://www.gruppopugliagrotte.it/pubblicazioni/il-terzo-convegno-di-speleologia-pugliese-spelaion/
+RedirectMatch 301 ^/home/pubblicazioni/il-xv-congresso-nazionale-di-speleologia/?$ https://www.gruppopugliagrotte.it/pubblicazioni/il-xv-congresso-nazionale-di-speleologia/
+RedirectMatch 301 ^/home/pubblicazioni/primo-convegno-regionale-di-speleologia-in-cavita-artificiali/?$ https://www.gruppopugliagrotte.it/pubblicazioni/primo-convegno-regionale-di-speleologia-in-cavita-artificiali/
+RedirectMatch 301 ^/home/pubblicazioni/secondo-convegno-regionale-di-speleologia/?$ https://www.gruppopugliagrotte.it/pubblicazioni/secondo-convegno-regionale-di-speleologia/
+RedirectMatch 301 ^/home/puliamo-il-buio-puliamo-il-mondo-2016-insieme-a-monopoli/?$ https://www.gruppopugliagrotte.it/novita/puliamo-il-buio-puliamo-il-mondo-2016-insieme-a-monopoli/
+RedirectMatch 301 ^/home/raccontando-i-campi-2022/?$ https://www.gruppopugliagrotte.it/novita/raccontando-i-campi-2022/
+RedirectMatch 301 ^/home/risorgenza-di-canale-palazzo-la-storia-continua/?$ https://www.gruppopugliagrotte.it/novita/risorgenza-di-canale-palazzo-la-storia-continua/
+RedirectMatch 301 ^/home/settimana-del-pianeta-terra/?$ https://www.gruppopugliagrotte.it/novita/settimana-del-pianeta-terra/
+RedirectMatch 301 ^/home/stato-del-monitoraggio-di-italodytes-stammeri/?$ https://www.gruppopugliagrotte.it/novita/stato-del-monitoraggio-di-italodytes-stammeri/
+RedirectMatch 301 ^/home/un-sabato-mattina-a-scuola/?$ https://www.gruppopugliagrotte.it/novita/un-sabato-mattina-a-scuola/
+RedirectMatch 301 ^/home/uscita-di-avvicinamento-alla-speleologia-2022/?$ https://www.gruppopugliagrotte.it/novita/uscita-di-avvicinamento-alla-speleologia-2022/
