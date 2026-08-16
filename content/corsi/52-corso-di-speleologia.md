@@ -37,8 +37,9 @@ compilare la modulistica.*
 
 ## Download
 
-[Corso, Programma e Regolamento](/images/uploads/2025/09/LI-Corso-Programma-Regolamento.pdf)
+[Corso, Programma e Regolamento](/downloads/LIICorsoProgrammaRegolamento.pdf)
 
-[Modulo d’iscrizione GPG](/images/uploads/2025/09/individuali.pdf)
+[Modulo d’iscrizione GPG](/downloads/2026/individuali.pdf)
 
-[Liberatoria](/images/uploads/2025/09/liberatoria.pdf)
+[Liberatoria](/downloads/2026/liberatoria.pdf)
+
