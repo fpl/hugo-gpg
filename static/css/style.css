@@ -461,6 +461,10 @@ hr {
 .site-footer__grid {
   max-width: var(--content-max);
   margin-inline: auto;
+  /* Testo dei paragrafi non altrimenti stilizzato (solo titoli e <li> hanno
+     un colore esplicito): senza questo eredita --color-ink, quasi nero,
+     illeggibile sullo sfondo scuro --color-maroon-900 di .site-footer. */
+  color: var(--color-cream);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--space-3);
