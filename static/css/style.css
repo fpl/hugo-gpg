@@ -500,6 +500,11 @@ hr {
   text-align: center;
   font-size: var(--size-small);
 }
+/* Senza reset, i due <p> (copyright, C.F./RUNTS) usano il margine di
+   default del browser (~1em ciascuno): troppo distanziati per una fascia
+   già compatta come questa. */
+.site-footer__bottom p { margin: 0; }
+.site-footer__bottom p + p { margin-top: var(--space-1); }
 .site-footer__bottom.wrap { max-width: var(--content-max); padding-block: var(--space-3); }
 .site-footer__bottom a { color: var(--color-muted); }
 
