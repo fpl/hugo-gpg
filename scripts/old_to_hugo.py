@@ -96,14 +96,18 @@ LINK_REWRITE = {
     "speleonight.htm": "/archivio-storico/speleonight/",
     "eventi/convegno2007.htm": "/archivio-storico/convegno-2007/",
     "eventi/spelaion2011.htm": "/archivio-storico/spelaion-2011/",
-    "eventi/spelaion2011/chi.htm": "/archivio-storico/spelaion-2011/chi/",
-    "eventi/spelaion2011/cosa.htm": "/archivio-storico/spelaion-2011/cosa/",
-    "eventi/spelaion2011/dove.htm": "/archivio-storico/spelaion-2011/dove/",
-    "eventi/spelaion2011/come.htm": "/archivio-storico/spelaion-2011/come/",
-    "eventi/spelaion2011/programma.htm": "/archivio-storico/spelaion-2011/programma/",
-    "eventi/spelaion2011/contatti.htm": "/archivio-storico/spelaion-2011/contatti/",
-    "eventi/spelaion2011/download.htm": "/archivio-storico/spelaion-2011/download/",
-    "eventi/spelaion2011/staff.htm": "/archivio-storico/spelaion-2011/staff/",
+    # Le 8 sottopagine (chi/cosa/dove/come/programma/contatti/download/staff)
+    # sono state accorpate in un'unica pagina piatta (vedi commento su
+    # spelaion-2011 in PAGES sopra): un link a una di queste risolve comunque
+    # alla pagina consolidata, non spogliato come "non migrato".
+    "eventi/spelaion2011/chi.htm": "/archivio-storico/spelaion-2011/",
+    "eventi/spelaion2011/cosa.htm": "/archivio-storico/spelaion-2011/",
+    "eventi/spelaion2011/dove.htm": "/archivio-storico/spelaion-2011/",
+    "eventi/spelaion2011/come.htm": "/archivio-storico/spelaion-2011/",
+    "eventi/spelaion2011/programma.htm": "/archivio-storico/spelaion-2011/",
+    "eventi/spelaion2011/contatti.htm": "/archivio-storico/spelaion-2011/",
+    "eventi/spelaion2011/download.htm": "/archivio-storico/spelaion-2011/",
+    "eventi/spelaion2011/staff.htm": "/archivio-storico/spelaion-2011/",
     "eventi/spelaion2011/AttiSpelaion2011.pdf": "/archivio-storico/legacy/eventi/spelaion2011/AttiSpelaion2011.pdf",
     "eventi/spelaion2011/CSSpelaionFinale.pdf": "/archivio-storico/legacy/eventi/spelaion2011/CSSpelaionFinale.pdf",
     "eventi/spelaion2011/CSSpelaion.pdf": "/archivio-storico/legacy/eventi/spelaion2011/CSSpelaion.pdf",
@@ -217,11 +221,15 @@ PAGES = [
     # Cosa/Dove/Come/Programma/Contatti/Download/Staff, in eventi/spelaion2011/)
     # non erano coperte da nessuna fase dello script (struttura a sottocartella,
     # diversa dal solito singolo .htm per evento di EVENTI_FILES) e non sono
-    # mai state migrate -- scoperto e colmato a mano in una sessione successiva,
-    # che ha ristrutturato anche questa in una sezione con sotto-pagine reali
-    # (content/archivio-storico/spelaion-2011/_index.md + chi.md, cosa.md,
-    # dove.md, come.md, programma.md, contatti.md, download.md, staff.md),
-    # stesso trattamento di iii-convegno-speleologia-pugliese sopra.
+    # mai state migrate -- scoperto e colmato a mano in una sessione successiva.
+    # Prima ristrutturata in una sezione con 8 sotto-pagine reali (stesso
+    # trattamento di iii-convegno-speleologia-pugliese sopra), poi accorpata di
+    # nuovo in un'UNICA pagina piatta (content/archivio-storico/spelaion-2011.md)
+    # su richiesta esplicita dell'utente: 8 URL separate per pochi paragrafi
+    # ciascuna era la stessa impostazione "sito multipagina anni '90" che il
+    # resto del sito ha già abbandonato altrove -- niente più nav ad ancore
+    # interne (#chi/#cosa/...) ripetuta identica in cima a ogni sottopagina,
+    # niente più icona di download per ogni allegato (solo link col titolo).
     dict(slug="programma-2006-2007", title="Programma attività speleologica autunno-inverno 2006-2007",
          sources=["attivi/programma0607.htm"], mode="testo"),
     # iii-convegno-speleologia-pugliese: NON più generata qui. Una sessione
