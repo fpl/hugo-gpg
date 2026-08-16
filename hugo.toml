@@ -19,9 +19,11 @@ summarylength = 40
 [params]
   claim   = "Ricerca · Esplorazione · Didattica · Comunicazione speleologica"
   sede    = "Via Margherita di Savoia, 18 — 70013 Castellana Grotte (BA)"
-  # Confermato da più post reali (2019, 2022, 2025): lezioni in sede ogni
-  # martedì e giovedì dopo le 20:30, non solo il giovedì come indovinato prima.
-  incontri = "Martedì e giovedì, dalle 20:30"
+  # Il martedì si aggiunge solo durante i corsi (vedi content/corsi/): il
+  # giovedì è l'incontro settimanale fisso tutto l'anno, usato qui nel
+  # footer che non è specifico di un corso. Non re-includere "Martedì e "
+  # senza verificare che sia tornato valido per tutto l'anno.
+  incontri = "Giovedì, dalle 20:30"
   fondazione = "1971"
   email_presidente = "presidente@gruppopugliagrotte.it"
   email_segreteria = "segreteria@gruppopugliagrotte.it"
