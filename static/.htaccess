@@ -85,6 +85,7 @@ RedirectMatch 301 ^/eventi/spelaion2011/download\.htm/?$ https://www.gruppopugli
 RedirectMatch 301 ^/eventi/spelaion2011/programma\.htm/?$ https://www.gruppopugliagrotte.it/archivio-storico/spelaion-2011/
 RedirectMatch 301 ^/eventi/spelaion2011/staff\.htm/?$ https://www.gruppopugliagrotte.it/archivio-storico/spelaion-2011/
 RedirectMatch 301 ^/festival\.htm/?$ https://www.gruppopugliagrotte.it/archivio-storico/festival-avventura/
+RedirectMatch 301 ^/home/?$ https://www.gruppopugliagrotte.it/
 RedirectMatch 301 ^/home/ambiente/?$ https://www.gruppopugliagrotte.it/ambiente/
 RedirectMatch 301 ^/home/cavita\-artificiali/?$ https://www.gruppopugliagrotte.it/esplorazioni/cavita-artificiali/
 RedirectMatch 301 ^/home/chi\-siamo/?$ https://www.gruppopugliagrotte.it/chi-siamo/

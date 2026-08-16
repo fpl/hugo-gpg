@@ -35,6 +35,22 @@ Aruba oltre FTP). Per 6 vecchi nomi file di homepage, praticamente mai
 linkati da fuori, il rischio non vale il beneficio: se serve in futuro,
 testare PRIMA su un URL di prova non-root, mai direttamente su "/".
 
+4. Eccezione singola e mirata alla regola precedente: "/home/" (bare, senza
+   sotto-percorso) -> "/". A differenza delle 6 varianti rimosse, qui la
+   sorgente non è un nome di file storico che potrebbe coincidere con una
+   DirectoryIndex candidate di Apache -- è una directory reale rimasta sul
+   server dai tempi di WordPress (era la webroot dell'installazione), oggi
+   senza index e con "Options -Indexes": chi la richiede riceve un 403 nudo
+   invece di un redirect, perché la vecchia home page di WordPress
+   (show_on_front=posts) non aveva un id pagina e quindi nessun alias in
+   PAGE_MAP -- unico caso mai coperto dalle altre 168 regole, che coprono
+   tutte "/home/<slug>/". Verificato il 16/08/2026 che "/home/<slug>/"
+   funziona correttamente già da 168 regole analoghe (nessun loop): il
+   meccanismo RedirectMatch su questo hosting è quindi affidabile in
+   generale, il problema del punto precedente era specifico alle vecchie
+   varianti di index.htm. Deployata da sola e verificata con richieste
+   ripetute a "/" prima di considerarla stabile.
+
 Uso: python3 scripts/generate-htaccess.py
 Rigenera static/.htaccess. Nessuna dipendenza pip, nessun effetto sulla
 build normale (usa una destinazione --destination temporanea, mai public/).
@@ -103,11 +119,17 @@ def get_pre_wp_pairs(base_url: str) -> dict[str, str]:
     return pairs
 
 
+def get_bare_home_pair(base_url: str) -> dict[str, str]:
+    """4. "/home/" (bare) -> "/": vedi punto 4 nel docstring del modulo."""
+    return {"/home": base_url + "/"}
+
+
 def main():
     base_url = get_base_url()
     sources = [
         ("WordPress (/home/...)", get_wp_era_pairs()),
         ("pre-WordPress (LINK_REWRITE)", get_pre_wp_pairs(base_url)),
+        ("home bare (/home/ -> /)", get_bare_home_pair(base_url)),
     ]
 
     pairs: dict[str, str] = {}
