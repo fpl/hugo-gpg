@@ -96,6 +96,24 @@ LINK_REWRITE = {
     "speleonight.htm": "/archivio-storico/speleonight/",
     "eventi/convegno2007.htm": "/archivio-storico/convegno-2007/",
     "eventi/spelaion2011.htm": "/archivio-storico/spelaion-2011/",
+    "eventi/spelaion2011/chi.htm": "/archivio-storico/spelaion-2011/chi/",
+    "eventi/spelaion2011/cosa.htm": "/archivio-storico/spelaion-2011/cosa/",
+    "eventi/spelaion2011/dove.htm": "/archivio-storico/spelaion-2011/dove/",
+    "eventi/spelaion2011/come.htm": "/archivio-storico/spelaion-2011/come/",
+    "eventi/spelaion2011/programma.htm": "/archivio-storico/spelaion-2011/programma/",
+    "eventi/spelaion2011/contatti.htm": "/archivio-storico/spelaion-2011/contatti/",
+    "eventi/spelaion2011/download.htm": "/archivio-storico/spelaion-2011/download/",
+    "eventi/spelaion2011/staff.htm": "/archivio-storico/spelaion-2011/staff/",
+    "eventi/spelaion2011/AttiSpelaion2011.pdf": "/archivio-storico/legacy/eventi/spelaion2011/AttiSpelaion2011.pdf",
+    "eventi/spelaion2011/CSSpelaionFinale.pdf": "/archivio-storico/legacy/eventi/spelaion2011/CSSpelaionFinale.pdf",
+    "eventi/spelaion2011/CSSpelaion.pdf": "/archivio-storico/legacy/eventi/spelaion2011/CSSpelaion.pdf",
+    "eventi/spelaion2011/FotoAlbum.pdf": "/archivio-storico/legacy/eventi/spelaion2011/FotoAlbum.pdf",
+    "eventi/spelaion2011/Spelaion2011-Iscrizione.doc": "/archivio-storico/legacy/eventi/spelaion2011/Spelaion2011-Iscrizione.doc",
+    "eventi/spelaion2011/Spelaion2011-liberatoria.doc": "/archivio-storico/legacy/eventi/spelaion2011/Spelaion2011-liberatoria.doc",
+    "eventi/spelaion2011/Spelaion2011-SchedaInformativa.doc": "/archivio-storico/legacy/eventi/spelaion2011/Spelaion2011-SchedaInformativa.doc",
+    "eventi/spelaion2011/Spelaion2011-UltimaCircolare.pdf": "/archivio-storico/legacy/eventi/spelaion2011/Spelaion2011-UltimaCircolare.pdf",
+    "eventi/spelaion2011/SSISpelaion2011.pdf": "/archivio-storico/legacy/eventi/spelaion2011/SSISpelaion2011.pdf",
+    "eventi/images/spelaion2011/logoexport.jpg": "/archivio-storico/legacy/eventi/images/spelaion2011/logoexport.jpg",
     "attivi/programma0607.htm": "/archivio-storico/programma-2006-2007/",
     "convreg/programma.htm": "/archivio-storico/iii-convegno-speleologia-pugliese/",
     "corso/corsoalburni.htm": "/archivio-storico/corso-alburni/",
@@ -194,8 +212,16 @@ PAGES = [
          sources=["speleonight.htm"], mode="testo"),
     dict(slug="convegno-2007", title="I Convegno Regionale di Speleologia in Cavità Artificiali — Architetture nel Buio",
          sources=["eventi/convegno2007.htm"], mode="testo"),
-    dict(slug="spelaion-2011", title="Spélaion 2011 — XVI Incontro di Speleologia Regionale",
-         sources=["eventi/spelaion2011.htm"], mode="testo"),
+    # spelaion-2011: NON più generata qui. eventi/spelaion2011.htm era solo la
+    # pagina di copertina; le 8 sottopagine reali linkate dal suo menu (Chi/
+    # Cosa/Dove/Come/Programma/Contatti/Download/Staff, in eventi/spelaion2011/)
+    # non erano coperte da nessuna fase dello script (struttura a sottocartella,
+    # diversa dal solito singolo .htm per evento di EVENTI_FILES) e non sono
+    # mai state migrate -- scoperto e colmato a mano in una sessione successiva,
+    # che ha ristrutturato anche questa in una sezione con sotto-pagine reali
+    # (content/archivio-storico/spelaion-2011/_index.md + chi.md, cosa.md,
+    # dove.md, come.md, programma.md, contatti.md, download.md, staff.md),
+    # stesso trattamento di iii-convegno-speleologia-pugliese sopra.
     dict(slug="programma-2006-2007", title="Programma attività speleologica autunno-inverno 2006-2007",
          sources=["attivi/programma0607.htm"], mode="testo"),
     # iii-convegno-speleologia-pugliese: NON più generata qui. Una sessione
