@@ -9,6 +9,11 @@ date: 2026-09-20
 # contenuti "non ancora pubblicati"). publishDate qui è la data reale in cui
 # la pagina è stata messa online (vedi git log), non una data inventata.
 publishDate: 2026-08-14
+# lastmod esplicito: senza, Hugo usa "date" (la data di inizio corso, nel
+# futuro) anche come <lastmod> nella sitemap.xml -- un "ultima modifica" nel
+# futuro non ha senso ed è la causa più probabile dell'errore "data non
+# valida" segnalato da Google Search Console sulla sitemap (16/08/2026).
+lastmod: 2026-08-14
 aliases:
   - "/home/corsi/52-corso-di-speleologia/"
 categories:
