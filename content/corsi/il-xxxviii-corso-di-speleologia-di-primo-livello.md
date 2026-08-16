@@ -1,7 +1,10 @@
 ---
 title: "Il XXXVIII corso di Speleologia di Primo Livello"
+date: 2015-10-03
 aliases:
   - "/home/corsi/il-xxxviii-corso-di-speleologia-di-primo-livello/"
+categories:
+  - "Corsi"
 ---
 
 Dal **3 ottobre al 15 novembre 2015** Castellana Grotte (BA)

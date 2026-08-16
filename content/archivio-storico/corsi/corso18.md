@@ -2,6 +2,8 @@
 title: "Il XVIII Corso di Speleologia"
 date: 1996-10-08
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
+categories:
+  - "Corsi"
 ---
 Il corso, diretto da Gianvito Lippolis, si è svolto dall'8 ottobre al 23 novembre 1996; vi hanno preso parte 24 allievi, di cui sei donne.  
 Ad undici lezioni teoriche, si sono alternate cinque uscite:

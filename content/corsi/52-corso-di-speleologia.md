@@ -1,8 +1,18 @@
 
 ---
 title: "Il 52° corso di Speleologia di Primo Livello"
+date: 2026-09-20
+# date è la data di inizio corso (usata per l'ordinamento cronologico nella
+# categoria "Corsi", coerente con le altre edizioni) -- essendo nel futuro
+# rispetto a un build odierno, senza publishDate esplicito Hugo escluderebbe
+# l'intera pagina dal sito in produzione (comportamento di default per i
+# contenuti "non ancora pubblicati"). publishDate qui è la data reale in cui
+# la pagina è stata messa online (vedi git log), non una data inventata.
+publishDate: 2026-08-14
 aliases:
   - "/home/corsi/52-corso-di-speleologia/"
+categories:
+  - "Corsi"
 ---
 
 ![Locandina 52mo corso](/images/corsi/locandina-52mo.jpeg)

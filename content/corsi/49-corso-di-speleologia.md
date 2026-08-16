@@ -1,7 +1,10 @@
 ---
 title: "Il 49° corso di Speleologia di Primo Livello"
+date: 2023-09-17
 aliases:
   - "/home/corsi/49-corso-di-speleologia/"
+categories:
+  - "Corsi"
 ---
 
 ![Locandina 49mo](/images/uploads/2023/08/WhatsApp-Image-2023-08-27-at-08.42.08.jpeg)

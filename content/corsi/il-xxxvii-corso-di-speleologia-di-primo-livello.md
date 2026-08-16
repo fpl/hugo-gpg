@@ -1,7 +1,10 @@
 ---
 title: "Il XXXVII corso di Speleologia di Primo Livello"
+date: 2014-10-02
 aliases:
   - "/home/corsi/il-xxxvii-corso-di-speleologia-di-primo-livello/"
+categories:
+  - "Corsi"
 ---
 
 Dal **2 ottobre al 2 novembre 2014** Castellana Grotte (BA)

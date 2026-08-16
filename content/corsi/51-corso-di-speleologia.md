@@ -1,7 +1,10 @@
 ---
 title: "Il 51° corso di Speleologia di Primo Livello"
+date: 2025-09-28
 aliases:
   - "/home/corsi/51-corso-di-speleologia/"
+categories:
+  - "Corsi"
 ---
 
 Dal **28 settembre** al **9 novembre**, a Castellana Grotte (BA), prende il via

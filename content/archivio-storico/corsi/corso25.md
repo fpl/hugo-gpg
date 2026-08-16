@@ -2,6 +2,8 @@
 title: "Il XXV Corso di Speleologia"
 date: 2003-10-08
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
+categories:
+  - "Corsi"
 ---
 **25° Corso di Speleologia di 1° Livello**  
 8 ottobre - 9 novembre 2003  

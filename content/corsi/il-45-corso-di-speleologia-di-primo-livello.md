@@ -1,7 +1,10 @@
 ---
 title: "Il 45° corso di Speleologia di Primo Livello"
+date: 2018-10-09
 aliases:
   - "/home/corsi/il-45-corso-di-speleologia-di-primo-livello/"
+categories:
+  - "Corsi"
 ---
 
 Dal **9 ottobre** al **18 novembre 2018** a Castellana Grotte (BA)

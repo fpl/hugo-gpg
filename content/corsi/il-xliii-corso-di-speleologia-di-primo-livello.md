@@ -1,7 +1,10 @@
 ---
 title: "Il XLIII corso di Speleologia di Primo Livello"
+date: 2017-10-03
 aliases:
   - "/home/corsi/il-xliii-corso-di-speleologia-di-primo-livello/"
+categories:
+  - "Corsi"
 ---
 
 Dal **3 ottobre al 12 novembre 2017** Castellana Grotte (BA)

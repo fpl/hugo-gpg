@@ -1,7 +1,10 @@
 ---
 title: "Il 46° corso di Speleologia di Primo Livello"
+date: 2019-10-06
 aliases:
   - "/home/corsi/il-46-corso-di-speleologia-di-primo-livello/"
+categories:
+  - "Corsi"
 ---
 
 Dal **6 ottobre** al **17 novembre 2019** a Castellana Grotte (BA)

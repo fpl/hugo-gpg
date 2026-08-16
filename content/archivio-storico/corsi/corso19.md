@@ -2,6 +2,8 @@
 title: "Il XIX Corso di Speleologia"
 date: 1997-10-07
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
+categories:
+  - "Corsi"
 ---
 Il corso, diretto da Modesto Tartarelli, si è svolto dal 7 ottobre al 22 novembre 1997; vi hanno preso parte 6 allievi, tutti uomini.  
 Ad dieci lezioni teoriche, si sono alternate sei uscite:

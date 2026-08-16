@@ -2,6 +2,8 @@
 title: "XXXIII Corso di Speleologia di I Livello"
 date: 2010-09-30
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
+categories:
+  - "Corsi"
 ---
 **XXXIII Corso di Speleologia di I Livello**  
   

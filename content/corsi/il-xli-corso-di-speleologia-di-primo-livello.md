@@ -1,7 +1,10 @@
 ---
 title: "Il XLI corso di Speleologia di Primo Livello"
+date: 2016-10-02
 aliases:
   - "/home/corsi/il-xli-corso-di-speleologia-di-primo-livello/"
+categories:
+  - "Corsi"
 ---
 
 Dal **2 ottobre al 13 novembre 2016** Castellana Grotte (BA)

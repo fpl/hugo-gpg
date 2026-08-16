@@ -1,7 +1,10 @@
 ---
 title: "Il 50° corso di Speleologia di Primo Livello"
+date: 2024-09-29
 aliases:
   - "/home/corsi/50-corso-di-speleologia/"
+categories:
+  - "Corsi"
 ---
 
 Dal **29 settembre** al **17 novembre,** a Castellana Grotte (BA), prende il via il corso di introduzione alla speleologia del 2024 organizzato dal Gruppo Puglia Grotte.

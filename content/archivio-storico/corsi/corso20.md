@@ -2,6 +2,8 @@
 title: "Il XX Corso di Speleologia"
 date: 1998-10-15
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
+categories:
+  - "Corsi"
 ---
 Il corso, diretto da Pasquale Suriano, si è svolto dal 15 ottobre al 3 dicembre 1998; vi hanno preso parte 13 allievi, di cui cinque donne.  
 Ad undici lezioni teoriche, si sono alternate sei uscite:

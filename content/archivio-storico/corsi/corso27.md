@@ -2,6 +2,8 @@
 title: "Il XXVII Corso di Speleologia"
 date: 2005-11-03
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
+categories:
+  - "Corsi"
 ---
 **XXVII Corso di Speleologia di 1° Livello**  
 3 novembre - 18 dicembre 2005 Castellana-Grotte (BA)  
