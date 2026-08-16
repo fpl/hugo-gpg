@@ -66,6 +66,21 @@ clean:
 # file nuovi/modificati di $(BUILD_DIR) e CANCELLA sul server quelli non più
 # presenti in locale (--delete). È un'operazione che modifica il sito live:
 # usa prima "make publish-dry-run" per vedere cosa cambierebbe.
+#
+# ftp:ssl-protect-data no: l'hosting Aruba tronca silenziosamente ogni file
+# più grande di 16384 byte (un singolo record TLS) quando il canale dati è
+# cifrato — bug lato server/proxy Aruba, riprodotto e isolato il 16/08/2026
+# (confermato via "quote SIZE" sul file appena caricato, non solo lato HTTP:
+# il file sul server risultava davvero troncato). "226 Transfer complete"
+# arriva comunque dal server, quindi lftp non segnala alcun errore: il
+# troncamento passa inosservato finché non si controlla a mano. Disattivare
+# la cifratura del solo canale dati (il canale di controllo resta protetto)
+# risolve: verificato byte-per-byte con un file di test. Accettabile qui
+# perché il contenuto pubblicato è comunque pubblico (nessun dato sensibile
+# transita in chiaro). Senza questa opzione NON rimuovere --delete/mirror
+# senza prima rifare un controllo dimensioni: i file già troncati sul server
+# vengono ri-caricati correttamente al prossimo "make publish" solo perché
+# mirror confronta le dimensioni e nota la discrepanza.
 
 check-ftp-vars:
 	@if [ -z "$(FTP_HOST)" ] || [ -z "$(FTP_USER)" ] || [ -z "$(FTP_PASS)" ]; then \
@@ -84,6 +99,7 @@ publish-dry-run: check-ftp-vars build
 		set ftp:passive-mode true; \
 		set ssl:verify-certificate off; \
 		set ftp:list-options -a; \
+		set ftp:ssl-protect-data no; \
 		mirror --reverse --delete --verbose --dry-run $(BUILD_DIR) $(FTP_REMOTE_DIR); \
 		bye"
 
@@ -96,5 +112,6 @@ publish: check-ftp-vars build
 		set ftp:passive-mode true; \
 		set ssl:verify-certificate off; \
 		set ftp:list-options -a; \
+		set ftp:ssl-protect-data no; \
 		mirror --parallel=3 --reverse --delete --verbose $(BUILD_DIR) $(FTP_REMOTE_DIR); \
 		bye"
