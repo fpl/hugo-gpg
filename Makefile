@@ -11,7 +11,8 @@ BUILD_DIR := public
 export
 
 # --- Aruba: parametri di connessione FTP (sovrascrivibili da .env.ftp) -----
-FTP_PROTOCOL ?= ftp
+# ftps è obbligatorio (il piano Aruba non accetta ftp in chiaro).
+FTP_PROTOCOL ?= ftps
 FTP_HOST     ?=
 FTP_USER     ?=
 FTP_PASS     ?=
@@ -70,7 +71,7 @@ check-ftp-vars:
 	@if [ -z "$(FTP_HOST)" ] || [ -z "$(FTP_USER)" ] || [ -z "$(FTP_PASS)" ]; then \
 		echo "Mancano le credenziali FTP."; \
 		echo "Crea un file .env.ftp (vedi .env.ftp.example) con FTP_HOST, FTP_USER, FTP_PASS"; \
-		echo "e opzionalmente FTP_REMOTE_DIR e FTP_PROTOCOL (ftp o ftps)."; \
+		echo "e opzionalmente FTP_REMOTE_DIR (default ftps, obbligatorio per questo hosting)."; \
 		exit 1; \
 	fi
 	@command -v lftp >/dev/null 2>&1 || { \
@@ -81,13 +82,19 @@ check-ftp-vars:
 publish-dry-run: check-ftp-vars build
 	lftp -u "$(FTP_USER),$(FTP_PASS)" $(FTP_PROTOCOL)://$(FTP_HOST) -e "\
 		set ftp:passive-mode true; \
-		set ssl:verify-certificate no; \
+		set ssl:verify-certificate off; \
+		set ftp:list-options -a; \
 		mirror --reverse --delete --verbose --dry-run $(BUILD_DIR) $(FTP_REMOTE_DIR); \
 		bye"
 
+# --parallel=3: tradeoff scelto per non saturare le sessioni FTP concorrenti
+# consentite dal piano Aruba — il limite reale non è confermato (potrebbe
+# essere 4 o diverso), 3 è un valore prudenziale sotto quella soglia ignota.
+# Se "mirror" fallisce con errori di troppe connessioni, abbassare qui.
 publish: check-ftp-vars build
 	lftp -u "$(FTP_USER),$(FTP_PASS)" $(FTP_PROTOCOL)://$(FTP_HOST) -e "\
 		set ftp:passive-mode true; \
-		set ssl:verify-certificate no; \
-		mirror --reverse --delete --verbose $(BUILD_DIR) $(FTP_REMOTE_DIR); \
+		set ssl:verify-certificate off; \
+		set ftp:list-options -a; \
+		mirror --parallel=3 --reverse --delete --verbose $(BUILD_DIR) $(FTP_REMOTE_DIR); \
 		bye"
