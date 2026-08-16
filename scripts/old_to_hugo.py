@@ -198,8 +198,14 @@ PAGES = [
          sources=["eventi/spelaion2011.htm"], mode="testo"),
     dict(slug="programma-2006-2007", title="Programma attività speleologica autunno-inverno 2006-2007",
          sources=["attivi/programma0607.htm"], mode="testo"),
-    dict(slug="iii-convegno-speleologia-pugliese", title="III Convegno di Speleologia Pugliese — Il Programma",
-         sources=["convreg/programma.htm"], mode="body"),
+    # iii-convegno-speleologia-pugliese: NON più generata qui. Una sessione
+    # precedente l'ha ristrutturata a mano in una sezione con sotto-pagine
+    # reali (content/archivio-storico/iii-convegno-speleologia-pugliese/
+    # _index.md + risultati.md + immagini.md, quest'ultime due mai prodotte
+    # da questo script) -- un rilancio scriverebbe di nuovo un file piatto
+    # iii-convegno-speleologia-pugliese.md in conflitto con quella directory
+    # (stesso permalink Hugo). Rimossa dalla lista invece di lasciar
+    # rigenerare un file orfano: la sezione è ora manutenuta a mano.
     dict(slug="corso-alburni", title="Corso di I livello di Speleologia sui Monti Alburni",
          sources=["corso/corsoalburni.htm"], mode="testo"),
     dict(slug="deposito-carrino", title="Esplorazioni al Deposito Carrino",
@@ -645,6 +651,13 @@ def strip_popup_anchors(html: str) -> str:
 
 
 def html_to_md(html: str) -> str:
+    # Passate di pulizia generiche, applicate a QUALUNQUE pagina passi da qui
+    # (PAGES, bollettini, corsi, museo...): sicure ovunque perché toccano solo
+    # spazzatura pre-CSS (attributi) o markup già rotto (anchor svuotati),
+    # mai contenuto o struttura reale. Vedi i docstring delle singole funzioni.
+    html = strip_legacy_presentational_attrs(html)
+    html = unwrap_align_divs(html)
+    html = fix_empty_backtotop_anchors(html)
     r = subprocess.run(
         ["pandoc", "-f", "html", "-t", "gfm", "--wrap=preserve"],
         input=html, capture_output=True, text=True,
@@ -1228,6 +1241,72 @@ def unwrap_align_divs(html: str) -> str:
         prev = html
         html = ALIGN_DIV_RE.sub(r"\1", html)
     return html
+
+
+# strip_nav_icons toglie solo l'<img> (vedi il suo docstring: alcune icone
+# stanno dentro <a href="#N"> di navigazione reale che deve restare
+# funzionante). Quando quell'<img> era l'UNICO contenuto dell'<a> -- caso
+# tipico delle icone upbianco.gif/on.gif/top.gif usate come link "torna
+# su"/indice puramente iconografici, senza testo alternativo accanto --
+# l'anchor resta vuoto e pandoc lo rende come "[](#up "...")": un link privo
+# di testo visibile, invisibile ma comunque cliccabile, che sul sito
+# originale invece si vedeva (era l'icona). Stesso sintomo anche per un bug
+# distinto di BACK_TO_TOP_RE (sotto): quando il markup sorgente ha l'ordine
+# invertito rispetto a quanto la regex si aspetta ("<a href=#up><div
+# align=right><b>^ Torna su ^</b></div></a>" invece di "<div><a><b>...）,
+# la regex toglie comunque il "<div>...</div>" interno ma non l'<a> che lo
+# racchiudeva, lasciando lo stesso <a href="#up"></a> vuoto. Riconosciuto qui
+# per href (non per come si è svuotato) e sostituito con lo stesso testo
+# "^ Torna su ^" già usato per il widget quando il markup è integro altrove
+# nel sito -- non un'invenzione, la stessa dicitura del sito originale.
+EMPTY_BACKTOTOP_ANCHOR_RE = re.compile(
+    r'<a\b[^>]*\bhref="(#(?:up|top))"[^>]*>\s*</a>', re.I,
+)
+
+
+def fix_empty_backtotop_anchors(html: str) -> str:
+    def repl(m):
+        return f'<a href="{m.group(1)}" title="Torna su"><b>^ Torna su ^</b></a>'
+    return EMPTY_BACKTOTOP_ANCHOR_RE.sub(repl, html)
+
+
+# Attributi HTML presentazionali pre-CSS (border/align/valign/bgcolor/
+# cellspacing/cellpadding/bordercolor/hspace/vspace su img e tabelle):
+# pandoc non ha un equivalente Markdown per loro e li porta comunque in
+# output rinominandoli "data-*" (attributo HTML5 valido ma senza alcun
+# effetto sul rendering, verificato: nessun CSS del tema li interpreta) --
+# puro rumore nel sorgente Markdown, non contenuto. Tolti qui, PRIMA di
+# pandoc, così l'output è pulito invece di portarsi dietro la spazzatura
+# "data-*". width/height su <img> sono tenuti (dimensioni reali, non
+# presentazione) così come style="width:NN%" su <col> (unica forma con cui
+# le tabelle a più colonne esprimono le proporzioni, non ha equivalente
+# Markdown ma è informazione layout reale, non un residuo).
+IMG_STRIP_ATTRS = frozenset({"border", "align", "hspace", "vspace"})
+TABLE_STRIP_ATTRS = frozenset({
+    "border", "align", "valign", "bgcolor", "cellspacing", "cellpadding",
+    "bordercolor", "width",
+})
+TABLE_TAGS = frozenset({"table", "tr", "td", "th", "col", "colgroup", "caption", "tbody", "thead"})
+TAG_OPEN_RE = re.compile(r'<(\w+)((?:\s+[\w-]+\s*=\s*"[^"]*")*)\s*(/?)>')
+ATTR_RE = re.compile(r'\s+([\w-]+)\s*=\s*"[^"]*"')
+
+
+def strip_legacy_presentational_attrs(html: str) -> str:
+    def repl(m):
+        tag, attrs_str, self_close = m.group(1), m.group(2), m.group(3)
+        tag_lower = tag.lower()
+        if tag_lower == "img":
+            remove = IMG_STRIP_ATTRS
+        elif tag_lower in TABLE_TAGS:
+            remove = TABLE_STRIP_ATTRS
+        else:
+            return m.group(0)
+        new_attrs = ATTR_RE.sub(
+            lambda am: "" if am.group(1).lower() in remove else am.group(0),
+            attrs_str,
+        )
+        return f"<{tag}{new_attrs}{self_close}>"
+    return TAG_OPEN_RE.sub(repl, html)
 
 
 # pandoc, di fronte a un <a> con QUALSIASI attributo oltre a href/title (es.

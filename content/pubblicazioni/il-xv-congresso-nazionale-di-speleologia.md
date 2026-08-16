@@ -13,21 +13,18 @@ Castellana-Grotte
 *Copertina degli atti*
 
  
-<span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">** **</span>
-<span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">** **</span>
-<span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">** **</span>
-<span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">** **</span>
-<span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">** **</span>
 <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">**Relazioni**
-[**Aree Carsiche**](#1)
-[**Mineralogia**](#2)
-[**Idrogeologia**](#3)
-[**Descrizione**](#4)
-[**Varie**](#5)
-[**Archeologia**](#6)
-[**Speleogenesi**](#7)
-[**Biologia**](#8)
-[**Turismo e tutela**](#9)</span>
+
+* [**Aree Carsiche**](#1)
+* [**Mineralogia**](#2)
+* [**Idrogeologia**](#3)
+* [**Descrizione**](#4)
+* [**Varie**](#5)
+* [**Archeologia**](#6)
+* [**Speleogenesi**](#7)
+* [**Biologia**](#8)
+* [**Turismo e tutela**](#9)</span>
+
 <span id="1"></span> **Aree Carsiche**
 
 1.  <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"> *Il carsismo dei Monti Prenestini, Tiburtini e dorsale di Bellegra (Lazio)*

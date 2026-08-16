@@ -6,24 +6,13 @@ aliases:
 
 ![](/archivio-storico/legacy/convreg/images/LogodefinitivoPiccolo.jpg)
 
-** **
-
-** **
-
-** **
-
-** **
-
-** **
-
-** **
-
 **Il Programma**
-<span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"> [<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Presentazioni orali**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)</span>
-[<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Presentazioni Poster**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)
-[<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Spélaion 2002**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)
-[<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Patrocini**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)
-[<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Sostenitori**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)
+
+* <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;"> [<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Presentazioni orali**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)</span>
+* [<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Presentazioni Poster**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)
+* [<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Spélaion 2002**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)
+* [<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Patrocini**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)
+* [<span style="color: #0070ba; font-family: Verdana,arial,helvetica; font-size: small;">**Sostenitori**</span>](/archivio-storico/iii-convegno-speleologia-pugliese/)
 
 <div style="text-align: left;" align="center">
 
