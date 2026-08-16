@@ -376,14 +376,56 @@ di default (comune dietro NAT/firewall sull'hosting condiviso).
 
 ## Prossimi passi consigliati
 
-1. Migrare gli allegati scaricabili WordPress non ancora referenziati da nessun contenuto
-   reale (nello `uploads/` originale restano ~130MB di file non copiati perché non citati
-   in nessuna pagina/post pubblicato).
-2. Eventuale Fase 3 dell'archivio storico: le cartelle di `old/` ancora non scoping-ate
-   (`bollettini/`, `didattica/`, `Trek/`, `santomas/`, `GNS/`, `interviste/`, ecc. — vedi
-   tabella nella sezione "Archivio storico" sopra), da valutare solo su richiesta esplicita.
-3. Configurare redirect 301 lato server (oltre agli `aliases:` già generati) quando il
-   sito va in produzione, per il pieno beneficio SEO — non sostituito da `make publish`,
-   che carica solo i file statici.
-4. Se servono email meno esposte agli scraper rispetto al semplice `mailto:`, valutare
-   una piccola funzione JS che ricostruisce l'indirizzo a runtime.
+Verificato lo stato reale di ogni punto (non solo l'intenzione originale) l'ultima volta
+il 16/08/2026: 1 e 2 sono ancora aperti, nessuno dei quattro è completo.
+
+1. **Migrare gli allegati WordPress non referenziati.** Ancora non iniziato: su 604 file
+   in `wp-content/uploads/` originale, solo 122 sono stati copiati in
+   `static/images/uploads/` (quelli citati da contenuto reale già migrato) — restano 482
+   file (~130MB) mai copiati né linkati da nessuna parte. Prima di migrarli in blocco
+   andrebbe deciso *dove* dovrebbero comparire (nessuna pagina li cita, quindi non basta
+   copiarli: serve capire a quale contenuto appartenevano in origine, o accettare che
+   restino un archivio scaricabile senza una pagina che li introduce).
+2. **Fase 3 dell'archivio storico**, parzialmente avanzata rispetto a quando questo punto
+   fu scritto — non più "da valutare se iniziare", ma da completare:
+   - **Fatto**: `didattica/`, `Trek/` (→ `content/archivio-storico/trekking-di-primavera/`),
+     `santomas/` (→ `progetto-santo-tomas/`), `GNS/` (→ `gns/`), `ulivi/` — tutte con
+     contenuto reale, non solo pagine indice.
+   - **Parziale**: `bollettini/` — gli indici 1984–2008 esistono (`content/pubblicazioni/
+     bollettini-puglia-grotte/`), ma la conversione integrale dei singoli articoli copre
+     solo 6 annate (`content/archivio-storico/bollettini/{1986,1991,1996,1999,2001,2003}/`)
+     sulle ~34 pagine `.htm` sorgente in `old/bollettini/`.
+   - **Non iniziate**: `esplorazioni/` (pagine di singola uscita ancora fuori:
+     `pietro.htm`, `luca.htm`, `iazzo.htm`, `chiancone.htm`/`chiancone1.htm`/
+     `chiancone2.htm`, `mamutte.htm`, `gentili.htm`, `sammichele.htm`, `impalata.htm`,
+     `Polignano.htm`, `portagrande.htm`, `progettocatasto.htm` — oltre a `monopoli*.htm`
+     e `alburni/`, già fatti); `convreg/` (`spelaion.htm`, `mostra.htm`, `Sponsor/` — oltre
+     a `programma.htm`/`risultati.htm`/`immagini.htm`, già fatti a mano su
+     `iii-convegno-speleologia-pugliese/`); `attivi/` (7 pagine di uscita ancora fuori:
+     `braca.htm`, `laterza.htm`, `notarvincenzo.htm`, `calzino.htm`, `pila.htm`,
+     `angelo.htm`, `preveticelli.htm` — oltre a `volpe.htm`/`pulo.htm`, già fatti);
+     `interviste/` — mai affrontata, ma quasi tutto il materiale è audio/video non
+     testuale (`CNR19.07.08.wmv`/`.mp3`/`.swf`), probabilmente non ha senso convertirlo in
+     Markdown: da valutare se vale la pena solo per le pagine indice.
+3. **Redirect 301 lato server**, da configurare quando il sito va in produzione — non
+   sostituiti da `make publish` (carica solo i file statici) né dagli `aliases:` di Hugo
+   già generati, che sono più deboli di un vero redirect HTTP: ogni pagina alias è un file
+   statico con `<meta http-equiv="refresh" content="0; url=...">` +
+   `<link rel="canonical">` + `<meta name="robots" content="noindex">` — funziona per
+   l'utente e non crea contenuto duplicato per i motori di ricerca, ma non è un vero
+   `301 Moved Permanently`: alcuni crawler/tool non lo seguono in modo affidabile, e non
+   trasferisce il "peso" SEO accumulato dal vecchio URL con la stessa forza di un 301
+   reale. Per farlo davvero: un `.htaccess` nella root del sito su Aruba (hosting Apache)
+   con una riga `Redirect 301 /vecchio/percorso /nuovo/percorso` per ogni alias — la
+   mappatura completa non va scritta a mano, è già tutta nei campi `aliases:` del front
+   matter di ogni pagina in `content/**/*.md` e può essere estratta con uno script.
+4. **Email meno esposte agli scraper**, ancora tutte in chiaro: 44 file in `content/`
+   contengono un `mailto:` diretto, per almeno 16 indirizzi reali distinti (ruoli
+   istituzionali: `presidente@`, `segreteria@`, `webmaster@`, `direttorescuola@`, ecc. —
+   `grep -rhoE '[a-zA-Z0-9._%+-]+@(gruppopugliagrotte|grottedicastellana)\.it' content/`
+   per l'elenco completo). Tecnica tipica: non scrivere l'indirizzo nell'HTML, ma
+   ricostruirlo a runtime via JS da attributi separati (es. `data-user="presidente"
+   data-domain="gruppopugliagrotte.it"` sul link, un piccolo script al caricamento della
+   pagina compone `mailto:` e lo inietta) — gli scraper che leggono solo l'HTML statico
+   non vedono l'indirizzo, un browser reale sì. Da NON fare: cambiare o rimuovere gli
+   indirizzi stessi, sono dati istituzionali reali.
