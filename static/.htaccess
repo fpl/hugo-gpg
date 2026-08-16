@@ -177,12 +177,6 @@ RedirectMatch 301 ^/images/q_1985_little\.jpg/?$ https://www.gruppopugliagrotte.
 RedirectMatch 301 ^/images/q_1986_little\.jpg/?$ https://www.gruppopugliagrotte.it/archivio-storico/legacy/images/q_1986_little.jpg
 RedirectMatch 301 ^/images/q_1987_little\.jpg/?$ https://www.gruppopugliagrotte.it/archivio-storico/legacy/images/q_1987_little.jpg
 RedirectMatch 301 ^/images/q_1995_little\.jpg/?$ https://www.gruppopugliagrotte.it/archivio-storico/legacy/images/q_1995_little.jpg
-RedirectMatch 301 ^/index\.htm/?$ https://www.gruppopugliagrotte.it/
-RedirectMatch 301 ^/index1024\.htm/?$ https://www.gruppopugliagrotte.it/
-RedirectMatch 301 ^/index1024_eng\.htm/?$ https://www.gruppopugliagrotte.it/
-RedirectMatch 301 ^/index1024_ita\.htm/?$ https://www.gruppopugliagrotte.it/
-RedirectMatch 301 ^/index_eng\.htm/?$ https://www.gruppopugliagrotte.it/
-RedirectMatch 301 ^/index_ita\.htm/?$ https://www.gruppopugliagrotte.it/
 RedirectMatch 301 ^/museo\.htm/?$ https://www.gruppopugliagrotte.it/archivio-storico/museo/
 RedirectMatch 301 ^/pubb_ita\.htm/?$ https://www.gruppopugliagrotte.it/archivio-storico/pubblicazioni/
 RedirectMatch 301 ^/pugliagrotte\.htm/?$ https://www.gruppopugliagrotte.it/archivio-storico/pugliagrotte/

@@ -20,11 +20,20 @@ Tre fonti, tre epoche del sito:
    per riscrivere i link interni. Esclusa "old-index.htm": chiave sintetica
    per un href malformato nel sorgente originale, non un URL mai esistito
    davvero (vedi commento su LINK_REWRITE).
-3. Homepage del sito pre-WordPress, tutte le varianti reali (lingua/
-   risoluzione) trovate in old/ -- non tracciate da LINK_REWRITE perché non
-   linkate da nessun contenuto migrato, ma redirigerle alla home ha un
-   destinatario ovvio e certo. Escluse le varianti "*OLD.htm" (superate,
-   stessa esclusione già documentata in README per il resto di old/).
+
+NON generato (deliberatamente): redirect verso la home ("/") per le vecchie
+varianti di index.htm del sito pre-WordPress. Provato il 16/08/2026 e
+rimosso subito dopo un incidente in produzione: con quelle 6 regole
+presenti, QUALUNQUE richiesta alla home (non solo alle vecchie varianti)
+entrava in un loop di redirect 301 su se stessa -- isolato per bisezione
+diretta contro il server reale (rimuovendo prima l'intero .htaccess, poi
+reintroducendo le regole per gruppi), non riprodotto localmente né spiegato
+del tutto (sospetto: un'interazione tra RedirectMatch con target uguale alla
+document root e la gestione di mod_dir/DirectoryIndex su questo hosting, ma
+non verificato lato server -- nessun accesso alla configurazione Apache di
+Aruba oltre FTP). Per 6 vecchi nomi file di homepage, praticamente mai
+linkati da fuori, il rischio non vale il beneficio: se serve in futuro,
+testare PRIMA su un URL di prova non-root, mai direttamente su "/".
 
 Uso: python3 scripts/generate-htaccess.py
 Rigenera static/.htaccess. Nessuna dipendenza pip, nessun effetto sulla
@@ -50,14 +59,6 @@ LINK_REWRITE_SYNTHETIC_KEYS = {
     "old-index.htm",
     "esplorazioni/alburni/CS fine campo Alburni 2012.pdf",
 }
-
-# Varianti reali della homepage pre-WordPress trovate in old/ (verificato con
-# `ls old/www.gruppopugliagrotte.it/index*.htm`), escluse le "*OLD.htm".
-OLD_HOMEPAGE_VARIANTS = [
-    "index.htm", "index_ita.htm", "index_eng.htm",
-    "index1024.htm", "index1024_ita.htm", "index1024_eng.htm",
-]
-
 
 def get_base_url() -> str:
     text = (REPO / "hugo.toml").read_text(encoding="utf-8")
@@ -102,17 +103,11 @@ def get_pre_wp_pairs(base_url: str) -> dict[str, str]:
     return pairs
 
 
-def get_homepage_pairs(base_url: str) -> dict[str, str]:
-    """3. Varianti della vecchia homepage -> nuova home."""
-    return {"/" + name: base_url + "/" for name in OLD_HOMEPAGE_VARIANTS}
-
-
 def main():
     base_url = get_base_url()
     sources = [
         ("WordPress (/home/...)", get_wp_era_pairs()),
         ("pre-WordPress (LINK_REWRITE)", get_pre_wp_pairs(base_url)),
-        ("homepage pre-WordPress", get_homepage_pairs(base_url)),
     ]
 
     pairs: dict[str, str] = {}
