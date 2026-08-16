@@ -128,7 +128,20 @@ def main():
             print(f"CONFLITTO ({label}): {old} -> {a} E {b}", file=sys.stderr)
         sys.exit("Percorsi duplicati con destinazioni diverse: risolvere prima di generare.")
 
+    host = re.sub(r"^https?://", "", base_url).rstrip("/")
+
     out = [
+        "# Forza HTTPS. Verificato il 16/08/2026: http://www.gruppopugliagrotte.it/",
+        "# risponde 200 in chiaro oggi (Aruba non lo fa automaticamente a monte) --",
+        "# questa regola ha quindi un effetto reale, non è solo difesa in profondità.",
+        "# Ripresa dal vecchio .htaccess WordPress, che redirigeva anche sotto /home/:",
+        "# scartata quella parte, non più pertinente (il ponte verso WordPress non",
+        "# serve più, tutto il sito vive già alla webroot con Hugo).",
+        "RewriteEngine On",
+        "RewriteCond %{HTTPS} off",
+        rf"RewriteCond %{{HTTP_HOST}} ^(www\.)?{re.escape(host.removeprefix('www.'))}$",
+        "RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]",
+        "",
         "# Redirect 301 dai vecchi URL del sito (WordPress sotto /home/, e",
         "# prima ancora un sito statico servito dalla webroot stessa) ai nuovi",
         "# permalink Hugo. Generato da scripts/generate-htaccess.py -- non scritto",
