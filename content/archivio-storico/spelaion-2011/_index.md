@@ -3,11 +3,7 @@ title: "Spélaion 2011 — XVI Incontro di Speleologia Regionale"
 date: 2011-12-09
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-<img src="/archivio-storico/legacy/images/GPG40-EXT-C1.jpg" width="200" height="83" alt="Sito del Gruppo Puglia Grotte" />  
-
-|                                                                                                                                                                                                                      |                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                   |                                                                                                                                                                                            |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <a href="http://www.regione.puglia.it" target="_blank" title="Regione Puglia"><img src="/archivio-storico/legacy/images/loghi/regione_Puglia.jpg" width="53" height="91" alt="Regione Puglia" /></a> | <a href="http://www.provincia.ba.it" target="_blank" title="Provincia di Bari"><img src="/archivio-storico/legacy/images/loghi/provincia.jpg" width="50" height="71" alt="Provincia di Bari" /></a> | <a href="http://www.comune.castellanagrotte.ba.it" target="_blank" title="Comune di Castellana Grotte"><img src="/archivio-storico/legacy/images/loghi/comune-di-castellana.jpg" width="67" height="81" alt="Comune di Castellana Grotte" /></a> | <a href="http://www.grottedicastellana.it" target="_blank" title="Grotte di Castellana"><img src="/archivio-storico/legacy/images/loghi/logogrotte.jpg" width="151" height="71" alt="Grotte di Castellana" /></a> | <a href="http://www.fspuglia.it/" target="_blank" title="Federazione Speleologica Pugliese"><img src="/archivio-storico/legacy/images/loghi/LogoFsp.jpg" width="60" height="71" alt="Federazione Speleologica Pugliese" /></a> | <a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana"><img src="/archivio-storico/legacy/images/loghi/SSI.jpg" width="90" height="71" alt="Società Speleologica Italiana" /></a> | <a href="http://www.cnsaspuglia.it" target="_blank" title="CNSAS"><img src="/archivio-storico/legacy/images/loghi/logocnsas.jpg" width="70" height="71" alt="CNSAS" /></a> |
+<img src="/archivio-storico/legacy/images/GPG40-EXT-C1.jpg" width="200" height="83" alt="Sito del Gruppo Puglia Grotte" />
 
 ------------------------------------------------------------------------
 
@@ -29,7 +25,7 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
 
 ------------------------------------------------------------------------
 
-<img src="/archivio-storico/legacy/eventi/images/spelaion2011/logo.jpg" width="379" height="349" alt="logo Spélaion" />  
+<img src="/archivio-storico/legacy/eventi/images/spelaion2011/logo.jpg" width="379" height="349" alt="logo Spélaion — alabastri e contrasti" />  
 XVI Incontro di Speleologia Regionale  
 Castellana-Grotte (Ba)  
 9 - 10 - 11 dicembre 2011  
@@ -41,6 +37,22 @@ Castellana-Grotte (Ba)
 
 ------------------------------------------------------------------------
 
-<a href="http://www.vivicastellanagrotte.it" target="_blank" title="http://www.vivicastellanagrotte.it"><img src="/archivio-storico/legacy/eventi/images/spelaion2011/mediapartner.jpg" width="200" height="120" alt="www.vivicastellanagrotte.it" /></a>  
-  
+**Patrocini**
+
+<div class="sponsor-row">
+<a href="http://www.regione.puglia.it" target="_blank" title="Regione Puglia"><img src="/archivio-storico/legacy/images/loghi/regione_Puglia.jpg" alt="Regione Puglia" /></a>
+<a href="http://www.provincia.ba.it" target="_blank" title="Provincia di Bari"><img src="/archivio-storico/legacy/images/loghi/provincia.jpg" alt="Provincia di Bari" /></a>
+<a href="http://www.comune.castellanagrotte.ba.it" target="_blank" title="Comune di Castellana Grotte"><img src="/archivio-storico/legacy/images/loghi/comune-di-castellana.jpg" alt="Comune di Castellana Grotte" /></a>
+<a href="http://www.grottedicastellana.it" target="_blank" title="Grotte di Castellana"><img src="/archivio-storico/legacy/images/loghi/logogrotte.jpg" alt="Grotte di Castellana" /></a>
+<a href="http://www.fspuglia.it/" target="_blank" title="Federazione Speleologica Pugliese"><img src="/archivio-storico/legacy/images/loghi/LogoFsp.jpg" alt="Federazione Speleologica Pugliese" /></a>
+<a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana"><img src="/archivio-storico/legacy/images/loghi/SSI.jpg" alt="Società Speleologica Italiana" /></a>
+<a href="http://www.cnsaspuglia.it" target="_blank" title="CNSAS"><img src="/archivio-storico/legacy/images/loghi/logocnsas.jpg" alt="CNSAS" /></a>
+</div>
+
+**Media partner**
+
+<div class="sponsor-row">
+<a href="http://www.vivicastellanagrotte.it" target="_blank" title="www.vivicastellanagrotte.it"><img src="/archivio-storico/legacy/eventi/images/spelaion2011/mediapartner.jpg" alt="www.vivicastellanagrotte.it" /></a>
+</div>
+
 © Gruppo Puglia Grotte

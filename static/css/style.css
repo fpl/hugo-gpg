@@ -436,6 +436,34 @@ hr {
 .prose table:has(img) td { display: block; width: 100%; border-top: 0; padding: 0; }
 .prose table:has(img) img { width: 100%; height: auto; margin-block: 0 var(--space-1); }
 
+/* Riga di loghi di patrocinio/sponsor (es. spelaion-2011): pagine storiche
+   con 6-9 stemmi/loghi di enti, spesso file d'epoca a bassa risoluzione ma
+   pesanti (poca compressione), che finivano dentro una <table> con
+   width/height minuscoli via attributo HTML -- il che li faceva bersagliare
+   dalla regola ".prose table:has(img) img" pensata per le gallerie fotografiche
+   (width:100% della cella), ingrandendoli enormemente oltre la risoluzione
+   reale invece di lasciarli piccoli come da attributo originale. Non una
+   <table> (niente dati tabellari, solo loghi affiancati): riga flessibile
+   con un'altezza massima comune, indipendente dalle proporzioni native di
+   ciascun logo -- risultato compatto e uniforme invece che una colonna di
+   stemmi giganti e sproporzionati tra loro. */
+.sponsor-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-block: var(--space-3);
+}
+.sponsor-row a { border: 0; }
+.sponsor-row img {
+  width: auto;
+  height: 64px;
+  max-width: 140px;
+  object-fit: contain;
+  margin: 0;
+}
+
 /* Sostituisce lo shortcode [gallery] di WordPress: griglia semplice, usata in
    7 pagine del sito reale (troppo poco per giustificare un template dedicato). */
 .wp-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: var(--space-2); margin-block: var(--space-3); }
