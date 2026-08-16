@@ -408,17 +408,31 @@ il 16/08/2026: 1 e 2 sono ancora aperti, nessuno dei quattro è completo.
      testuale (`CNR19.07.08.wmv`/`.mp3`/`.swf`), probabilmente non ha senso convertirlo in
      Markdown: da valutare se vale la pena solo per le pagine indice.
 3. ~~Redirect 301 lato server~~ **Fatto** (16/08/2026): `static/.htaccess`, generato da
-   `python3 scripts/generate-htaccess.py` — una `RedirectMatch 301` per ognuno dei 72
-   `aliases:` reali nel front matter di `content/**/*.md` (i vecchi URL WordPress,
-   prefisso `/home/`, verso i nuovi permalink), verso la produzione perché passa da
-   `static/` come qualunque altro asset e viene incluso automaticamente in `make publish`.
-   Non sostituisce gli `aliases:` di Hugo (restano utili per l'anteprima locale e per
-   `hugo server`, dove `.htaccess` non ha effetto): li rende ridondanti solo in
-   produzione, dove contano i redirect HTTP veri, non il
-   `<meta http-equiv="refresh">` più debole che genera Hugo da solo. Rigenerare con lo
-   stesso script (non a mano) se cambia un permalink o se ne aggiunge uno nuovo con
-   `aliases:` — usa una destinazione temporanea via `hugo --config
-   hugo.toml,scripts/htaccess-extra.toml`, non tocca la build normale.
+   `python3 scripts/generate-htaccess.py` — un upgrade HTTPS (`RewriteRule`, verificato
+   che serve davvero: `http://www.gruppopugliagrotte.it/` rispondeva 200 in chiaro,
+   Aruba non lo fa automaticamente a monte) + una `RedirectMatch 301` per ognuno di 168
+   URL storici reali (72 dagli `aliases:` di WordPress nel front matter di
+   `content/**/*.md`, 96 dal `LINK_REWRITE` del sito pre-WordPress in
+   `scripts/old_to_hugo.py`) verso i rispettivi nuovi permalink. Passa da `static/` come
+   qualunque altro asset, incluso automaticamente in `make publish`. Non sostituisce gli
+   `aliases:` di Hugo (restano utili per l'anteprima locale, dove `.htaccess` non ha
+   effetto): li rende ridondanti solo in produzione, dove contano i redirect HTTP veri,
+   non il `<meta http-equiv="refresh">` più debole che genera Hugo da solo. Rigenerare
+   con lo stesso script (non a mano) se cambia un permalink — usa una destinazione
+   temporanea via `hugo --config hugo.toml,scripts/htaccess-extra.toml`, non tocca la
+   build normale.
+
+   **Incidente in produzione, risolto lo stesso giorno**: una prima versione includeva
+   anche 6 redirect dalle vecchie varianti di `index.htm` verso la home. Appena
+   caricate, hanno mandato la home in un loop di redirect 301 su se stessa (sito
+   irraggiungibile per il tempo della diagnosi) — causa non accertata fino in fondo
+   (sospetto: `RedirectMatch` con target uguale alla document root che interagisce male
+   con `mod_dir`/`DirectoryIndex` su questo hosting, mai verificato lato server, nessun
+   accesso alla config Apache oltre FTP). Isolato per bisezione diretta contro il server
+   reale, non riproducibile in locale. Categoria rimossa dal generatore invece di essere
+   ritentata: per 6 vecchi nomi di homepage praticamente mai linkati da fuori non vale
+   il rischio. Se si vuole reintrodurla in futuro: testarla PRIMA su un URL di prova
+   non-root, mai direttamente su `/`.
 4. **Email meno esposte agli scraper**, ancora tutte in chiaro: 44 file in `content/`
    contengono un `mailto:` diretto, per almeno 16 indirizzi reali distinti (ruoli
    istituzionali: `presidente@`, `segreteria@`, `webmaster@`, `direttorescuola@`, ecc. —
