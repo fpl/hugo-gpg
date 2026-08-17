@@ -4,6 +4,12 @@
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.claim }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+<link rel="icon" href="{{ "favicon-16x16.png" | relURL }}" sizes="16x16" type="image/png">
+<link rel="icon" href="{{ "favicon-32x32.png" | relURL }}" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+<link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+<meta name="theme-color" content="#001f94">
 
 <!-- Stessi font del tema WordPress in uso (Twenty Thirteen): Bitter per i titoli,
      Source Sans Pro per il corpo del testo (anche nei pesi 300/300-italic usati
