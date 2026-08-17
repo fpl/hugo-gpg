@@ -141,12 +141,15 @@ Interverrà l'Assessore Michele Saccomanno.
 
 **Patrocini**
 
-| | |
-|:---:|:---:|
-| <img src="/archivio-storico/legacy/convreg/images/regionepuglia.jpg" width="60" height="78" alt="Regione Puglia" /><br>Regione Puglia | <img src="/archivio-storico/legacy/convreg/images/ComuneCastellana.jpg" width="90" height="111" alt="Comune di Castellana-Grotte" /><br>Comune di Castellana-Grotte |
-| <img src="/archivio-storico/legacy/convreg/images/LogoFsp.jpg" width="98" height="111" alt="Federazione Speleologica Pugliese" /><br>Federazione Speleologica Pugliese | <img src="/archivio-storico/legacy/convreg/images/GrotteSrl.jpg" width="163" height="77" alt="Grotte di Castellana Srl" /> |
-| | <img src="/archivio-storico/legacy/convreg/images/SSI.jpg" width="100" height="88" alt="Società Speleologica Italiana" /><br>Società Speleologica Italiana |
-| <img src="/archivio-storico/legacy/convreg/images/scienze.jpg" width="230" height="93" alt="Facoltà di Scienze" /> | <img src="/archivio-storico/legacy/convreg/images/ordinegeologi.jpg" width="240" height="102" alt="Ordine Geologi" /> |
+<div class="sponsor-row">
+<img src="/archivio-storico/legacy/convreg/images/regionepuglia.jpg" alt="Regione Puglia" title="Regione Puglia">
+<img src="/archivio-storico/legacy/convreg/images/ComuneCastellana.jpg" alt="Comune di Castellana-Grotte" title="Comune di Castellana-Grotte">
+<img src="/archivio-storico/legacy/convreg/images/LogoFsp.jpg" alt="Federazione Speleologica Pugliese" title="Federazione Speleologica Pugliese">
+<img src="/archivio-storico/legacy/convreg/images/GrotteSrl.jpg" alt="Grotte di Castellana Srl" title="Grotte di Castellana Srl">
+<img src="/archivio-storico/legacy/convreg/images/SSI.jpg" alt="Società Speleologica Italiana" title="Società Speleologica Italiana">
+<img src="/archivio-storico/legacy/convreg/images/scienze.jpg" alt="Facoltà di Scienze" title="Facoltà di Scienze">
+<img src="/archivio-storico/legacy/convreg/images/ordinegeologi.jpg" alt="Ordine Geologi" title="Ordine Geologi">
+</div>
 
 [**^ Torna su ^**](#up "Torna su")
 
@@ -154,9 +157,10 @@ Interverrà l'Assessore Michele Saccomanno.
 
 **Sostenitori**
 
-| | |
-|:---:|:---:|
-| <img src="/archivio-storico/legacy/convreg/images/GrotteSrl.jpg" width="163" height="77" alt="Grotte di Castellana Srl" /> | |
-| <img src="/archivio-storico/legacy/convreg/images/CassaRuralePetit.jpg" width="240" height="84" alt="Cassa Rurale ed Artigiana di Castellana-Grotte - Credito Cooperativo" /> | <img src="/archivio-storico/legacy/convreg/images/LabInstruments.jpg" width="240" height="126" alt="Lab Instruments" /> |
+<div class="sponsor-row">
+<img src="/archivio-storico/legacy/convreg/images/GrotteSrl.jpg" alt="Grotte di Castellana Srl" title="Grotte di Castellana Srl">
+<img src="/archivio-storico/legacy/convreg/images/CassaRuralePetit.jpg" alt="Cassa Rurale ed Artigiana di Castellana-Grotte - Credito Cooperativo" title="Cassa Rurale ed Artigiana di Castellana-Grotte - Credito Cooperativo">
+<img src="/archivio-storico/legacy/convreg/images/LabInstruments.jpg" alt="Lab Instruments" title="Lab Instruments">
+</div>
 
 [**^ Torna su ^**](#up "Torna su")

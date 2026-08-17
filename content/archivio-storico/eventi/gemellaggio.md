@@ -3,9 +3,10 @@ title: "Puliamo il Buio - Gemellaggio con Gruppo Grotte Pipistrelli"
 date: 2008-11-14
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-|     |                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                       |
-|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|     | <a href="http://www.grottedicastellana.it/" target="_blank" title="Grotte di Castellana"><img src="/archivio-storico/legacy/images/loghi/logogrotte.jpg" data-border="0" width="200" height="94" alt="Grotte di Castellana" /></a> | <a href="http://www.scintilena.com/ggpterni/" target="_blank" title="Gemellaggio con Gruppo Grotte Pipistrelli"><img src="/archivio-storico/legacy/eventi/images/gemellaggio/GGP.jpg" data-border="0" width="150" height="152" alt="Gruppo Grotte Pipistrelli" /></a> |
+<div class="sponsor-row">
+<a href="http://www.grottedicastellana.it/" target="_blank" title="Grotte di Castellana"><img src="/archivio-storico/legacy/images/loghi/logogrotte.jpg" alt="Grotte di Castellana"></a>
+<a href="http://www.scintilena.com/ggpterni/" target="_blank" title="Gemellaggio con Gruppo Grotte Pipistrelli"><img src="/archivio-storico/legacy/eventi/images/gemellaggio/GGP.jpg" alt="Gruppo Grotte Pipistrelli"></a>
+</div>
 
 <div align="center">
 

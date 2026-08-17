@@ -3,9 +3,10 @@ title: "Puliamo il Buio - Vivicastellana"
 date: 2008-10-26
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
-|     |                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                    |
-|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|     | <a href="http://www.grottedicastellana.it/" target="_blank" title="Grotte di Castellana"><img src="/archivio-storico/legacy/images/loghi/logogrotte.jpg" data-border="0" width="200" height="94" alt="Grotte di Castellana" /></a> | <a href="http://www.comune.castellanagrotte.ba.it" target="_blank" title="Comune di Castellana-Grotte"><img src="/archivio-storico/legacy/images/loghi/comune-di-castellana.jpg" data-border="0" width="120" height="157" alt="Comune di Castellana-Grotte" /></a> |
+<div class="sponsor-row">
+<a href="http://www.grottedicastellana.it/" target="_blank" title="Grotte di Castellana"><img src="/archivio-storico/legacy/images/loghi/logogrotte.jpg" alt="Grotte di Castellana"></a>
+<a href="http://www.comune.castellanagrotte.ba.it" target="_blank" title="Comune di Castellana-Grotte"><img src="/archivio-storico/legacy/images/loghi/comune-di-castellana.jpg" alt="Comune di Castellana-Grotte"></a>
+</div>
 
 <div align="center">
 
