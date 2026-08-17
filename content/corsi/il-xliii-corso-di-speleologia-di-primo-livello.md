@@ -1,6 +1,7 @@
 ---
 title: "Il XLIII corso di Speleologia di Primo Livello"
 date: 2017-10-03
+anni: "2017"
 aliases:
   - "/home/corsi/il-xliii-corso-di-speleologia-di-primo-livello/"
 categories:

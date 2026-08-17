@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 2015"
 date: 2015-11-16
+anni: "2015"
 ---
 
 <figure>

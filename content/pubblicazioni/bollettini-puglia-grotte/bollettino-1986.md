@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 1986"
 date: 1986-11-16
+anni: "1986"
 lastmod: 2026-08-01
 ---
 

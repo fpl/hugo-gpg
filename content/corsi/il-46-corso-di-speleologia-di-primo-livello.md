@@ -1,6 +1,7 @@
 ---
 title: "Il 46° corso di Speleologia di Primo Livello"
 date: 2019-10-06
+anni: "2019"
 aliases:
   - "/home/corsi/il-46-corso-di-speleologia-di-primo-livello/"
 categories:

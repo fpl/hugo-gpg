@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 2001"
 date: 2001-11-16
+anni: "2001"
 ---
 
 <figure>

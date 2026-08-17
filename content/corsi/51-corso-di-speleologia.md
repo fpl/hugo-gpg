@@ -1,6 +1,7 @@
 ---
 title: "Il 51° corso di Speleologia di Primo Livello"
 date: 2025-09-28
+anni: "2025"
 aliases:
   - "/home/corsi/51-corso-di-speleologia/"
 categories:

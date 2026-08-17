@@ -1,6 +1,7 @@
 ---
 title: "Il 50° corso di Speleologia di Primo Livello"
 date: 2024-09-29
+anni: "2024"
 aliases:
   - "/home/corsi/50-corso-di-speleologia/"
 categories:

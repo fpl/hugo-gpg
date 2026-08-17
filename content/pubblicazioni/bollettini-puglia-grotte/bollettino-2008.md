@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 2008"
 date: 2008-11-16
+anni: "2008"
 ---
 
 <figure>

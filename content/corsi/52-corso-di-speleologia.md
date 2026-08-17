@@ -2,6 +2,7 @@
 ---
 title: "Il 52° corso di Speleologia di Primo Livello"
 date: 2026-09-20
+anni: "2026"
 # date è la data di inizio corso (usata per l'ordinamento cronologico nella
 # categoria "Corsi", coerente con le altre edizioni) -- essendo nel futuro
 # rispetto a un build odierno, senza publishDate esplicito Hugo escluderebbe

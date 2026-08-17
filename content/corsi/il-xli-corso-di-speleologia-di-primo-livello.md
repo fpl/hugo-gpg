@@ -1,6 +1,7 @@
 ---
 title: "Il XLI corso di Speleologia di Primo Livello"
 date: 2016-10-02
+anni: "2016"
 aliases:
   - "/home/corsi/il-xli-corso-di-speleologia-di-primo-livello/"
 categories:

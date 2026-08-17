@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 1991"
 date: 1991-11-16
+anni: "1991"
 lastmod: 2026-08-01
 ---
 

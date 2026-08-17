@@ -1,6 +1,7 @@
 ---
 title: "Il XXXVIII corso di Speleologia di Primo Livello"
 date: 2015-10-03
+anni: "2015"
 aliases:
   - "/home/corsi/il-xxxviii-corso-di-speleologia-di-primo-livello/"
 categories:

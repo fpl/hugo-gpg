@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 2024"
 date: 2024-11-16
+anni: "2024"
 ---
 
 <figure>

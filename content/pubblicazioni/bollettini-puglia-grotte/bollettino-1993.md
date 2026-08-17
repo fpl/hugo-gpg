@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 1993"
 date: 1993-11-16
+anni: "1993"
 lastmod: 2026-08-01
 ---
 

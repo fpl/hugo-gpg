@@ -1,6 +1,7 @@
 ---
 title: "Il 45° corso di Speleologia di Primo Livello"
 date: 2018-10-09
+anni: "2018"
 aliases:
   - "/home/corsi/il-45-corso-di-speleologia-di-primo-livello/"
 categories:

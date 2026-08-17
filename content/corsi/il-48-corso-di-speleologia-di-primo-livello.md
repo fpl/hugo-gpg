@@ -1,6 +1,7 @@
 ---
 title: "Il 48° corso di Speleologia di Primo Livello"
 date: 2022-09-20
+anni: "2022"
 aliases:
   - "/home/corsi/il-48-corso-di-speleologia-di-primo-livello/"
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 1995"
 date: 1995-11-16
+anni: "1995"
 lastmod: 2026-08-01
 ---
 
