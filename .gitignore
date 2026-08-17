@@ -15,3 +15,5 @@ __pycache__/
 # conversione trova un file modificato a mano (vedi README.md): sono un
 # backup ridondante rispetto a git, che ormai è la fonte di verità.
 manual-backups/
+
+CLAUDE.md

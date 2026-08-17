@@ -1,6 +1,7 @@
 ---
 title: "Gruppo Grotte Castellana: i pionieri della speleologia pugliese"
 date: 1938-04-21
+lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Gruppo Grotte Castellana: i pionieri della speleologia pugliese**
