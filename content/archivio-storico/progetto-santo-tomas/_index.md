@@ -31,7 +31,7 @@ Alla memoria: [**Francesco Allocca**](/archivio-storico/progetto-santo-tomas/fra
 <a href="http://sec1940.galeon.com" target="_blank" title="Visita il sito della SEC"><img src="/archivio-storico/legacy/images/loghi/sec.jpg" alt="Visita il sito della SEC"></a>
 <a href="http://www.puglia.speleo.it" target="_blank" title="Vai al sito della Federazione Speleologica Pugliese"><img src="/archivio-storico/legacy/convreg/images/LogoFsp.jpg" alt="Vai al sito della Federazione Speleologica Pugliese"></a>
 <a href="http://www.uniba.it/index.php" target="_blank" title="Vai al sito dell&#39;Università degli Studi di Bari"><img src="/archivio-storico/legacy/images/loghi/uniba.jpg" alt="Vai al sito dell&#39;Università degli Studi di Bari"></a>
-<a href="http://www.cnr.it" target="_blank" title="Vai al sito dell&#39;Università degli Studi di Bari"><img src="/archivio-storico/legacy/images/loghi/cnr2.jpg" alt="Consiglio Nazionale delle Ricerche"></a>
+<a href="http://www.cnr.it" target="_blank" title="Vai al sito del Consiglio Nazionale delle Ricerche"><img src="/archivio-storico/legacy/images/loghi/cnr2.jpg" alt="Consiglio Nazionale delle Ricerche"></a>
 <a href="http://www.campania.speleo.it" target="_blank" title="Vai al sito della Federazione Speleologica Campana"><img src="/archivio-storico/legacy/images/loghi/fsc.gif" alt="Vai al sito della Federazione Speleologica Campana"></a>
 </div>
 

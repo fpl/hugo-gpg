@@ -126,7 +126,7 @@ Gruppo Speleologico Ruvese - Ruvo (Ba)
 <a href="http://sec1940.galeon.com" title="Visita il sito della SEC"><img src="/archivio-storico/legacy/images/loghi/sec.jpg" alt="Visita il sito della SEC"></a>
 <a href="http://www.puglia.speleo.it" title="Vai al sito della Federazione Speleologica Pugliese"><img src="/archivio-storico/legacy/convreg/images/LogoFsp.jpg" alt="Vai al sito della Federazione Speleologica Pugliese"></a>
 <a href="http://www.uniba.it/index.php" title="Vai al sito dell'Università degli Studi di Bari"><img src="/archivio-storico/legacy/images/loghi/uniba.jpg" alt="Vai al sito dell&#39;Università degli Studi di Bari"></a>
-<a href="http://www.cnr.it" title="Vai al sito dell'Università degli Studi di Bari"><img src="/archivio-storico/legacy/images/loghi/cnr2.jpg" alt="Consiglio Nazionale delle Ricerche"></a>
+<a href="http://www.cnr.it" title="Vai al sito del Consiglio Nazionale delle Ricerche"><img src="/archivio-storico/legacy/images/loghi/cnr2.jpg" alt="Consiglio Nazionale delle Ricerche"></a>
 <a href="http://www.campania.speleo.it" title="Vai al sito della Federazione Speleologica Campana"><img src="/archivio-storico/legacy/images/loghi/fsc.gif" alt="Vai al sito della Federazione Speleologica Campana"></a>
 </div>
 

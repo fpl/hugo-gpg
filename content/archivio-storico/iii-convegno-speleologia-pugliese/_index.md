@@ -151,7 +151,7 @@ Interverrà l'Assessore Michele Saccomanno.
 <img src="/archivio-storico/legacy/convreg/images/ComuneCastellana.jpg" alt="Comune di Castellana-Grotte" title="Comune di Castellana-Grotte">
 <img src="/archivio-storico/legacy/convreg/images/LogoFsp.jpg" alt="Federazione Speleologica Pugliese" title="Federazione Speleologica Pugliese">
 <img src="/archivio-storico/legacy/convreg/images/GrotteSrl.jpg" alt="Grotte di Castellana Srl" title="Grotte di Castellana Srl">
-<img src="/archivio-storico/legacy/convreg/images/cnr.jpg" alt="Federazione Speleologica Pugliese" title="Federazione Speleologica Pugliese">
+<img src="/archivio-storico/legacy/convreg/images/cnr.jpg" alt="Consiglio Nazionale delle Ricerche" title="Consiglio Nazionale delle Ricerche">
 <img src="/archivio-storico/legacy/convreg/images/SSI.jpg" alt="Società Speleologica Italiana" title="Società Speleologica Italiana">
 <img src="/archivio-storico/legacy/convreg/images/scienze.jpg" alt="Facoltà di Scienze" title="Facoltà di Scienze">
 <img src="/archivio-storico/legacy/convreg/images/ordinegeologi.jpg" alt="Ordine Geologi" title="Ordine Geologi">
