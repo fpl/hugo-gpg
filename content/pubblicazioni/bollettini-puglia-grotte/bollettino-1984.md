@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 1984"
 date: 1984-11-16
+lastmod: 2026-08-01
 aliases:
   - "/home/pubblicazioni/bollettini-puglia-grotte/bollettino-1984/"
 ---

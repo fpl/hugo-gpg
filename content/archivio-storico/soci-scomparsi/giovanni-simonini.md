@@ -1,6 +1,7 @@
 ---
 title: "Chi era Giovanni Simonini?"
 date: 1996-01-01
+lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Chi era Giovanni Simonini?**

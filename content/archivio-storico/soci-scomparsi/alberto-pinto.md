@@ -1,6 +1,7 @@
 ---
 title: "Chi era Alberto Pinto?"
 date: 1984-09-23
+lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Chi era Alberto Pinto?**

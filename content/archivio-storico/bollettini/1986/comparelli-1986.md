@@ -1,6 +1,7 @@
 ---
 title: "Prima tappa verso alcune grotte-santuario. La Grotta di S. Michele a Monte Laureto (Putignano)"
 date: 1986-11-16
+lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Prima tappa verso alcune grotte-santuario. La Grotta di S. Michele a Monte Laureto (Putignano)**  

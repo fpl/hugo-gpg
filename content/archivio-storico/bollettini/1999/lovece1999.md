@@ -1,6 +1,7 @@
 ---
 title: "Grande come la paura - Il GPG nell'Antro del Monte Corchia"
 date: 1999-11-16
+lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Grande come la paura - Il GPG nell'Antro del Monte Corchia**  

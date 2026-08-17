@@ -1,6 +1,7 @@
 ---
 title: "Bollettino 1999"
 date: 1999-11-16
+lastmod: 2026-08-01
 ---
 
 <figure>
