@@ -7,12 +7,14 @@ aliases:
 *L'esplorazione delle caverne è sicuramente una delle più antiche attività umane, dato che nella preistoria la protezione che offrivano le caverne era molto ricercata.*
 Un sesto del territorio italiano è caratterizzato da tipi di rocce che favoriscono la formazione di cavità naturali e proprio la Puglia, grazie agli estesi affioramenti di rocce calcaree, raggiunge il 48% di aree di interesse speleologico rispetto alla superficie totale del suo territorio.
 Se a questo si aggiunge il fatto che proprio in Italia, sul Carso, fra Trieste e Lubiana, è nata l'esplorazione sistematica delle grotte, attività che pone le basi di quella che oggi chiamiamo speleologia diventa chiaro come non potevamo certo noi del Gruppo Puglia Grotte mancare l'appuntamento con l'esplorazione.
-Gli oltre trent'anni di attività non sono trascorsi invanoe all'attività esplorativa di sempre si va oramai affiancando, prepotente, la "voglia di ricerca".
-[Progetto Impalata](/esplorazioni/nazionali/progetto-impalata/ "Progetto Impalata")
-[Progetto Grotta del Dragone](/esplorazioni/nazionali/progetto-grotta-del-dragone/ "Progetto Grotta del Dragone")
-[Progetto Catasto delle Grotte e delle Cavità artificiali](/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali/ "Progetto Catasto delle Grotte e delle Cavità artificiali")
-[Progetto Catasto delle Grotte e delle Cavità artificiali 2010](/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali-2010/ "Progetto Catasto delle Grotte e delle Cavità artificiali 2010")
-[Programma attività speleologica](/esplorazioni/nazionali/programma-attivita-speleologica-autunno-inverno-2006-2007/ "Programma attività speleologica autunno-inverno 2006-2007") autunno-inverno 2006-2007
+Gli oltre trent'anni di attività non sono trascorsi invano e all'attività esplorativa di sempre si va oramai affiancando, prepotente, la "voglia di ricerca".
+
+- [Progetto Impalata](/esplorazioni/nazionali/progetto-impalata/ "Progetto Impalata")
+- [Progetto Grotta del Dragone](/esplorazioni/nazionali/progetto-grotta-del-dragone/ "Progetto Grotta del Dragone")
+- [Progetto Catasto delle Grotte e delle Cavità artificiali](/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali/ "Progetto Catasto delle Grotte e delle Cavità artificiali")
+- [Progetto Catasto delle Grotte e delle Cavità artificiali 2010](/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali-2010/ "Progetto Catasto delle Grotte e delle Cavità artificiali 2010")
+- [Programma attività speleologica](/esplorazioni/nazionali/programma-attivita-speleologica-autunno-inverno-2006-2007/ "Programma attività speleologica autunno-inverno 2006-2007") autunno-inverno 2006-2007
+
 Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazioni/alburni/ "Esplorazioni negli Alburni"):
 - dicembre 2002/marzo 2003 [Grava Auletta](/archivio-storico/esplorazioni/alburni/grava-auletta/ "Nuove esplorazioni alla Grava Auletta") S. Angelo a Fasanella (SA)
 - agosto 2006 [campo estivo Alburni 2006](/archivio-storico/esplorazioni/alburni/campo-2006/ "Il campo estivo Alburni 2006") - Inghiottitoio III dei **Piani di Santa Maria**
@@ -41,8 +43,7 @@ Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazi
 - [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni16giu2012.pdf "Esplorazione 16 giugno 2012") 16 giugno 2012
 - [Campo estivo sui Monti Alburni](/archivio-storico/esplorazioni/alburni/campo-2012/ "Campo estivo sui Monti Alburni") - [relazione finale](/archivio-storico/legacy/esplorazioni/alburni/CS%20fine%20campo%20Alburni%202012.pdf "relazione finale")
 - 2015 [Nuove esplorazioni in Alburni - Il "buco" diventa grotta](/novita/nuove-esplorazioni-in-alburni-il-buco-diventa-grotta/ "Nuove esplorazioni in Alburni - Il buco diventa grotta")
-
-2017 [Risorgenza di Canale Palazzo: la storia continua...](/novita/risorgenza-di-canale-palazzo-la-storia-continua/ "Risorgenza di Canale Palazzo: la storia continua") - Orsomarso (CS), grotta già documentata sul Bollettino GPG 1995.
+- 2017 [Risorgenza di Canale Palazzo: la storia continua...](/novita/risorgenza-di-canale-palazzo-la-storia-continua/ "Risorgenza di Canale Palazzo: la storia continua") - Orsomarso (CS), grotta già documentata sul Bollettino GPG 1995.
 
 Ricerca di nuove cavità:
 [Grotta in contrada Mamutte](/archivio-storico/esplorazioni/mamutte/ "Grotta in contrada Mamutte")
@@ -67,5 +68,7 @@ Lo confessiamo: anche tra di noi vi sono quegli strani individui pronti ad andar
 -  [Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)](/archivio-storico/bollettini/2001/manghisi-pace2001/ "Un'antica galleria sotterranea scoperta a Castellana-Grotte (BA)")
 -  [Esplorazione di cavità a Castellana-Grotte (BA)](/archivio-storico/speleologia-artificiale/ "Esplorazione di cavità a Castellana-Grotte")
 -  [Sotto la città della birra. Speleologia urbana in Cechia](/archivio-storico/bollettini/2001/lovece-parise2001/ "Sotto la città della birra. Speleologia urbana in Cechia") - [La Cripta dei Santi Andrea e Procopio](/archivio-storico/speleologia-artificiale/ "La Cripta dei Santi Andrea e Procopio")
+
 Qualcosa da dichiarare?
+
 Ecco le [Procedure per l’accatastamento di Cavità Artificiali](/archivio-storico/legacy/esplorazioni/speleoartifi/Catasto.pdf "Procedure per l’accatastamento di Cavità Artificiali") predisposte dalla *Commissione per le Cavità Artificiali* della [Società Speleologica Italiana](https://www.speleo.it/ "Sito della Società Speleologica Italiana").

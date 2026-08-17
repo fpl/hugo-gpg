@@ -27,7 +27,7 @@ ridotto uso di *CSS*
     quegli anni
 * 2026- il nuovo sito, completamente ripensato e rigenerato
 
-Per gli inguaribili _nerd_ che prediiligono i dettagli, il nuovo sito usa il
+Per gli inguaribili _nerd_ che prediligono i dettagli, il nuovo sito usa il
 paradigma  _jamstack_ ed è basato su _Hugo_, un noto framework di generazione
 pagine scritto in _Go_. Questo ci ha permesso di convertire e inglobare tutti 
 i contenuti precedenti, per non perdere la nostra storia, anche grazie
