@@ -1,6 +1,7 @@
 ---
 title: "Un falò per il Mozambico - Edizione 2005 - Le frittelle (Foto D. Sgobba)"
 date: 2005-01-11
+anni: "2005"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Le frittelle**  

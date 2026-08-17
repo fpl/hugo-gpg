@@ -1,6 +1,7 @@
 ---
 title: "Corso Interno di Armo 16-17 settembre 2006"
 date: 2006-09-16
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Corso Interno di Armo 16-17 settembre 2006**  

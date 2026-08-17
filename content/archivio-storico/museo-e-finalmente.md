@@ -1,6 +1,7 @@
 ---
 title: "E finalmente…"
 date: 2000-01-23
+anni: "2000"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 [**La

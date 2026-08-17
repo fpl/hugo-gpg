@@ -1,6 +1,7 @@
 ---
 title: "Craco, il paese-fantasma / Alla foce del Bradano, Ginosa Marina"
 date: 2003-03-23
+anni: "2003"
 description: "Trekking di Primavera 2003, a cura di Piero Lattarulo."
 ---
 

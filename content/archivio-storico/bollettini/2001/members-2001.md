@@ -1,6 +1,7 @@
 ---
 title: "Soci del Gruppo Puglia Grotte nel 2001"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Soci del Gruppo Puglia Grotte nel 2001**  

@@ -1,6 +1,7 @@
 ---
 title: "Speleojunior"
 date: 2000-11-16
+anni: "2000"
 description: "Il percorso didattico speleojunior nelle Grotte di Castellana, ideato e condotto dal Gruppo Puglia Grotte."
 ---
 

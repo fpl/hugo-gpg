@@ -1,6 +1,7 @@
 ---
 title: "Gli impianti idrici sotterranei di Gravina in Puglia (BA)"
 date: 2002-02-10
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Gli impianti idrici sotterranei di Gravina in Puglia (BA)**

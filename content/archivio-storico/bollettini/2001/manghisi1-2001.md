@@ -1,6 +1,7 @@
 ---
 title: "Protostoria della speleologia sul Massiccio del Pollino (Appennino meridionale)"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Protostoria della speleologia sul Massiccio del Pollino (Appennino meridionale)**  

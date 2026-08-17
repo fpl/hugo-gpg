@@ -1,6 +1,7 @@
 ---
 title: "66° anniversario della scoperta delle Grotte di Castellana"
 date: 2004-01-24
+anni: "2004"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 In occasione del 66° anniversario della scoperta delle Grotte di Castellana, avvenuta il 23 gennaio 1938, il Gruppo Puglia Grotte ha organizzato sabato 24 e domenica 25 gennaio 2004 la commemorativa discesa nella Grave.  

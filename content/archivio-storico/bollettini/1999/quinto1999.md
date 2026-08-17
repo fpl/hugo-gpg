@@ -1,6 +1,7 @@
 ---
 title: "La prima volta - Un'esperienza di speleologia artificiale: l'acquedotto romano di Gravina"
 date: 1999-11-16
+anni: "1999"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---

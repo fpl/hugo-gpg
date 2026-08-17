@@ -1,6 +1,7 @@
 ---
 title: "Esplorata nuova cavità in località S. Pietro"
 date: 2005-04-10
+anni: "2005"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Esplorata nuova cavità in località S. Pietro**

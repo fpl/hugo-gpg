@@ -1,6 +1,7 @@
 ---
 title: "Ciao, Francesco!"
 date: 2003-11-15
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Ciao, Francesco!**

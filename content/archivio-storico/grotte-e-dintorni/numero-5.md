@@ -1,6 +1,7 @@
 ---
 title: "Grotte e Dintorni - Numero 5/2003"
 date: 2003-11-16
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/museo/GeD5_little.jpg" width="96" height="133" alt="Copertina" />

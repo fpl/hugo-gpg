@@ -1,6 +1,7 @@
 ---
 title: "Vivere la campagna - Passeggiata nell'agro castellanese"
 date: 2003-05-25
+anni: "2003"
 description: "Trekking di Primavera 2003, a cura di Ce.Ri.Ca onlus ed APULIA ECO TOURING srl."
 ---
 

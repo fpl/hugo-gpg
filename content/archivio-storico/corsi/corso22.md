@@ -1,6 +1,7 @@
 ---
 title: "Il XXII Corso di Speleologia"
 date: 2000-10-24
+anni: "2000"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:
   - "Corsi"

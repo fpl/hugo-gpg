@@ -1,6 +1,7 @@
 ---
 title: "Il XX Corso di Speleologia"
 date: 1998-10-15
+anni: "1998"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:

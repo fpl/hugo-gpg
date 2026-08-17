@@ -1,6 +1,7 @@
 ---
 title: "Puliamo il Buio - Gemellaggio con Gruppo Grotte Pipistrelli"
 date: 2008-11-14
+anni: "2008"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div class="sponsor-row">

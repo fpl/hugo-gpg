@@ -1,6 +1,7 @@
 ---
 title: "XXIX Corso di I livello di Speleologia"
 date: 2007-04-12
+anni: "2007"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:
   - "Corsi"

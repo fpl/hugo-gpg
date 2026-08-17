@@ -1,6 +1,7 @@
 ---
 title: "Campo estivo Alburni"
 date: 2007-08-06
+anni: "2007"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Campo estivo Alburni**

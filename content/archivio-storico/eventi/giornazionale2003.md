@@ -1,6 +1,7 @@
 ---
 title: "Giornata Nazionale della Speleologia - II edizione"
 date: 2003-10-18
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/gns/patrocinisuperiori.jpg" data-border="0" data-align="right" width="215" height="49" alt="Patrocini" />  

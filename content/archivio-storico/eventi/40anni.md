@@ -1,6 +1,7 @@
 ---
 title: "Il Gruppo Puglia Grotte compie 40 anni"
 date: 2011-11-16
+anni: "2011"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/GPG40-EXT-C1.jpg" data-border="0" data-align="left" width="200" height="83" alt="Logo GPG" />  

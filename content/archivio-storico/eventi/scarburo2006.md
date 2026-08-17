@@ -1,6 +1,7 @@
 ---
 title: "Il Gruppo Puglia Grotte a Scarburo 2006"
 date: 2006-11-16
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

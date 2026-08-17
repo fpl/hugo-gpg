@@ -1,6 +1,7 @@
 ---
 title: "Le cave ipogee di S. Giovanni Rotondo"
 date: 2004-05-16
+anni: "2004"
 description: "Trekking di Primavera 2004, a cura di Domenico Sgobba."
 ---
 

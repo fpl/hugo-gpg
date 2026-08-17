@@ -1,6 +1,7 @@
 ---
 title: "Convocazione per Assemblea Ordinaria"
 date: 2013-03-02
+anni: "2013"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Convocazione per Assemblea Ordinaria**

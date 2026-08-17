@@ -1,6 +1,7 @@
 ---
 title: "Escuela Nacional de Espeleologia de Cuba Antonio Núñez Jiménez"
 date: 2003-11-16
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Escuela Nacional de Espeleologia de Cuba Antonio Núñez Jiménez**

@@ -1,6 +1,7 @@
 ---
 title: "Visite scolastiche al Museo Speleologico Franco Anelli"
 date: 2003-11-16
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Visite scolastiche al Museo Speleologico Franco Anelli**  

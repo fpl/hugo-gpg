@@ -1,6 +1,7 @@
 ---
 title: "Esplorata nuova cavità a Sammichele di Bari - BA"
 date: 2011-05-08
+anni: "2011"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Esplorata nuova cavità a Sammichele di Bari - BA**

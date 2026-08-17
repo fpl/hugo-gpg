@@ -1,6 +1,7 @@
 ---
 title: "23 gennaio 1938 - 23 gennaio 2004 - 66° anniversario della scoperta delle Grotte di Castellana"
 date: 2003-11-16
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **23 gennaio 1938 - 23 gennaio 2004  

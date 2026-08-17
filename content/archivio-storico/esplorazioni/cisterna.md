@@ -1,6 +1,7 @@
 ---
 title: "Esplorata antica cisterna nel centro storico di Castellana"
 date: 2004-02-18
+anni: "2004"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Esplorata antica cisterna nel centro storico di Castellana**

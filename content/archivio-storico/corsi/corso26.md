@@ -1,6 +1,7 @@
 ---
 title: "Il XXVI Corso di Speleologia"
 date: 2004-10-06
+anni: "2004"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:
   - "Corsi"

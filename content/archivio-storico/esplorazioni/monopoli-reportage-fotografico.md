@@ -1,6 +1,7 @@
 ---
 title: "Il reportage fotografico del rilievo nei rifugi antiaerei di Monopoli"
 date: 2010-12-11
+anni: "2010"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

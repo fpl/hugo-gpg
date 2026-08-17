@@ -1,6 +1,7 @@
 ---
 title: "Palestra di roccia, Gravina di Matera - Album fotografico (6 aprile 2008)"
 date: 2008-04-06
+anni: "2008"
 description: "Progetto Didattico IPSIAM 2008, progressione verticale in palestra di roccia - 6 aprile 2008."
 ---
 

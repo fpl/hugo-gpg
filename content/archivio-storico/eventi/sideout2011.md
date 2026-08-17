@@ -1,6 +1,7 @@
 ---
 title: "Il Gruppo Puglia Grotte al Side Out Sport Festival 2011"
 date: 2011-07-09
+anni: "2011"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/eventi/images/sideout.jpg" data-hspace="10" data-vspace="10" data-border="1" data-align="right" width="210" height="300" alt="Side Out Sport Festival" />

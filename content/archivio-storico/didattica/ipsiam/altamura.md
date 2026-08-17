@@ -1,6 +1,7 @@
 ---
 title: "Inghiottitoio del Pulo di Altamura - Album fotografico"
 date: 2008-04-20
+anni: "2008"
 description: "Progetto Didattico IPSIAM 2008, progressione verticale in grotta - 20 aprile 2008."
 ---
 

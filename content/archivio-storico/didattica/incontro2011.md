@@ -1,6 +1,7 @@
 ---
 title: "Tra scienza ed emozione: le Grotte di Castellana attraverso laboratori e percorsi didattici"
 date: 2011-10-12
+anni: "2011"
 description: "Incontro organizzato dalla Società Grotte di Castellana per dirigenti e docenti, 12 ottobre 2011."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Archivio fotografico — Il XXVII Corso di Speleologia"
 date: 2005-11-03
+anni: "2005"
 description: "Archivio fotografico completo, recuperato dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <table width="100%" data-cellspacing="0" data-cellpadding="3" data-border="0">

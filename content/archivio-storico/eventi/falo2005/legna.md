@@ -1,6 +1,7 @@
 ---
 title: "Un falò per il Mozambico - Edizione 2005 - La raccolta della legna e la costruzione del falò"
 date: 2005-01-11
+anni: "2005"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **La raccolta della legna e la costruzione del falò**

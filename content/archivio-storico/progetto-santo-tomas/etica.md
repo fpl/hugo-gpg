@@ -1,6 +1,7 @@
 ---
 title: "U.I.S. Code of Ethics for Cave Exploration and Science in Foreign Countries"
 date: 1997-08-01
+anni: "1997"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Il Gruppo Puglia Grotte a Fuoridigusto"
 date: 2011-12-19
+anni: "2011"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Fuoridigusto La7**  

@@ -1,6 +1,7 @@
 ---
 title: "Grotte e Speleologia del Costa Rica: primo contributo"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Grotte e Speleologia del Costa Rica: primo contributo**  

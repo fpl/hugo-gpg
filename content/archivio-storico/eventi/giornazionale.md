@@ -1,6 +1,7 @@
 ---
 title: "La Giornata Nazionale della Speleologia"
 date: 2002-10-11
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/gns/patrocinisuperiori.jpg" data-border="0" data-align="right" width="215" height="49" alt="Patrocini" />  

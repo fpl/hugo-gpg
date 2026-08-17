@@ -1,6 +1,7 @@
 ---
 title: "Campo estivo sui Monti Alburni 2012"
 date: 2012-08-05
+anni: "2012"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Campo estivo sui Monti Alburni 2012**  

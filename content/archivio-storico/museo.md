@@ -1,6 +1,7 @@
 ---
 title: "Il Museo Speleologico Franco Anelli"
 date: 2000-01-23
+anni: "2000"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 Museo Speleologico Franco Anelli P.le Anelli I-70013 Castellana-Grotte BA tel +39-080-4998230 [museoanelli@grottedicastellana.it](mailto:museoanelli@grottedicastellana.it?Subject=Richiesta%20di%20informazioni "Scrivi al museo")

@@ -1,6 +1,7 @@
 ---
 title: "Un monumento per amico: le Grotte di Castellana"
 date: 2009-10-26
+anni: "2009"
 description: "Corso di speleologia per le classi quarte e quinte della Scuola Primaria Andrea Angiulli di Castellana-Grotte, 2009."
 ---
 

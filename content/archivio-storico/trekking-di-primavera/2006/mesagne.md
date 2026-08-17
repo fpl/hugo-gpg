@@ -1,6 +1,7 @@
 ---
 title: "Mesagne - Sulle tracce della civiltà messapica"
 date: 2006-03-26
+anni: "2006"
 description: "Passeggiate di Primavera 2006, testi di Giampaolo Pinto e Marilena Rodi, foto di Giampaolo Pinto."
 ---
 

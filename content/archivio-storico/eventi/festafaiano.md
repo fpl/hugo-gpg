@@ -1,6 +1,7 @@
 ---
 title: "Per Dino Faiano - Ricordiamolo a dieci anni dalla scomparsa"
 date: 2003-11-21
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

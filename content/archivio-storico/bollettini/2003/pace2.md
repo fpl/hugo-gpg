@@ -1,6 +1,7 @@
 ---
 title: "Un'avventura con Dino Faiano"
 date: 2003-11-16
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Un'avventura con Dino Faiano**  

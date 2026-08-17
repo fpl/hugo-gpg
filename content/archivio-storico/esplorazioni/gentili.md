@@ -1,6 +1,7 @@
 ---
 title: "Esplorazioni a I Gentili"
 date: 2011-09-16
+anni: "2011"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Esplorazioni a I Gentili**

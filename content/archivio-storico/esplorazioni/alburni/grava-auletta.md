@@ -1,6 +1,7 @@
 ---
 title: "Nuove esplorazioni alla Grava Auletta CP 252"
 date: 2002-11-16
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Nuove esplorazioni alla Grava Auletta CP 252**  

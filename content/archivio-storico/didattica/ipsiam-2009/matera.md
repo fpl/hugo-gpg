@@ -1,6 +1,7 @@
 ---
 title: "Seconda uscita, Gravina di Matera - IPSIAM 2009"
 date: 2009-11-16
+anni: "2009"
 description: "Progetto Didattico IPSIAM 2009, album fotografico della seconda uscita, Gravina di Matera."
 ---
 

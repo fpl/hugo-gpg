@@ -1,6 +1,7 @@
 ---
 title: "Archivio fotografico — XXXIII Corso di Speleologia di I Livello"
 date: 2010-09-30
+anni: "2010"
 description: "Archivio fotografico completo, recuperato dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **XXXIII Corso di Speleologia di 1° Livello**  

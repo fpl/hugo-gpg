@@ -1,6 +1,7 @@
 ---
 title: "Corso di formazione per guide"
 date: 2008-05-01
+anni: "2008"
 description: "Corso di formazione per le aspiranti nuove guide delle Grotte di Castellana, maggio-giugno 2008."
 ---
 

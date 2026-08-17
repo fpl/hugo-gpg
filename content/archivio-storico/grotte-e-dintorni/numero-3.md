@@ -1,6 +1,7 @@
 ---
 title: "Grotte e Dintorni - Numero 3/2002"
 date: 2002-11-16
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/museo/GeD3_little.jpg" width="96" height="133" alt="Copertina" />

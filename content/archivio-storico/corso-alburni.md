@@ -1,6 +1,7 @@
 ---
 title: "Corso di I livello di Speleologia sui Monti Alburni"
 date: 2012-06-30
+anni: "2012"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Corso di I livello di Speleologia sui Monti Alburni**  

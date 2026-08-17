@@ -1,6 +1,7 @@
 ---
 title: "Territorio da rispettare: gli uliveti secolari nei dintorni di Castellana-Grotte"
 date: 2003-08-08
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **L'escursione**

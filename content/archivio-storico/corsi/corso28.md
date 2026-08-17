@@ -1,6 +1,7 @@
 ---
 title: "Il XXVIII Corso di Speleologia"
 date: 2006-05-04
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:
   - "Corsi"

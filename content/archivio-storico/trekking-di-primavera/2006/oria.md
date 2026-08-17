@@ -1,6 +1,7 @@
 ---
 title: "Oria - Sulle tracce dei confini bizantini"
 date: 2006-04-02
+anni: "2006"
 description: "Passeggiate di Primavera 2006, testi e foto di Giampaolo Pinto."
 ---
 

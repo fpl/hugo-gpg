@@ -1,6 +1,7 @@
 ---
 title: "64° anniversario della scoperta delle Grotte di Castellana"
 date: 2002-01-27
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **64° anniversario della scoperta delle Grotte di Castellana**

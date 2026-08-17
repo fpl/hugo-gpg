@@ -1,6 +1,7 @@
 ---
 title: "Grotte e Dintorni - Numero 14/2007"
 date: 2007-11-16
+anni: "2007"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/museo/GeD14_little.jpg" width="96" height="134" alt="Copertina" />

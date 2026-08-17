@@ -1,6 +1,7 @@
 ---
 title: "Grotta di Capo Iazzo - Gioia del Colle - BA"
 date: 2006-11-26
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Grotta di Capo Iazzo - Gioia del Colle - BA**  

@@ -1,6 +1,7 @@
 ---
 title: "Il XIX Corso di Speleologia"
 date: 1997-10-07
+anni: "1997"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:

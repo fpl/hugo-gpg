@@ -1,6 +1,7 @@
 ---
 title: "Gravina di Castellaneta"
 date: 2003-03-09
+anni: "2003"
 description: "Trekking di Primavera 2003, a cura dell'Associazione Natura Trekking Taranto."
 ---
 

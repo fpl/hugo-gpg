@@ -1,6 +1,7 @@
 ---
 title: "Luna piena sul Pollino"
 date: 2003-06-14
+anni: "2003"
 description: "Trekking di Primavera 2003, escursione notturna a cura di Gianni Campanella."
 ---
 

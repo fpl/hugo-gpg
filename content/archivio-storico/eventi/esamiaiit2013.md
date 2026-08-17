@@ -1,6 +1,7 @@
 ---
 title: "Esami di qualifica AI/IT della CNSS-SSI a cura del CER Puglia 2013"
 date: 2013-06-28
+anni: "2013"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Esami di qualifica AI/IT della CNSS-SSI a cura del CER Puglia 2013**

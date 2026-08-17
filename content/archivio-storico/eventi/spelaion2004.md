@@ -1,6 +1,7 @@
 ---
 title: "Spélaion 2004"
 date: 2004-12-10
+anni: "2004"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <a href="http://www.spelaion.it" target="_blank" title="Sito ufficiale della manifestazione"><img src="/archivio-storico/legacy/eventi/images/spelaion2004/logo.jpg" data-hspace="10" data-vspace="10" data-border="0" data-align="right" width="200" height="82" alt="Sito ufficiale della manifestazione" /></a>  

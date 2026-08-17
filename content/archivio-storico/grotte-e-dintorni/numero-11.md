@@ -1,6 +1,7 @@
 ---
 title: "Grotte e Dintorni - Numero 11/2006"
 date: 2006-11-16
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/museo/GeD11_little.jpg" width="96" height="134" alt="Copertina" />

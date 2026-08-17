@@ -1,6 +1,7 @@
 ---
 title: "Il XXI Corso di Speleologia"
 date: 1999-10-14
+anni: "1999"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "Sezione Scout di Sammichele (Ba)"
 date: 2004-12-05
+anni: "2004"
 description: "Speleopillole: uscita didattica con la Sezione Scout di Sammichele, 5 dicembre 2004, Grotta dei Pipistrelli e complesso rupestre di San Nicola all'Ofra, Matera."
 ---
 

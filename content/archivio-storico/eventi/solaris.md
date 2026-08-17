@@ -1,6 +1,7 @@
 ---
 title: "Il Gruppo Puglia Grotte va in onda a Solaris - Rete4"
 date: 2005-11-16
+anni: "2005"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Il Gruppo Puglia Grotte va in onda a Solaris - Rete4**  

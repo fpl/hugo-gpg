@@ -1,6 +1,7 @@
 ---
 title: "Grotta della Volpe"
 date: 2006-12-17
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

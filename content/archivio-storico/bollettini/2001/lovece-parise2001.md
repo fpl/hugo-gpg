@@ -1,6 +1,7 @@
 ---
 title: "Sotto la città della birra. Speleologia urbana in Cechia"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Sotto la città della birra.  

@@ -1,6 +1,7 @@
 ---
 title: "Il programma — Il XXV Corso di Speleologia"
 date: 2003-10-08
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **XXV Corso di Speleologia di 1° Livello**  

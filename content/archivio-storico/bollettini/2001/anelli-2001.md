@@ -1,6 +1,7 @@
 ---
 title: "A congresso nella capitale francese gli speleologi di trenta nazioni"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **A congresso nella capitale francese gli speleologi di trenta nazioni**  

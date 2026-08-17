@@ -1,6 +1,7 @@
 ---
 title: "Una testimonianza - Luciano M. Poli"
 date: 2003-05-26
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Una testimonianza**

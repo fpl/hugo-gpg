@@ -1,6 +1,7 @@
 ---
 title: "Progetto Didattico IPSIAM 2011"
 date: 2011-11-16
+anni: "2011"
 description: "Corso di geomorfologia, idrologia e tecniche base di progressione speleologica per 15 studenti dell'IPSIAM di Monopoli, 2011."
 ---
 

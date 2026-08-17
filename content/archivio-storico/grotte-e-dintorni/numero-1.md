@@ -1,6 +1,7 @@
 ---
 title: "Grotte e Dintorni - Numero 1/2001"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/museo/GeD1_little.jpg" width="96" height="133" alt="Copertina" />

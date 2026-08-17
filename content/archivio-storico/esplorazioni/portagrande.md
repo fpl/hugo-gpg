@@ -1,6 +1,7 @@
 ---
 title: "Esplorata cavità a Castellana-Grotte"
 date: 2002-12-06
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Esplorata cavità a Castellana-Grotte**

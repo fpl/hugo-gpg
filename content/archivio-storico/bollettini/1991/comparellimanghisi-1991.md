@@ -1,6 +1,7 @@
 ---
 title: "Le Grotte delle Madonna delle Grazie a Putignano (Bari)"
 date: 1991-11-16
+anni: "1991"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---

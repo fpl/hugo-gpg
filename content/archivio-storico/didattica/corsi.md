@@ -1,6 +1,7 @@
 ---
 title: "Attività didattiche per le Grotte di Castellana"
 date: 2006-10-06
+anni: "2006"
 description: "Nuove attività didattiche promosse dal Gruppo Puglia Grotte per il 2006 presso il Museo Speleologico Franco Anelli."
 ---
 

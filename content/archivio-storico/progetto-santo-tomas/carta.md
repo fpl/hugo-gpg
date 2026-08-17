@@ -1,6 +1,7 @@
 ---
 title: "La Carta di Casola sulle Spedizioni all'Estero"
 date: 1994-11-27
+anni: "1994"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---

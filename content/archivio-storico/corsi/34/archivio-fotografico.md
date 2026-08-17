@@ -1,6 +1,7 @@
 ---
 title: "Archivio fotografico — XXXIV Corso di Speleologia di I Livello"
 date: 2011-04-28
+anni: "2011"
 description: "Archivio fotografico completo, recuperato dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **XXXIV Corso di Speleologia di 1° Livello**  

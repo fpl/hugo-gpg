@@ -1,6 +1,7 @@
 ---
 title: "L’Aviso Neviera (Pu 196) a Sogliano Cavour (provincia di Lecce)"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **L’Aviso Neviera (Pu 196) a Sogliano Cavour (provincia di Lecce)**  

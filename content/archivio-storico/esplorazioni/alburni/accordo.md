@@ -1,6 +1,7 @@
 ---
 title: "Concluso accordo tra il Gruppo Puglia Grotte e il Comune di Sant'Angelo a Fasanella"
 date: 2012-04-30
+anni: "2012"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Concluso accordo tra il Gruppo Puglia Grotte e il Comune di Sant'Angelo a Fasanella**

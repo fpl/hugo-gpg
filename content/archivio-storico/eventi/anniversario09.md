@@ -1,6 +1,7 @@
 ---
 title: "71° anniversario della scoperta delle Grotte di Castellana"
 date: 2009-01-23
+anni: "2009"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

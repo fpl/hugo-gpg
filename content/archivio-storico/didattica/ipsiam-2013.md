@@ -1,6 +1,7 @@
 ---
 title: "Quinto corso speleo all'IPSIAM di Monopoli: individuazione geositi e loro accatastamento"
 date: 2013-03-06
+anni: "2013"
 description: "IPSIAM 2013, corso naturalistico a carattere speleologico condotto da Rosanna Laragione, Giampaolo Pinto e Giuseppe Savino."
 ---
 

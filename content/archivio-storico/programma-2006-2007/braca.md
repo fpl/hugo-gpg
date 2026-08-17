@@ -1,6 +1,7 @@
 ---
 title: "Grotta di Campo Braca"
 date: 2006-12-02
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Programma attività speleologica**  

@@ -1,6 +1,7 @@
 ---
 title: "Incontro di Speleologia Italo-Cubana — le immagini della serata"
 date: 2006-06-08
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Le immagini della serata**

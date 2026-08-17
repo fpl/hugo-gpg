@@ -1,6 +1,7 @@
 ---
 title: "Dal Giordano al Golgota"
 date: 2006-04-16
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Dal Giordano al Golgota**<img src="/archivio-storico/legacy/eventi/images/golgota.jpg" data-border="1" data-hspace="10" data-vspace="10" data-align="right" width="200" height="149" />  

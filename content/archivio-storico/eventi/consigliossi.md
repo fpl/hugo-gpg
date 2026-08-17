@@ -1,6 +1,7 @@
 ---
 title: "Il Gruppo Puglia Grotte ospita il Consiglio Direttivo della Società Speleologica Italiana"
 date: 2006-09-30
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <a href="http://www.speleologiaitaliana.it" target="_blank" title="Società Speleologica Italiana"><img src="/archivio-storico/legacy/images/loghi/SSI.jpg" data-border="0" data-align="right" width="100" height="88" alt="Società Speleologica Italiana" /></a><a href="http://www.grottedicastellana.it" target="_blank" title="Grotte di Castellana"><img src="/archivio-storico/legacy/images/loghi/logogrotte.jpg" data-border="0" data-align="right" width="200" height="94" alt="Grotte di Castellana" /></a>  

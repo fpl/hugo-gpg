@@ -1,6 +1,7 @@
 ---
 title: "La Scuola nell'Ambiente"
 date: 2000-09-01
+anni: "2000"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **La Scuola nell'Ambiente**

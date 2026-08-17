@@ -1,6 +1,7 @@
 ---
 title: "Gravina di Montecamplo"
 date: 2003-04-06
+anni: "2003"
 description: "Trekking di Primavera 2003, a cura di Enza Montenegro."
 ---
 

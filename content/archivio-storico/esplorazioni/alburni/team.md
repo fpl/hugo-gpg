@@ -1,6 +1,7 @@
 ---
 title: "Gli Alburni - esplorazioni in team"
 date: 2009-05-23
+anni: "2009"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Gli Alburni**

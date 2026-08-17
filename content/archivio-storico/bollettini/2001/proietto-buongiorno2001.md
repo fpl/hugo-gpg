@@ -1,6 +1,7 @@
 ---
 title: "Esplorazione sui monti Alburni: la zona dei Piani di Santa Maria"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Esplorazione sui monti Alburni: la zona dei Piani di Santa Maria**  

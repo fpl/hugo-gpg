@@ -1,6 +1,7 @@
 ---
 title: "Corso d'Armo 2013"
 date: 2013-07-07
+anni: "2013"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Corso d'Armo 2013**  

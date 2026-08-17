@@ -1,6 +1,7 @@
 ---
 title: "Speleonight"
 date: 2010-08-01
+anni: "2010"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <table>

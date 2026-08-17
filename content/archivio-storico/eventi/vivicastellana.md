@@ -1,6 +1,7 @@
 ---
 title: "Puliamo il Buio - Vivicastellana"
 date: 2008-10-26
+anni: "2008"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div class="sponsor-row">

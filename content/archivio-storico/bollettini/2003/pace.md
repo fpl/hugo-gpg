@@ -1,6 +1,7 @@
 ---
 title: "Addio, vecchia lampada acetilene"
 date: 2003-11-16
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Addio, vecchia lampada acetilene**  

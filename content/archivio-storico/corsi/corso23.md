@@ -1,6 +1,7 @@
 ---
 title: "Il XXIII Corso di Speleologia"
 date: 2002-04-09
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:
   - "Corsi"

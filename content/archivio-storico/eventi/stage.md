@@ -1,6 +1,7 @@
 ---
 title: "IV Stage Interregionale di Qualificazione per Aiuto-Istruttori e Istruttori di Tecnica della CNSS-SSI"
 date: 2005-11-20
+anni: "2005"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **IV Stage Interregionale di Qualificazione per Aiuto-Istruttori e Istruttori di Tecnica della CNSS-SSI**  

@@ -1,6 +1,7 @@
 ---
 title: "Marcia Gravina-Altamura"
 date: 2005-05-14
+anni: "2005"
 description: "Passeggiate di Primavera 2005, a cura del Centro Studi Torre di Nebbia e dei Comitati Alta Murgia."
 ---
 

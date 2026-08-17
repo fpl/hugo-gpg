@@ -1,6 +1,7 @@
 ---
 title: "Scoperta nuova cavità - Grotta del Calzino"
 date: 2007-11-16
+anni: "2007"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Scoperta nuova cavità**  

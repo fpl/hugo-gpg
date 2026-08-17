@@ -1,6 +1,7 @@
 ---
 title: "XXXV Corso di Speleologia di I Livello"
 date: 2012-10-04
+anni: "2012"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 categories:
   - "Corsi"

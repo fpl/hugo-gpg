@@ -1,6 +1,7 @@
 ---
 title: "Monte Raparo"
 date: 2003-06-01
+anni: "2003"
 description: "Trekking di Primavera 2003, a cura di Pino Pace."
 ---
 

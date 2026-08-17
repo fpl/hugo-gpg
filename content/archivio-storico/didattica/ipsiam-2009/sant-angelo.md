@@ -1,6 +1,7 @@
 ---
 title: "Terza uscita, Grotta Sant'Angelo - Ostuni (Br) - IPSIAM 2009"
 date: 2009-11-16
+anni: "2009"
 description: "Progetto Didattico IPSIAM 2009, album fotografico della terza uscita, Grotta Sant'Angelo di Ostuni."
 ---
 

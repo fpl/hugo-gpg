@@ -1,6 +1,7 @@
 ---
 title: "Gravina di Laterza - TA"
 date: 2006-11-18
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Programma attività speleologica**  

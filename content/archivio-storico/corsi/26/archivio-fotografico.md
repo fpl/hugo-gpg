@@ -1,6 +1,7 @@
 ---
 title: "Archivio fotografico — Il XXVI Corso di Speleologia"
 date: 2004-10-06
+anni: "2004"
 description: "Archivio fotografico completo, recuperato dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <table width="100%" data-cellspacing="0" data-cellpadding="2" data-border="0">

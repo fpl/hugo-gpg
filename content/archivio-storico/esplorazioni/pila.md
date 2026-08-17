@@ -1,6 +1,7 @@
 ---
 title: "Grotta della Pila"
 date: 2007-01-07
+anni: "2007"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Grotta della Pila**  

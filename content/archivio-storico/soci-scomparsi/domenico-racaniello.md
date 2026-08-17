@@ -1,6 +1,7 @@
 ---
 title: "Chi era Domenico Racaniello?"
 date: 2004-10-08
+anni: "2004"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Chi era Domenico Racaniello?**

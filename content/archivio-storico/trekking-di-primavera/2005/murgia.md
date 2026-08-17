@@ -1,6 +1,7 @@
 ---
 title: "Murgia: ultimi paesaggi"
 date: 2005-05-01
+anni: "2005"
 description: "Passeggiate di Primavera 2005, a cura di Daniela Lovece."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Inghiottitoio del Pulo di Altamura"
 date: 2006-11-26
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

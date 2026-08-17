@@ -1,6 +1,7 @@
 ---
 title: "Inghiottitoio di Lama Chiancone - Gioia del Colle - BA"
 date: 2006-09-26
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Inghiottitoio di Lama Chiancone - Gioia del Colle - BA**

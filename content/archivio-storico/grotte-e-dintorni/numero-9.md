@@ -1,6 +1,7 @@
 ---
 title: "Grotte e Dintorni - Numero 9/2005"
 date: 2005-11-16
+anni: "2005"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/museo/GeD9_little.jpg" width="96" height="136" alt="Copertina" />

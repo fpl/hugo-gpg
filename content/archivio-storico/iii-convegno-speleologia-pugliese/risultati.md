@@ -1,6 +1,7 @@
 ---
 title: "III Convegno di Speleologia Pugliese — Ecco com'è andata"
 date: 2002-12-07
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/convreg/images/LogodefinitivoPiccolo.jpg" width="221" height="199" alt="" />

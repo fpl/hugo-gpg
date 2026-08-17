@@ -1,6 +1,7 @@
 ---
 title: "30° anniversario della scomparsa di Carmelo Colamonico"
 date: 2003-11-16
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **30° anniversario della scomparsa di Carmelo Colamonico**  

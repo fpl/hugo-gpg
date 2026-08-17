@@ -1,6 +1,7 @@
 ---
 title: "News"
 date: 2004-01-31
+anni: "2004"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **News**

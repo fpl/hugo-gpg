@@ -1,6 +1,7 @@
 ---
 title: "La speleologia sta crescendo"
 date: 2001-11-16
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **La speleologia sta crescendo**  

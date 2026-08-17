@@ -1,6 +1,7 @@
 ---
 title: "Il Tempietto di San Misirino"
 date: 2006-05-07
+anni: "2006"
 description: "Passeggiate di Primavera 2006, testi di Giampaolo Pinto."
 ---
 

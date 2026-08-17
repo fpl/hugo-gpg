@@ -1,6 +1,7 @@
 ---
 title: "Le spedizioni in Albania"
 date: 1993-11-16
+anni: "1993"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---

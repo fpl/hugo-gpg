@@ -1,6 +1,7 @@
 ---
 title: "Speleofilm - Rassegna cinematografica - il primo appuntamento"
 date: 2012-02-02
+anni: "2012"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

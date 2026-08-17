@@ -1,6 +1,7 @@
 ---
 title: "Il giardino degli olivi"
 date: 2004-08-09
+anni: "2004"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/ulivi/mostra.jpg" width="200" height="130" alt="Mostra Il Giardino degli Olivi" />

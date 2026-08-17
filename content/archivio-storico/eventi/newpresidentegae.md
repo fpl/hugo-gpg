@@ -1,6 +1,7 @@
 ---
 title: "Gaetano Proietto nuovo presidente del Gruppo Puglia Grotte"
 date: 2005-10-13
+anni: "2005"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

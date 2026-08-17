@@ -1,6 +1,7 @@
 ---
 title: "La Sociedad Espeleologica de Cuba a Castellana-Grotte - Tutte le foto"
 date: 2002-11-04
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **La Sociedad Espeleologica de Cuba a Castellana-Grotte**  

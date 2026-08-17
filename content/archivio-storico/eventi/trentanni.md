@@ -1,6 +1,7 @@
 ---
 title: "Trent'anni di speleologia"
 date: 2001-12-01
+anni: "2001"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/30.jpg" width="281" height="189" alt="30 anni" />

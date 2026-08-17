@@ -1,6 +1,7 @@
 ---
 title: "Alta Murgia: tra jazzi e cielo"
 date: 2003-05-18
+anni: "2003"
 description: "Trekking di Primavera 2003, a cura di Daniela Lovece."
 ---
 

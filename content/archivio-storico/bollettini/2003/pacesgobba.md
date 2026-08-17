@@ -1,6 +1,7 @@
 ---
 title: "Le lampade ad acetilene: pezzi da museo?"
 date: 2003-11-16
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Le lampade ad acetilene: pezzi da museo?**  

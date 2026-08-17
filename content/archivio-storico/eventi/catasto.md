@@ -1,6 +1,7 @@
 ---
 title: "Progetto Catasto"
 date: 2004-06-04
+anni: "2004"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/convreg/images/LogoFsp.jpg" data-border="0" data-align="right" width="98" height="111" alt="Federazione Speleologica Pugliese" />  

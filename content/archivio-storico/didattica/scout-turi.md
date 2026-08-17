@@ -1,6 +1,7 @@
 ---
 title: "Sezione Scout di Turi (Ba)"
 date: 2004-08-04
+anni: "2004"
 description: "Speleopillole: uscita didattica con la Sezione Scout di Turi, 4 agosto 2004."
 ---
 

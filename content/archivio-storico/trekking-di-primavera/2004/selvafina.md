@@ -1,6 +1,7 @@
 ---
 title: "Passeggiata nell'agro castellanese verso Contrada Selvafina"
 date: 2004-05-30
+anni: "2004"
 description: "Trekking di Primavera 2004, a cura di Angelo Totaro - Ce.Ri.Ca onlus."
 ---
 

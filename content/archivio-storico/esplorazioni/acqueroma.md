@@ -1,6 +1,7 @@
 ---
 title: "Sulle tracce dell'antico Acquedotto Romano"
 date: 2006-10-15
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Sulle tracce dell'antico Acquedotto Romano**  

@@ -1,6 +1,7 @@
 ---
 title: "Il Gruppo Puglia Grotte aderisce all'Ora della Terra"
 date: 2011-03-26
+anni: "2011"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <div align="center">

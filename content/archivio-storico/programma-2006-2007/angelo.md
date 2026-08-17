@@ -1,6 +1,7 @@
 ---
 title: "Grotta della Cava di Sant'Angelo - Ostuni - BR"
 date: 2006-12-26
+anni: "2006"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Programma attività speleologica**  

@@ -1,6 +1,7 @@
 ---
 title: "L'escursione nell'Alta Murgia"
 date: 2004-05-08
+anni: "2004"
 description: "Trekking di Primavera 2004, a cura di Daniela Lovece."
 ---
 

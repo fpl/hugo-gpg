@@ -1,6 +1,7 @@
 ---
 title: "Chi era Franco Orofino?"
 date: 1984-01-01
+anni: "1984"
 lastmod: 2026-08-01
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---

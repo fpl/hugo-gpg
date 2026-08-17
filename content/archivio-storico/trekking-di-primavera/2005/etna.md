@@ -1,6 +1,7 @@
 ---
 title: "Etna: escursione ai crateri sommitali del vulcano siciliano"
 date: 2005-04-23
+anni: "2005"
 description: "Passeggiate di Primavera 2005, a cura di Giuseppe Taneburgo e Francesca Franzoso."
 ---
 

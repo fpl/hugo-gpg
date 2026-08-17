@@ -1,6 +1,7 @@
 ---
 title: "L'acqua è vita"
 date: 2002-10-11
+anni: "2002"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 <img src="/archivio-storico/legacy/images/gns/pannelli/pannelloA.jpg" width="500" height="500" alt="Pannello Mostra" />

@@ -1,6 +1,7 @@
 ---
 title: "Contributo"
 date: 2003-12-30
+anni: "2003"
 description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte precedente a WordPress."
 ---
 **Contributo**
