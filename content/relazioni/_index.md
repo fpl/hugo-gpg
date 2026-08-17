@@ -9,3 +9,4 @@ Racconti e relazioni tecniche delle uscite speleologiche del Gruppo Puglia Grott
 - [Grotta del Mezzogiorno e Frasassi](/relazioni/grotta-del-mezzogiorno-frasassi/ "Grotta del Mezzogiorno e Frasassi")
 - [Uscita all'Abisso di Cul di Bove](/relazioni/abisso-di-cul-di-bove/ "Uscita all'Abisso di Cul di Bove")
 - [Uscita alla Grotta di Castel di Lepre](/relazioni/castel-di-lepre/ "Uscita alla Grotta di Castel di Lepre")
+- [Uscita alla Grotta della Volpe](/relazioni/grotta-della-volpe/ "Uscita alla Grotta della Volpe")
