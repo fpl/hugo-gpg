@@ -9,8 +9,33 @@
     <div class="prose">{{ .Content }}</div>
     {{ end }}
 
-    {{ if .Pages }}
-    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+    {{/* Alcune sezioni hanno anche una categoria novita/ omonima (vedi
+         NOTA-LISTE-MANUALI-VS-CATEGORIE.md): per queste, unisce le sotto-pagine
+         reali e i post con quella categoria, poi toglie quelli gia' linkati a
+         mano nel testo sopra, cosi' nessun articolo compare due volte in due
+         formati diversi sulla stessa pagina e i nuovi arrivano automaticamente.
+         Per tutte le altre sezioni il comportamento resta quello originale
+         (.Pages cosi' com'e', nessun filtro): il filtro "gia' linkato nel
+         testo" va applicato solo dove e' stato verificato, non a ogni pagina
+         di lista del sito (molte hanno prose con link inline ai propri figli
+         reali, che verrebbero altrimenti erroneamente tolti dalla lista). */}}
+    {{ $categoryFeeds := dict "/eventi/" "eventi" "/esplorazioni/nazionali/" "nazionali" "/esplorazioni/internazionali/" "internazionali" }}
+    {{ $cards := .Pages }}
+    {{ with index $categoryFeeds .RelPermalink }}
+      {{ $catPages := (index $.Site.Taxonomies.categories .).Pages }}
+      {{ $allPages := $cards | union $catPages }}
+      {{ $sectionContent := $.Content }}
+      {{ $linked := slice }}
+      {{ range $allPages }}
+        {{ if in $sectionContent .RelPermalink }}
+          {{ $linked = $linked | append .RelPermalink }}
+        {{ end }}
+      {{ end }}
+      {{ $cards = where $allPages "RelPermalink" "not in" $linked }}
+    {{ end }}
+
+    {{ if $cards }}
+    {{ $paginator := .Paginate ($cards.ByDate.Reverse) }}
     <ul class="post-list">
       {{ range $paginator.Pages }}
       <li class="post-list__item">
@@ -20,30 +45,6 @@
     </ul>
 
     {{ template "_internal/pagination.html" . }}
-    {{ end }}
-
-    {{/* Sezioni con lista manuale "vietata da automodifica" ma con una categoria
-         novita/ omonima: mostra qui i post con quella categoria non ancora
-         linkati a mano nel testo sopra, cosi' i nuovi articoli compaiono senza
-         dover toccare la lista manuale. Vedi NOTA-LISTE-MANUALI-VS-CATEGORIE.md. */}}
-    {{ $categoryFeeds := dict "/eventi/" "eventi" "/esplorazioni/nazionali/" "nazionali" }}
-    {{ with index $categoryFeeds .RelPermalink }}
-      {{ $termPages := (index $.Site.Taxonomies.categories .).Pages.ByDate.Reverse }}
-      {{ $sectionContent := $.Content }}
-      {{ $newPosts := slice }}
-      {{ range $termPages }}
-        {{ if not (in $sectionContent .RelPermalink) }}
-          {{ $newPosts = $newPosts | append . }}
-        {{ end }}
-      {{ end }}
-      {{ if $newPosts }}
-      <h2 class="category-feed__title">Altri articoli in questa categoria</h2>
-      <ul class="post-list">
-        {{ range $newPosts }}
-        <li class="post-list__item">{{ partial "post-list-item.html" . }}</li>
-        {{ end }}
-      </ul>
-      {{ end }}
     {{ end }}
   </div>
 
