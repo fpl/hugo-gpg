@@ -99,3 +99,28 @@ deciso.
 Nessuna misura è stata applicata oltre alla 2 per `esplorazioni/nazionali/`. Decidere
 se e come intervenire su `eventi/` (e se adottare la 3/4 come convenzione per il resto
 del sito) resta una scelta dell'utente.
+
+## Aggiornamento 2026-08-18
+
+Applicate sia la misura 2 che la 3, su richiesta esplicita dell'utente:
+
+- **`eventi/_index.md` riconciliato** (stesso intervento minimo già fatto per
+  `nazionali/`): aggiunte a mano le 7 voci della categoria "Eventi" mancanti dalla lista
+  manuale (post dal 2015 al 2021), nessuna riga esistente toccata.
+- **Automatizzata la misura 3** in `layouts/_default/list.html`: dopo il blocco
+  `.Pages`/paginatore, un blocco opzionale mostra i post della categoria omonima non
+  ancora linkati a mano nel testo della pagina (`in $sectionContent .RelPermalink`),
+  cosi' un nuovo articolo taggato "Eventi" o "Nazionali" compare automaticamente senza
+  bisogno di toccare di nuovo la lista manuale. Il mapping sezione → categoria è un
+  `dict` nel template stesso (solo `/eventi/` e `/esplorazioni/nazionali/`), non un
+  campo nel front matter delle pagine generate dagli script — per non rischiare che uno
+  script rerun lo perda (vedi `NOTA-PULIZIA-ARTEFATTI-PANDOC.md`).
+
+**Correzione alla premessa**: da quando questo documento è stato scritto sono comparse
+altre categorie oltre a "Eventi" e "Nazionali": `Corsi` (4 post in `content/novita/`,
+cresciuta a 34 pagine totali dopo che il commit `8fc6826` ha applicato la categoria
+anche a `content/corsi/` e `content/archivio-storico/corsi/`), `Ambiente` (3),
+`Esplorazioni` (2), `Comunicazione` (1). `content/corsi/_index.md` ha una propria lista
+manuale e sembra candidato allo stesso tipo di discrepanza, ma non è stato analizzato né
+toccato in questo intervento — richiede una lettura dedicata prima di decidere cosa
+manca davvero.
