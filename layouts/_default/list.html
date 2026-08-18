@@ -21,6 +21,30 @@
 
     {{ template "_internal/pagination.html" . }}
     {{ end }}
+
+    {{/* Sezioni con lista manuale "vietata da automodifica" ma con una categoria
+         novita/ omonima: mostra qui i post con quella categoria non ancora
+         linkati a mano nel testo sopra, cosi' i nuovi articoli compaiono senza
+         dover toccare la lista manuale. Vedi NOTA-LISTE-MANUALI-VS-CATEGORIE.md. */}}
+    {{ $categoryFeeds := dict "/eventi/" "eventi" "/esplorazioni/nazionali/" "nazionali" }}
+    {{ with index $categoryFeeds .RelPermalink }}
+      {{ $termPages := (index $.Site.Taxonomies.categories .).Pages.ByDate.Reverse }}
+      {{ $sectionContent := $.Content }}
+      {{ $newPosts := slice }}
+      {{ range $termPages }}
+        {{ if not (in $sectionContent .RelPermalink) }}
+          {{ $newPosts = $newPosts | append . }}
+        {{ end }}
+      {{ end }}
+      {{ if $newPosts }}
+      <h2 class="category-feed__title">Altri articoli in questa categoria</h2>
+      <ul class="post-list">
+        {{ range $newPosts }}
+        <li class="post-list__item">{{ partial "post-list-item.html" . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    {{ end }}
   </div>
 
   {{ partial "sidebar-scheda.html" . }}
