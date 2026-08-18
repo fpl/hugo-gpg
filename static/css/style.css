@@ -520,6 +520,16 @@ hr {
   border: 0;
 }
 .site-footer__social a:hover { text-decoration: none; }
+/* Mastodon non ha un glyph nel font Genericons (progetto fermo da prima che
+   Mastodon fosse diffuso): stessa resa monocroma via SVG inline invece del
+   font, fill: currentColor per seguire lo stesso colore/hover delle altre
+   icone, dimensione allineata a font-size 1.375rem delle voci a fianco. */
+.site-footer__social svg {
+  width: 1.375rem;
+  height: 1.375rem;
+  fill: currentColor;
+  vertical-align: middle;
+}
 
 /* Colophon: fascia chiara e centrata, come .site-info su .site-footer crema */
 .site-footer__bottom {

@@ -36,6 +36,7 @@ summarylength = 40
   youtube   = "http://www.youtube.com/user/GuppoPugliaGrotte"
   # Da content/chi-siamo/contatti.md (dato reale, non nel DB come theme_mod/widget).
   instagram = "https://www.instagram.com/gruppo_puglia_grotte"
+  mastodon  = "https://mountains.social/@gruppopugliagrotte"
 
 # Nota: le voci di WordPress non pertinenti a un sito statico
 # (login/wp-admin, archivio autore, feed dei commenti, ecc.)
