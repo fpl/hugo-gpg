@@ -107,14 +107,33 @@ Applicate sia la misura 2 che la 3, su richiesta esplicita dell'utente:
 - **`eventi/_index.md` riconciliato** (stesso intervento minimo già fatto per
   `nazionali/`): aggiunte a mano le 7 voci della categoria "Eventi" mancanti dalla lista
   manuale (post dal 2015 al 2021), nessuna riga esistente toccata.
-- **Automatizzata la misura 3** in `layouts/_default/list.html`: dopo il blocco
-  `.Pages`/paginatore, un blocco opzionale mostra i post della categoria omonima non
-  ancora linkati a mano nel testo della pagina (`in $sectionContent .RelPermalink`),
-  cosi' un nuovo articolo taggato "Eventi" o "Nazionali" compare automaticamente senza
-  bisogno di toccare di nuovo la lista manuale. Il mapping sezione → categoria è un
-  `dict` nel template stesso (solo `/eventi/` e `/esplorazioni/nazionali/`), non un
-  campo nel front matter delle pagine generate dagli script — per non rischiare che uno
-  script rerun lo perda (vedi `NOTA-PULIZIA-ARTEFATTI-PANDOC.md`).
+- **Automatizzata la misura 3** in `layouts/_default/list.html`: le sotto-pagine reali
+  (`.Pages`) e i post della categoria omonima vengono unite (`union`), poi si tolgono
+  quelli già linkati a mano nel testo della pagina (`in $sectionContent .RelPermalink`),
+  e il risultato è **un'unica lista** post-card, paginata con lo stesso `.Paginate`
+  già usato per `.Pages` (non due liste separate come nel primo tentativo del
+  18/08 mattina, sostituito nello stesso giorno pomeriggio: vedi commit `54c207e`) — così
+  un articolo non compare mai due volte in due formati diversi sulla stessa pagina (era
+  il caso di tutte le 5 sotto-pagine reali di `nazionali/`, già linkate in prosa e
+  ripetute sotto come post-card), e un nuovo articolo taggato "Eventi"/"Nazionali"/
+  "Internazionali" compare automaticamente senza toccare la lista manuale. Il mapping
+  sezione → categoria è un `dict` nel template stesso (`/eventi/`, `/esplorazioni/
+  nazionali/`, `/esplorazioni/internazionali/` — quest'ultima oggi un no-op: nessuna
+  sotto-pagina reale, nessun post con categoria "Internazionali"), non un campo nel
+  front matter delle pagine generate dagli script — per non rischiare che uno script
+  rerun lo perda (vedi `NOTA-PULIZIA-ARTEFATTI-PANDOC.md`).
+  **Attenzione se si estende il `dict` ad altre sezioni**: il filtro "già linkato nel
+  testo" deve restare dentro il ramo `with index $categoryFeeds .RelPermalink`, mai
+  applicato a `.Pages` di ogni pagina di lista del sito — molte sezioni WP-migrate
+  hanno prosa con link inline ai propri figli reali (stesso pattern di `nazionali/`) e
+  verrebbero private delle relative sotto-pagine dalla lista. Verificato con un bug
+  concreto durante lo sviluppo: applicare il filtro senza `with` (a ogni pagina di
+  lista del sito) ha fatto scendere le "Paginator pages" del build da 46 a 7 e gli
+  "Aliases" da 128 a 76 — controllare sempre queste due cifre di
+  `hugo --gc --minify` prima/dopo quando si tocca questo template. Con lo scoping
+  corretto l'unico alias che cambia legittimamente è `/esplorazioni/nazionali/page/1/`
+  (128→127): quella pagina non ha più card da paginare, essendo tutte e 7 già linkate
+  in prosa, quindi Hugo non genera più il redirect vuoto "pagina 1".
 
 **Correzione alla premessa**: da quando questo documento è stato scritto sono comparse
 altre categorie oltre a "Eventi" e "Nazionali": `Corsi` (4 post in `content/novita/`,
