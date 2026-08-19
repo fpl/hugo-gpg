@@ -2,6 +2,9 @@
 title: "Grotte, Turismo e Ricerca Scientifica"
 date: 2018-05-06
 anni: "2018"
+categories:
+  - "Novità"
+  - "Eventi"
 aliases:
   - "/home/grotte-turismo-e-ricerca-scientifica/"
 ---

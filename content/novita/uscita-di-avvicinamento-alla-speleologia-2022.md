@@ -2,6 +2,9 @@
 title: "Uscita di avvicinamento alla Speleologia 2022"
 date: 2022-09-09
 anni: "2022"
+categories:
+  - "Novità"
+  - "Eventi"
 aliases:
   - "/home/uscita-di-avvicinamento-alla-speleologia-2022/"
 ---

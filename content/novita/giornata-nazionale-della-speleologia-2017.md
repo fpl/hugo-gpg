@@ -2,6 +2,9 @@
 title: "Giornata Nazionale della Speleologia 2017"
 date: 2017-09-28
 anni: "2017"
+categories:
+  - "Novità"
+  - "Eventi"
 aliases:
   - "/home/giornata-nazionale-della-speleologia-2017/"
 ---

@@ -2,6 +2,9 @@
 title: "La Giornata Nazionale della Speleologia 2019"
 date: 2019-09-10
 anni: "2019"
+categories:
+  - "Novità"
+  - "Eventi"
 aliases:
   - "/home/la-giornata-nazionale-della-speleologia-2019/"
 ---

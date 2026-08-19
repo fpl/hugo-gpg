@@ -2,6 +2,9 @@
 title: "Raccontando i campi 2022"
 date: 2022-12-16
 anni: "2022"
+categories:
+  - "Novità"
+  - "Eventi"
 aliases:
   - "/home/raccontando-i-campi-2022/"
 ---

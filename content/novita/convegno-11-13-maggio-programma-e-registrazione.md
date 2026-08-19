@@ -2,6 +2,9 @@
 title: "Convegno 11 / 13 maggio: programma e registrazione"
 date: 2018-05-09
 anni: "2018"
+categories:
+  - "Novità"
+  - "Eventi"
 aliases:
   - "/home/convegno-11-13-maggio-programma-e-registrazione/"
 ---
