@@ -5,6 +5,13 @@
 successiva a questa nota. Lasciata come riferimento storico e per il problema
 correlato ancora aperto (ultima sezione).
 
+**Addendum (17/08/2026)**: stesso trattamento applicato anche a
+`content/pubblicazioni/il-terzo-convegno-di-speleologia-pugliese-spelaion.md` (span
+presentazionali pandoc, cornici HTML vuote, commenti `<!-- -->` di separazione,
+tabelle multi-riga riscritte con `<br>`, navigazione ad ancora ripristinata) —
+contenuto reale verificato invariato per confronto lessicale, build Hugo pulita e
+screenshot headless-Chrome prima del commit.
+
 ## Il problema (risolto)
 
 Molte pagine di `content/archivio-storico/` (e una di `content/pubblicazioni/`)

@@ -93,6 +93,13 @@ immagini. URL in `hugo.toml` → `[params]`: i primi tre erano già presenti, In
 stato aggiunto da un URL reale trovato in `content/chi-siamo/contatti.md` (non è nel DB
 come widget/theme_mod, quindi non c'è una query SQL "fonte" per questo).
 
+Aggiunto anche Mastodon (`hugo.toml` → `params.mastodon`): il font Genericons non ha un
+glifo Mastodon (progetto fermo da prima della diffusione del social), quindi l'icona è un
+SVG inline (Simple Icons, MIT) con `fill: currentColor` per seguire lo stesso colore/hover
+delle altre icone. Il link ha anche `rel="me"`, e lo stesso `<link rel="me">` compare in
+`<head>` su ogni pagina (`layouts/partials/head.html`) — doppio punto di verifica cercato
+dal crawler di Mastodon per confermare la proprietà dell'account.
+
 ## Tassonomie: Archivi e Categorie
 
 `hugo.toml` dichiara `[taxonomies]` con `category` (default Hugo, già usato dal campo
@@ -106,6 +113,14 @@ matter deve essere il valore plurale della config, non la chiave singolare** —
 tentativo compila senza errori ma non genera nessuna pagina, silenziosamente). La stessa
 convenzione vale per `category = "categories"`, dove infatti il campo si chiama già
 `categories:`.
+
+`anni:` copriva all'inizio solo i 28 post reali di `novita/`: il widget "Archivi" mostrava
+quindi solo gli anni recenti. Esteso poi a tutto il sito con una data reale: le 312 pagine
+di `content/archivio-storico/` con anno reale, le 11 di `content/corsi/` e le 13 di
+`content/pubblicazioni/bollettini-puglia-grotte/` — sempre escludendo gli `_index.md` di
+sezione e le pagine il cui `date:` è `2026-08-01` (`DATE_RIMIGRAZIONE`, nessuna data reale
+mai recuperata per quelle: un anno dedotto dalla data di migrazione sarebbe fuorviante).
+Copre ora il 1938–2026, 39 anni distinti.
 
 ## Archivio storico (sito pre-WordPress, 1999–2014)
 
@@ -182,11 +197,14 @@ Se in futuro servono i commenti, un'opzione statica comune è Giscus o Utterance
 ```
 content/
 ├── _index.md                          → home (layouts/index.html, elenco da novita/)
-├── novita/{_index,29 post}            → i post reali del blog WP, con categorie e anno (anni:)
-├── eventi/{_index,4 pagine evento}    → pagina evento "evergreen" del menu (diversa da novita/)
+├── copyright.md                       → licenza CC BY-NC-SA 4.0, linkata dalla sidebar
+├── novita/{_index,30 post}            → i post reali del blog WP, con categorie e anno (anni:)
+├── eventi/{_index,4 pagine evento}    → pagina evento "evergreen" del menu, più il feed
+│                                          automatico dei post categoria Eventi (vedi sopra)
+├── relazioni/{_index,6 relazioni}     → racconti/relazioni tecniche di uscita, a cura dei soci
 ├── chi-siamo/{_index,contatti,consiglio-direttivo,statuto}
 ├── esplorazioni/{_index,nazionali/,internazionali/,cavita-artificiali}
-├── corsi/{_index,10 edizioni}         → edizioni recenti (37ª in poi), dato WordPress reale
+├── corsi/{_index,11 edizioni}         → edizioni recenti (37ª in poi), dato WordPress reale
 ├── pubblicazioni/{_index,convegni,bollettini-puglia-grotte/}
 ├── museo/{_index,chi-era-franco-anelli}
 ├── ambiente/_index.md                 → contenuto assente anche a monte (vedi sotto)
@@ -196,8 +214,8 @@ content/
     └── corsi/{_index,19 pagine}       → edizioni 18ª–36ª
 ```
 
-180 file Markdown in totale (42 pagine + 29 post WordPress + 104 pagine/indici
-dell'archivio storico + gli `_index.md` di sezione).
+451 file Markdown in totale (build corrente: `hugo --gc --minify` → 589 pagine generate,
+0 errori, 154 alias verso i vecchi URL WordPress e pre-WordPress).
 
 Due pagine WordPress restano `<!-- TODO migrazione -->` non per un limite della
 migrazione ma perché **il DB conferma che sono vuote anche sul sito originale**:
@@ -314,6 +332,17 @@ home — prima solo la home paginava, e sezioni lunghe (es. `archivio-storico/ev
 pagine) venivano renderizzate tutte su una sola pagina senza controlli di navigazione a
 fondo pagina.
 
+Per `eventi/`, `esplorazioni/nazionali/` e `esplorazioni/internazionali/` (le uniche
+sezioni con prosa curata a mano che linka anche sotto-pagine reali) `list.html` unifica in
+un'unica lista deduplicata e paginata sia le `.Pages` figlie reali sia i post di
+`novita/` con la categoria omonima non ancora linkati a mano nel testo (dedup via
+containment check sul `RelPermalink`): un articolo non compare più due volte sulla stessa
+pagina indice in due formati diversi, e i nuovi post taggati Eventi/Nazionali/
+Internazionali compaiono in automatico senza dover più toccare la lista manuale a ogni
+pubblicazione. Il mapping sezione→categoria resta nel template, non nel front matter.
+Dettagli, bug incontrati e perché il filtro non è (ancora) generalizzato a tutte le
+sezioni del sito: `NOTA-LISTE-MANUALI-VS-CATEGORIE.md`.
+
 ## Foglio di stile
 
 Un unico file, `static/css/style.css`, con i token di design come custom property CSS in
@@ -333,8 +362,8 @@ make serve    # equivalente a "hugo server -D -F"
 make build    # equivalente a "hugo --gc --minify"
 ```
 
-Validato: 241 pagine generate (180 dal contenuto reale + sezioni/tassonomie/paginazione
-automatiche), 0 errori, 105 alias funzionanti verso i vecchi URL — sia WordPress
+Validato: 589 pagine generate (451 dal contenuto reale + sezioni/tassonomie/paginazione
+automatiche), 0 errori, 154 alias funzionanti verso i vecchi URL — sia WordPress
 (`/home/...`) sia, dove aveva senso, il sito pre-WordPress.
 
 ## Makefile: build, bozze/contenuto futuro, pulizia, pubblicazione FTP
@@ -377,7 +406,7 @@ di default (comune dietro NAT/firewall sull'hosting condiviso).
 ## Prossimi passi consigliati
 
 Verificato lo stato reale di ogni punto (non solo l'intenzione originale) l'ultima volta
-il 16/08/2026: 1 e 2 sono ancora aperti, nessuno dei quattro è completo.
+il 19/08/2026: 1 e 2 sono ancora aperti, 3 è fatto, 4 resta aperto.
 
 1. **Migrare gli allegati WordPress non referenziati.** Ancora non iniziato: su 604 file
    in `wp-content/uploads/` originale, solo 122 sono stati copiati in
@@ -433,6 +462,13 @@ il 16/08/2026: 1 e 2 sono ancora aperti, nessuno dei quattro è completo.
    ritentata: per 6 vecchi nomi di homepage praticamente mai linkati da fuori non vale
    il rischio. Se si vuole reintrodurla in futuro: testarla PRIMA su un URL di prova
    non-root, mai direttamente su `/`.
+
+   **Follow-up** (16/08/2026): la directory fisica `/home/` rimasta sul server (ex
+   webroot di WordPress, `show_on_front=posts` senza un id pagina proprio, quindi
+   nessun alias in `PAGE_MAP`) rispondeva 403 nudo, unico caso non coperto dalle 168
+   regole `/home/<slug>/`. Aggiunta una regola dedicata in
+   `scripts/generate-htaccess.py`, verificata con richieste ripetute a `/` e `/home/`
+   prima di considerarla stabile (nessun loop, home a 200 x8).
 4. **Email meno esposte agli scraper**, ancora tutte in chiaro: 44 file in `content/`
    contengono un `mailto:` diretto, per almeno 16 indirizzi reali distinti (ruoli
    istituzionali: `presidente@`, `segreteria@`, `webmaster@`, `direttorescuola@`, ecc. —
