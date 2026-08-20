@@ -14,23 +14,55 @@
    ============================================================ */
 
 /* ---------- Design tokens (valori presi da style.css originale) ---------- */
+/* Tema chiaro/scuro/automatico: i token qui sotto sono i valori CHIARI
+   (default, :root nudo). I valori SCURI sono ridichiarati più sotto in due
+   blocchi — @media (prefers-color-scheme: dark) guardato da
+   :not([data-theme="light"]) (segue il sistema quando non c'è una scelta
+   esplicita, o quando la scelta esplicita è "dark") e :root[data-theme="dark"]
+   senza media query (copre "dark" esplicito con sistema chiaro, caso che la
+   sola media query non può raggiungere) — così l'attributo data-theme su
+   <html>, impostato da static/js/theme.js, vince in entrambe le direzioni.
+   "auto" = nessun attributo: nessun JS necessario, la media query basta.
+
+   Alcuni token qui sotto sono usati SOLO sulle fasce sempre scure (hero
+   header, footer) e restano quindi invarianti rispetto al tema: non vanno
+   ridichiarati nei blocchi dark (vedi commenti puntuali più sotto). */
 :root {
   /* Palette autunnale di Twenty Thirteen */
   --color-bg:          #FFFFFF;   /* .site background-color */
   --color-border:      #F2F2F2;   /* .site border-left/right */
   --color-cream:       #F7F5E7;   /* .navbar, .widget, .no-comments */
   --color-cream-deep:  #E8E5CE;   /* .site-footer background-color */
-  --color-maroon-900:  #220E10;   /* nav hover/current bg, footer widget strip */
+  --color-maroon-900:  #220E10;   /* SOLO hero header + footer bg (invariante,
+                                      vedi --color-nav-accent per nav/submenu) */
 
   --color-ink:         #141412;   /* body */
   --color-muted:       #686758;   /* .site-footer color, .form-allowed-tags */
 
   --color-link:         #CA3C08;  /* a */
   --color-link-visited: #AC0404;  /* a:visited */
-  --color-link-hover:   #EA9629;  /* a:hover, a:active */
+  --color-link-hover:   #EA9629;  /* a:hover, a:active — già chiaro/vibrante,
+                                      leggibile su entrambi gli sfondi:
+                                      invariante rispetto al tema */
   --color-accent:       #BC360A;  /* .entry-meta a, current-menu-item */
-  --color-submenu-hover: #DB572F; /* ul.nav-menu ul a:hover */
-  --color-footer-link:  #E6402A;  /* .site-footer .widget a */
+  --color-submenu-hover: #DB572F; /* ul.nav-menu ul a:hover — invariante, il
+                                      box del sottomenu è comunque sempre scuro */
+  --color-footer-link:  #E6402A;  /* .site-footer .widget a — invariante, il
+                                      footer resta sempre scuro nei due temi */
+  --color-band-text:    #F7F5E7;  /* testo su fasce sempre scure (.site-footer__grid):
+                                      invariante, NON è lo stesso token di
+                                      --color-cream (che invece cambia col tema) */
+
+  /* Nav/sottomenu: hover, voce corrente e sfondo sottomenu. Token dedicato
+     (non --color-maroon-900, condiviso con l'hero/footer sempre scuri) così
+     in dark mode può schiarire per restare visibile sopra una navbar ormai
+     scura anch'essa, invece di confondersi con lo sfondo. */
+  --color-nav-accent:   #220E10;
+  /* Sfondo delle "schede" laterali (era rgba hardcoded, stesso valore di
+     --color-cream): token dedicato per poter avere una variante scura. */
+  --color-scheda-bg:    rgba(247, 245, 231, 0.7);
+
+  color-scheme: light;
 
   /* Tipografia (dal file originale) */
   --font-display: Bitter, Georgia, serif;                         /* h1–h6, site-title */
@@ -64,6 +96,53 @@
   --space-5: 3.75rem;
 }
 
+/* ---------- Tema scuro: segue il sistema quando non c'è una scelta esplicita
+   (nessun data-theme, o data-theme="dark"), a meno che l'utente non abbia
+   scelto esplicitamente "light" (:not([data-theme="light"])). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg:         #1B1512;
+    --color-border:     #382D25;
+    --color-cream:      #241D18;
+    --color-cream-deep: #150F0C;
+    --color-ink:         #EDE8DD;
+    --color-muted:        #B3A794;
+    --color-link:         #FF7A45;
+    --color-link-visited: #FF6B6B;
+    --color-accent:       #FF7A45;
+    --color-nav-accent:   #5A2420;
+    --color-scheda-bg:    rgba(36, 29, 24, 0.7);
+    color-scheme: dark;
+  }
+  /* Testo nero (o comunque scuro) fissato inline da HTML d'epoca (pandoc su
+     sorgenti Dreamweaver del 1999-2014, markup.goldmark.renderer.unsafe = true):
+     senza questa regola resterebbe illeggibile su una pagina ormai scura.
+     Esclude i link (:not(a):not(a *)) per non rompere il colore dei link
+     nel prosa; !important è l'unico modo di battere uno style="" inline. */
+  :root:not([data-theme="light"]) .prose [style*="color:"]:not(a):not(a *) {
+    color: var(--color-ink) !important;
+  }
+}
+/* Scelta esplicita "dark" con sistema chiaro: la sola media query sopra non
+   può raggiungere questo caso, va ripetuta senza guardia di sistema. */
+:root[data-theme="dark"] {
+  --color-bg:         #1B1512;
+  --color-border:     #382D25;
+  --color-cream:      #241D18;
+  --color-cream-deep: #150F0C;
+  --color-ink:         #EDE8DD;
+  --color-muted:        #B3A794;
+  --color-link:         #FF7A45;
+  --color-link-visited: #FF6B6B;
+  --color-accent:       #FF7A45;
+  --color-nav-accent:   #5A2420;
+  --color-scheda-bg:    rgba(36, 29, 24, 0.7);
+  color-scheme: dark;
+}
+:root[data-theme="dark"] .prose [style*="color:"]:not(a):not(a *) {
+  color: var(--color-ink) !important;
+}
+
 /* ---------- Reset di base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; }
@@ -94,7 +173,10 @@ a:focus-visible, button:focus-visible {
 
 .skip-link {
   position: absolute; left: -999px; top: 0;
-  background: var(--color-accent); color: #fff;
+  /* maroon-900, non --color-accent: invariante rispetto al tema, così il
+     testo bianco resta leggibile anche quando --color-accent si schiarisce
+     in dark mode (dove scenderebbe sotto contrasto accettabile). */
+  background: var(--color-maroon-900); color: #fff;
   padding: var(--space-1) var(--space-2); z-index: 100;
 }
 .skip-link:focus { left: var(--space-2); top: var(--space-2); }
@@ -204,11 +286,22 @@ h3 { font-size: var(--size-h3); }
 }
 
 /* Barra di navigazione color crema, come .navbar/.nav-menu */
-.navbar { background: var(--color-cream); }
+/* position: relative solo per ancorare .theme-toggle (posizionato assoluto,
+   vedi sotto): non tocca il flusso di .nav-toggle/.nav-main. */
+.navbar { background: var(--color-cream); position: relative; }
 .nav-main {
   max-width: var(--header-max);
   margin-inline: auto;
   padding-inline: var(--space-3);
+  /* Riserva lo spazio di .theme-toggle sul lato destro: sopra la soglia
+     hamburger (860px) .nav-main > ul resta comunque flex-wrap, quindi con
+     poche centinaia di px in meno del necessario per una riga sola l'ultima
+     voce può andare a finire proprio sotto il pulsante tema. Il pulsante
+     occupa right:var(--space-2) (16px) + width:2.25rem (36px) = 52px =
+     3.25rem: qui va tenuto STRETTAMENTE superiore, non uguale, altrimenti
+     margine zero e un elemento di menu in più (hugo.toml è la fonte del
+     menu) torna a finirci sotto. */
+  padding-right: 4rem;
 }
 /* Attenzione: questo selettore, senza il combinatore diretto ">", si applica
    anche a .sub-menu (è un <ul> discendente di .nav-main): display/flex-wrap
@@ -236,7 +329,7 @@ h3 { font-size: var(--size-h3); }
 .nav-main a:hover,
 .nav-main a:focus,
 .nav-main a[aria-current="page"] {
-  background: var(--color-maroon-900);
+  background: var(--color-nav-accent);
   color: #fff;
   text-decoration: none;
 }
@@ -249,8 +342,8 @@ h3 { font-size: var(--size-h3); }
   position: absolute;
   top: 100%; left: 0;
   min-width: 14rem;
-  background: var(--color-maroon-900);
-  border: 2px solid var(--color-cream);
+  background: var(--color-nav-accent);
+  border: 2px solid var(--color-border);
   border-top: 0;
   padding: 0;
   z-index: 20;
@@ -280,6 +373,60 @@ h3 { font-size: var(--size-h3); }
   cursor: pointer;
 }
 .nav-toggle span { width: 22px; height: 2px; background: var(--color-ink); display: block; }
+
+/* ---------- Selettore tema (chiaro/scuro/automatico) ---------- */
+/* Posizionato assoluto dentro .navbar (position:relative) invece di entrare
+   nel flusso flex di .nav-toggle/.nav-main: non tocca la logica di
+   visibilità del menu (vedi nota sopra .nav-main ul sulla fragilità di
+   quelle regole), stesso posto in mobile e desktop. */
+.theme-toggle {
+  position: absolute;
+  /* Offset fisso dall'alto, non top:50%/translateY: .navbar contiene anche
+     .nav-main, che in mobile da chiuso ad aperto (.is-open) fa crescere
+     l'altezza di .navbar per includere l'intera lista — un centraggio
+     verticale sull'intero box trascinerebbe il pulsante in mezzo alla lista
+     invece di lasciarlo sulla riga in alto. */
+  top: 0.5rem;
+  right: var(--space-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: none;
+  border: 0;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  color: var(--color-ink);
+  z-index: 2;
+}
+/* --color-nav-accent, non --color-border: --color-border è troppo vicino al
+   colore di sfondo della navbar in entrambi i temi (quasi invisibile come
+   hover). Stessa coppia sfondo/testo di .nav-main a:hover per coerenza. */
+.theme-toggle:hover, .theme-toggle:focus-visible {
+  background: var(--color-nav-accent);
+  color: #fff;
+}
+.theme-toggle__icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: none;
+}
+/* Mostra l'icona corrispondente al data-mode impostato da static/js/theme.js
+   (auto/light/dark); senza JS (o prima che giri) resta "auto" di default,
+   coerente con il comportamento reale in quel caso (nessun data-theme). */
+.theme-toggle:not([data-mode]) .theme-toggle__icon--auto,
+.theme-toggle[data-mode="auto"] .theme-toggle__icon--auto,
+.theme-toggle[data-mode="light"] .theme-toggle__icon--light,
+.theme-toggle[data-mode="dark"] .theme-toggle__icon--dark {
+  display: block;
+}
 
 /* ---------- Layout a due colonne (equivalente a .entry-content + .widget-area) ---------- */
 .layout-with-sidebar {
@@ -354,7 +501,7 @@ hr {
 
 /* ---------- Sidebar: equivalente a .widget-area / .widget ---------- */
 .scheda {
-  background: rgba(247, 245, 231, 0.7); /* stesso valore di .widget */
+  background: var(--color-scheda-bg); /* stesso valore di .widget */
   padding: var(--space-3);
 }
 .scheda__label {
@@ -491,8 +638,12 @@ hr {
   margin-inline: auto;
   /* Testo dei paragrafi non altrimenti stilizzato (solo titoli e <li> hanno
      un colore esplicito): senza questo eredita --color-ink, quasi nero,
-     illeggibile sullo sfondo scuro --color-maroon-900 di .site-footer. */
-  color: var(--color-cream);
+     illeggibile sullo sfondo scuro --color-maroon-900 di .site-footer.
+     --color-band-text, non --color-cream: il footer resta sempre scuro nei
+     due temi, quindi il suo testo va tenuto invariante — --color-cream
+     invece cambia col tema e in dark mode diventerebbe scuro anch'esso
+     (testo scuro su sfondo scuro, illeggibile). */
+  color: var(--color-band-text);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--space-3);

@@ -1,4 +1,19 @@
 <meta charset="utf-8">
+<script>
+/* Applica il tema salvato PRIMA del CSS/primo paint, per evitare un flash
+   del tema sbagliato. Non deferrato di proposito (a differenza di nav.js/
+   theme.js in fondo al body): deve girare prima che il CSS sia valutato.
+   "auto" (assenza di data-theme) non richiede nulla qui: ci pensa la media
+   query prefers-color-scheme in style.css. */
+(function () {
+  try {
+    var t = localStorage.getItem("gpg-theme");
+    if (t === "light" || t === "dark") {
+      document.documentElement.setAttribute("data-theme", t);
+    }
+  } catch (e) {}
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.claim }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.claim }}{{ end }}">
