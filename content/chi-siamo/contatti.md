@@ -33,7 +33,8 @@ gruppopugliagrotteaps@pec.it
 
 **Canali social:**
 
-Instagram: <https://www.instagram.com/gruppo_puglia_grotte>  
 Facebook: <https://www.facebook.com/gruppopugliagrotte>  
+Instagram: <https://www.instagram.com/gruppo_puglia_grotte>  
+Mastodon: <https://mountains.social/@gruppopugliagrotte>  
 X/Twitter: <https://x.com/PugliaGrotte>  
-YouTube: <https://www.youtube.com/user/GuppoPugliaGrotte>
+YouTube: <https://www.youtube.com/user/GuppoPugliaGrotte>  
