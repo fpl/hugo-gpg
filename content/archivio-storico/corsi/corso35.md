@@ -51,4 +51,5 @@ Per informazioni e iscrizioni:<br />
 </tr>
 </tbody>
 </table>
+
 [Archivio fotografico completo](/archivio-storico/corsi/35/archivio-fotografico/)  

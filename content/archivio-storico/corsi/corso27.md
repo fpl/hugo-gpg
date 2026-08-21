@@ -36,4 +36,5 @@ Tutte le <strong>immagini</strong> del XXVII corso:
 </tr>
 </tbody>
 </table>
+
 [Archivio fotografico completo](/archivio-storico/corsi/27/archivio-fotografico/)  

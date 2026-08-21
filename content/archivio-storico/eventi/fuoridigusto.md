@@ -8,22 +8,4 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 19/12/2011
 
-<div class="iframe">
-
-<div id="player">
-
-</div>
-
-<div class="player-unavailable">
-
-# Si è verificato un errore.
-
-<div class="submessage">
-
-Impossibile eseguire JavaScript
-
-</div>
-
-</div>
-
-</div>
+[Guarda il video su YouTube](https://www.youtube.com/watch?v=On6Ggro_vsY)

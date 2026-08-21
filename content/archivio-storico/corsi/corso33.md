@@ -9,7 +9,7 @@ categories:
 **XXXIII Corso di Speleologia di I Livello**  
   
 30 settembre - 14 novembre 2010 Castellana-Grotte (BA)  
-Direttore <span hre"mailto:presidente@gruppopugliagrotte.it?subject="Richiesta" informazioni"="">Gaetano Proietto</span>  
+Direttore <a href="mailto:presidente@gruppopugliagrotte.it?subject=Richiesta%20informazioni">Gaetano Proietto</a>  
 Corso omologato dalla <a href="https://www.speleo.it/" target="_blank" title="Società Speleologica Italiana">Società Speleologica Italiana</a>  
 *Lezioni teoriche ed escursioni nelle più belle cavità del Meridione*  
 con il patrocinio del Comune di Castellana-Grotte  
@@ -40,16 +40,7 @@ Festa di fine corso
 <br />
 <strong>Le corde della pizzica</strong><br />
 <br />
-&#10;<div class="iframe">
-<div id="player">
-&#10;</div>
-<div class="player-unavailable">
-<h1 id="si-è-verificato-un-errore." class="message">Si è verificato un errore.</h1>
-<div class="submessage">
-Impossibile eseguire JavaScript
-</div>
-</div>
-</div>
+<a href="https://www.youtube.com/watch?v=07CuelrseWE">Guarda "Le corde della pizzica" su YouTube</a>
 <br />
 <br />
 <strong>Rassegna Stampa</strong><br />
@@ -59,4 +50,5 @@ Impossibile eseguire JavaScript
 </tr>
 </tbody>
 </table>
+
 [Archivio fotografico completo](/archivio-storico/corsi/33/archivio-fotografico/)  

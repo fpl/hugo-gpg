@@ -35,4 +35,5 @@ Per informazioni e iscrizioni<br />
 </tr>
 </tbody>
 </table>
+
 [Archivio fotografico completo](/archivio-storico/corsi/31/archivio-fotografico/)  

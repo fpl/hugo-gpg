@@ -42,4 +42,5 @@ Modulo Iscrizione Società Speleologica Italiana pdf - zip</td>
 </tr>
 </tbody>
 </table>
+
 [Archivio fotografico completo](/archivio-storico/corsi/29/archivio-fotografico/)  

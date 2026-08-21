@@ -31,4 +31,5 @@ I nostri corsi sono omologati dall'unico ente italiano dedicato esclusivamente a
 </tr>
 </tbody>
 </table>
+
 [Archivio fotografico completo](/archivio-storico/corsi/26/archivio-fotografico/)  
