@@ -582,6 +582,18 @@ hr {
    della griglia invece di riempirla. */
 .prose table:has(img) td { display: block; width: 100%; border-top: 0; padding: 0; }
 .prose table:has(img) img { width: 100%; height: auto; margin-block: 0 var(--space-1); }
+/* display:contents su tbody/tr (sopra) rende inerte l'attributo HTML colspan
+   (ha senso solo per display:table-cell): senza questa regola una <td
+   colspan="2"> -- il racconto testuale a piena larghezza che introduce ogni
+   uscita in archivio-storico/corsi/33/archivio-fotografico.md, o una singola
+   foto "hero" voluta a piena larghezza in mezzo alla griglia -- diventa una
+   cella qualunque della griglia a 2 colonne, quindi finisce larga la metà:
+   un paragrafo intero (spesso pieno di <br> per gli a capo manuali
+   dell'originale) compresso in una colonna stretta invece di restare a
+   piena larghezza. grid-column la fa tornare a spannare entrambe le
+   colonne, replicando il colspan originale con l'unico strumento che la
+   griglia CSS capisce. */
+.prose table:has(img) td[colspan] { grid-column: 1 / -1; }
 
 /* Riga di loghi di patrocinio/sponsor (es. spelaion-2011): pagine storiche
    con 6-9 stemmi/loghi di enti, spesso file d'epoca a bassa risoluzione ma
