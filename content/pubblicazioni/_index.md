@@ -11,7 +11,7 @@ riguardano tematiche scientifiche, momenti di vita sociale, brani di storia del
 Gruppo Puglia Grotte. Ma sono assolutamente più interessanti di uno *strumento
 informativo ufficiale*...
 
-I Quaderni di Speleologia Meridionale sono approfondimenti monografici su
+I **Quaderni di Speleologia Meridionale** sono approfondimenti monografici su
 tematiche affini alla speleologia.
 
 Pubblicazioni un po' particolari sono quelle legate ai Convegni Regionali, del
@@ -38,7 +38,7 @@ dintorni](/archivio-storico/rivista-grotte-e-dintorni/ "Grotte e dintorni"). Nel
 per l'acqua](/archivio-storico/pubblicazioni/ "Acqua. Passato e futuro
 dell'acqua. Architetture dell'acqua per l'acqua"). 
 
-Nel 2021 ha pubblicato
+Nel 2021 il gruppo ha pubblicato
 [Castellana e le sue grotte](/pubblicazioni/castellana-e-le-sue-grotte/
 "Castellana e le sue grotte"), di Vincenzo Manghisi e Pino Pace.
 
