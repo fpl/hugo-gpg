@@ -38,16 +38,16 @@ dintorni](/archivio-storico/rivista-grotte-e-dintorni/ "Grotte e dintorni"). Nel
 per l'acqua](/archivio-storico/pubblicazioni/ "Acqua. Passato e futuro
 dell'acqua. Architetture dell'acqua per l'acqua"). 
 
-Nel 2021 il gruppo ha pubblicato
-[Castellana e le sue grotte](/pubblicazioni/castellana-e-le-sue-grotte/
-"Castellana e le sue grotte"), di Vincenzo Manghisi e Pino Pace.
-
 Nel 2017 la società [Grotte di Castellana](http://www.grottedicastellana.it/ "Grotte di
 Castellana") ha pubblicato la [Guida alle Grotte di
 Castellana](/pubblicazioni/guida-alle-grotte-di-castellana/ "Guida alle Grotte
 di Castellana"), con curatela e parte delle fotografie a cura di soci del
 Gruppo Puglia Grotte: la prima guida organica a descrivere, oltre al percorso
 turistico, anche i rami speleologici della grotta.
+
+Nel 2021 il gruppo ha pubblicato
+[Castellana e le sue grotte](/pubblicazioni/castellana-e-le-sue-grotte/
+"Castellana e le sue grotte"), di Vincenzo Manghisi e Pino Pace.
 
 Ma non ci sono soltanto le nostre pubblicazioni, a parlare di speleologia...
 Quella del Gruppo Puglia Grotte è una delle biblioteche speleologiche più ricche del Mezzogiorno.
