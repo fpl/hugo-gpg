@@ -90,5 +90,5 @@ Indice
     Gruppo Speleo Dauno </span>
 35. <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*Relazione attività*
     Archeogruppo Speleologico "F. Anelli" </span>
-36. <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*Le ricerche degli speleologi triestini in Puglia*
+36. <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">[*Le ricerche degli speleologi triestini in Puglia*](/pubblicazioni/le-ricerche-degli-speleologi-triestini-in-puglia/)
     P. Guidi </span>
