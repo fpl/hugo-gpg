@@ -1,26 +1,65 @@
 {{ define "main" }}
-<div class="wrap layout-with-sidebar">
 
-  <div class="content-col">
-    <h1 class="page-title">Speleonews</h1>
-    <p class="lede">Ultime notizie, uscite e attività del Gruppo Puglia Grotte.</p>
+<div class="home-hero" style="--home-hero-image: url('{{ "images/hero/castel-di-lepre-xxxvii-corso-2014.jpg" | relURL }}');">
+  <div class="home-hero__inner wrap">
+    <p class="home-hero__eyebrow">Dal 1971</p>
+    <p class="home-hero__lede">Ricerca ed esplorazione speleologica in Puglia, nell'Italia meridionale e in
+      Albania. Corsi di introduzione alla speleologia, spedizioni e divulgazione del mondo sotterraneo.</p>
+    <div class="home-hero__cta">
+      <a class="btn btn--primary" href="{{ "/corsi/" | relURL }}">I nostri corsi</a>
+      <a class="btn btn--ghost" href="{{ "/chi-siamo/" | relURL }}">Chi siamo</a>
+    </div>
+  </div>
+</div>
 
-    {{ $news := where .Site.RegularPages "Section" "novita" }}
-    {{ $news = $news.ByDate.Reverse }}
-    {{ $paginator := .Paginate $news }}
+<div class="wrap">
 
-    <ul class="post-list">
-      {{ range $paginator.Pages }}
-      <li class="post-list__item">
-        {{ partial "post-list-item.html" . }}
+  <ul class="home-cards">
+    <li class="home-card">
+      <a href="{{ "/corsi/" | relURL }}">
+        <img class="home-card__img" src="{{ "images/uploads/2014/09/foto_piero.jpg" | relURL }}" width="637" height="470" loading="lazy" alt="Uno speleologo del XXXVII corso emerge da un ingresso di grotta">
+        <span class="home-card__body">
+          <span class="home-card__title">Corsi</span>
+          <span class="home-card__text">Ogni anno, dal 1971, il corso di introduzione alla speleologia.</span>
+        </span>
+      </a>
+    </li>
+    <li class="home-card">
+      <a href="{{ "/esplorazioni/" | relURL }}">
+        <img class="home-card__img" src="{{ "images/hero/esplorazioni-sagoma-2022.jpg" | relURL }}" width="900" height="600" loading="lazy" alt="Speleologo in esplorazione all'interno di una grotta">
+        <span class="home-card__body">
+          <span class="home-card__title">Esplorazioni &amp; Ricerca</span>
+          <span class="home-card__text">Puglia, Murge, Alburni e spedizioni in Albania, Marocco e Portogallo.</span>
+        </span>
+      </a>
+    </li>
+    <li class="home-card">
+      <a href="{{ "/novita/" | relURL }}">
+        <img class="home-card__img" src="{{ "images/uploads/2016/10/2016-09-25-10.14.47-300x168.jpg" | relURL }}" width="300" height="168" loading="lazy" alt="Recupero di materiali durante Puliamo il Buio 2016">
+        <span class="home-card__body">
+          <span class="home-card__title">Novità</span>
+          <span class="home-card__text">Attività, eventi e cronache del gruppo.</span>
+        </span>
+      </a>
+    </li>
+  </ul>
+
+  {{ $news := where .Site.RegularPages "Section" "novita" }}
+  {{ $news = ($news.ByDate.Reverse).Limit 3 }}
+  {{ if $news }}
+  <section class="home-news">
+    <h2 class="home-news__title">Ultime novità</h2>
+    <ul class="home-news__list">
+      {{ range $news }}
+      <li class="home-news__item">
+        {{ if not .Date.IsZero }}<span class="home-news__date">{{ .Date.Format "02.01.2006" }}</span>{{ end }}
+        <a class="home-news__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
       {{ end }}
     </ul>
-
-    {{ template "_internal/pagination.html" . }}
-  </div>
-
-  {{ partial "sidebar-scheda.html" . }}
+    <a class="home-news__more" href="{{ "/novita/" | relURL }}">Tutte le novità →</a>
+  </section>
+  {{ end }}
 
 </div>
 {{ end }}

@@ -3,7 +3,11 @@
     <div class="site-header__row">
       <div class="site-header__brand">
         <img class="site-header__logo" src="{{ "/images/logo/gpg-logo-white.svg" | relURL }}" width="90" height="94" alt="Logo del Gruppo Puglia Grotte">
+        {{ if .IsHome }}
+        <h1 class="site-header__name">Gruppo Puglia Grotte</h1>
+        {{ else }}
         <span class="site-header__name">Gruppo Puglia Grotte</span>
+        {{ end }}
         <span class="site-header__claim">{{ .Site.Params.claim }}</span>
       </div>
     </div>

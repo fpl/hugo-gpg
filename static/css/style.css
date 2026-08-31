@@ -462,6 +462,142 @@ h3 { font-size: var(--size-h3); }
 .genericon-youtube:before   { content: "\f213"; }
 .genericon-instagram:before { content: "\f215"; }
 
+/* ---------- Home: hero introduttivo ----------
+   Stessa tecnica di .site-header__hero (custom property --home-hero-image,
+   background-color di attesa in --color-maroon-900, sfumatura per il
+   contrasto del testo): qui però l'aspect-ratio segue quello reale della
+   foto panoramica (4000×1470, un corridoio di grotta basso e largoripreso
+   per intero) invece di un'altezza fissa, cosicché l'inquadratura
+   panoramica resti leggibile come tale invece di essere tagliata in un
+   formato hero standard. */
+.home-hero {
+  position: relative;
+  background-color: var(--color-maroon-900);
+  background-image: var(--home-hero-image);
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 2.7 / 1;
+  display: flex;
+  align-items: center; /* come .site-header__hero: centrato, non incollato in
+                           basso, altrimenti resta un vuoto eccessivo tra il
+                           menu e il testo "Dal 1971" sopra la foto */
+}
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.65) 100%);
+}
+.home-hero__inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-block: var(--space-4) var(--space-4);
+  color: var(--color-band-text);
+}
+.home-hero__eyebrow {
+  font: 300 italic var(--size-tagline) var(--font-body);
+  margin: 0 0 var(--space-1);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+.home-hero__lede {
+  max-width: var(--measure);
+  font-size: var(--size-h5);
+  margin: 0 0 var(--space-3);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+.home-hero__cta { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+
+.btn {
+  display: inline-block;
+  padding: 0.65em 1.4em;
+  border-radius: 2px;
+  font: 400 1rem var(--font-body);
+  border: 1px solid transparent;
+}
+.btn:hover { text-decoration: none; }
+/* :visited ripetuto su ognuna: a:visited (0,1,1) batte .btn--primary (0,1,0)
+   in specificità, quindi senza queste regole un link già visitato (es. dopo
+   aver navigato su /corsi/) mostrerebbe --color-link-visited invece del
+   colore del bottone -- in dark mode un rosso illeggibile sopra lo sfondo
+   arancione di .btn--primary. */
+.btn--primary, .btn--primary:visited {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-band-text);
+}
+.btn--primary:hover { background: var(--color-link-hover); border-color: var(--color-link-hover); color: var(--color-band-text); }
+.btn--ghost, .btn--ghost:visited {
+  background: transparent;
+  border-color: var(--color-band-text);
+  color: var(--color-band-text);
+}
+.btn--ghost:hover { background: var(--color-band-text); color: var(--color-maroon-900); }
+
+@media (max-width: 860px) {
+  .home-hero { aspect-ratio: 3 / 2; }
+}
+@media (max-width: 480px) {
+  .home-hero { aspect-ratio: 4 / 5; }
+}
+
+/* ---------- Home: card d'ingresso (Corsi / Esplorazioni / Novità) ---------- */
+.home-cards {
+  list-style: none;
+  margin: var(--space-4) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+.home-card a { display: block; color: var(--color-ink); }
+.home-card a:hover { text-decoration: none; }
+.home-card a:hover .home-card__title { color: var(--color-link-hover); }
+.home-card__img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+.home-card__body { display: block; padding-top: var(--space-1); }
+.home-card__title {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--size-h4);
+}
+.home-card__text {
+  display: block;
+  color: var(--color-muted);
+  font-size: var(--size-small);
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 700px) {
+  .home-cards { grid-template-columns: 1fr; }
+}
+
+/* ---------- Home: fascia ultime novità ---------- */
+.home-news {
+  max-width: var(--measure);
+  margin: var(--space-5) auto var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px dotted var(--color-border);
+}
+.home-news__title { margin-bottom: var(--space-2); }
+.home-news__list { list-style: none; margin: 0 0 var(--space-2); padding: 0; }
+.home-news__item {
+  display: flex;
+  gap: var(--space-2);
+  padding-block: 0.4rem;
+  font-size: var(--size-small);
+}
+.home-news__date { color: var(--color-accent); flex: none; }
+.home-news__link { color: var(--color-ink); }
+.home-news__link:hover { color: var(--color-link-hover); }
+.home-news__more { font-size: var(--size-small); color: var(--color-accent); }
+.home-news__more:hover { color: var(--color-link-hover); }
+
 /* ---------- Elenco notizie (equivalente agli .hentry in home) ---------- */
 .post-list { list-style: none; margin: 0; padding: 0; }
 .post-list__item { padding-block: var(--space-4); }
