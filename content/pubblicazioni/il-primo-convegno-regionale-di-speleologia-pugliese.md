@@ -36,7 +36,7 @@ Indice
     Mario Giliberto </span>
 8.  <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*Una proposta alternativa al turismo speleologico*
     Rosaria Capozzi, Diego Caiazzo </span>
-9.  <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*Turismo speleologico: propsettive di turismo per le Grotte di Pastena*
+9.  <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">[*Turismo speleologico: prospettive di turismo per le Grotte di Pastena*](/pubblicazioni/turismo-speleologico-prospettive-e-sviluppo-per-le-grotte-di-pastena/)
     Mario Catullo </span>
 10. <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*Studio dei sedimenti neri della Grotta di Pozzo Cucù (1200Pu) (Castellana-Grotte - Bari)*
     P. Forti, G. Pini, E. Rabbi </span>
