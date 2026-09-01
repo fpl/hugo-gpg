@@ -78,7 +78,7 @@ Indice
     V. Manghisi </span>
 29. <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*Note preliminari sull'esplorazione del complesso "Sant'Angelo" in territorio di Ostuni (Br)*
     M. Giliberto, B. De Marco </span>
-30. <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*La Grotta di Leuacdaspide nella gravina omonima*
+30. <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*La Grotta di Leucaspide nella gravina omonima*
     Gruppo Speleologico Tarantino </span>
 31. <span style="color: #000000; font-family: Verdana,arial,helvetica; font-size: small;">*Descrizione esplorativa della Voragine di Lanzo - Martina Franca*
     P. Calella, M. Marraffa </span>
