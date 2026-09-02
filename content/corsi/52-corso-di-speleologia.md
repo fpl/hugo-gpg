@@ -55,7 +55,7 @@ compilare la modulistica.*
 
 [Corso, Programma e Regolamento](/downloads/LIICorsoProgrammaRegolamento.pdf)
 
-[Modulo d’iscrizione GPG](/downloads/2026/individuali.pdf)
+[Modulo d’iscrizione GPG](/downloads/modulo-iscrizione-corso.pdf)
 
-[Liberatoria](/downloads/2026/liberatoria.pdf)
+[Liberatoria](/downloads/liberatoria-uso-immagine.pdf)
 
