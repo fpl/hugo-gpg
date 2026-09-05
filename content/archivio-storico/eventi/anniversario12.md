@@ -36,7 +36,9 @@ La mattina successiva, **lunedì 23 gennaio 2012** si ripeterà la discesa comme
   
   
 
-<a href="http://www.youtube.com/watch?v=FedREWjoUas&amp;context=C30f61c8ADOEgsToPDskJwrGa18Sho4D3sAu1kmuG2" target="_blank" title="Il video dell&#39;evento">Il video dell'evento</a> di Giampaolo Pinto
+{{< youtube FedREWjoUas >}}
+
+*Il video dell'evento, di Giampaolo Pinto.*
 
   
 

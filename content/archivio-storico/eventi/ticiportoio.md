@@ -14,7 +14,7 @@ Il format, in onda su **La7** dal 22 gennaio 2012 per venti settimane, si propon
   
   
 
-[Guarda il video su YouTube](https://www.youtube.com/watch?v=6wEarZywnBI)
+{{< youtube 6wEarZywnBI >}}
 
   
   

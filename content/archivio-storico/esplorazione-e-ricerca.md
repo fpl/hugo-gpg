@@ -42,6 +42,12 @@ Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazio
 - [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni16giu2012.pdf "Esplorazione 16 giugno 2012") 16 giugno 2012
 - [Campo estivo sui Monti Alburni](/archivio-storico/esplorazioni/alburni/campo-2012/ "Campo estivo sui Monti Alburni") - [relazione finale](/archivio-storico/legacy/esplorazioni/alburni/CS%20fine%20campo%20Alburni%202012.pdf "relazione finale")
 
+Video delle due esplorazioni segnalate sopra (gennaio 2012):
+
+{{< youtube lvS7jJTvpkg >}}
+
+{{< youtube 1nq8DzdEDrI >}}
+
 Ricerca di nuove cavità:
 
 - [Grotta in contrada Mamutte](/archivio-storico/esplorazioni/mamutte/ "Grotta in contrada Mamutte")

@@ -15,4 +15,6 @@ Obiettivo dell’indagine è quello di rilevare la presenza, consistenza e persi
 
 Nei mesi estivi il monitoraggio ha registrato un calo degli esemplari avvistati ma nei sopralluoghi di novembre e dicembre sono stati individuati rispettivamente quattro e sei esemplari, segno che c’è anche una probabile stagionalità (da verificare meglio). Nel video (novembre 2021) è mostrato l’avvistamento di tre esemplari che si trovavano a distanza ravvicinata. Il monitoraggio, cominciato nel mese di marzo 2021, continuerà fino a marzo 2022. Successivamente verranno elaborati e pubblicati i risultati.
 
-[Monitoraggio del 14 novembre 2021 nelle Grotte di Castellana, al ramo degli Ascensori](https://www.youtube.com/watch?v=vlSqqXEQI90)
+{{< youtube vlSqqXEQI90 >}}
+
+*Monitoraggio del 14 novembre 2021 nelle Grotte di Castellana, al ramo degli Ascensori.*

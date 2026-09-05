@@ -32,4 +32,4 @@ Ogni piccolo gesto fa la differenza.
 Il Gruppo Puglia Grotte ha aderito.  
 Fatelo <a href="http://www.wwf.it/oradellaterra/registrati.aspx" target="_blank" title="Fatelo anche voi">anche voi</a>.  
   
-<a href="http://www.youtube.com/watch?v=_3xDaxkvQFQ&amp;feature=player_embedded" target="_blank">Video dell'evento</a>
+{{< youtube _3xDaxkvQFQ >}}

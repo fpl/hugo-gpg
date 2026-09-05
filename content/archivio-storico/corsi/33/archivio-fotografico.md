@@ -872,6 +872,10 @@ C'era una certa attesa da parte di tutti e tutte per questa uscita, l'ultima "fu
 Appena uscita dalla grotta, persa in un tappeto di foglie rosse a tarda ora, ho iniziato a canticchiare "Impercettibili sfumature così difficili da dimenticare così decise da trasformare sorrisi in lacrime, impercettibili sfumature così decise da trasformare cieli grigi in giornate di sole il coraggio in mille paure", ed è soprattutto il coraggio che si trasforma rapidamente in qualcos'altro la lezione che questa grotta mi ha dato: l'emozione di poter fare da sola per le prime volte, senza un istruttore accanto, la gioia di poter dire "ehi, l'ho fatto e tu non mi hai detto nulla!", la carica emotiva che tutto ciò ti dà per poter essere sempre la capofila del gruppo, e poi tutto questo che crolla rapidamente perchè ci si lascia fermare per l'ennesima volta dall'unico frazionamento presente e si ritorna alle paure e ai cedimenti, al punto di partenza insomma, a non essere mai sicure di aver raggiunto un punto di "arrivo". E ad avercela con se stessa... sono troppo severa? Forse. Ma tutto questo lascia anche la voglia di riprovarci al più presto. E ad attendere un'altra domenica...<br />
 ...da leggere ascoltando <a href="http://www.youtube.com/watch?v=0AR-YKMM64A&amp;feature=related" title="Sfumature">Sfumature</a> dei 99 Posse<br />
 <br />
+
+{{< youtube 0AR-YKMM64A >}}
+
+<br />
 (Testo di Paola Rotolo)<br />
 <br />
 &#10;<hr />

@@ -45,6 +45,12 @@ Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazi
 - 2015 [Nuove esplorazioni in Alburni - Il "buco" diventa grotta](/novita/nuove-esplorazioni-in-alburni-il-buco-diventa-grotta/ "Nuove esplorazioni in Alburni - Il buco diventa grotta")
 - 2017 [Risorgenza di Canale Palazzo: la storia continua...](/novita/risorgenza-di-canale-palazzo-la-storia-continua/ "Risorgenza di Canale Palazzo: la storia continua") - Orsomarso (CS), grotta già documentata sul Bollettino GPG 1995.
 
+Video delle due esplorazioni segnalate sopra (gennaio 2012):
+
+{{< youtube lvS7jJTvpkg >}}
+
+{{< youtube 1nq8DzdEDrI >}}
+
 Ricerca di nuove cavità:
 [Grotta in contrada Mamutte](/archivio-storico/esplorazioni/mamutte/ "Grotta in contrada Mamutte")
 [Grotta San Luca](/archivio-storico/esplorazioni/luca/ "Grotta San Luca")

@@ -20,9 +20,9 @@ I lavori sono stati presentati a **Spelaion 2010**, il XV Incontro Regionale del
   
 - [Reportage fotografico](/archivio-storico/esplorazioni/monopoli-reportage-fotografico/) di Giampaolo Pinto  
   
-- **Il video di Giampaolo Pinto**  
-  
-<a href="https://www.youtube.com/watch?v=dSYiPXdHsxo" target="_blank" title="Video di Giampaolo Pinto">Il video di Giampaolo Pinto</a> (YouTube)  
+- **Il video di Giampaolo Pinto**
+
+{{< youtube dSYiPXdHsxo >}}
   
 
 <div align="center">

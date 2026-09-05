@@ -8,4 +8,4 @@ description: "Pagina storica, recuperata dal sito del Gruppo Puglia Grotte prece
   
 19/12/2011
 
-[Guarda il video su YouTube](https://www.youtube.com/watch?v=On6Ggro_vsY)
+{{< youtube On6Ggro_vsY >}}

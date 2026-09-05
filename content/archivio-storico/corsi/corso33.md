@@ -40,7 +40,7 @@ Festa di fine corso
 <br />
 <strong>Le corde della pizzica</strong><br />
 <br />
-<a href="https://www.youtube.com/watch?v=07CuelrseWE">Guarda "Le corde della pizzica" su YouTube</a>
+{{< youtube 07CuelrseWE >}}
 <br />
 <br />
 <strong>Rassegna Stampa</strong><br />

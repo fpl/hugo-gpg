@@ -40,3 +40,9 @@ Ogni estate, pure, il Gruppo Puglia Grotte dedica alcuni giorni al prosieguo del
 - [Esplorazione dal 28 aprile al 6 maggio 2012](/archivio-storico/legacy/esplorazioni/alburni/RelazioneAlburn28.04.06.05.2012.pdf "Esplorazione dal 28 aprile al 6 maggio 2012")
 - [Esplorazione](/archivio-storico/legacy/esplorazioni/alburni/alburni16giu2012.pdf "Esplorazione 16 giugno 2012") 16 giugno 2012
 - [Campo estivo sui Monti Alburni](/archivio-storico/esplorazioni/alburni/campo-2012/ "Campo estivo sui Monti Alburni") - [relazione finale](/archivio-storico/legacy/esplorazioni/alburni/CS%20fine%20campo%20Alburni%202012.pdf "relazione finale")
+
+Video delle due esplorazioni segnalate sopra (gennaio 2012):
+
+{{< youtube lvS7jJTvpkg >}}
+
+{{< youtube 1nq8DzdEDrI >}}
