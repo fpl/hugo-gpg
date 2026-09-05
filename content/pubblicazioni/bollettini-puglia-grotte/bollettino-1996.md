@@ -49,7 +49,7 @@ lastmod: 2026-08-01
 11. *Le Isole Tremiti: la Grotta del Bue Marino (270 Pu) e le sue leggende*  
     Vincenzo Manghisi  
       
-12. *Grava 2 dei Gatti*  
+12. [*Grava 2 dei Gatti*](/pubblicazioni/grava-2-dei-gatti-lavventura-continua/)  
     Nicola Lasaracina  
       
 13. *La Settimana della Scienza*  

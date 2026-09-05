@@ -44,7 +44,7 @@ lastmod: 2026-08-01
 8.  *Torre di Mastro: una grotta da non dimenticare*  
     D. Sgobba  
       
-9.  *Alburni: rivediamoli insieme*  
+9.  [*Alburni: rivediamoli insieme*](/pubblicazioni/alburni-rivediamoli-insieme/)  
     P. Suriano  
       
 10. *I corsi di speleologia del GPG di Castellana-Grotte*  

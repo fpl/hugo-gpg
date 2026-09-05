@@ -14,6 +14,31 @@ Le prime esplorazioni sistematiche del massiccio risalgono al 1926, quando vi ap
 
 L'attività intergruppi su questa montagna avrebbe poi fatto nascere l'AIRES (Associazione Interregionale Ricerche ed Esplorazioni Speleologiche), ancora attiva nel 2003 secondo il bollettino citato sopra, e che negli anni 2002-2003 avrebbe coordinato la campagna alla Grava dell'Auletta descritta più sotto. Il Gruppo Puglia Grotte, dal canto suo, descriveva già nel 2002 la propria frequentazione degli Alburni come "una passione vecchia di trent'anni, ma sempre viva" (fonte: [Gli Alburni](/archivio-storico/esplorazioni/alburni/ "Gli Alburni")).
 
+## Le risalite alla Grava II dei Gatti: 1994-1996
+
+Tra la fine degli anni '80 e la metà degli anni '90 il Gruppo comincia a rivisitare,
+insieme agli amici del Gruppo Speleologico Dauno di Foggia, alcune cavità alburnee già
+note ma esplorate solo frettolosamente ai tempi delle prime campagne triestine degli
+anni '60-'70. La scelta cade sulla *Grave II dei Gatti*, in località Rupistelli nel
+Comune di Ottati (Sa): una cavità fossile che si apre a poca distanza dalla più
+profonda e attiva *Grave I dei Gatti*, con cui si spera di individuare un'eventuale
+giunzione. Una prima risalita, nel secondo meandro, porta all'apertura di un nuovo
+ramo e all'ampliamento di circa 300 metri del rilievo della grotta; una seconda
+risalita, tentata nel dicembre 1995, si conclude con un incidente — uno dei
+compagni di esplorazione si lussa una spalla scivolando nel meandro (fonte: [«Alburni:
+rivediamoli insieme»](/pubblicazioni/alburni-rivediamoli-insieme/), Bollettino Puglia
+Grotte 1995).
+
+La risalita, iniziata il 15 dicembre 1994 da Giuseppe Savino e Mario Matrella, viene
+infine completata il 3 dicembre 1995 da Nicola Lasaracina e Carlo Sciannamea: è,
+recita il resoconto, il primo incidente in grotta in 25 anni di vita del Gruppo. Il
+nuovo ramo, esplorato nei mesi successivi e battezzato "Via Puttana a Meserie", si
+rivela una via più agevole per raggiungere il fondo della cavità rispetto al percorso
+storico rilevato dai triestini nel 1969, aggiungendo pozzi, un meandro con vaschette di
+calcite nera e nuovi punti interrogativi ancora da esplorare (fonte: [«Grava 2ª dei
+Gatti - l'avventura continua»](/pubblicazioni/grava-2-dei-gatti-lavventura-continua/),
+Bollettino Puglia Grotte 1996).
+
 ## Il decennio dei grandi campi: 2000-2007
 
 Da una sera di fine luglio 2000, con "il libro delle ricerche speleologiche degli Alburni" alla mano, riparte l'esplorazione dell'Inghiottitoio I dei Piani di Santa Maria, esplorato per la prima volta dalla CGEB (fondo a -35 m nel 1963, poi a -235 m cinque anni dopo) e oggetto di nuove campagne nel 1973-74. Nel 2000-2001 il Gruppo Puglia Grotte, armando ex-novo i pozzi e scavando una nuova strettoia, apre un passaggio — battezzato "La Natural Burella" — verso l'Inghiottitoio III della stessa zona, confermando la giunzione tra le due cavità nell'estate 2001. I lavori culminano nel campo estivo "Alburni 2001: Odissea nello spasso" (12-19 agosto 2001, in località Gravacine, con la partecipazione del Centro Altamurano Ricerche Speleologiche) (fonte: [Esplorazione sui monti Alburni: la zona dei Piani di Santa Maria](/archivio-storico/bollettini/2001/proietto-buongiorno2001/ "Esplorazione sui monti Alburni: la zona dei Piani di Santa Maria"), Bollettino Puglia Grotte 2001).
