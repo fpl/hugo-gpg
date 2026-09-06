@@ -80,7 +80,7 @@ In collaborazione con il Parco Letterario Formiche di Puglia intitolato a Tommas
 E' storia recente l'affidamento al Gruppo Puglia Grotte, da parte
 dell'Amministrazione Comunale di Castellana-Grotte, dell'incarico per
 l'esplorazione, lo studio e la documentazione delle cavità carsiche recentemente
-rinvenute nella cittadina, le [Grotte dell'Abate Eustasio](/archivio-storico/storiagpg/ "Affidata al Gruppo Puglia Grotte l'esplorazione delle nuove cavità castellanesi").
+rinvenute nella cittadina, le [Grotte dell'Abate Eustasio](/archivio-storico/eventi/nuovegrotte/ "Affidata al Gruppo Puglia Grotte l'esplorazione delle nuove cavità castellanesi").
 
 Nell'ambito del monitoraggio locale, il Gruppo cura anche il monitoragigo e
 rivisita periodica delle cavità di interesse idrogeologico, sia naturali che
