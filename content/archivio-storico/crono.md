@@ -301,7 +301,7 @@ Un [**falò per il Mozambico**](/archivio-storico/eventi/falo2012/ "Un falò per
 [Discesa commemorativa nella Grave](/archivio-storico/eventi/anniversario12/ "Discesa commemorativa nella Grave")  
 [Speleofilm](/archivio-storico/eventi/speleofilm2011/ "Speleofilm - Rassegna cinematografica") - Rassegna cinematografica  
 <a href="http://caterpillar.blog.rai.it/milluminodimeno/" title="M'illumino di meno">M'illumino di meno</a>  
-<a href="http://www.vivicastellanagrotte.it/" target="_blank" title="La prima discesa ufficiale">prima discesa ufficiale</a> nelle Grotte Abate Eustasio  
+[prima discesa ufficiale](/archivio-storico/eventi/nuovegrotte/ "Affidata al Gruppo Puglia Grotte l'esplorazione delle nuove cavità castellanesi") nelle Grotte Abate Eustasio  
 Concluso [accordo](/archivio-storico/esplorazioni/alburni/accordo/ "Concluso accordo tra il Gruppo Puglia Grotte e il Comune di Sant'Angelo a Fasanella") tra il Gruppo Puglia Grotte e il Comune di Sant'Angelo a Fasanella  
 [Puliamo il Buio](/archivio-storico/eventi/pib2012/ "PiB 2012") edizione 2012  
 **Corso di I livello di Speleologia sui Monti Alburni**  
