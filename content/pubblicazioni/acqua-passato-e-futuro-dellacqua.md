@@ -36,8 +36,8 @@ Architettura dell'acqua per l'acqua").
 
 | | |
 |:---|:---|
-| Testi | Modesto Tartarelli |
-| Immagini | Pino Pace |
+| Testi | Modesto Tartarelli, Pino Pace, Vincenzo Manghisi |
+| Immagini | Archivio Acquedotto Pugliese, Mario Parise, Vincenzo Manghisi, Giuseppe Savino |
 | Progetto e produzione | Gruppo Puglia Grotte onlus |
 | Coordinamento editoriale | Daniela Lovece |
 | Coordinamento grafico | Pino Pace |
