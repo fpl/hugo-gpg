@@ -7,7 +7,7 @@ aliases:
 *L'esplorazione delle caverne è sicuramente una delle più antiche attività umane, dato che nella preistoria la protezione che offrivano le caverne era molto ricercata.*
 Un sesto del territorio italiano è caratterizzato da tipi di rocce che favoriscono la formazione di cavità naturali e proprio la Puglia, grazie agli estesi affioramenti di rocce calcaree, raggiunge il 48% di aree di interesse speleologico rispetto alla superficie totale del suo territorio.
 Se a questo si aggiunge il fatto che proprio in Italia, sul Carso, fra Trieste e Lubiana, è nata l'esplorazione sistematica delle grotte, attività che pone le basi di quella che oggi chiamiamo speleologia diventa chiaro come non potevamo certo noi del Gruppo Puglia Grotte mancare l'appuntamento con l'esplorazione.
-Gli oltre trent'anni di attività non sono trascorsi invano e all'attività esplorativa di sempre si va oramai affiancando, prepotente, la "voglia di ricerca".
+Gli oltre cinquan'anni di attività non sono trascorsi invano e all'attività esplorativa di sempre si va oramai affiancando, prepotente, la "voglia di ricerca".
 
 - [Progetto Impalata](/esplorazioni/nazionali/progetto-impalata/ "Progetto Impalata")
 - [Progetto Grotta del Dragone](/esplorazioni/nazionali/progetto-grotta-del-dragone/ "Progetto Grotta del Dragone")
@@ -15,7 +15,8 @@ Gli oltre trent'anni di attività non sono trascorsi invano e all'attività esp
 - [Progetto Catasto delle Grotte e delle Cavità artificiali 2010](/esplorazioni/nazionali/progetto-catasto-delle-grotte-e-delle-cavita-artificiali-2010/ "Progetto Catasto delle Grotte e delle Cavità artificiali 2010")
 - [Programma attività speleologica](/esplorazioni/nazionali/programma-attivita-speleologica-autunno-inverno-2006-2007/ "Programma attività speleologica autunno-inverno 2006-2007") autunno-inverno 2006-2007
 
-Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazioni/alburni/ "Esplorazioni negli Alburni") — una sintesi cronologica tratta da bollettini, articoli e archivio storico è raccolta in [Monti Alburni e Monte Panormo: la storia delle esplorazioni del Gruppo Puglia Grotte](/esplorazioni/nazionali/monti-alburni-panormo/ "Monti Alburni e Monte Panormo: la storia delle esplorazioni del Gruppo Puglia Grotte"); qui di seguito l'elenco puntuale delle singole uscite:
+Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazioni/alburni/ "Esplorazioni negli Alburni") — una sintesi cronologica tratta da bollettini, articoli e archivio storico è raccolta in [Monti Alburni e Monte Panormo: la storia delle esplorazioni del Gruppo Puglia Grotte](/esplorazioni/nazionali/monti-alburni-panormo/ "Monti Alburni e Monte Panormo: la storia delle esplorazioni del Gruppo Puglia Grotte"); qui di seguito l'elenco puntuale delle singole uscite per le quali ci sono relazioni di uscite:
+
 - dicembre 2002/marzo 2003 [Grava Auletta](/archivio-storico/esplorazioni/alburni/grava-auletta/ "Nuove esplorazioni alla Grava Auletta") S. Angelo a Fasanella (SA)
 - agosto 2006 [campo estivo Alburni 2006](/archivio-storico/esplorazioni/alburni/campo-2006/ "Il campo estivo Alburni 2006") - Inghiottitoio III dei **Piani di Santa Maria**
 - agosto 2007 [campo estivo Alburni 2007](/archivio-storico/esplorazioni/alburni/campo-2007/ "Il campo estivo Alburni 2007")
@@ -47,13 +48,18 @@ Bacini d'esplorazione prediletti, i Monti [Alburni](/archivio-storico/esplorazi
 
 Video delle due esplorazioni segnalate sopra (gennaio 2012):
 
-{{< youtube lvS7jJTvpkg >}}
+ {{< youtube lvS7jJTvpkg >}}
 
-{{< youtube 1nq8DzdEDrI >}}
+ {{< youtube 1nq8DzdEDrI >}}
 
+<p>
 Ricerca di nuove cavità:
-[Grotta in contrada Mamutte](/archivio-storico/esplorazioni/mamutte/ "Grotta in contrada Mamutte")
-[Grotta San Luca](/archivio-storico/esplorazioni/luca/ "Grotta San Luca")
+
+- [Grotta in contrada Mamutte](/archivio-storico/esplorazioni/mamutte/ "Grotta in contrada Mamutte")
+- [Grotta San Luca](/archivio-storico/esplorazioni/luca/ "Grotta San Luca")
+
+e ancora:
+
 - località [S. Pietro](/archivio-storico/esplorazioni/pietro/ "Nuova cavità in località Pozzo di S. Pietro") nel territorio di Conversano - BA
 - Inghiottitoio di [Lama Chiancone](/archivio-storico/esplorazioni/chiancone/ "Inghiottitoio di Lama Chiancone") - Gioia del Colle - BA
 - Grotta di [Capo Iazzo](/archivio-storico/esplorazioni/iazzo/ "Grotta di Capo Iazzo") - Gioia del Colle - BA

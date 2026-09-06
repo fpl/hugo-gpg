@@ -35,8 +35,8 @@ Castellana](http://www.grottedicastellana.it/ "Grotte di Castellana") e il
 Grotte ha pubblicato il periodico [Grotte e
 dintorni](/archivio-storico/rivista-grotte-e-dintorni/ "Grotte e dintorni"). Nel
 2007 ha pubblicato [Acqua - Passato e futuro dell'acqua. Architetture dell'acqua
-per l'acqua](/archivio-storico/pubblicazioni/ "Acqua. Passato e futuro
-dell'acqua. Architetture dell'acqua per l'acqua"). 
+per l'acqua](/pubblicazioni/acqua-passato-e-futuro-dellacqua/ "Acqua - Passato e
+futuro dell'acqua. Architetture dell'acqua per l'acqua"). 
 
 Nel 2017 la società [Grotte di Castellana](http://www.grottedicastellana.it/ "Grotte di
 Castellana") ha pubblicato la [Guida alle Grotte di
