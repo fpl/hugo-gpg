@@ -1,4 +1,4 @@
-baseURL = "https://gruppopugliagrotte.it/"
+baseURL = "https://www.gruppopugliagrotte.it/"
 languageCode = "it-IT"
 title = "Gruppo Puglia Grotte APS"
 # Nessun tema esterno: tutto il layout vive in /layouts (vedi sotto).
