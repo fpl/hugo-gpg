@@ -15,7 +15,7 @@
 })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.claim }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.claim }}{{ else if eq .Kind "404" }}Pagina non trovata — {{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.claim }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="me" href="https://mountains.social/@gruppopugliagrotte">

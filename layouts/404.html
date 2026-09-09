@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="wrap">
+  <div class="not-found">
+    <p class="not-found__eyebrow">Errore 404</p>
+    <h1 class="page-title">Pagina non trovata</h1>
+    <p class="lede">La pagina che cercavi non esiste, è stata spostata, oppure il collegamento non è più valido.</p>
+    <p><a class="btn btn--primary" href="{{ "/" | relURL }}">Torna alla home</a></p>
+  </div>
+</div>
+{{ end }}

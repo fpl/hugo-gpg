@@ -199,6 +199,20 @@ h3 { font-size: var(--size-h3); }
 .page-title { font-size: var(--size-h1); margin-top: var(--space-1); }
 .lede { color: var(--color-muted); font-size: var(--size-tagline); font-weight: 300; font-style: italic; margin-bottom: var(--space-4); }
 
+/* ---------- Pagina 404 ---------- */
+.not-found {
+  max-width: var(--measure);
+  margin-inline: auto;
+  padding-block: var(--space-5);
+  text-align: center;
+}
+.not-found__eyebrow {
+  color: var(--color-muted);
+  font: 300 italic var(--size-tagline) var(--font-body);
+  margin: 0 0 var(--space-1);
+}
+.not-found .lede { margin-inline: auto; }
+
 /* ---------- Site: la "tela" bianca con bordi sottili, come .site ---------- */
 .site {
   max-width: var(--site-max);
