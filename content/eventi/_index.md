@@ -4,6 +4,8 @@ aliases:
   - "/home/eventi/"
 ---
 
+- [Uscita propedeutica al 52° Corso di Introduzione alla Speleologia (20/9/2026)](/eventi/uscita-propedeutica-52-corso/ "Uscita propedeutica al 52° Corso di Introduzione alla Speleologia")
+- [Conferenza stampa: la speleologia, conoscere condividere divulgare (13/9/2026)](/eventi/conferenza-stampa-52-corso-e-giornata-internazionale-delle-grotte/ "Conferenza stampa: la speleologia, conoscere condividere divulgare")
 - [Giornata mondiale della Biodiversità (21/5/2021)](/novita/giornata-mondiale-della-biodiversita/ "Giornata mondiale della Biodiversità")
 - [Una mostra fotografica storica (6/5/2018)](/eventi/una-mostra-fotografica-storica-sulle-grotte-nel-cuore-di-castellana/ "Una mostra fotografica storica sulle grotte nel cuore di castellana")
 - [Un sabato mattina ...a scuola! (14/2/2018)](/novita/un-sabato-mattina-a-scuola/ "Un sabato mattina ...a scuola!")
