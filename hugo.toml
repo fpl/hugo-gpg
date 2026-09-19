@@ -32,7 +32,6 @@ summarylength = 40
   email_uscite = "responsabileuscite@gruppopugliagrotte.it"
   email_ambiente = "responsabileambiente@gruppopugliagrotte.it"
   facebook  = "https://www.facebook.com/gruppopugliagrotte"
-  twitter   = "https://twitter.com/PugliaGrotte"
   youtube   = "http://www.youtube.com/user/GuppoPugliaGrotte"
   # Da content/chi-siamo/contatti.md (dato reale, non nel DB come theme_mod/widget).
   instagram = "https://www.instagram.com/gruppo_puglia_grotte"
