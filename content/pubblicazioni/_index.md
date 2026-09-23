@@ -11,8 +11,8 @@ riguardano tematiche scientifiche, momenti di vita sociale, brani di storia del
 Gruppo Puglia Grotte. Ma sono assolutamente più interessanti di uno *strumento
 informativo ufficiale*...
 
-I **Quaderni di Speleologia Meridionale** sono approfondimenti monografici su
-tematiche affini alla speleologia.
+I [Quaderni di Speleologia Meridionale](/archivio-storico/quaderni-speleologia-meridionale/) 
+sono approfondimenti monografici su tematiche affini alla speleologia.
 
 Pubblicazioni un po' particolari sono quelle legate ai Convegni Regionali, del
 [1981](/pubblicazioni/il-primo-convegno-regionale-di-speleologia-pugliese/ "Il
