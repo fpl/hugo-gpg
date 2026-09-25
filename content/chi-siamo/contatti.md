@@ -20,7 +20,7 @@ virtuale di Internet.
  - Presidente: presidente@gruppopugliagrotte*NOSPAM*.it
  - Segretario: segreteria@gruppopugliagrotte*NOSPAM*.it
  - Tesoriere:  amministrazione@gruppopugliagrotte*NOSPAM*.it 
- - Bibliotecario: bibloteca@gruppopugliagrotte*NOSPAM*.it
+ - Bibliotecario: biblioteca@gruppopugliagrotte*NOSPAM*.it
  - Responsabile uscite: responsabileuscite@gruppopugliagrotte*NOSPAM*.it
  - Responsabile scientifico: responsabilescientifico@gruppopugliagrotte*NOSPAM*.it
  - Magazziniere: magazzino@gruppopugliagrotte*NOSPAM*.it
