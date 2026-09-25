@@ -45,12 +45,23 @@ si conoscono pochissimi esemplari in circolazione.
 
 <img src="/archivio-storico/legacy/images/q_1995_little.jpg" width="88" height="137" alt="Quaderni di Speleologia Meridionale - 1995" style="float: left; margin: 0 1em 1em 0;" />
 
-**1995 — Grotte di Castellana: punto e a capo**  
+**1995 (n. 4) — Grotte di Castellana: punto e a capo**  
 Relazioni della tavola rotonda del 22 gennaio 1995
 
 Le relazioni della tavola rotonda organizzata dal Gruppo Puglia Grotte sulla
-gestione delle Grotte di Castellana.
-[Scheda del quaderno](/archivio-storico/quaderni-speleologia-meridionale/1995/)
+gestione delle Grotte di Castellana. Il testo integrale dei contributi è online:
+
+<div style="clear: both;"></div>
+
+- [Presentazione](/pubblicazioni/presentazione-quaderni-di-speleologia-meridionale-4/), Giuseppe Savino
+- [Le Grotte di Castellana: progetti, programmi e organizzazione](/pubblicazioni/le-grotte-di-castellana-progetti-programmi-e-organizzazione/), Gianni Campanella
+- [Inquinamento termico nelle Grotte di Castellana](/pubblicazioni/inquinamento-termico-nelle-grotte-di-castellana/), Francesco Mongelli
+- [Nuovo impianto elettrico di illuminazione: problemi, esperienze e soluzioni](/pubblicazioni/nuovo-impianto-elettrico-di-illuminazione-problemi-esperienze-e-soluzioni/), Vito Nitti
+- [Ecologia e turismo nelle Grotte di Castellana](/pubblicazioni/ecologia-e-turismo-nelle-grotte-di-castellana/), Arrigo A. Cigna
+- [La ricerca scientifica a Castellana: nuove prospettive](/pubblicazioni/la-ricerca-scientifica-a-castellana-nuove-prospettive/), Giovanni Bruno
+- [Aspetti organizzativi, manageriali e gestionali di una grotta turistica](/pubblicazioni/aspetti-organizzativi-manageriali-e-gestionali-di-una-grotta-turistica/), Giampiero Pagano
+
+[Scheda del quaderno, con l'indice completo](/archivio-storico/quaderni-speleologia-meridionale/1995/)
 
 <div style="clear: both;"></div>
 
