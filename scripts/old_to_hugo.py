@@ -17,6 +17,7 @@ passarle a pandoc.
 """
 import hashlib
 import json
+import posixpath
 import re
 import shutil
 import subprocess
@@ -182,7 +183,15 @@ def apply_post_fixups():
         path = CONTENT / rel
         text = path.read_text(encoding="utf-8")
         if find not in text:
-            sys.exit(f"POST_FIXUPS[{rel}]: testo da sostituire non trovato (contenuto cambiato?)")
+            # Non è più un sys.exit(): il testo può essere assente perché il
+            # fixup è già stato applicato a mano (es. storiagpg.md, corretto
+            # direttamente in una sessione successiva prima che questo run
+            # rigenerasse nulla) -- non un segnale di sorgente cambiato sotto
+            # i piedi. safe_write_text() protegge comunque il file se è stato
+            # modificato a mano; qui si segnala soltanto, senza abortire
+            # l'intero script e perdere il lavoro delle pagine successive.
+            warnings.append(f"POST_FIXUPS[{rel}]: testo da sostituire non trovato (già corretto a mano?)")
+            continue
         if safe_write_text(path, text.replace(find, repl)):
             print(f"post-fixup applicato a {path.relative_to(REPO)}")
 
@@ -666,6 +675,57 @@ def resolve_mm_popups(html: str, source_rel: str) -> str:
     return MM_POPUP_OPEN_TAG.sub(repl, html)
 
 
+POPUP_PHOTO_ANCHOR = re.compile(
+    r'''<a\b(?=[^>]*\bhref=(["'])#\1)[^>]*\bonMouseUp=(["'])MM_openBrWindow\(\s*['"]([^'"]+)['"][^>]*\2[^>]*>(.*?)</a>''',
+    re.I | re.S,
+)
+POPUP_PHOTO_IMG = re.compile(r'<img\b[^>]*\bsrc="([^"]+)"[^>]*\bwidth=(\d+)[^>]*\bheight=(\d+)', re.I)
+
+# Pagine per cui i popup MM_openBrWindow vanno risolti come foto inline
+# (expand_popup_photo_gallery) invece che spogliati (strip_popup_anchors) o
+# lasciati a resolve_mm_popups (che agisce solo se il target è già una pagina
+# migrata a sé). Elenco esplicito, non applicato a tutte le pagine con
+# MM_openBrWindow: molte altre (es. pugliagrotte.htm verso 1984.htm/..., le
+# schede relatore di eventi/anniversario08.htm) puntano a pagine con
+# contenuto testuale proprio, non a una singola foto -- trattarle allo stesso
+# modo scambierebbe un link a un'altra pagina per un'immagine, perdendo
+# quel contenuto invece di recuperarlo. Verificato caso per caso: solo
+# albania.htm, in questa fase, è un indice di sole didascalie i cui popup
+# aprono una paginetta con UNA sola foto e nessun testo.
+POPUP_PHOTO_GALLERY_PAGES = frozenset({"albania.htm"})
+
+
+def expand_popup_photo_gallery(html: str, source_rel: str) -> str:
+    """albania.htm è un indice di didascalie: ogni voce è un pseudo-link
+    (href="#" onMouseUp="MM_openBrWindow('N.htm',...)") che apriva in popup
+    una paginetta con UNA sola foto (images/albania/N.jpg) e nessun testo
+    proprio. resolve_mm_popups non la tocca (N.htm non è una pagina migrata
+    a sé: non ha altro contenuto oltre alla foto) e strip_popup_anchors la
+    spoglierebbe lasciando solo la didascalia, perdendo la foto -- che esiste
+    ancora in old/. Qui si sostituisce la didascalia con la foto reale
+    (src/dimensioni presi dal tag <img> della paginetta sorgente, stessa
+    fonte già usata per la foto di copertina in cima alla pagina), seguita
+    dal testo della didascalia."""
+    base_dir = posixpath.dirname(source_rel)
+
+    def repl(m):
+        target, caption = m.group(3), m.group(4)
+        target_rel = normalize_href(source_rel, target.split("?")[0].split("#")[0])
+        target_path = OLD_ROOT / target_rel
+        if not target_path.exists():
+            return m.group(0)
+        target_raw = target_path.read_text(encoding="iso-8859-1")
+        img_m = POPUP_PHOTO_IMG.search(target_raw)
+        if not img_m:
+            return m.group(0)
+        img_src, width, height = img_m.groups()
+        img_rel = normalize_href(target_rel, img_src)
+        img_href = posixpath.relpath(img_rel, base_dir or ".")
+        return f'<img src="{img_href}" width="{width}" height="{height}" alt="{caption}" />{caption}'
+
+    return POPUP_PHOTO_ANCHOR.sub(repl, html)
+
+
 BARE_HASH_ANCHOR = re.compile(
     r'''<a\b(?=[^>]*\bhref=(["'])#\1)[^>]*>(.*?)</a>''',
     re.I | re.S,
@@ -743,6 +803,8 @@ def process_page(page: dict, image_refs: set[str], date: str | None = None):
         content = strip_nav_icons(content)
         content = strip_print_close_widget(content)
         content = unwrap_absolute_divs(content)
+        if src in POPUP_PHOTO_GALLERY_PAGES:
+            content = expand_popup_photo_gallery(content, src)
         content = resolve_mm_popups(content, src)
         content = rewrite_links_and_images(content, src, image_refs)
         content = strip_dead_anchors(content)
@@ -1321,8 +1383,18 @@ TABLE_STRIP_ATTRS = frozenset({
     "bordercolor", "width",
 })
 TABLE_TAGS = frozenset({"table", "tr", "td", "th", "col", "colgroup", "caption", "tbody", "thead"})
-TAG_OPEN_RE = re.compile(r'<(\w+)((?:\s+[\w-]+\s*=\s*"[^"]*")*)\s*(/?)>')
-ATTR_RE = re.compile(r'\s+([\w-]+)\s*=\s*"[^"]*"')
+# Valore attributo: quotato (doppio o singolo apice) o nudo (es. width=185,
+# comunissimo nell'HTML di old/ -- anni '90/'00, mai passato per un
+# validatore). La versione precedente riconosceva solo valori tra doppi
+# apici: su un tag con attributi misti (es. <img ... width=185 border=0
+# align="right" ...>, il caso reale di albania.htm) il primo attributo nudo
+# faceva fallire l'intero match, lasciando border/align/hspace intatti fino
+# a pandoc, che li converte in data-* invece di scartarli (bug scoperto
+# rigenerando albania.md: la versione già pulita a mano non li aveva più,
+# la rigenerazione sì).
+ATTR_VALUE = r'"[^"]*"|\'[^\']*\'|[^\s"\'>]+'
+TAG_OPEN_RE = re.compile(rf'<(\w+)((?:\s+[\w-]+\s*=\s*(?:{ATTR_VALUE}))*)\s*(/?)>')
+ATTR_RE = re.compile(rf'\s+([\w-]+)\s*=\s*(?:{ATTR_VALUE})')
 
 
 def strip_legacy_presentational_attrs(html: str) -> str:

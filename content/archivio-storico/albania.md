@@ -15,54 +15,54 @@ di [**Giuseppe Savino**](mailto:presidente@gruppopugliagrotte.it "Scrivi all'aut
   
 **Polisi 1993**
 
-1.  Shpella Bigorr 1 in lontananza Mahli i Gaferit  
+1.  <img src="/archivio-storico/legacy/images/albania/1.jpg" width="257" height="400" alt="Shpella Bigorr 1 in lontananza Mahli i Gaferit" />Shpella Bigorr 1 in lontananza Mahli i Gaferit  
       
-2.  Shpella Fage e Madhe - L'ingresso  
+2.  <img src="/archivio-storico/legacy/images/albania/2.jpg" width="257" height="400" alt="Shpella Fage e Madhe - L&#39;ingresso" />Shpella Fage e Madhe - L'ingresso  
       
-3.  Mahli i Gaferit Doline
+3.  <img src="/archivio-storico/legacy/images/albania/3.jpg" width="400" height="257" alt="Mahli i Gaferit Doline" />Mahli i Gaferit Doline
 
 **Kurvelesh 1994**
 
-1.  La parte Nord del massiccio del Kurvelesh  
+1.  <img src="/archivio-storico/legacy/images/albania/4.jpg" width="400" height="257" alt="La parte Nord del massiccio del Kurvelesh" />La parte Nord del massiccio del Kurvelesh  
       
-2.  Shpella Il Respiro del Drago - Fasi dei rilievo  
+2.  <img src="/archivio-storico/legacy/images/albania/5.jpg" width="257" height="400" alt="Shpella Il Respiro del Drago - Fasi dei rilievo" />Shpella Il Respiro del Drago - Fasi dei rilievo  
       
-3.  Shpella e Kasarit - La galleria  
+3.  <img src="/archivio-storico/legacy/images/albania/6.jpg" width="400" height="257" alt="Shpella e Kasarit - La galleria" />Shpella e Kasarit - La galleria  
       
-4.  Canyon nei pressi di Progonat  
+4.  <img src="/archivio-storico/legacy/images/albania/7.jpg" width="257" height="400" alt="Canyon nei pressi di Progonat" />Canyon nei pressi di Progonat  
       
-5.  Shpella Il Respiro del Drago - La zona semi-allagata  
+5.  <img src="/archivio-storico/legacy/images/albania/8.jpg" width="400" height="257" alt="Shpella Il Respiro del Drago - La zona semi-allagata" />Shpella Il Respiro del Drago - La zona semi-allagata  
       
-6.  Il Duvalius Didonnai  
+6.  <img src="/archivio-storico/legacy/images/albania/9.jpg" width="257" height="400" alt="Il Duvalius Didonnai" />Il Duvalius Didonnai  
       
-7.  La Risorgenza di Progonat - Il portale d'ingresso  
+7.  <img src="/archivio-storico/legacy/images/albania/10.jpg" width="257" height="400" alt="La Risorgenza di Progonat - Il portale d&#39;ingresso" />La Risorgenza di Progonat - Il portale d'ingresso  
       
-8.  Shpella del Cinghiale - l'ingresso sul versante opposto la grande frattura  
+8.  <img src="/archivio-storico/legacy/images/albania/11.jpg" width="257" height="400" alt="Shpella del Cinghiale - l&#39;ingresso sul versante opposto la grande frattura" />Shpella del Cinghiale - l'ingresso sul versante opposto la grande frattura  
       
-9.  Shpella Lek Petes  
+9.  <img src="/archivio-storico/legacy/images/albania/12.jpg" width="400" height="257" alt="Shpella Lek Petes" />Shpella Lek Petes  
       
-10. Shterra e Cikes - Il fondo  
+10. <img src="/archivio-storico/legacy/images/albania/13.jpg" width="257" height="400" alt="Shterra e Cikes - Il fondo" />Shterra e Cikes - Il fondo  
       
-11. Shterra e Shankol
+11. <img src="/archivio-storico/legacy/images/albania/14.jpg" width="400" height="257" alt="Shterra e Shankol" />Shterra e Shankol
 
 **Tomor 1995**
 
-1.  Shpella e Sirakut - Drappeggi  
+1.  <img src="/archivio-storico/legacy/images/albania/15.jpg" width="400" height="257" alt="Shpella e Sirakut - Drappeggi" />Shpella e Sirakut - Drappeggi  
       
-2.  Biospeleologia  
+2.  <img src="/archivio-storico/legacy/images/albania/16.jpg" width="400" height="257" alt="Biospeleologia" />Biospeleologia  
       
-3.  Mahli i Kulmakut - Antropizzazione del territorio carsico  
+3.  <img src="/archivio-storico/legacy/images/albania/17.jpg" width="257" height="400" alt="Mahli i Kulmakut - Antropizzazione del territorio carsico" />Mahli i Kulmakut - Antropizzazione del territorio carsico  
       
-4.  Karren  
+4.  <img src="/archivio-storico/legacy/images/albania/18.jpg" width="257" height="400" alt="Karren" />Karren  
       
-5.  Karren  
+5.  <img src="/archivio-storico/legacy/images/albania/19.jpg" width="400" height="257" alt="Karren" />Karren  
       
-6.  Ricerche biospeleologiche  
+6.  <img src="/archivio-storico/legacy/images/albania/20.jpg" width="257" height="400" alt="Ricerche biospeleologiche" />Ricerche biospeleologiche  
       
-7.  Risorgenza di Bogova  
+7.  <img src="/archivio-storico/legacy/images/albania/21.jpg" width="257" height="400" alt="Risorgenza di Bogova" />Risorgenza di Bogova  
       
-8.  Mahli i Tomorrit  
+8.  <img src="/archivio-storico/legacy/images/albania/22.jpg" width="400" height="257" alt="Mahli i Tomorrit" />Mahli i Tomorrit  
       
-9.  Shterra e Katafìqit  
+9.  <img src="/archivio-storico/legacy/images/albania/23.jpg" width="257" height="400" alt="Shterra e Katafìqit" />Shterra e Katafìqit  
       
-10. Shpella e Sirakut
+10. <img src="/archivio-storico/legacy/images/albania/24.jpg" width="400" height="257" alt="Shpella e Sirakut" />Shpella e Sirakut
