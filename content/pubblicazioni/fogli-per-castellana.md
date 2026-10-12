@@ -1,5 +1,5 @@
 ---
-title: "«Fogli per Castellana»"
+title: "Fogli per Castellana"
 description: "La rivista della Biblioteca Civica di Castellana-Grotte su cui il Gruppo Puglia Grotte ha pubblicato, dal 1973, resoconti d'attività e articoli di esplorazione."
 ---
 
