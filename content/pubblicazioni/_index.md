@@ -49,15 +49,15 @@ Nel 2021 il gruppo ha pubblicato
 [Castellana e le sue grotte](/pubblicazioni/castellana-e-le-sue-grotte/
 "Castellana e le sue grotte"), di Vincenzo Manghisi e Pino Pace.
 
-Già nel 1976, appena qualche anno dopo la fondazione del Gruppo, un nostro
-resoconto delle esplorazioni in corso trovò spazio su [Fogli per
-Castellana](/pubblicazioni/fogli-per-castellana-n6-1976/ "Il Gruppo Puglia
-Grotte su «Fogli per Castellana»"), n. 6, la rivista della Civica Biblioteca
-di Castellana-Grotte pubblicata con il patrocinio dell'Amministrazione
-Comunale. Sulla stessa rivista, nel n. 14, Vincenzo Manghisi ha pubblicato la
-quarta nota della serie [Leggende carsiche del Sud-Est
-barese](/pubblicazioni/leggende-carsiche-del-sud-est-barese-iv/ "Leggende
-carsiche del Sud-Est barese (IV)").
+Fin dal 1973, appena due anni dopo la sua fondazione, il Gruppo ha trovato
+ospitalità anche su [«Fogli per
+Castellana»](/pubblicazioni/fogli-per-castellana/ "«Fogli per Castellana»"),
+la rivista di miscellanea storica e di tradizioni popolari della Civica
+Biblioteca di Castellana-Grotte, pubblicata con il patrocinio
+dell'Amministrazione Comunale: vi hanno trovato spazio, nel tempo, sia i
+resoconti periodici dell'attività sociale sia articoli di esplorazione e
+scoperta firmati dai singoli soci, tra cui le quattro note di Vincenzo
+Manghisi sulle *Leggende carsiche del Sud-Est barese*.
 
 Ma non ci sono soltanto le nostre pubblicazioni, a parlare di speleologia...
 Quella del Gruppo Puglia Grotte è una delle biblioteche speleologiche più ricche del Mezzogiorno.
