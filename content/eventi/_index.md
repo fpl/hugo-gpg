@@ -4,6 +4,7 @@ aliases:
   - "/home/eventi/"
 ---
 
+- [Giornate FAI d'Autunno 2026: Acqua e pietra alle Gravinelle (10-11/10/2026)](/eventi/giornate-fai-autunno-2026-gravinelle/ "Giornate FAI d'Autunno 2026 alle Gravinelle")
 - [Uscita propedeutica al 52° Corso di Introduzione alla Speleologia (20/9/2026)](/eventi/uscita-propedeutica-52-corso/ "Uscita propedeutica al 52° Corso di Introduzione alla Speleologia")
 - [Conferenza stampa: la speleologia, conoscere condividere divulgare (13/9/2026)](/eventi/conferenza-stampa-52-corso-e-giornata-internazionale-delle-grotte/ "Conferenza stampa: la speleologia, conoscere condividere divulgare")
 - [Giornata mondiale della Biodiversità (21/5/2021)](/novita/giornata-mondiale-della-biodiversita/ "Giornata mondiale della Biodiversità")
