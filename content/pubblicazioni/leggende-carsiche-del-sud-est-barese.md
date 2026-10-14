@@ -5,10 +5,10 @@ description: "Vincenzo Manghisi, in «Fogli per Castellana», n. 9-10, Civica Bi
 
 *di Vincenzo Manghisi*
 
-Prima nota della serie, cui seguiranno la II (1992, n. 12) e la III (1994, n.
-13) — di cui non abbiamo ancora recuperato il testo integrale — e la [IV
-(1999, n.
-14)](/pubblicazioni/leggende-carsiche-del-sud-est-barese-iv/).
+Prima nota della serie, cui seguiranno la [II (1992, n.
+12)](/pubblicazioni/leggende-carsiche-del-sud-est-barese-ii/), la [III (1994, n.
+13)](/pubblicazioni/leggende-carsiche-del-sud-est-barese-iii/) e la [IV
+(1999, n. 14)](/pubblicazioni/leggende-carsiche-del-sud-est-barese-iv/).
 
 I fenomeni carsici — caverne, grave, inghiottitoi, ecc.... — hanno sempre
 impressionato la mente dell'uomo, che vi collocava un tempo esseri mostruosi

@@ -654,5 +654,6 @@ di Viterbo; le due fotografie in bianco e nero (figg. 1 e 2, l'ingresso della
 Grotta di S. Michele e la Grave di Castellana, foto Lennart Olson) sono omesse
 per la scarsa qualità della scansione in nostro possesso. Le tre note precedenti della serie sono uscite in *Fogli per
 Castellana* nn. 9-10 (1982, [la prima
-nota](/pubblicazioni/leggende-carsiche-del-sud-est-barese/)), 12 (1992) e 13
-(1994).
+nota](/pubblicazioni/leggende-carsiche-del-sud-est-barese/)), 12 (1992, [la
+seconda](/pubblicazioni/leggende-carsiche-del-sud-est-barese-ii/)) e 13 (1994,
+[la terza](/pubblicazioni/leggende-carsiche-del-sud-est-barese-iii/)).

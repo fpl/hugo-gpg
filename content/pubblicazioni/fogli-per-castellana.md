@@ -42,17 +42,24 @@ in nostro possesso, in ordine di pubblicazione:
   Cucù](/pubblicazioni/le-nuove-grotte-di-pozzo-cucu/), di Pino Pace; [La
   grande avventura](/pubblicazioni/la-grande-avventura/), a cura di Pino Pace,
   sulla nascita del Gruppo Puglia Grotte nel 1971.
+- n. 12, dicembre 1992 — [Leggende carsiche del Sud-Est barese
+  (II)](/pubblicazioni/leggende-carsiche-del-sud-est-barese-ii/), seconda nota
+  della serie di Vincenzo Manghisi.
+- n. 13, dicembre 1994 — [Leggende carsiche del Sud-Est barese
+  (III)](/pubblicazioni/leggende-carsiche-del-sud-est-barese-iii/), terza nota
+  della serie di Vincenzo Manghisi.
 - n. 14, gennaio 1999 — [Leggende carsiche del Sud-Est barese
   (IV)](/pubblicazioni/leggende-carsiche-del-sud-est-barese-iv/), di Vincenzo
   Manghisi.
 
-Il Gruppo ha pubblicato anche sui numeri 12 (dicembre 1992) e 13 (dicembre
-1994), con la seconda e la terza nota della stessa serie sulle leggende
-carsiche, di cui non abbiamo ancora recuperato il testo integrale; la rivista
-è proseguita almeno fino al n. 16 (2011).
+Della serie di Manghisi sono così disponibili tutte e quattro le note. Non
+abbiamo finora recuperato altri contributi del Gruppo; la rivista è proseguita
+almeno fino al n. 16 (2011).
 
-**Le immagini qui riprodotte sono una selezione**: rilievi, disegni e
-illustrazioni delle pubblicazioni originali sono riportati quando la qualità
-della scansione in nostro possesso lo consente; le fotografie in bianco e
-nero, per lo più di scarsa qualità nelle copie disponibili, sono state
-omesse.
+**Le immagini qui riprodotte sono una selezione**: rilievi, disegni,
+cartine e illustrazioni delle pubblicazioni originali sono riportati quando la
+qualità della scansione in nostro possesso lo consente (quelli delle note II e
+III delle *Leggende carsiche* sono stati ripuliti dalla trasparenza della
+pagina retrostante); le fotografie in bianco e nero, per lo più di scarsa
+qualità nelle copie disponibili, sono state omesse (le pagine delle note II e III
+ne riportano le didascalie).
