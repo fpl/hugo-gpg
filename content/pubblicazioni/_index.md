@@ -59,6 +59,12 @@ resoconti periodici dell'attività sociale sia articoli di esplorazione e
 scoperta firmati dai singoli soci, tra cui le quattro note di Vincenzo
 Manghisi sulle *Leggende carsiche del Sud-Est barese*.
 
+Il Gruppo è comparso anche sul periodico locale *Porta Grande*: si veda [Speleologi in azione](/pubblicazioni/speleologi-in-azione-porta-grande-2002/ "Speleologi in azione") (n. 197, 14 dicembre 2002), sulla cisterna dei Paolotti scoperta in via Bini.
+
+Per il ventennale del Gruppo è uscito nel 1991 un [numero unico](/pubblicazioni/numero-unico-20-anni-1991/ "Puglia Grotte 20°: numero unico per i vent'anni del Gruppo") di quattro pagine, con la storia dei primi vent'anni e le interviste ai protagonisti.
+
+Del 1991 è anche il foglio a larga tiratura [Puglia Grotte](/pubblicazioni/puglia-grotte-numero-unico-1991/ "Puglia Grotte: numero unico, marzo 1991"), edizione fuori commercio pensata per far conoscere il Gruppo oltre la cerchia degli speleologi.
+
 Ma non ci sono soltanto le nostre pubblicazioni, a parlare di speleologia...
 Quella del Gruppo Puglia Grotte è una delle biblioteche speleologiche più ricche del Mezzogiorno.
 
