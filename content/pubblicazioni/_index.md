@@ -65,6 +65,8 @@ Per il ventennale del Gruppo è uscito nel 1991 un [numero unico](/pubblicazioni
 
 Del 1991 è anche il foglio a larga tiratura [Puglia Grotte](/pubblicazioni/puglia-grotte-numero-unico-1991/ "Puglia Grotte: numero unico, marzo 1991"), edizione fuori commercio pensata per far conoscere il Gruppo oltre la cerchia degli speleologi.
 
+Gli articoli e i notiziari del Gruppo usciti su periodici e numeri unici locali (*La Vite*, *'a semenzèdd'*, *La Forbice*, *Porta Grande* e altri) sono raccolti nella pagina [Articoli su periodici e numeri unici locali](/pubblicazioni/articoli-su-periodici-e-numeri-unici-locali/ "Articoli su periodici e numeri unici locali").
+
 Ma non ci sono soltanto le nostre pubblicazioni, a parlare di speleologia...
 Quella del Gruppo Puglia Grotte è una delle biblioteche speleologiche più ricche del Mezzogiorno.
 
