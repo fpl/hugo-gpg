@@ -93,4 +93,4 @@ incazzare. Poi passa e ricominci a sognare la prossima e speri che sia più bell
 e ci sia più gente perché si possa giocare di più cercando finalmente di scoprire
 se stessi, fuori dai profitti, fuori dall'alienazione, fuori dalla violenza.
 
-**Massimo e Pino** (Massimo Tarantini e Pino Pace)
+**Massimo e Pino** (Massimo Tarantini? e Pino Palmisano)

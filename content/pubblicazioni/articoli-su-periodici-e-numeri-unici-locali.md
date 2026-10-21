@@ -30,8 +30,8 @@ scadente e gli spazi pubblicitari non sono riprodotti.
     di Simone Pinto, con il rilievo, e la ricognizione del Bifurto di Gianni
     Campanella;
   - n. 6, anno III, n. 2: [Da una grotta a una considerazione:
-    Bifurto](/pubblicazioni/la-forbice-6-bifurto/), di Massimo Tarantini e Pino
-    Pace;
+    Bifurto](/pubblicazioni/la-forbice-6-bifurto/), di Massimo Tarantini(?) e Pino
+    Palmisano;
   - n. 7, anno IV, n. 1, numero speciale per il 40° anniversario della scoperta delle
     Grotte: [Tunisia '77, 1ª spedizione speleologica internazionale del
     G.P.G.](/pubblicazioni/la-forbice-7-tunisia-77/).
