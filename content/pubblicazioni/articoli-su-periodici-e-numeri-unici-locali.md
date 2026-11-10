@@ -1,6 +1,6 @@
 ---
 title: "Articoli su periodici e numeri unici locali"
-description: "Contributi del Gruppo Puglia Grotte pubblicati su piccoli periodici e numeri unici di Castellana-Grotte, dal 1972 a oggi: La Vite, 'a semenzèdd', La Forbice, Fogli per Castellana, i numeri unici del 1991, Porta Grande."
+description: "Contributi del Gruppo Puglia Grotte pubblicati su piccoli periodici e numeri unici di Castellana-Grotte, dal 1972 al 2022: La Vite, 'a semenzèdd', La Forbice, Per Castellana, Fogli per Castellana, i numeri unici del 1991, Porta Grande."
 ---
 
 Accanto ai [bollettini](/pubblicazioni/bollettini-puglia-grotte/) e ai
@@ -10,10 +10,10 @@ di spedizione e notiziari su periodici e numeri unici locali, spesso promossi
 dalla Pro Loco di Castellana-Grotte e da altre associazioni cittadine. Sono testi
 brevi, scritti dai soci del Gruppo per un pubblico non specialistico, ma conservano
 molte prime notizie sulle esplorazioni dell'epoca: l'Angolo Incantato, il Bifurto,
-la spedizione in Tunisia.
+la spedizione in Tunisia, la difesa e la gestione delle Grotte di Castellana.
 
-Questa pagina li raccoglie in ordine di pubblicazione. Per ciascuno è riportato il
-testo, insieme ai rilievi e ai disegni leggibili; le fotografie di qualità troppo
+Questa pagina li raccoglie per testata, in ordine approssimativamente cronologico.
+Per ciascuno è riportato il testo (o rimandato alla pagina che lo contiene), insieme ai rilievi e ai disegni leggibili; le fotografie di qualità troppo
 scadente e gli spazi pubblicitari non sono riprodotti.
 
 ## Numeri unici e periodici castellanesi
@@ -23,21 +23,36 @@ scadente e gli spazi pubblicitari non sono riprodotti.
   del Gruppo Puglia Grotte.
 - **«'a semenzèdd'», Pasqua 1973** (numero unico del Circolo Pivot e della Pro Loco):
   [Notiziario GPG](/pubblicazioni/a-semenzedd-1973-notiziario-gpg/).
-- **«La Forbice»**, periodico della Pro Loco di Castellana-Grotte, tre numeri con
-  articoli del Gruppo:
-  - n. 1, anno II (1976): [Angolo Incantato: primi passi, primi
-    successi](/pubblicazioni/la-forbice-1-angolo-incantato-primi-passi-primi-successi/),
-    di Simone Pinto, con il rilievo, e la ricognizione del Bifurto di Gianni
-    Campanella;
-  - n. 6, anno III, n. 2: [Da una grotta a una considerazione:
-    Bifurto](/pubblicazioni/la-forbice-6-bifurto/), di Massimo Tarantini(?) e Pino
-    Palmisano;
-  - n. 7, anno IV, n. 1, numero speciale per il 40° anniversario della scoperta delle
-    Grotte: [Tunisia '77, 1ª spedizione speleologica internazionale del
-    G.P.G.](/pubblicazioni/la-forbice-7-tunisia-77/).
+- **«La Forbice»**, periodico di Castellana-Grotte (Pro Loco, poi «periodico
+  culturale»), undici articoli del Gruppo e dei suoi soci dal 1976 al 2022,
+  raccolti nella pagina [«La Forbice»: gli articoli del Gruppo Puglia
+  Grotte](/pubblicazioni/la-forbice-articoli-del-gruppo-puglia-grotte/):
+  - i primi numeri (1976-1978): l'Angolo Incantato, il Bifurto, la spedizione
+    in Tunisia;
+  - il XV Congresso Nazionale di Speleologia (n. 58, dicembre 1987), di Simone
+    Pinto;
+  - la «Grotta della Jena» di Giovanni Lofoco (n. 125, aprile 2008);
+  - Pino Pace su Dino Faiano e sulla Grave di Faraualla (nn. 145-148, 2014);
+  - Pino Pace su Franco Anelli e la polemica con Castelcivita e Pertosa (nn.
+    155-156, 2016);
+  - i 50 anni del Gruppo (n. 212, gennaio 2022).
 
-I numeri de *La Forbice* non portano una data in copertina; gli anni indicati
-sono ricavati dal contenuto degli articoli, come spiegato in ogni pagina.
+## «Per Castellana» (1979-1982)
+
+Periodico castellanese su cui il Gruppo intervenne tra il 1979 e il 1982 sui temi
+della gestione e della tutela delle Grotte di Castellana. I testi sono raccolti in
+un'unica pagina: [«Per Castellana» (1979-1982): articoli del Gruppo Puglia
+Grotte](/pubblicazioni/per-castellana-1979-1982/).
+
+- dicembre 1979: *E all'esterno è ancora peggio!*, di Pino Pace;
+- maggio 1980: *Museo speleologico: ha quasi 30 anni ma non li dimostra!*, di
+  Simone Pinto; e *Polemica fra G.P.G. e Amministrazione comunale* (articolo non
+  firmato) sui lavori di allargamento alle Grotte;
+- dicembre 1981: *Il GPG dopo 10 anni. Concluso il 3° Corso di Speleologia*, di
+  Pino Pace;
+- aprile 1982: *Perché siamo contrari alla seconda uscita alle Grotte di
+  Castellana*, di Simone Pinto, e *Avviamo una riflessione sul futuro delle
+  Grotte*, di Pino Pace (prima parte).
 
 ## «Fogli per Castellana»
 

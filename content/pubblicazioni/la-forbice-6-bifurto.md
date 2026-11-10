@@ -1,14 +1,17 @@
 ---
 title: "«La Forbice» n. 6: Da una grotta a una considerazione: Bifurto"
-description: "Racconto del Gruppo Puglia Grotte, di Massimo Tarantini e Pino Pace, sulla discesa all'Abisso di Bifurto (Calabria), su «La Forbice», periodico della Pro Loco di Castellana-Grotte, n. 6 (anno III, n. 2)."
+description: "Racconto del Gruppo Puglia Grotte, di Massimo Tarantini e Pino Palmisano, sulla discesa all'Abisso di Bifurto (Calabria), su «La Forbice», periodico della Pro Loco di Castellana-Grotte, n. 6 (anno III, n. 2)."
 ---
 
-*A cura del G.P.G. (firmato «Massimo e Pino»: Massimo Tarantini e Pino Pace), in «La Forbice», periodico edito a cura
+*A cura del G.P.G. (firmato «Massimo e Pino»: Massimo Tarantini e Pino Palmisano), in «La Forbice», periodico edito a cura
 dell'Associazione Pro Loco di Castellana-Grotte, n. 6, anno III, n. 2, p. 16*
 
-Il numero non porta una data in copertina. L'articolo, firmato solo con i nomi di battesimo, è di Massimo Tarantini e Pino Pace (il «Pino» che nel testo dimentica spit e carburo è lo stesso Pace). L'articolo racconta una discesa al
-Bifurto, l'abisso del Pollino calabrese già oggetto della [ricognizione di
-Gianni Campanella](/pubblicazioni/la-forbice-1-angolo-incantato-primi-passi-primi-successi/)
+Il numero non porta una data in copertina. L'articolo è firmato solo con i nomi
+di battesimo, ma è di Massimo Tarantini e Pino Palmisano (il «Pino» che nel testo
+dimentica spit e carburo è lo stesso Palmisano, che partecipò anche alla
+spedizione in [Tunisia '77](/pubblicazioni/la-forbice-7-tunisia-77/)). Racconta una
+discesa al Bifurto, l'abisso del Pollino calabrese di cui parla anche la
+[ricognizione di Gianni Campanella](/pubblicazioni/la-forbice-1-angolo-incantato-primi-passi-primi-successi/)
 su «La Forbice» n. 1; è un testo più riflessivo che tecnico, dove la grotta è
 l'occasione per una considerazione sul senso dell'andare in grotta. La fotografia
 dell'articolo, tratta da *Fogli per Castellana* n. 5, non è riprodotta.
@@ -93,4 +96,4 @@ incazzare. Poi passa e ricominci a sognare la prossima e speri che sia più bell
 e ci sia più gente perché si possa giocare di più cercando finalmente di scoprire
 se stessi, fuori dai profitti, fuori dall'alienazione, fuori dalla violenza.
 
-**Massimo e Pino** (Massimo Tarantini? e Pino Palmisano)
+**Massimo e Pino** (Massimo Tarantini e Pino Palmisano)

@@ -8,9 +8,9 @@ della Pro Loco di Castellana Grotte, Pasqua 1973*
 
 Numero unico edito dal Circolo Pivot e dalla Pro Loco di Castellana Grotte,
 stampato presso le Arti Grafiche Doge di Castellana Grotte. Il sommario in
-copertina comprende, oltre a questo *Notiziario GPG*, due contributi di soci del
-Gruppo che non abbiamo ancora potuto recuperare: *Appuntamento ecologico* di P.
-Pace e *L'alluvione del 9 sett. 1896* di S. Pinto. Qui è riportata la sola
+copertina comprende, oltre a questo *Notiziario GPG*, due contributi che non abbiamo
+ancora potuto recuperare, firmati con le iniziali di due soci del Gruppo:
+*Appuntamento ecologico* di P. Pace e *L'alluvione del 9 sett. 1896* di S. Pinto. Qui è riportata la sola
 pagina del Notiziario; per gli altri articoli della serie si veda la
 [pagina introduttiva](/pubblicazioni/articoli-su-periodici-e-numeri-unici-locali/).
 
